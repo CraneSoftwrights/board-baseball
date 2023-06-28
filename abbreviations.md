@@ -1,11 +1,13 @@
 # Abbreviations (alphabetical)
 
-Sources:
+## Sources:
+
+In addition to contrived abbreviations where none were found, this page lists abbreviations found at these web sites:
 
 - https://www.mlb.com/glossary/miscellaneous/scorekeeping
 - https://en.wikipedia.org/wiki/Baseball_scorekeeping
 
-Players:  
+## Players
 
 1 - P - Pitcher  
 2 - C - Catcher  
@@ -17,14 +19,16 @@ Players:
 8 - CF - Center Fielder  
 9 - RF - Right Fielder  
 
-Positions:  
+## Positions
 
 1B - first base  
 2B - second base  
 3B - third base  
-H -  home plate  
+H -  home plate 
+IF - infield
+OF - outfield
 
-Plays:  
+## Plays
 
 BB - walk (base on balls)  
 BK - balk  
@@ -41,7 +45,7 @@ GIDP - ground into double play
 HP - hit by pitch  
 HR 𝄙 - home run  
 IBB - intentional walk  
-IF - infield fly  
+INF - infield fly out  
 K - strike out swinging  
 ꓘ - strike out looking  
 LF - left fielder  
@@ -53,7 +57,9 @@ R - run
 RF - right fielder  
 S ― - single  
 SB - stolen base  
-SF - sacrifice fly  
+SF - sacrifice fly
+SK - strike swinging  
+Sꓘ - strike looking  
 SS - shortstop  
 T ≡ - triple  
 TP - triple play  
