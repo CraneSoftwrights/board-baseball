@@ -6,18 +6,19 @@ In addition to contrived abbreviations where none were found, this page lists ab
 
 - https://www.mlb.com/glossary/miscellaneous/scorekeeping
 - https://en.wikipedia.org/wiki/Baseball_scorekeeping
+- https://www.youtube.com/watch?v=kTcRRaXV-fg
 
-## Players
+## Players and their names
 
-1 - P - Pitcher  
-2 - C - Catcher  
-3 - 1B - First baseman  
-4 - 2B - Second baseman  
-5 - 3B - Third baseman  
-6 - SS - Shortstop  
-7 - LF - Left Fielder  
-8 - CF - Center Fielder  
-9 - RF - Right Fielder  
+1 - P - Pitcher (Tomorrow)  
+2 - C - Catcher (Today)  
+3 - 1B - First baseman (Who)  
+4 - 2B - Second baseman (What)  
+5 - 3B - Third baseman (I Don't Know)  
+6 - SS - Shortstop  (I Don't Give A Darn)  
+7 - LF - Left Fielder (Why)  
+8 - CF - Center Fielder (Because)  
+9 - RF - Right Fielder (Unknown)  
 
 ## Positions
 
@@ -29,6 +30,8 @@ IF - infield
 OF - outfield
 
 ## Plays
+
+*(not all of these are included in the game play)*
 
 BB - walk (base on balls)  
 BK - balk  
