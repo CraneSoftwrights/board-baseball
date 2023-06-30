@@ -33,6 +33,7 @@ OF - outfield
 
 *(not all of these are included in the game play)*
 
+#-#-# - player sequence for put out  
 BB - walk (base on balls)  
 BK - balk  
 C - catcher  
@@ -51,6 +52,7 @@ IBB - intentional walk
 INF - infield fly out  
 K - strike out swinging  
 ꓘ - strike out looking  
+L# - line drive out  
 LF - left fielder  
 P - pitcher  
 P# - pop out  
@@ -60,11 +62,12 @@ R - run
 RF - right fielder  
 S ― - single  
 SB - stolen base  
-SF - sacrifice fly
+SF - sacrifice fly  
 SK - strike swinging  
 Sꓘ - strike looking  
 SS - shortstop  
 T ≡ - triple  
 TP - triple play  
+#U - unassisted put out  
 WP - wild pitch  
 
