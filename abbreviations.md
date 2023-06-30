@@ -67,7 +67,7 @@ SK - strike swinging
 Sꓘ - strike looking  
 SS - shortstop  
 T ≡ - triple  
-TP - triple play 
+TP - triple play  
 #U - unassisted put out  
 WP - wild pitch  
 
