@@ -8,23 +8,17 @@ In addition to contrived abbreviations where none were found, this page lists ab
 - https://en.wikipedia.org/wiki/Baseball_scorekeeping
 - https://www.youtube.com/watch?v=kTcRRaXV-fg
 
-## Players and their names
+## Players, positions, and their names
 
 1 - P - Pitcher (Tomorrow)  
 2 - C - Catcher (Today)  
-3 - 1B - First baseman (Who)  
-4 - 2B - Second baseman (What)  
-5 - 3B - Third baseman (I Don't Know)  
+3 - 1B - First Base (Who)  
+4 - 2B - Second Base (What)  
+5 - 3B - Third Base (I Don't Know)  
 6 - SS - Shortstop  (I Don't Give A Darn)  
 7 - LF - Left Fielder (Why)  
 8 - CF - Center Fielder (Because)  
 9 - RF - Right Fielder (Unknown)  
-
-## Positions
-
-1B - first base  
-2B - second base  
-3B - third base  
 H -  home plate 
 IF - infield
 OF - outfield
@@ -33,6 +27,7 @@ OF - outfield
 
 *(not all of these are included in the game play)*
 
+#-#-# - player sequence for put out  
 BB - walk (base on balls)  
 BK - balk  
 C - catcher  
@@ -51,6 +46,7 @@ IBB - intentional walk
 INF - infield fly out  
 K - strike out swinging  
 ꓘ - strike out looking  
+L# - line drive out  
 LF - left fielder  
 P - pitcher  
 P# - pop out  
@@ -60,11 +56,12 @@ R - run
 RF - right fielder  
 S ― - single  
 SB - stolen base  
-SF - sacrifice fly
+SF - sacrifice fly  
 SK - strike swinging  
 Sꓘ - strike looking  
 SS - shortstop  
 T ≡ - triple  
 TP - triple play  
+#U - unassisted put out  
 WP - wild pitch  
 
