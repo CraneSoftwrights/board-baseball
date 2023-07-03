@@ -10,15 +10,15 @@ In addition to contrived abbreviations where none were found, this page lists ab
 
 ## Players, positions, and their names
 
-1 - P - Pitcher (Tomorrow)  
-2 - C - Catcher (Today)  
-3 - 1B - First Base (Who)  
-4 - 2B - Second Base (What)  
-5 - 3B - Third Base (I Don't Know)  
-6 - SS - Shortstop  (I Don't Give A Darn)  
-7 - LF - Left Fielder (Why)  
-8 - CF - Center Fielder (Because)  
-9 - RF - Right Fielder (Unknown)  
+1 - ① - P - Pitcher (Tomorrow)  
+2 - ② - C - Catcher (Today)  
+3 - ③ - 1B - First Base (Who)  
+4 - ④ - 2B - Second Base (What)  
+5 - ⑤ - 3B - Third Base (I Don't Know)  
+6 - ⑥ - SS - Shortstop  (I Don't Give A Darn)  
+7 - ⑦ - LF - Left Fielder (Why)  
+8 - ⑧ - CF - Center Fielder (Because)  
+9 - ⑨ - RF - Right Fielder (Unknown)  
 H -  home plate 
 IF - infield
 OF - outfield
@@ -27,7 +27,7 @@ OF - outfield
 
 *(not all of these are included in the game play)*
 
-#-#-# - player sequence for put out  
+​# - # - # - player sequence for put out  
 BB - walk (base on balls)  
 BK - balk  
 C - catcher  
