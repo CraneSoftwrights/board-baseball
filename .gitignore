@@ -1,0 +1,6 @@
+# Ignore Mac system files
+**/.DS_Store
+
+# Local only to Ken's machine
+
+ken-notes.txt
