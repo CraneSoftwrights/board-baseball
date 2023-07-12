@@ -1,5 +1,9 @@
-# board-baseball
+# A board baseball game to teach the sport
 
-A "main" release has not been prepared at this time. 
+Copyright © Crane Softwrights Ltd.
 
-Please download a release from the right, or visit the QA branch at https://github.com/CraneSoftwrights/board-baseball/tree/qa or the development branch at https://github.com/CraneSoftwrights/board-baseball/tree/develop to see the latest interim results.
+https://github.com/CraneSoftwrights/board-baseball
+
+Translations:
+
+- [English](English) - [English/Readme.md](English/README.md)
