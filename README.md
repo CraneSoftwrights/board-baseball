@@ -6,4 +6,4 @@ https://github.com/CraneSoftwrights/board-baseball
 
 Translations:
 
-- [English](English) - [English/Readme.md](English/README.md)
+- [English](English#readme) - [English/Readme.md](English#readme)
