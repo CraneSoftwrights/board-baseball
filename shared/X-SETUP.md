@@ -1,8 +1,8 @@
 
-| :---: |
-| <img src="step-1.png" height="60px"/>
-| <img src="board.png" height="360px"/> |
-| <img src="colours.png" height="120px"/>
+
+<img src="step-1.png" height="60px"/>
+<img src="start.png" height="360px"/>
+<img src="colours.png" height="120px"/>
 
 ## 22 x A
 

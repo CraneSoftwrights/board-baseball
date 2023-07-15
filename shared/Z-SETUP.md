@@ -1,38 +1,28 @@
-# <img src="step-1.png" height="60px"/>
 
-<img src="board.png" height="360px"/><br/>
-
-<img src="colours.png" height="120px"/><br/>
+<img src="step-1.png" height="60px"/>
+<img src="start.png" height="360px"/>
+<img src="colours.png" height="120px"/>
 
 ## 14 x A
 
-### A:
-<img src="out0.png" height="45px"/><br/>
-<img src="it1.png" height="62px"/><br/>
-<img src="visitors-icon.png" height="40px"/>:
-- <img src="v-R0x.png" height="20px"/>
-- <img src="v-R0.png" height="20px"/>
-- <img src="v-dugout.png" height="62px"/>
-<img src="home-icon.png" height="40px"/>:
-- <img src="h-R0x.png" height="20px"/>
-- <img src="h-R0.png" height="20px"/>
-- <img src="h-dugout.png" height="62px"/>
+| |A|
+| :---: | :---: |
+| | <img src="out0.png" height="45px"/> |
+| | <img src="it1.png" height="62px"/> |
+| <img src="visitors-icon.png" height="40px"/> | <img src="v-R0x.png" height="20px"/>
+| | <img src="v-R0.png" height="52px"/>
+| | <img src="v-dugout.png" height="130px"/>
+| <img src="home-icon.png" height="40px"/>: | <img src="h-R0x.png" height="20px"/>
+| | <img src="h-R0.png" height="52px"/>
+| | <img src="h-dugout.png" height="130px"/>
 
-## 6 x A, 6 x B, 2 x C
+## 2 x A, 6 x B, 6 x C
 
-### A:
-<img src="visitors-icon.png" height="40px"/>:
-- <img src="v-R0x.png" height="20px"/>
-- <img src="v-R0.png" height="20px"/>
-- <img src="v-dugout.png" height="62px"/>
+|A|B|C|
+| :---: | :---: | :---:
+| | <img src="visitors-icon.png" height="40px"/> | <img src="home-icon.png" height="40px"/>
+| <img src="out0.png" height="45px"/> | <img src="v-R0x.png" height="20px"/> | <img src="h-R0x.png" height="20px"/>
+| <img src="it1.png" height="62px"/> | <img src="v-R0.png" height="52px"/> | <img src="h-R0.png" height="52px"/>
+| | <img src="v-dugout.png" height="130px"/> | <img src="h-dugout.png" height="130px"/>
 
-### B:
-<img src="home-icon.png" height="40px"/>:
-- <img src="h-R0x.png" height="20px"/>
-- <img src="h-R0.png" height="20px"/>
-- <img src="h-dugout.png" height="62px"/>
-
-### C:
-<img src="out0.png" height="45px"/><br/>
-<img src="it1.png" height="62px"/><br/>
 
