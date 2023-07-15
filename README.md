@@ -4,6 +4,6 @@ Copyright © Crane Softwrights Ltd.
 
 https://github.com/CraneSoftwrights/board-baseball
 
-Translations:
+Languages:
 
 - [English](English#readme) - [English/Readme.md](English#readme)
