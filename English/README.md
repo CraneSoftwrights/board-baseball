@@ -26,11 +26,13 @@ Should the score not be tied at the end of the ninth inning, the game ends with 
 
 Should the score be tied at the end of the ninth inning, an extra inning (both top and bottom halves) is played. 
 
-In an extra inning the team batting places the previous inning's final batter as a base runner at second base before the first batter of the extra inning approaches the plate for play. Should the home team become in the lead in the bottom of the extra inning, the game ends with the given score and further runs are not attempted.
+In an extra inning the team batting places the team's previous inning's final batter as a base runner at second base before the first batter of the extra inning approaches the plate for play. Should the home team become in the lead in the bottom of the extra inning, the game ends with the given score and further runs are not attempted.
 
 Should the score not be tied at the end of the extra inning, the game ends with the given unequal score.
 
 Should the score be tied at the end of the extra inning, another extra inning is played as described above.
+
+The tally of runs and hits is tracked for both teams, and the tally always is reported in the order of the number of runs before the number of hits.
 
 The concept of "scoring a game" is to transcribe a record of each of the plays, including if desired even each of the pitches, of every batter than comes to the plate. The pace and tenor of the game can be reviewed during the game and after the end of the game.
 
@@ -69,15 +71,16 @@ Alternatively, print the PDF file: [`extended-print-board-baseball-crane.pdf`](e
 
 <img src="../shared/step-2.png" height="30px"/>
 
-- the pitcher (the player not batting) rolls one die (of a colour different from the dice used by the batter) to determine which pitch is thrown
-- the batter begins with a tally of zero balls and zero strikes
+- the team associated with the top or bottom of the inning goes up to bat
 - the batter's strike zone is an imaginary area above home plate in the horizontal and extending in the vertical from the batter's knees up to the mid-point between the top of the batter's pants and the batter's shoulders 
 - a ball is a pitch thrown outside of the batter's strike zone when the batter does not "offer" at the pitch by swinging
-- four balls <img src="../shared/pd2.png" height="35px"/> moves the batter to first base, pushing the first-base runner to second base
 - a strike is a pitch thrown inside of the batter's strike zone or any pitch at which the batter offers by swinging
-- the batter making contact with a the pitch but resulting in the ball being outside of the third-base line and the first-base line makes for a "foul ball"
-- foul balls <img src="../shared/pd5.png" height="35px"/> count as strikes only when there are fewer than two strikes against the batter, otherwise they are ignored
-- a swinging third strike <img src="../shared/pd1.png" height="35px"/> or a looking third strike <img src="../shared/pd3.png" height="35px"/> is an out for the batter
+- the batter making contact with the pitch but resulting in the ball being outside of the third-base line and the first-base line makes for a "foul ball"
+- the tally of runs and hits is recorded for the batter and always is reported in the order of number of balls before the number of strikes
+- the pitcher rolls one die (of a colour different from the dice used by the batter) to determine which pitch is thrown
+- four balls <img src="../shared/pd2.png" height="35px"/> moves the batter to first base
+- a foul ball <img src="../shared/pd5.png" height="35px"/> counts as a strike only when there are fewer than two strikes against the batter, otherwise there is no change in the tally of balls and strikes
+- a swinging third strike <img src="../shared/pd1.png" height="35px"/> or a looking third strike <img src="../shared/pd3.png" height="35px"/> is an out for the batter and the out is recorded for the team's inning
 - the batter making contact with the pitch with <img src="../shared/pd4.png" height="35px"/> or <img src="../shared/pd6.png" height="35px"/> puts the ball "in play" in between the third-base line and the first-base line
 
 <img src="../shared/step-3.png" height="30px"/>
