@@ -1,6 +1,11 @@
 # Plays in the basic mode of display
 
  | :--- | :--- | :--- | 
+ | A | B | C | 
+ | A | B | C | 
+ | A | B | C | 
+ 
+ | :--- | :--- | :--- | 
  | [<img src="../shared/z-1-1.png" height="35px"/>](#z11) | [<img src="../shared/z-2-3.png" height="35px"/>](#z11) | [<img src="../shared/z-3-6.png" height="35px"/>](#z11) | 
  | [<img src="../shared/z-1-2.png" height="35px"/>](#z12) | [<img src="../shared/z-2-4.png" height="35px"/>](#z12) | [<img src="../shared/z-4-4.png" height="35px"/>](#z12) | 
  | [<img src="../shared/z-1-3.png" height="35px"/>](#z13) | [<img src="../shared/z-2-5.png" height="35px"/>](#z13) | [<img src="../shared/z-4-5.png" height="35px"/>](#z13) | 
