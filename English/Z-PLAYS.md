@@ -2,16 +2,16 @@
 
 | |A|
 | :---: | :---: |
-| XYZ| <img src="../shared/z-1-1.png" height="45px"/> |
+| XYZ | <a href="#z11"><img src="../shared/z-1-1.png" height="45px"/></a> |
  
- | :--- | :--- | :--- | 
- | [<img src="../shared/z-1-1.png" height="35px"/>](#z11) | [<img src="../shared/z-2-3.png" height="35px"/>](#z11) | [<img src="../shared/z-3-6.png" height="35px"/>](#z11) | 
- | [<img src="../shared/z-1-2.png" height="35px"/>](#z12) | [<img src="../shared/z-2-4.png" height="35px"/>](#z12) | [<img src="../shared/z-4-4.png" height="35px"/>](#z12) | 
- | [<img src="../shared/z-1-3.png" height="35px"/>](#z13) | [<img src="../shared/z-2-5.png" height="35px"/>](#z13) | [<img src="../shared/z-4-5.png" height="35px"/>](#z13) | 
- | [<img src="../shared/z-1-4.png" height="35px"/>](#z14) | [<img src="../shared/z-2-6.png" height="35px"/>](#z14) | [<img src="../shared/z-4-6.png" height="35px"/>](#z14) | 
- | [<img src="../shared/z-1-5.png" height="35px"/>](#z15) | [<img src="../shared/z-3-3.png" height="35px"/>](#z15) | [<img src="../shared/z-5-5.png" height="35px"/>](#z15) | 
- | [<img src="../shared/z-1-6.png" height="35px"/>](#z16) | [<img src="../shared/z-3-4.png" height="35px"/>](#z16) | [<img src="../shared/z-5-6.png" height="35px"/>](#z16) | 
- | [<img src="../shared/z-2-2.png" height="35px"/>](#z22) | [<img src="../shared/z-3-5.png" height="35px"/>](#z22) | [<img src="../shared/z-6-6.png" height="35px"/>](#z22) | 
+| :--- | :--- | :--- | 
+| [<img src="../shared/z-1-1.png" height="35px"/>](#z11) | [<img src="../shared/z-2-3.png" height="35px"/>](#z11) | [<img src="../shared/z-3-6.png" height="35px"/>](#z11) | 
+| [<img src="../shared/z-1-2.png" height="35px"/>](#z12) | [<img src="../shared/z-2-4.png" height="35px"/>](#z12) | [<img src="../shared/z-4-4.png" height="35px"/>](#z12) | 
+| [<img src="../shared/z-1-3.png" height="35px"/>](#z13) | [<img src="../shared/z-2-5.png" height="35px"/>](#z13) | [<img src="../shared/z-4-5.png" height="35px"/>](#z13) | 
+| [<img src="../shared/z-1-4.png" height="35px"/>](#z14) | [<img src="../shared/z-2-6.png" height="35px"/>](#z14) | [<img src="../shared/z-4-6.png" height="35px"/>](#z14) | 
+| [<img src="../shared/z-1-5.png" height="35px"/>](#z15) | [<img src="../shared/z-3-3.png" height="35px"/>](#z15) | [<img src="../shared/z-5-5.png" height="35px"/>](#z15) | 
+| [<img src="../shared/z-1-6.png" height="35px"/>](#z16) | [<img src="../shared/z-3-4.png" height="35px"/>](#z16) | [<img src="../shared/z-5-6.png" height="35px"/>](#z16) | 
+| [<img src="../shared/z-2-2.png" height="35px"/>](#z22) | [<img src="../shared/z-3-5.png" height="35px"/>](#z22) | [<img src="../shared/z-6-6.png" height="35px"/>](#z22) | 
 
 
 <img id="z11" src="../shared/z-1-1.png" height="35px"/>
