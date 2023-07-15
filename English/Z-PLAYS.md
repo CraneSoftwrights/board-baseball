@@ -1,9 +1,8 @@
 # Plays in the basic mode of display
 
- | :--- | :--- | :--- | 
- | A | B | C | 
- | A | B | C | 
- | A | B | C | 
+| |A|
+| :---: | :---: |
+| XYZ| <img src="../shared/z-1-1.png" height="45px"/> |
  
  | :--- | :--- | :--- | 
  | [<img src="../shared/z-1-1.png" height="35px"/>](#z11) | [<img src="../shared/z-2-3.png" height="35px"/>](#z11) | [<img src="../shared/z-3-6.png" height="35px"/>](#z11) | 
