@@ -5,13 +5,13 @@
 | XYZ | <a href="#z11"><img src="../shared/z-1-1.png" height="45px"/></a> |
  
 | :--- | :--- | :--- | 
-| [<img src="../shared/z-1-1.png" height="35px"/>](#z11) | [<img src="../shared/z-2-3.png" height="35px"/>](#z11) | [<img src="../shared/z-3-6.png" height="35px"/>](#z11) | 
-| [<img src="../shared/z-1-2.png" height="35px"/>](#z12) | [<img src="../shared/z-2-4.png" height="35px"/>](#z12) | [<img src="../shared/z-4-4.png" height="35px"/>](#z12) | 
-| [<img src="../shared/z-1-3.png" height="35px"/>](#z13) | [<img src="../shared/z-2-5.png" height="35px"/>](#z13) | [<img src="../shared/z-4-5.png" height="35px"/>](#z13) | 
-| [<img src="../shared/z-1-4.png" height="35px"/>](#z14) | [<img src="../shared/z-2-6.png" height="35px"/>](#z14) | [<img src="../shared/z-4-6.png" height="35px"/>](#z14) | 
-| [<img src="../shared/z-1-5.png" height="35px"/>](#z15) | [<img src="../shared/z-3-3.png" height="35px"/>](#z15) | [<img src="../shared/z-5-5.png" height="35px"/>](#z15) | 
-| [<img src="../shared/z-1-6.png" height="35px"/>](#z16) | [<img src="../shared/z-3-4.png" height="35px"/>](#z16) | [<img src="../shared/z-5-6.png" height="35px"/>](#z16) | 
-| [<img src="../shared/z-2-2.png" height="35px"/>](#z22) | [<img src="../shared/z-3-5.png" height="35px"/>](#z22) | [<img src="../shared/z-6-6.png" height="35px"/>](#z22) | 
+| [<img src="../shared/z-1-1.png" height="35px"/>](./Z-PLAYS.md#z11) | [<img src="../shared/z-2-3.png" height="35px"/>](./Z-PLAYS.md#z11) | [<img src="../shared/z-3-6.png" height="35px"/>](./Z-PLAYS.md#z11) | 
+| [<img src="../shared/z-1-2.png" height="35px"/>](./Z-PLAYS.md#z12) | [<img src="../shared/z-2-4.png" height="35px"/>](./Z-PLAYS.md#z12) | [<img src="../shared/z-4-4.png" height="35px"/>](./Z-PLAYS.md#z12) | 
+| [<img src="../shared/z-1-3.png" height="35px"/>](./Z-PLAYS.md#z13) | [<img src="../shared/z-2-5.png" height="35px"/>](./Z-PLAYS.md#z13) | [<img src="../shared/z-4-5.png" height="35px"/>](./Z-PLAYS.md#z13) | 
+| [<img src="../shared/z-1-4.png" height="35px"/>](./Z-PLAYS.md#z14) | [<img src="../shared/z-2-6.png" height="35px"/>](./Z-PLAYS.md#z14) | [<img src="../shared/z-4-6.png" height="35px"/>](./Z-PLAYS.md#z14) | 
+| [<img src="../shared/z-1-5.png" height="35px"/>](./Z-PLAYS.md#z15) | [<img src="../shared/z-3-3.png" height="35px"/>](./Z-PLAYS.md#z15) | [<img src="../shared/z-5-5.png" height="35px"/>](./Z-PLAYS.md#z15) | 
+| [<img src="../shared/z-1-6.png" height="35px"/>](./Z-PLAYS.md#z16) | [<img src="../shared/z-3-4.png" height="35px"/>](./Z-PLAYS.md#z16) | [<img src="../shared/z-5-6.png" height="35px"/>](./Z-PLAYS.md#z16) | 
+| [<img src="../shared/z-2-2.png" height="35px"/>](./Z-PLAYS.md#z22) | [<img src="../shared/z-3-5.png" height="35px"/>](./Z-PLAYS.md#z22) | [<img src="../shared/z-6-6.png" height="35px"/>](./Z-PLAYS.md#z22) | 
 
 
 <a name="z11"><img src="../shared/z-1-1.png" height="35px"/></a>
@@ -44,7 +44,7 @@
 
 <a name="z23"><img src="../shared/z-2-3.png" height="35px"/></a>
 
-- a force out or a fielder's choice (see [FO-FC](#fo-fc))
+- a force out or a fielder's choice (see [FO-FC](./Z-PLAYS.md#fo-fc))
 
 <a name="z24"><img src="../shared/z-2-4.png" height="35px"/></a>
 
@@ -68,7 +68,7 @@
 
 <a name="z35"><img src="../shared/z-3-5.png" height="35px"/></a>
 
-- a force out or a fielder's choice (see [FO-FC](#fo-fc))
+- a force out or a fielder's choice (see [FO-FC](./Z-PLAYS.md#fo-fc))
 
 <a name="z36"><img src="../shared/z-3-6.png" height="35px"/></a>
 
