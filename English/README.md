@@ -36,56 +36,56 @@ The concept of "scoring a game" is to transcribe a record of each of the plays, 
 
 ## Basic play 
 
-Use the physical play board with the marking: <img src="../shared/z-batting.png" height=".35cm"/>
+Use the physical play board with the marking: <img src="../shared/z-batting.png" height="30px"/>
 
 Alternatively, print the PDF file: [`basic-print-board-baseball-crane.pdf`](basic-print-board-baseball-crane.pdf)
 
-[<img src="../shared/step-1.png" height=".5cm"/>](../shared/Z-SETUP.md)
+[<img src="../shared/step-1.png" height="30px"/>](../shared/Z-SETUP.md)
 
 - see [Basic Setup](../shared/Z-SETUP.md) for details
 
-<img src="../shared/step-2-x.png" height=".5cm"/>
+<img src="../shared/step-2-x.png" height="30px"/>
 
 - in the basic mode there is no pitching
 
-<img src="../shared/step-3.png" height=".5cm"/>
+<img src="../shared/step-3.png" height="30px"/>
 
 - the player batting rolls two dice to determine the play according to [basic plays](Z-PLAYS.md)
 - the batter and the runners move according to the play rolled
 
-<img src="../shared/step-4-x.png" height=".5cm"/>
+<img src="../shared/step-4-x.png" height="30px"/>
 
 - in the basic mode there is no nuanced control for base runners
 
 ## Extended play 
 
-Use the physical play board with the marking: <img src="../shared/x-pitching.png" height=".5cm"/>
+Use the physical play board with the marking: <img src="../shared/x-pitching.png" height="30px"/>
 
 Alternatively, print the PDF file: [`extended-print-board-baseball-crane.pdf`](extended-print-board-baseball-crane.pdf)
 
-[<img src="../shared/step-1.png" height=".5cm"/>](../shared/X-SETUP.md)
+[<img src="../shared/step-1.png" height="30px"/>](../shared/X-SETUP.md)
 
 - see [Extended Setup](../shared/Z-SETUP.md) for details
 
-<img src="../shared/step-2.png" height=".5cm"/>
+<img src="../shared/step-2.png" height="30px"/>
 
 - the pitcher (the player not batting) rolls one die (of a colour different from the dice used by the batter) to determine which pitch is thrown
 - the batter begins with a tally of zero balls and zero strikes
 - the batter's strike zone is an imaginary area above home plate in the horizontal and extending in the vertical from the batter's knees up to the mid-point between the top of the batter's pants and the batter's shoulders 
 - a ball is a pitch thrown outside of the batter's strike zone when the batter does not "offer" at the pitch by swinging
-- four balls <img src="../shared/pd2.png" height=".6cm"/> moves the batter to first base, pushing the first-base runner to second base
+- four balls <img src="../shared/pd2.png" height="35px"/> moves the batter to first base, pushing the first-base runner to second base
 - a strike is a pitch thrown inside of the batter's strike zone or any pitch at which the batter offers by swinging
 - the batter making contact with a the pitch but resulting in the ball being outside of the third-base line and the first-base line makes for a "foul ball"
-- foul balls <img src="../shared/pd5.png" height=".6cm"/> count as strikes only when there are fewer than two strikes against the batter, otherwise they are ignored
-- a swinging third strike <img src="../shared/pd1.png" height=".6cm"/> or a looking third strike <img src="../shared/pd3.png" height=".6cm"/> is an out for the batter
-- the batter making contact with the pitch with <img src="../shared/pd4.png" height=".6cm"/> or <img src="../shared/pd6.png" height=".6cm"/> puts the ball "in play" in between the third-base line and the first-base line
+- foul balls <img src="../shared/pd5.png" height="35px"/> count as strikes only when there are fewer than two strikes against the batter, otherwise they are ignored
+- a swinging third strike <img src="../shared/pd1.png" height="35px"/> or a looking third strike <img src="../shared/pd3.png" height="35px"/> is an out for the batter
+- the batter making contact with the pitch with <img src="../shared/pd4.png" height="35px"/> or <img src="../shared/pd6.png" height="35px"/> puts the ball "in play" in between the third-base line and the first-base line
 
-<img src="../shared/step-3.png" height=".5cm"/>
+<img src="../shared/step-3.png" height="30px"/>
 
 - when there are no base runners and the game is not being scored, the batter rolls two dice to determine how the pitch is put in play according to [extended plays](X-PLAYS.md)
 - the batter and runners move according to the play rolled
 
-<img src="../shared/step-4.png" height=".5cm"/>
+<img src="../shared/step-4.png" height="30px"/>
 
 - when there are base runners or the game is being scored, the batter rolls three dice (two dice of one colour for the batter and one die of a different colour for the base runners) to determine how the pitch is put in play and the impact of the play on the runners, thus guiding how the play is scored
 

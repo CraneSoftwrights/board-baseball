@@ -1,2 +1,2 @@
-<img src="step-1.png" height="1cm"/>
+<img src="step-1.png" height="60px"/>
 
