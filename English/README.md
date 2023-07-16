@@ -53,6 +53,17 @@ Alternatively, print the PDF file: [`basic-print-board-baseball-crane.pdf`](basi
 <img src="../shared/step-3.png" height="30px"/>
 
 - the player batting rolls two dice to determine the play according to [basic plays](Z-PLAYS.html)
+
+| | | | | |
+| :--- | :--- | :--- | :--- | :--- |
+|[<img alt="" src="../shared/z-1-1.png" style="height:35px"/>](Z-PLAYS.md#1-1-)| |[<img alt="" src="../shared/z-2-3.png" style="height:35px"/>](Z-PLAYS.md#2-3-)| |[<img alt="" src="../shared/z-3-6.png" style="height:35px"/>](Z-PLAYS.md#3-6-)|
+|[<img alt="" src="../shared/z-1-2.png" style="height:35px"/>](Z-PLAYS.md#1-2-)| |[<img alt="" src="../shared/z-2-4.png" style="height:35px"/>](Z-PLAYS.md#2-4-)| |[<img alt="" src="../shared/z-4-4.png" style="height:35px"/>](Z-PLAYS.md#4-4-)|
+|[<img alt="" src="../shared/z-1-3.png" style="height:35px"/>](Z-PLAYS.md#1-3-)| |[<img alt="" src="../shared/z-2-5.png" style="height:35px"/>](Z-PLAYS.md#2-5-)| |[<img alt="" src="../shared/z-4-5.png" style="height:35px"/>](Z-PLAYS.md#4-5-)|
+|[<img alt="" src="../shared/z-1-4.png" style="height:35px"/>](Z-PLAYS.md#1-4-)| |[<img alt="" src="../shared/z-2-6.png" style="height:35px"/>](Z-PLAYS.md#2-6-)| |[<img alt="" src="../shared/z-4-6.png" style="height:35px"/>](Z-PLAYS.md#4-6-)|
+|[<img alt="" src="../shared/z-1-5.png" style="height:35px"/>](Z-PLAYS.md#1-5-)| |[<img alt="" src="../shared/z-3-3.png" style="height:35px"/>](Z-PLAYS.md#3-3-)| |[<img alt="" src="../shared/z-5-5.png" style="height:35px"/>](Z-PLAYS.md#5-5-)|
+|[<img alt="" src="../shared/z-1-6.png" style="height:35px"/>](Z-PLAYS.md#1-6-)| |[<img alt="" src="../shared/z-3-4.png" style="height:35px"/>](Z-PLAYS.md#3-4-)| |[<img alt="" src="../shared/z-5-6.png" style="height:35px"/>](Z-PLAYS.md#5-6-)|
+|[<img alt="" src="../shared/z-2-2.png" style="height:35px"/>](Z-PLAYS.md#2-2-)| |[<img alt="" src="../shared/z-3-5.png" style="height:35px"/>](Z-PLAYS.md#3-5-)| |[<img alt="" src="../shared/z-6-6.png" style="height:35px"/>](Z-PLAYS.md#6-6-)|
+    
 - the batter and the runners move according to the play rolled
 
 <img src="../shared/step-4-x.png" height="30px"/>
@@ -86,6 +97,17 @@ Alternatively, print the PDF file: [`extended-print-board-baseball-crane.pdf`](e
 <img src="../shared/step-3.png" height="30px"/>
 
 - when there are no base runners and the game is not being scored, the batter rolls two dice to determine how the pitch is put in play according to [extended plays](X-PLAYS.html)
+
+| | | | | |
+| ---: | ---: | ---: | ---: | ---: |
+| [<img alt="" src="../shared/x-1-1.png" style="height:35px"/>](X-PLAYS.md#1-1-) |  | [<img alt="" src="../shared/x-2-3.png" style="height:35px"/>](X-PLAYS.md#2-3-) |  | [<img alt="" src="../shared/x-3-6.png" style="height:35px"/>](X-PLAYS.md#3-6-) |
+| [<img alt="" src="../shared/x-1-2.png" style="height:35px"/>](X-PLAYS.md#1-2-) |  | [<img alt="" src="../shared/x-2-4.png" style="height:35px"/>](X-PLAYS.md#2-4-) |  | [<img alt="" src="../shared/x-4-4.png" style="height:35px"/>](X-PLAYS.md#4-4-) |
+| [<img alt="" src="../shared/x-1-3.png" style="height:35px"/>](X-PLAYS.md#1-3-) |  | [<img alt="" src="../shared/x-2-5.png" style="height:35px"/>](X-PLAYS.md#2-5-) |  | [<img alt="" src="../shared/x-4-5.png" style="height:35px"/>](X-PLAYS.md#4-5-) |
+| [<img alt="" src="../shared/x-1-4.png" style="height:35px"/>](X-PLAYS.md#1-4-) |  | [<img alt="" src="../shared/x-2-6.png" style="height:35px"/>](X-PLAYS.md#2-6-) |  | [<img alt="" src="../shared/x-4-6.png" style="height:35px"/>](X-PLAYS.md#4-6-) |
+| [<img alt="" src="../shared/x-1-5.png" style="height:35px"/>](X-PLAYS.md#1-5-) |  | [<img alt="" src="../shared/x-3-3.png" style="height:35px"/>](X-PLAYS.md#3-3-) |  | [<img alt="" src="../shared/x-5-5.png" style="height:35px"/>](X-PLAYS.md#5-5-) |
+| [<img alt="" src="../shared/x-1-6.png" style="height:35px"/>](X-PLAYS.md#1-6-) |  | [<img alt="" src="../shared/x-3-4.png" style="height:35px"/>](X-PLAYS.md#3-4-) |  | [<img alt="" src="../shared/x-5-6.png" style="height:35px"/>](X-PLAYS.md#5-6-) |
+| [<img alt="" src="../shared/x-2-2.png" style="height:35px"/>](X-PLAYS.md#2-2-) |  | [<img alt="" src="../shared/x-3-5.png" style="height:35px"/>](X-PLAYS.md#3-5-) |  | [<img alt="" src="../shared/x-6-6.png" style="height:35px"/>](X-PLAYS.md#6-6-) |
+
 - the batter and runners move according to the play rolled
 
 <img src="../shared/step-4.png" height="30px"/>
