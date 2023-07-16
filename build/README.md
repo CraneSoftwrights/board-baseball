@@ -2,8 +2,8 @@
 
 These are the files used to burn in a laser cutter. They are collages of layer images arranged tête-à-tête as follows:
 
-18"x24": <img alt="" src="../shared/1345-collage.png" /><img alt="" src="../shared/2222-collage.png" />  
-9"x24":<img alt="" src="../shared/13-collage.png" /><img alt="" src="../shared/45-collage.png" /><img alt="" src="../shared/22-collage.png" />
+18"x24": <img alt="" src="../shared/1345-collage.png" /> and <img alt="" src="../shared/2222-collage.png" />  
+9"x24":<img alt="" src="../shared/13-collage.png" />, <img alt="" src="../shared/45-collage.png" />, and <img alt="" src="../shared/22-collage.png" />
 
 Layers from the design files are copied into the objects collage files for organization purposes:
 
