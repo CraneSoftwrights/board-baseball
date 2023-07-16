@@ -1,13 +1,13 @@
 # Extended play summary <img alt="" src="../shared/x-pitching.png" style="height:35px"/>
 
  | ---: | ---: | ---: | ---: | ---: |
- | <a href="#x11"><img alt="" src="../shared/x-1-1.png" style="height:35px"/></a> |  | <a href="#x23"><img alt="" src="../shared/x-2-3.png" style="height:35px"/></a> |  | <a href="#x36"><img alt="" src="../shared/x-3-6.png" style="height:35px"/></a> |
- | <a href="#x12"><img alt="" src="../shared/x-1-2.png" style="height:35px"/></a> |  | <a href="#x24"><img alt="" src="../shared/x-2-4.png" style="height:35px"/></a> |  | <a href="#x44"><img alt="" src="../shared/x-4-4.png" style="height:35px"/></a> |
- | <a href="#x13"><img alt="" src="../shared/x-1-3.png" style="height:35px"/></a> |  | <a href="#x25"><img alt="" src="../shared/x-2-5.png" style="height:35px"/></a> |  | <a href="#x45"><img alt="" src="../shared/x-4-5.png" style="height:35px"/></a> |
- | <a href="#x14"><img alt="" src="../shared/x-1-4.png" style="height:35px"/></a> |  | <a href="#x26"><img alt="" src="../shared/x-2-6.png" style="height:35px"/></a> |  | <a href="#x46"><img alt="" src="../shared/x-4-6.png" style="height:35px"/></a> |
- | <a href="#x15"><img alt="" src="../shared/x-1-5.png" style="height:35px"/></a> |  | <a href="#x33"><img alt="" src="../shared/x-3-3.png" style="height:35px"/></a> |  | <a href="#x55"><img alt="" src="../shared/x-5-5.png" style="height:35px"/></a> |
- | <a href="#x16"><img alt="" src="../shared/x-1-6.png" style="height:35px"/></a> |  | <a href="#x34"><img alt="" src="../shared/x-3-4.png" style="height:35px"/></a> |  | <a href="#x56"><img alt="" src="../shared/x-5-6.png" style="height:35px"/></a> |
- | <a href="#x22"><img alt="" src="../shared/x-2-2.png" style="height:35px"/></a> |  | <a href="#x35"><img alt="" src="../shared/x-3-5.png" style="height:35px"/></a> |  | <a href="#x66"><img alt="" src="../shared/x-6-6.png" style="height:35px"/></a> |
+ | <a href="#1-1-"><img alt="" src="../shared/x-1-1.png" style="height:35px"/></a> |  | <a href="#2-3-"><img alt="" src="../shared/x-2-3.png" style="height:35px"/></a> |  | <a href="#3-6-"><img alt="" src="../shared/x-3-6.png" style="height:35px"/></a> |
+ | <a href="#1-2-"><img alt="" src="../shared/x-1-2.png" style="height:35px"/></a> |  | <a href="#2-4-"><img alt="" src="../shared/x-2-4.png" style="height:35px"/></a> |  | <a href="#4-4-"><img alt="" src="../shared/x-4-4.png" style="height:35px"/></a> |
+ | <a href="#1-3-"><img alt="" src="../shared/x-1-3.png" style="height:35px"/></a> |  | <a href="#2-5-"><img alt="" src="../shared/x-2-5.png" style="height:35px"/></a> |  | <a href="#4-5-"><img alt="" src="../shared/x-4-5.png" style="height:35px"/></a> |
+ | <a href="#1-4-"><img alt="" src="../shared/x-1-4.png" style="height:35px"/></a> |  | <a href="#2-6-"><img alt="" src="../shared/x-2-6.png" style="height:35px"/></a> |  | <a href="#4-6-"><img alt="" src="../shared/x-4-6.png" style="height:35px"/></a> |
+ | <a href="#1-5-"><img alt="" src="../shared/x-1-5.png" style="height:35px"/></a> |  | <a href="#3-3-"><img alt="" src="../shared/x-3-3.png" style="height:35px"/></a> |  | <a href="#5-5-"><img alt="" src="../shared/x-5-5.png" style="height:35px"/></a> |
+ | <a href="#1-6-"><img alt="" src="../shared/x-1-6.png" style="height:35px"/></a> |  | <a href="#3-4-"><img alt="" src="../shared/x-3-4.png" style="height:35px"/></a> |  | <a href="#5-6-"><img alt="" src="../shared/x-5-6.png" style="height:35px"/></a> |
+ | <a href="#2-2-"><img alt="" src="../shared/x-2-2.png" style="height:35px"/></a> |  | <a href="#3-5-"><img alt="" src="../shared/x-3-5.png" style="height:35px"/></a> |  | <a href="#6-6-"><img alt="" src="../shared/x-6-6.png" style="height:35px"/></a> |
 
 ## P# - Pop-out
 
