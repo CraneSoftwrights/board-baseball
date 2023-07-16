@@ -52,7 +52,7 @@ Alternatively, print the PDF file: [`basic-print-board-baseball-crane.pdf`](basi
 
 <img src="../shared/step-3.png" height="30px"/>
 
-- the player batting rolls two dice to determine the play according to [basic plays](Z-PLAYS.md)
+- the player batting rolls two dice to determine the play according to [basic plays](Z-PLAYS.html)
 - the batter and the runners move according to the play rolled
 
 <img src="../shared/step-4-x.png" height="30px"/>
@@ -85,7 +85,7 @@ Alternatively, print the PDF file: [`extended-print-board-baseball-crane.pdf`](e
 
 <img src="../shared/step-3.png" height="30px"/>
 
-- when there are no base runners and the game is not being scored, the batter rolls two dice to determine how the pitch is put in play according to [extended plays](X-PLAYS.md)
+- when there are no base runners and the game is not being scored, the batter rolls two dice to determine how the pitch is put in play according to [extended plays](X-PLAYS.html)
 - the batter and runners move according to the play rolled
 
 <img src="../shared/step-4.png" height="30px"/>
