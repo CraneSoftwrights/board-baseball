@@ -66,85 +66,94 @@
 ### 1-1 <img alt="" src="../shared/x-1-1.png" style="height:35px"/>
 
 - a home run
+- the batter and all runners score
 
 ### 1-2 <img alt="" src="../shared/x-1-2.png" style="height:35px"/>
 
 - a double
+- all runners advance two bases and the batter ends up at second base
 
 ### 1-3 <img alt="" src="../shared/x-1-3.png" style="height:35px"/>
 
-- a fly out to an outfield fielder
+- a fly out to an outfield fielder ([see Fly-out](X-PLAYS.md#f---fly-out))
 
 ### 1-4 <img alt="" src="../shared/x-1-4.png" style="height:35px"/>
 
-- a base on balls
+- a single
+- batter and all runners advance one base
 
 ### 1-5 <img alt="" src="../shared/x-1-5.png" style="height:35px"/>
 
-- a pop-out to an infield fielder
+- a pop-out to an infield fielder ([see Pop-out](X-PLAYS.md#p---pop-out))
 
 ### 1-6 <img alt="" src="../shared/x-1-6.png" style="height:35px"/>
 
 - a single
+- batter and all runners advance one base
 
 ### 2-2 <img alt="" src="../shared/x-2-2.png" style="height:35px"/>
 
-- a double play (two outs)
+- a double play ([see DP](X-PLAYS.md#dp---double-play))
 
 ### 2-3 <img alt="" src="../shared/x-2-3.png" style="height:35px"/>
 
-- a force out or a fielder's choice [see FO-FC](X-PLAYS.md#fofc---force-out-and-fielders-choice)
+- a force out or a fielder's choice ([see FO-FC](X-PLAYS.md#fofc---force-out-and-fielders-choice))
 
 ### 2-4 <img alt="" src="../shared/x-2-4.png" style="height:35px"/>
 
-- a strike out on a swinging strike
+- a force out or a fielder's choice ([see FO-FC](X-PLAYS.md#fofc---force-out-and-fielders-choice))
 
 ### 2-5 <img alt="" src="../shared/x-2-5.png" style="height:35px"/>
 
 - a single
+- all runners advance one base and the batter ends up at first base
 
 ### 2-6 <img alt="" src="../shared/x-2-6.png" style="height:35px"/>
 
-- a strike out on a looking strike (no swing)
+- a force out or a fielder's choice ([see FO-FC](X-PLAYS.md#fofc---force-out-and-fielders-choice))
 
 ### 3-3 <img alt="" src="../shared/x-3-3.png" style="height:35px"/>
 
-- a base on balls
+- a single
+- all runners advance one base and the batter ends up at first base
 
 ### 3-4 <img alt="" src="../shared/x-3-4.png" style="height:35px"/>
 
 - a triple
+- all runners score and the batter ends up at third base
 
 ### 3-5 <img alt="" src="../shared/x-3-5.png" style="height:35px"/>
 
-- a force out or a fielder's choice [see FO-FC](X-PLAYS.md#fofc---force-out-and-fielders-choice)
+- a force out or a fielder's choice ([see FO-FC](X-PLAYS.md#fofc---force-out-and-fielders-choice))
 
 ### 3-6 <img alt="" src="../shared/x-3-6.png" style="height:35px"/>
 
-- a fly out to an outfield fielder
+- a fly out to an outfield fielder ([see Fly-out](X-PLAYS.md#f---fly-out))
 
 ### 4-4 <img alt="" src="../shared/x-4-4.png" style="height:35px"/>
 
-- a base on balls
+- a single
+- all runners advance one base and the batter ends up at first base
 
 ### 4-5 <img alt="" src="../shared/x-4-5.png" style="height:35px"/>
 
-- a pop-out to an infield fielder
+- a pop-out to an infield fielder ([see Pop-out](X-PLAYS.md#p---pop-out))
 
 ### 4-6 <img alt="" src="../shared/x-4-6.png" style="height:35px"/>
 
-- a strikeout with a swinging strike
+- a force out or a fielder's choice ([see FO-FC](X-PLAYS.md#fofc---force-out-and-fielders-choice))
 
 ### 5-5 <img alt="" src="../shared/x-5-5.png" style="height:35px"/>
 
 - a double
+- all runners advance two bases and the batter ends up at second base
 
 ### 5-6 <img alt="" src="../shared/x-5-6.png" style="height:35px"/>
 
-- a sacrifice fly (fly-out to an outfield fielder)
-- a runner at third base successfully crosses home plate for a run
+- a fly-out to an outfield fielder ([see Fly-out](X-PLAYS.md#f---fly-out))
 
 ### 6-6 <img alt="" src="../shared/x-6-6.png" style="height:35px"/>
 
 - a home run
+- the batter and all runners score
 
