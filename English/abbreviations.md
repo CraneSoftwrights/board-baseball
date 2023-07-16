@@ -53,6 +53,7 @@ P# - pop out
 PB - passed ball  
 PK - picked off  
 R - run  
+RBI - run batted in  
 RF - right fielder  
 S ― - single  
 SB - stolen base  
