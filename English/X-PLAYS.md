@@ -1,24 +1,24 @@
 # Extended play summary <img alt="" src="../shared/x-pitching.png" style="height:35px"/>
 
  | ---: | ---: | ---: | ---: | ---: |
- | <a href="#1-1-"><img alt="" src="../shared/x-1-1.png" style="height:35px"/></a> |  | <a href="#2-3-"><img alt="" src="../shared/x-2-3.png" style="height:35px"/></a> |  | <a href="#3-6-"><img alt="" src="../shared/x-3-6.png" style="height:35px"/></a> |
- | <a href="#1-2-"><img alt="" src="../shared/x-1-2.png" style="height:35px"/></a> |  | <a href="#2-4-"><img alt="" src="../shared/x-2-4.png" style="height:35px"/></a> |  | <a href="#4-4-"><img alt="" src="../shared/x-4-4.png" style="height:35px"/></a> |
- | <a href="#1-3-"><img alt="" src="../shared/x-1-3.png" style="height:35px"/></a> |  | <a href="#2-5-"><img alt="" src="../shared/x-2-5.png" style="height:35px"/></a> |  | <a href="#4-5-"><img alt="" src="../shared/x-4-5.png" style="height:35px"/></a> |
- | <a href="#1-4-"><img alt="" src="../shared/x-1-4.png" style="height:35px"/></a> |  | <a href="#2-6-"><img alt="" src="../shared/x-2-6.png" style="height:35px"/></a> |  | <a href="#4-6-"><img alt="" src="../shared/x-4-6.png" style="height:35px"/></a> |
- | <a href="#1-5-"><img alt="" src="../shared/x-1-5.png" style="height:35px"/></a> |  | <a href="#3-3-"><img alt="" src="../shared/x-3-3.png" style="height:35px"/></a> |  | <a href="#5-5-"><img alt="" src="../shared/x-5-5.png" style="height:35px"/></a> |
- | <a href="#1-6-"><img alt="" src="../shared/x-1-6.png" style="height:35px"/></a> |  | <a href="#3-4-"><img alt="" src="../shared/x-3-4.png" style="height:35px"/></a> |  | <a href="#5-6-"><img alt="" src="../shared/x-5-6.png" style="height:35px"/></a> |
- | <a href="#2-2-"><img alt="" src="../shared/x-2-2.png" style="height:35px"/></a> |  | <a href="#3-5-"><img alt="" src="../shared/x-3-5.png" style="height:35px"/></a> |  | <a href="#6-6-"><img alt="" src="../shared/x-6-6.png" style="height:35px"/></a> |
+ | [<img alt="" src="../shared/x-1-1.png" style="height:35px"/>](X-PLAYS.md#1-1-) |  | [<img alt="" src="../shared/x-2-3.png" style="height:35px"/>](X-PLAYS.md#2-3-) |  | [<img alt="" src="../shared/x-3-6.png" style="height:35px"/>](X-PLAYS.md#3-6-) |
+ | [<img alt="" src="../shared/x-1-2.png" style="height:35px"/>](X-PLAYS.md#1-2-) |  | [<img alt="" src="../shared/x-2-4.png" style="height:35px"/>](X-PLAYS.md#2-4-) |  | [<img alt="" src="../shared/x-4-4.png" style="height:35px"/>](X-PLAYS.md#4-4-) |
+ | [<img alt="" src="../shared/x-1-3.png" style="height:35px"/>](X-PLAYS.md#1-3-) |  | [<img alt="" src="../shared/x-2-5.png" style="height:35px"/>](X-PLAYS.md#2-5-) |  | [<img alt="" src="../shared/x-4-5.png" style="height:35px"/>](X-PLAYS.md#4-5-) |
+ | [<img alt="" src="../shared/x-1-4.png" style="height:35px"/>](X-PLAYS.md#1-4-) |  | [<img alt="" src="../shared/x-2-6.png" style="height:35px"/>](X-PLAYS.md#2-6-) |  | [<img alt="" src="../shared/x-4-6.png" style="height:35px"/>](X-PLAYS.md#4-6-) |
+ | [<img alt="" src="../shared/x-1-5.png" style="height:35px"/>](X-PLAYS.md#1-5-) |  | [<img alt="" src="../shared/x-3-3.png" style="height:35px"/>](X-PLAYS.md#3-3-) |  | [<img alt="" src="../shared/x-5-5.png" style="height:35px"/>](X-PLAYS.md#5-5-) |
+ | [<img alt="" src="../shared/x-1-6.png" style="height:35px"/>](X-PLAYS.md#1-6-) |  | [<img alt="" src="../shared/x-3-4.png" style="height:35px"/>](X-PLAYS.md#3-4-) |  | [<img alt="" src="../shared/x-5-6.png" style="height:35px"/>](X-PLAYS.md#5-6-) |
+ | [<img alt="" src="../shared/x-2-2.png" style="height:35px"/>](X-PLAYS.md#2-2-) |  | [<img alt="" src="../shared/x-3-5.png" style="height:35px"/>](X-PLAYS.md#3-5-) |  | [<img alt="" src="../shared/x-6-6.png" style="height:35px"/>](X-PLAYS.md#6-6-) |
 
 ## P# - Pop-out
 
-<p><img id="p" alt="" src="../shared/p-1-6.png" style="height:120px"/></p>
+<p><img alt="" src="../shared/p-1-6.png" style="height:120px"/></p>
 
 - the ball is popped up and caught by the infielder indicated by the number on the die 
 - the batter is out and the runners do not advance
 
 ## FO/FC - Force-out and Fielder's choice
 
-<p><img id="fo-fc" alt="" src="../shared/fo-fc-1-6.png" style="height:120px"/></p>
+<p><img alt="" src="../shared/fo-fc-1-6.png" style="height:120px"/></p>
 
 - the ball is fielded by the infielder indicated by the number on the die
 - the batter and all runners advance one base
@@ -42,7 +42,7 @@
 
 ## F# - Fly-out
 
-<p><img id="f" alt="" src="../shared/f-1-6.png" style="height:120px"/></p>
+<p><img alt="" src="../shared/f-1-6.png" style="height:120px"/></p>
 
 - the ball is fielded by the outfielder associated with the number on the die
 - the batter is out
@@ -52,7 +52,7 @@
 
 ## DP - Double play
 
-<p><img id="dp" alt="" src="../shared/dp-1-6.png" style="height:120px"/></p>
+<p><img alt="" src="../shared/dp-1-6.png" style="height:120px"/></p>
 
 - if there are less than two base runners, both the batter and the base runner are out
 - if there are two or three base runners:
@@ -92,7 +92,7 @@
 
 ### 2-3 <img alt="" src="../shared/x-2-3.png" style="height:35px"/>
 
-- a force out or a fielder's choice <a href="#fo-fc">see FO-FC</a>
+- a force out or a fielder's choice [see FO-FC](X-PLAYS.md#fofc---force-out-and-fielders-choice)
 
 ### 2-4 <img alt="" src="../shared/x-2-4.png" style="height:35px"/>
 
@@ -116,7 +116,7 @@
 
 ### 3-5 <img alt="" src="../shared/x-3-5.png" style="height:35px"/>
 
-- a force out or a fielder's choice <a href="#fo-fc">see FO-FC</a>
+- a force out or a fielder's choice [see FO-FC](X-PLAYS.md#fofc---force-out-and-fielders-choice)
 
 ### 3-6 <img alt="" src="../shared/x-3-6.png" style="height:35px"/>
 
