@@ -2,45 +2,43 @@
 
 Copyright © Crane Softwrights Ltd.
 
-*(Skip the introduction and jump to: [Basic Play](#basic-play) or [Extended Play](#extended-play))* 
-
-## Introduction to baseball play
+*(Skip the introduction and jump to: [Basic Play](#basic-mode-play) or [Extended Play](#extended-mode-play))* 
 
 This project develops a board game along the lines of the basic long-played baseball board game, but brought up to date to include new rule changes at MLB. Differing from other board baseball games, this one aims to educate the players on the rules, the notations, and the conventions used when scoring a baseball game, using official abbreviations used by MLB.
 
 Also, this version introduces an extended play that involves pitching, something not included in the original. With pitching, both players are rolling dice for each inning. There is sufficient detail in this alternative play that a game can be scored in order to practice scoring techniques. Crane's own scoring conventions are documented for consideration.
 
-At its core, baseball is a game of two teams, a visiting team and a home team, each taking turns in offense and defense. The goal for the offensive team (batting) is to score runs by successfully hitting the ball and advancing around a series of four bases arranged in a diamond shape. The defensive team (pitching) aims to prevent the offensive team from scoring by pitching, fielding the ball, and making outs.
+Both the original basic "only batter rolls dice" and this new extended "batter and pitcher both roll dice" are played on the same board with the basic mode using only a subset of the play pieces. The setup and play involved for both basic and extended modes of play are described below.
 
-In board baseball, both the original basic "only batter rolls dice" and this new extended "batter and pitcher both roll dice" are played on the same board with the basic mode using only a subset of the play pieces. The setup and play involved for both basic and extended modes of play are described below.
+## The essence of baseball play
 
-At least nine innings are played, where in the "top" of the inning the visiting team is batting on offence and in the "bottom" of the inning the home team is batting on offence. The "middle" of the inning is the time between the top and bottom of the inning. The "end" of the inning is the time between the bottom of the inning and the top of the next inning.
+At its core, baseball is a game of two teams, a visiting team and a home team, each taking turns in offense and defense. The goal for the offensive team (batting) is to score runs by successfully hitting the ball and advancing around a series of four bases arranged in a diamond shape. The defensive team (pitching) aims to prevent the offensive team from scoring by pitching, fielding the ball, and making outs to take offensive team players off the field.
 
-The batter can reach base and become a base runner if they are not put out in a defensive play. A run is scored when a base runner reaches home plate. The objective of the each team is to plate more runs than their opponent.
+At least nine innings are played, where in the "top" of the inning the visiting team is batting on offence and in the "bottom" of the inning the home team is batting on offence. The "middle" of the inning is the time between the top and bottom of the inning. The "end" of the inning is the time between the bottom of the inning and the top of the next inning. A given half-inning ends when the offence tallies three outs.
+
+The batter can reach base and become a base runner if they are not put out in a defensive play. A run is scored when a base runner reaches home plate. The objective of the each team is to plate more runs than their opponent. The tally of runs and hits is tracked for both teams, and the tally always is reported in the order of the number of runs before the number of hits.
+
+The concept of "scoring a game" is to transcribe a record of each of the plays, including if desired even each of the pitches, of every batter than comes to the plate. The pace and tenor of the game can be reviewed during the game and after the end of the game.
 
 Should the home team be in the lead at the middle of the ninth inning, the game ends with the given score.
 
 Should the home team become in the lead in the bottom of the ninth inning, the game ends with the given score and further runs are not attempted.
 
-Should the score not be tied at the end of the ninth inning, the game ends with the given unequal score.
+Should the visiting team be in the lead at the end of the ninth inning, the game ends with the given score.
 
 Should the score be tied at the end of the ninth inning, an extra inning (both top and bottom halves) is played. 
 
-In an extra inning the team batting places the team's previous inning's final batter as a base runner at second base before the first batter of the extra inning approaches the plate for play. Should the home team become in the lead in the bottom of the extra inning, the game ends with the given score and further runs are not attempted.
+In an extra inning, the team batting places the team's previous inning's final batter as a base runner at second base before the first batter of the extra inning approaches the plate for play.
 
-Should the score not be tied at the end of the extra inning, the game ends with the given unequal score.
+Should the home team become in the lead in the bottom of the extra inning, the game ends with the given score and further runs are not attempted.
+
+Should the visiting team be in the lead at the end of the extra inning, the game ends with the given score.
 
 Should the score be tied at the end of the extra inning, another extra inning is played as described above.
 
-The tally of runs and hits is tracked for both teams, and the tally always is reported in the order of the number of runs before the number of hits.
+## Basic-mode play 
 
-The concept of "scoring a game" is to transcribe a record of each of the plays, including if desired even each of the pitches, of every batter than comes to the plate. The pace and tenor of the game can be reviewed during the game and after the end of the game.
-
-## Basic play 
-
-Use the physical play board with the marking: <img src="../shared/z-batting.png" height="30px"/>
-
-Alternatively, print the PDF file: [`basic-print-board-baseball-crane.pdf`](basic-print-board-baseball-crane.pdf)
+Use the play board with this marking between the columns: <img src="../shared/z-batting.png" height="30px"/>, available for print in the PDF file: [`basic-print-board-baseball-crane.pdf`](basic-print-board-baseball-crane.pdf)
 
 [<img src="../shared/step-1.png" height="30px"/>](../shared/Z-SETUP.md)
 
@@ -52,7 +50,7 @@ Alternatively, print the PDF file: [`basic-print-board-baseball-crane.pdf`](basi
 
 <img src="../shared/step-3.png" height="30px"/>
 
-- the player batting rolls two dice to determine the play according to the instructions at the dice combination below:
+- the player batting rolls two dice to determine the play according to the instructions at the dice combination below (click on the dice combination for details of each play):
 
 | | | | | |
 | :--- | :--- | :--- | :--- | :--- |
@@ -68,11 +66,9 @@ Alternatively, print the PDF file: [`basic-print-board-baseball-crane.pdf`](basi
 
 - in the basic mode there is no nuanced control for base runners
 
-## Extended play 
+## Extended-mode play 
 
-Use the physical play board with the marking: <img src="../shared/x-pitching.png" height="30px"/>
-
-Alternatively, print the PDF file: [`extended-print-board-baseball-crane.pdf`](extended-print-board-baseball-crane.pdf)
+Use the play board with this marking between the columns: <img src="../shared/x-pitching.png" height="30px"/>, available for print in the PDF file: [`extended-print-board-baseball-crane.pdf`](extended-print-board-baseball-crane.pdf)
 
 [<img src="../shared/step-1.png" height="30px"/>](../shared/X-SETUP.md)
 
@@ -87,14 +83,14 @@ Alternatively, print the PDF file: [`extended-print-board-baseball-crane.pdf`](e
 - the batter making contact with the pitch but resulting in the ball being outside of the third-base line and the first-base line makes for a "foul ball"
 - the tally of runs and hits is recorded for the batter and always is reported in the order of number of balls before the number of strikes
 - the pitcher rolls one die (of a colour different from the dice used by the batter) to determine which pitch is thrown
-- four balls <img src="../shared/pd2.png" height="35px"/> moves the batter to first base
+- four balls <img src="../shared/pd2.png" height="35px"/> moves the batter to first base, which, if occupied, moves the first-base runner to second base, which, if occupied, moves the second-base runner to third base, which, if occupied, moves the third-base runner to home for a score
 - a foul ball <img src="../shared/pd5.png" height="35px"/> counts as a strike only when there are fewer than two strikes against the batter, otherwise there is no change in the tally of balls and strikes
 - a swinging third strike <img src="../shared/pd1.png" height="35px"/> or a looking third strike <img src="../shared/pd3.png" height="35px"/> is an out for the batter and the out is recorded for the team's inning
 - the batter making contact with the pitch with <img src="../shared/pd4.png" height="35px"/> or <img src="../shared/pd6.png" height="35px"/> puts the ball "in play" in between the third-base line and the first-base line
 
 <img src="../shared/step-3.png" height="30px"/>
 
-- when there are no base runners and the game is not being scored, the player batting rolls two dice to determine the play according to the instructions at the dice combination below:
+- when there are no base runners and the game is not being scored, the player batting rolls two dice to determine the play according to the instructions at the dice combination below (click on the dice combination for details of each play):
 
 | | | | | |
 | ---: | ---: | ---: | ---: | ---: |
