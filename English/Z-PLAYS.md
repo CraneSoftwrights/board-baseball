@@ -1,23 +1,12 @@
-<!DOCTYPE html>
-<html>
-  <title>Basic mode plays</title>
-  <body>
-    <h2>Basic play summary <img alt="" src="../shared/z-batting.png" style="height:35px"/></h2>
-    
-    <table>
-      <col/>
-      <col style="width:3em"/>
-      <col/>
-      <col style="width:3em"/>
-      <col/>
-      <tbody>
-<tr><td><a href="#z11"><img alt="" src="../shared/z-1-1.png" style="height:35px"/></a></td><td></td><td><a href="#z23"><img alt="" src="../shared/z-2-3.png" style="height:35px"/></a></td><td></td><td><a href="#z36"><img alt="" src="../shared/z-3-6.png" style="height:35px"/></a></td></tr>
-<tr><td><a href="#z12"><img alt="" src="../shared/z-1-2.png" style="height:35px"/></a></td><td></td><td><a href="#z24"><img alt="" src="../shared/z-2-4.png" style="height:35px"/></a></td><td></td><td><a href="#z44"><img alt="" src="../shared/z-4-4.png" style="height:35px"/></a></td></tr>
-<tr><td><a href="#z13"><img alt="" src="../shared/z-1-3.png" style="height:35px"/></a></td><td></td><td><a href="#z25"><img alt="" src="../shared/z-2-5.png" style="height:35px"/></a></td><td></td><td><a href="#z45"><img alt="" src="../shared/z-4-5.png" style="height:35px"/></a></td></tr>
-<tr><td><a href="#z14"><img alt="" src="../shared/z-1-4.png" style="height:35px"/></a></td><td></td><td><a href="#z26"><img alt="" src="../shared/z-2-6.png" style="height:35px"/></a></td><td></td><td><a href="#z46"><img alt="" src="../shared/z-4-6.png" style="height:35px"/></a></td></tr>
-<tr><td><a href="#z15"><img alt="" src="../shared/z-1-5.png" style="height:35px"/></a></td><td></td><td><a href="#z33"><img alt="" src="../shared/z-3-3.png" style="height:35px"/></a></td><td></td><td><a href="#z55"><img alt="" src="../shared/z-5-5.png" style="height:35px"/></a></td></tr>
-<tr><td><a href="#z16"><img alt="" src="../shared/z-1-6.png" style="height:35px"/></a></td><td></td><td><a href="#z34"><img alt="" src="../shared/z-3-4.png" style="height:35px"/></a></td><td></td><td><a href="#z56"><img alt="" src="../shared/z-5-6.png" style="height:35px"/></a></td></tr>
-<tr><td><a href="#z22"><img alt="" src="../shared/z-2-2.png" style="height:35px"/></a></td><td></td><td><a href="#z35"><img alt="" src="../shared/z-3-5.png" style="height:35px"/></a></td><td></td><td><a href="#z66"><img alt="" src="../shared/z-6-6.png" style="height:35px"/></a></td></tr>
+<h2>Basic play summary <img alt="" src="../shared/z-batting.png" style="height:35px"/></h2>
+
+|<a href="#z11"><img alt="" src="../shared/z-1-1.png" style="height:35px"/></a>||||<a href="#z23"><img alt="" src="../shared/z-2-3.png" style="height:35px"/></a>||||<a href="#z36"><img alt="" src="../shared/z-3-6.png" style="height:35px"/></a>|
+|<a href="#z12"><img alt="" src="../shared/z-1-2.png" style="height:35px"/></a>||||<a href="#z24"><img alt="" src="../shared/z-2-4.png" style="height:35px"/></a>||||<a href="#z44"><img alt="" src="../shared/z-4-4.png" style="height:35px"/></a>|
+|<a href="#z13"><img alt="" src="../shared/z-1-3.png" style="height:35px"/></a>||||<a href="#z25"><img alt="" src="../shared/z-2-5.png" style="height:35px"/></a>||||<a href="#z45"><img alt="" src="../shared/z-4-5.png" style="height:35px"/></a>|
+|<a href="#z14"><img alt="" src="../shared/z-1-4.png" style="height:35px"/></a>||||<a href="#z26"><img alt="" src="../shared/z-2-6.png" style="height:35px"/></a>||||<a href="#z46"><img alt="" src="../shared/z-4-6.png" style="height:35px"/></a>|
+|<a href="#z15"><img alt="" src="../shared/z-1-5.png" style="height:35px"/></a>||||<a href="#z33"><img alt="" src="../shared/z-3-3.png" style="height:35px"/></a>||||<a href="#z55"><img alt="" src="../shared/z-5-5.png" style="height:35px"/></a>|
+|<a href="#z16"><img alt="" src="../shared/z-1-6.png" style="height:35px"/></a>||||<a href="#z34"><img alt="" src="../shared/z-3-4.png" style="height:35px"/></a>||||<a href="#z56"><img alt="" src="../shared/z-5-6.png" style="height:35px"/></a>|
+|<a href="#z22"><img alt="" src="../shared/z-2-2.png" style="height:35px"/></a>||||<a href="#z35"><img alt="" src="../shared/z-3-5.png" style="height:35px"/></a>||||<a href="#z66"><img alt="" src="../shared/z-6-6.png" style="height:35px"/></a>|
       </tbody>
     </table>
     
