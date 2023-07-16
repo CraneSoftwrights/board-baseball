@@ -72,7 +72,7 @@ Use the play board with this marking between the columns: <img src="../shared/x-
 
 [<img src="../shared/step-1.png" height="30px"/>](../shared/X-SETUP.md)
 
-- see [Extended Setup](../shared/Z-SETUP.md) for details
+- see [Extended Setup](../shared/X-SETUP.md) for details
 
 <img src="../shared/step-2.png" height="30px"/>
 
