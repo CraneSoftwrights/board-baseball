@@ -9,8 +9,8 @@ Extended: [`extended-print-board-baseball-crane.pdf`](extended-print-board-baseb
 
 To create these files, copy the desired design objects SVG file (e.g. [`design-board-baseball-crane.svg`](../design/design-board-baseball-crane.svg) over the print SVG objects files:
 
-[`basic-objects-board-baseball-crane.pdf`](basic-objects-board-baseball-crane.pdf)  
-[`extended-objects-board-baseball-crane.pdf`](extended-objects-board-baseball-crane.pdf)    
+[`basic-print-board-baseball-crane.svg`](basic-print-board-baseball-crane.svg)  
+[`extended-print-board-baseball-crane.svg`](extended-print-board-baseball-crane.svg)    
 
 Manipulate each print SVG object file as follows:
 
