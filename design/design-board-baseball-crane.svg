@@ -34,12 +34,12 @@
      id="namedview9"
      showgrid="false"
      inkscape:zoom="0.84461806"
-     inkscape:cx="432.148"
-     inkscape:cy="576"
+     inkscape:cx="432.73998"
+     inkscape:cy="577.18396"
      inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer16"
+     inkscape:current-layer="g140623"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
@@ -1182,7 +1182,7 @@
          y="0"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan285968">L5:B2-2</tspan></text></g><g
+           id="tspan23236">L5:B2-2</tspan></text></g><g
        inkscape:groupmode="layer"
        id="g5675"
        inkscape:label="L5:B1-2 Back - objects copy"
@@ -1202,7 +1202,7 @@
          y="0"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan285970">L5:B1-2</tspan></text></g></g><g
+           id="tspan23238">L5:B1-2</tspan></text></g></g><g
      inkscape:groupmode="layer"
      id="layer10"
      inkscape:label="Middle 4 - combined laser"
@@ -1671,7 +1671,7 @@
          y="0"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan285972">L1:B2-5</tspan></text><text
+           id="tspan23240">L1:B2-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(6.6666665,0,0,6.6666665,3386.8691,-3789.9184)"
          id="text6128"
@@ -1680,7 +1680,7 @@
          y="0"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan285974">L2:B2-3</tspan></text><text
+           id="tspan23242">L2:B2-3</tspan></text><text
          xml:space="preserve"
          transform="matrix(6.6666665,0,0,6.6666665,4421.8411,-3789.9184)"
          id="text6132"
@@ -1689,7 +1689,7 @@
          y="0"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan285976">L3:B2-4</tspan></text><text
+           id="tspan23244">L3:B2-4</tspan></text><text
          xml:space="preserve"
          transform="matrix(6.6666665,0,0,6.6666665,5383.8261,-3789.9184)"
          id="text6136"
@@ -1698,7 +1698,7 @@
          y="0"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan285978">L4:B2-3</tspan></text></g><g
+           id="tspan23246">L4:B2-3</tspan></text></g><g
        inkscape:groupmode="layer"
        id="g7122"
        inkscape:label="L4:B1-3 Middle 4 - objects copy"
@@ -1711,7 +1711,7 @@
          y="0"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan285980">L4:B1-3</tspan></text><rect
+           id="tspan23248">L4:B1-3</tspan></text><rect
          y="906.8161"
          x="583.31146"
          height="2493.2578"
@@ -4714,7 +4714,7 @@ K - strike out swinging
          inkscape:label="L3:B4-4 evidence"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan285982">L3:B4-4</tspan></text></g><g
+           id="tspan23250">L3:B4-4</tspan></text></g><g
        inkscape:groupmode="layer"
        id="g9197"
        inkscape:label="Print:P3 L1:B3 L2:B3 L3:B3 L4:B3 Peg cuts and Print cuts copy 1"
@@ -5178,7 +5178,7 @@ K - strike out swinging
          y="0"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan285984">L1:B2-5</tspan></text><text
+           id="tspan23252">L1:B2-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(6.6666665,0,0,6.6666665,3386.8691,-3789.9184)"
          id="text10319"
@@ -5187,7 +5187,7 @@ K - strike out swinging
          y="0"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan285986">L2:B2-3</tspan></text><text
+           id="tspan23254">L2:B2-3</tspan></text><text
          xml:space="preserve"
          transform="matrix(6.6666665,0,0,6.6666665,4421.8411,-3789.9184)"
          id="text10323"
@@ -5196,7 +5196,7 @@ K - strike out swinging
          y="0"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan285988">L3:B2-4</tspan></text><text
+           id="tspan23256">L3:B2-4</tspan></text><text
          xml:space="preserve"
          transform="matrix(6.6666665,0,0,6.6666665,5383.8261,-3789.9184)"
          id="text10327"
@@ -5205,7 +5205,7 @@ K - strike out swinging
          y="0"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan285990">L4:B2-3</tspan></text></g><g
+           id="tspan23258">L4:B2-3</tspan></text></g><g
        inkscape:groupmode="layer"
        id="g7680"
        inkscape:label="L3:B1-4 Middle 3 - objects + version copy"
@@ -5807,7 +5807,7 @@ K - strike out swinging
          y="0"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan285992">L1:B2-5</tspan></text><text
+           id="tspan23260">L1:B2-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(6.6666665,0,0,6.6666665,3386.8691,-3789.9184)"
          id="text10438"
@@ -5816,7 +5816,7 @@ K - strike out swinging
          y="0"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan285994">L2:B2-3</tspan></text><text
+           id="tspan23262">L2:B2-3</tspan></text><text
          xml:space="preserve"
          transform="matrix(6.6666665,0,0,6.6666665,4421.8411,-3789.9184)"
          id="text10442"
@@ -5825,7 +5825,7 @@ K - strike out swinging
          y="0"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan285996">L3:B2-4</tspan></text><text
+           id="tspan23264">L3:B2-4</tspan></text><text
          xml:space="preserve"
          transform="matrix(6.6666665,0,0,6.6666665,5383.8261,-3789.9184)"
          id="text10446"
@@ -5834,7 +5834,7 @@ K - strike out swinging
          y="0"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan285998">L4:B2-3</tspan></text></g><text
+           id="tspan23266">L4:B2-3</tspan></text></g><text
        xml:space="preserve"
        transform="matrix(6.6666665,0,0,6.6666665,3386.8691,-3927.787)"
        id="text10917"
@@ -5843,7 +5843,7 @@ K - strike out swinging
        y="0"><tspan
          x="-294.07422"
          y="625.24951"
-         id="tspan286000">L2:B1-3</tspan></text><path
+         id="tspan23268">L2:B1-3</tspan></text><path
        id="path10919"
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#ff00ff;stroke-width:2.51968;stroke-linecap:round;stroke-linejoin:bevel"
        d="m 4279.6848,5196.7243 h 180.9955 v -1.4322 a 143.0573,187.71886 0 0 0 91.1031,-40.5083 143.0573,187.71886 0 0 0 21.0467,-263.8826 143.0573,187.71886 0 0 0 -112.1498,-69.2714 v -0.3385 h -180.9955 z" /><path
@@ -5982,7 +5982,7 @@ K - strike out swinging
          inkscape:label="L1:B5-5 evidence"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan286002">L1:B5-5</tspan></text><g
+           id="tspan23270">L1:B5-5</tspan></text><g
          id="g11580"
          style="display:inline;fill-rule:evenodd;stroke-linecap:round"
          transform="translate(66.367312)"><g
@@ -7111,7 +7111,7 @@ K - strike out swinging
            y="0"><tspan
              x="-294.07422"
              y="625.24951"
-             id="tspan286004">L1:B4-5</tspan></text><path
+             id="tspan23272">L1:B4-5</tspan></text><path
            id="path11895"
            style="display:inline;fill:none;fill-rule:evenodd;stroke:#ff00ff;stroke-width:2.51968;stroke-linecap:round;stroke-linejoin:bevel"
            d="m 4279.6848,5196.7243 h 180.9955 v -1.4322 a 143.0573,187.71886 0 0 0 91.1031,-40.5083 143.0573,187.71886 0 0 0 21.0467,-263.8826 143.0573,187.71886 0 0 0 -112.1498,-69.2714 v -0.3385 h -180.9955 z"
@@ -7676,7 +7676,7 @@ K - strike out swinging
            y="0"><tspan
              x="-294.07422"
              y="625.24951"
-             id="tspan286006">L1:B2-5</tspan></text><text
+             id="tspan23274">L1:B2-5</tspan></text><text
            xml:space="preserve"
            transform="matrix(6.6666665,0,0,6.6666665,3386.8691,-3789.9184)"
            id="text12358"
@@ -7685,7 +7685,7 @@ K - strike out swinging
            y="0"><tspan
              x="-294.07422"
              y="625.24951"
-             id="tspan286008">L2:B2-3</tspan></text><text
+             id="tspan23276">L2:B2-3</tspan></text><text
            xml:space="preserve"
            transform="matrix(6.6666665,0,0,6.6666665,4421.8411,-3789.9184)"
            id="text12362"
@@ -7694,7 +7694,7 @@ K - strike out swinging
            y="0"><tspan
              x="-294.07422"
              y="625.24951"
-             id="tspan286010">L3:B2-4</tspan></text><text
+             id="tspan23278">L3:B2-4</tspan></text><text
            xml:space="preserve"
            transform="matrix(6.6666665,0,0,6.6666665,5383.8261,-3789.9184)"
            id="text12366"
@@ -7703,7 +7703,7 @@ K - strike out swinging
            y="0"><tspan
              x="-294.07422"
              y="625.24951"
-             id="tspan286012">L4:B2-3</tspan></text></g></g><g
+             id="tspan23280">L4:B2-3</tspan></text></g></g><g
        inkscape:groupmode="layer"
        id="g19409"
        inkscape:label="Print:P1-4 L1:B1-5 Front 1 - display objects copy"
@@ -12262,7 +12262,16 @@ K - strike out swinging
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:extra-condensed;font-size:71.1111px;font-family:'Noto Serif';-inkscape-font-specification:'Noto Serif, Bold Extra-Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:2.51969"
            x="1869.0544"
            y="2407.4609"
-           id="tspan134807" /></text></g></g><g
+           id="tspan134807" /></text><rect
+         style="display:inline;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:40;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
+         id="rect17757"
+         width="5720"
+         height="7639.9995"
+         x="19.999912"
+         y="20.000128"
+         inkscape:label="Bounding page size for tiling in collages"
+         sodipodi:insensitive="true"
+         transform="translate(-202.96055,-249.44509)" /></g></g><g
      inkscape:groupmode="layer"
      id="layer17"
      inkscape:label="L5:B1-2 L6:B1-1 Outside cuts and crops layers 5 and 6 (back)"
@@ -12306,7 +12315,7 @@ K - strike out swinging
            y="0"><tspan
              x="-294.07422"
              y="625.24951"
-             id="tspan286014">L5:B1-2</tspan></text><text
+             id="tspan23282">L5:B1-2</tspan></text><text
            xml:space="preserve"
            transform="matrix(6.6666665,0,0,6.6666665,6833.3138,-3913.3419)"
            id="text15739"
@@ -12315,7 +12324,7 @@ K - strike out swinging
            y="0"><tspan
              x="-294.07422"
              y="625.24951"
-             id="tspan286016">L6:B1-1</tspan></text></g><g
+             id="tspan23284">L6:B1-1</tspan></text></g><g
          id="g25979"
          style="display:inline;fill-rule:evenodd;stroke-linecap:round"><g
            id="g31105"
@@ -12422,7 +12431,7 @@ K - strike out swinging
          inkscape:label="L1:B2-6"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan286018">L1:B2-6</tspan></text><text
+           id="tspan23286">L1:B2-6</tspan></text><text
          xml:space="preserve"
          transform="matrix(6.6666665,0,0,6.6666665,3386.8691,-3789.9184)"
          id="text90315"
@@ -12432,7 +12441,7 @@ K - strike out swinging
          inkscape:label="L2:B2-4"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan286020">L2:B2-4</tspan></text><text
+           id="tspan23288">L2:B2-4</tspan></text><text
          xml:space="preserve"
          transform="matrix(6.6666665,0,0,6.6666665,4421.8411,-3789.9184)"
          id="text90351"
@@ -12442,7 +12451,7 @@ K - strike out swinging
          inkscape:label="L3:B2-5"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan286022">L3:B2-5</tspan></text><text
+           id="tspan23290">L3:B2-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(6.6666665,0,0,6.6666665,5383.8261,-3789.9184)"
          id="text90387"
@@ -12452,7 +12461,7 @@ K - strike out swinging
          inkscape:label="L4:B2-3"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan286024">L4:B2-3</tspan></text></g></g><g
+           id="tspan23292">L4:B2-3</tspan></text></g></g><g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="L5:B2-2 Back - objects"
@@ -12474,7 +12483,7 @@ K - strike out swinging
          y="0"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan286026">L5:B2-2</tspan></text></g></g><g
+           id="tspan23294">L5:B2-2</tspan></text></g></g><g
      inkscape:groupmode="layer"
      id="layer19"
      inkscape:label="L4:B1-3 Middle 4 objects"
@@ -12489,7 +12498,7 @@ K - strike out swinging
          y="0"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan286028">L4:B1-3</tspan></text><g
+           id="tspan23296">L4:B1-3</tspan></text><g
          id="g37028"
          transform="matrix(0.16106526,0,0,0.16106526,1247.6845,3432.5577)"
          style="font-stretch:extra-condensed;font-size:106.667px;line-height:120%;font-family:'Noto Serif';-inkscape-font-specification:'Noto Serif Extra-Condensed';letter-spacing:0px;word-spacing:0px;white-space:pre;fill-rule:evenodd;stroke-width:41.391px;stroke-linecap:butt">
@@ -16686,7 +16695,7 @@ K - strike out swinging
          inkscape:label="L3:B4-5 evidence"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan286030">L3:B4-5</tspan></text></g></g><g
+           id="tspan23298">L3:B4-5</tspan></text></g></g><g
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="L3:B1-4 Middle 3 - objects + version"
@@ -16977,7 +16986,7 @@ K - strike out swinging
          inkscape:label="L2:B1-4"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan286032">L2:B1-4</tspan></text><text
+           id="tspan23300">L2:B1-4</tspan></text><text
          xml:space="preserve"
          style="font-weight:bold;font-size:284.444px;line-height:120%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:none;stroke:#000000;stroke-width:6.66667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="5372.6084"
@@ -17146,7 +17155,7 @@ K - strike out swinging
          inkscape:label="L1:B6-6 evidence"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan286034">L1:B6-6</tspan></text><text
+           id="tspan23302">L1:B6-6</tspan></text><text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:88.8889px;line-height:110%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;letter-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:2.51969;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
          x="2890.5916"
@@ -18281,7 +18290,7 @@ K - strike out swinging
          inkscape:label="L3:B5-5 evidence"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan286036">L3:B5-5</tspan></text><text
+           id="tspan23304">L3:B5-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(6.6666665,0,0,6.6666665,3399.6384,-3691.4213)"
          id="text73833"
@@ -18291,7 +18300,7 @@ K - strike out swinging
          inkscape:label="L2:B4-4 evidence"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan286038">L2:B4-4</tspan></text><text
+           id="tspan23306">L2:B4-4</tspan></text><text
          xml:space="preserve"
          transform="matrix(6.6666665,0,0,6.6666665,2888.5487,-3803.6498)"
          id="text79318"
@@ -18301,7 +18310,7 @@ K - strike out swinging
          inkscape:label="L1:B5-6 evidence"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan286040">L1:B5-6</tspan></text></g></g><g
+           id="tspan23308">L1:B5-6</tspan></text></g></g><g
      inkscape:groupmode="layer"
      id="layer22"
      inkscape:label="L1:B4-6 Front 1 - objects and crops"
@@ -18317,7 +18326,7 @@ K - strike out swinging
          inkscape:label="L1:B4-6 evidence"><tspan
            x="-294.07422"
            y="625.24951"
-           id="tspan286042">L1:B4-6</tspan></text><text
+           id="tspan23310">L1:B4-6</tspan></text><text
          xml:space="preserve"
          style="font-weight:bold;font-size:284.444px;line-height:120%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6.66667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="5386.772"
