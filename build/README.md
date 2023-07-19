@@ -35,7 +35,10 @@ The "objects" individual files then are copied to the "burn" individual files, r
 
 The "burn" collage files then have the following modifications made before saving them as complete:
 
-- all objects are selected and using the menu item "Path/Object to Path" to convert the fonts to paths
+- rotate the top-most layer clockwise 90 degrees
+- use document properties and change the page size to the content
+- all objects are selected using the top-most and the menu item "Path/Object to Path" is used to convert the fonts to paths
+- all objects below the top-most layer are ungrouped until there are no more groups below the top-most layer
 - a single magenta cut line is selected using right-click/Select Same.../Stroke color which selects every cut line in the entire collage
 - the stroke width of all lines is changed with a single entry of .001in in the Fill and Stroke dialogue
 
@@ -49,7 +52,7 @@ Layers from the individual burn files are copied into the collage burn files:
 [`burn-46-9x24-collage-board-baseball-crane.svg`](burn-46-9x24-collage-board-baseball-crane.svg)  
 [`burn-22-9x24-collage-board-baseball-crane.svg`](burn-22-9x24-collage-board-baseball-crane.svg)  
 
-The PDF files created from the "burn" collage files are what are sent to the appropriate laser:
+The PDF files created from the "burn" collage files are what are sent to the appropriate laser; note that the printing of the SVG may unexpectedly rotate the image 180 degrees, needing tweaking in the PDF files:
 
 [`burn-1345-18x24-collage-board-baseball-crane.pdf`](burn-1345-18x24-collage-board-baseball-crane.pdf)  
 [`burn-1346-18x24-collage-board-baseball-crane.pdf`](burn-1346-18x24-collage-board-baseball-crane.pdf)  
