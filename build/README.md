@@ -1,6 +1,10 @@
 # Build resources directory
 
-There are five layers in a box, and one chooses between the available fifth and sixth layers as the back of the box. The sixth layer is the same as the fifth layer but without any visible decoration.
+These are the resources used to build a 3-dimensional box using a laser printer to cut multiple layers according to a PDF file for each layer.
+
+<img alt="" src="../shared/box1.jpg" height="300"/> <img alt="" src="../shared/box2.jpg" height="300"/> 
+
+There are five layers of 3/16" or 5mm material that are laminated together to create a box, and one chooses between the available fifth and sixth layers as the back of the box. The sixth layer is the same as the fifth layer but without any visible decoration.
 
 The test layer is positioned such that it can overlay layer 2. After burning the test layer, one can burn a layer 2 on the same piece of material. Thus, one could do a first test burn, adjust the settings and orient the surface positioning a different layer 2 at the home position and do a second test burn with the new parameters. Then layer 2 burns can overlay the test burns.
 
@@ -14,6 +18,11 @@ These are collages of layer images arranged tête-à-tête as follows:
 9"x24": <img alt="" src="../shared/13-collage.png" height="60"/>, <img alt="" src="../shared/45-collage.png" height="60"/>, <img alt="" src="../shared/22-collage.png" height="60"/>, and <img alt="" src="../shared/46-collage.png" height="60"/>
 
 Layers from the design files are copied into the individual objects files for organization purposes:
+
+- copy the large design file into the target objects file
+- delete all of the layers not belonging in the new file, leaving only the one
+- rotate the top-most layer clockwise 90 degrees
+- use document properties and change the page size to the content
 
 [`objects-1-9x12-collage-board-baseball-crane.svg`](objects-1-9x12-collage-board-baseball-crane.svg)  
 [`objects-2-9x12-collage-board-baseball-crane.svg`](objects-2-9x12-collage-board-baseball-crane.svg)  
@@ -35,8 +44,6 @@ The "objects" individual files then are copied to the "burn" individual files, r
 
 The "burn" collage files then have the following modifications made before saving them as complete:
 
-- rotate the top-most layer clockwise 90 degrees
-- use document properties and change the page size to the content
 - all objects are selected using the top-most and the menu item "Path/Object to Path" is used to convert the fonts to paths
 - all objects below the top-most layer are ungrouped until there are no more groups below the top-most layer
 - a single magenta cut line is selected using right-click/Select Same.../Stroke color which selects every cut line in the entire collage
@@ -61,3 +68,7 @@ The PDF files created from the "burn" collage files are what are sent to the app
 [`burn-45-9x24-collage-board-baseball-crane.pdf`](burn-45-9x24-collage-board-baseball-crane.pdf)  
 [`burn-46-9x24-collage-board-baseball-crane.pdf`](burn-46-9x24-collage-board-baseball-crane.pdf)  
 [`burn-22-9x24-collage-board-baseball-crane.pdf`](burn-22-9x24-collage-board-baseball-crane.pdf)  
+
+Below are some photographs of the burning, assembly, and construction processes:
+
+*(to be added)*
