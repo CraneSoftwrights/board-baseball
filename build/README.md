@@ -4,18 +4,28 @@ These are the resources used to build a 3-dimensional box using a laser printer 
 
 <img alt="" src="../shared/box1.jpg" height="300"/> <img alt="" src="../shared/box2.jpg" height="300"/> 
 
-There are five layers of 3/16" or 5mm material that are laminated together to create a box, and one chooses between the available fifth and sixth layers as the back of the box. The sixth layer is the same as the fifth layer but without any visible decoration.
+There are either five layers of 3/16"=5mm material or six layers of 1/8"=3mm material that are laminated together to create a box. The layers are numbered as if there are five layers being assembled. When six layers are being assembled then layer 2 is duplicated. One chooses between the available fifth and sixth layers as the back of the box. The sixth layer is the same as the fifth layer but without any visible decoration.
+
+Therefore, the assembly choices are for five layers: 1-2-3-4-5 or 1-2-3-4-6, and for six layers: 1-2-2-3-4-5 or 1-2-2-3-4-6.
+
+Layer 2 is special in that it has no visible printed or play content, only holes and chambers. This property permits you to use an alternative material for layer 2 than for the other layers. All of the other layers have at least some exposure to the players, and the burning is designed to work if the material has only one "good" side, so it is not necessary to purchase material that has two "good" sides.
 
 The test layer is positioned such that it can overlay layer 2. After burning the test layer, one can burn a layer 2 on the same piece of material. Thus, one could do a first test burn, adjust the settings and orient the surface positioning a different layer 2 at the home position and do a second test burn with the new parameters. Then layer 2 burns can overlay the test burns.
 
-These are the files used to burn in a laser cutter:
+These are the files used to burn in a laser cutter, tested in an Epilog Helix branded machine:
 
 9"x12": [<img alt="" src="../shared/1-collage.png" height="60"/>](burn-1-9x12-collage-board-baseball-crane.pdf), [<img alt="" src="../shared/2-collage.png" height="60"/>](burn-2-9x12-collage-board-baseball-crane.pdf), [<img alt="" src="../shared/3-collage.png" height="60"/>](burn-3-9x12-collage-board-baseball-crane.pdf), [<img alt="" src="../shared/4-collage.png" height="60"/>](burn-4-9x12-collage-board-baseball-crane.pdf), [<img alt="" src="../shared/5-collage.png" height="60"/>](burn-5-9x12-collage-board-baseball-crane.pdf), [<img alt="" src="../shared/6-collage.png" height="60"/>](burn-6-9x12-collage-board-baseball-crane.pdf), and [<img alt="" src="../shared/T-collage.png" height="60"/>](burn-T-9x12-collage-board-baseball-crane.pdf) 
 
 These are collages of layer images arranged tête-à-tête as follows:
 
-18"x24": [<img alt="" src="../shared/1345-collage.png" height="120"/>](burn-1345-18x24-collage-board-baseball-crane.pdf), [<img alt="" src="../shared/2222-collage.png" height="120"/>](burn-2222-18x24-collage-board-baseball-crane.pdf) and [<img alt="" src="../shared/1346-collage.png" height="120"/>](burn-1346-18x24-collage-board-baseball-crane.pdf)  
+18"x24": [<img alt="" src="../shared/1345-collage.png" height="120"/>](burn-1345-18x24-collage-board-baseball-crane.pdf), [<img alt="" src="../shared/2222-collage.png" height="120"/>](burn-2222-18x24-collage-board-baseball-crane.pdf), and [<img alt="" src="../shared/1346-collage.png" height="120"/>](burn-1346-18x24-collage-board-baseball-crane.pdf)  
 9"x24": [<img alt="" src="../shared/13-collage.png" height="60"/>](burn-13-9x24-collage-board-baseball-crane.pdf), [<img alt="" src="../shared/45-collage.png" height="60"/>](burn-45-9x24-collage-board-baseball-crane.pdf), [<img alt="" src="../shared/22-collage.png" height="60"/>](burn-22-9x24-collage-board-baseball-crane.pdf), and [<img alt="" src="../shared/46-collage.png" height="60"/>](burn-46-9x24-collage-board-baseball-crane.pdf)
+
+A number of convenience cutting files (without any text) are available should you wish to carve up pieces of material with simple cuts:
+
+18"x24": [<img alt="" src="../shared/9x12-from-18x24.png" height="120"/>](cut-9x12-from-18x24.pdf), [<img alt="" src="../shared/9x24-from-18x24.png" height="120"/>](cut-9x24-from-18x24.pdf), and [<img alt="" src="../shared/18x12-from-18x24.png" height="120"/>](cut-18x12-from-18x24.pdf)  
+18"x12": [<img alt="" src="../shared/9x12-from-18x12.png" height="120"/>](cut-9x12-from-18x12.pdf)
+9"x24": [<img alt="" src="../shared/9x12-from-9x24.png" height="60"/>](cut-9x12-from-9x24.pdf)
 
 Layers from the design files are copied into the individual objects files for organization purposes:
 
@@ -75,6 +85,14 @@ The PDF files created from the "burn" collage files are what are sent to the app
 [`burn-5-9x12-collage-board-baseball-crane.pdf`](burn-5-9x12-collage-board-baseball-crane.pdf)  
 [`burn-6-9x12-collage-board-baseball-crane.pdf`](burn-6-9x12-collage-board-baseball-crane.pdf)  
 [`burn-T-9x12-collage-board-baseball-crane.pdf`](burn-T-9x12-collage-board-baseball-crane.pdf)  
+
+The PDF files created from the cutting SVG files are as follows:
+
+[`cut-9x12-from-18x24.pdf`](cut-9x12-from-18x24.pdf)  
+[`cut-9x24-from-18x24.pdf`](cut-9x24-from-18x24.pdf)  
+[`cut-18x12-from-18x24.pdf`](cut-18x12-from-18x24.pdf)  
+[`cut-9x12-from-18x12.pdf`](cut-9x12-from-18x12.pdf)  
+[`cut-9x12-from-9x24.pdf`](cut-9x12-from-9x24.pdf)  
 
 Below are some photographs of the burning, assembly, and construction processes:
 
