@@ -123,6 +123,5 @@ The PDF files created from the cutting SVG files are as follows:
 
 ## Assembly
 
-Below are some photographs of the burning, assembly, and construction processes:
+Our second test build is documented [here: `test-20230728.md`](test-20230728.md).
 
-*(to be added)*
