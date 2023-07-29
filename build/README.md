@@ -36,6 +36,10 @@ In addition to the board material being cut and assembled, the following items a
 - 1/4" bolt, nut, and two wide washers for alignment holes during board gluing
   - 6-count: two for the board, two for the compartment lid, two for the play panel
 
+### Important safety note
+
+Remember that the magnets are small and dangerous for children should they become loose, much like the small dice and cribbage pegs only moreso.
+
 ## Burn files
 
 These are the files used to burn in a laser cutter, tested in an Epilog Helix branded machine:
