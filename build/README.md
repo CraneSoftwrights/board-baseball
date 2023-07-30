@@ -4,11 +4,18 @@ These are the resources used to build a 3-dimensional box using a laser printer 
 
 <img alt="" src="../shared/box1.jpg" height="300"/> <img alt="" src="../shared/box2.jpg" height="300"/> 
 
+# Terminology
+
+| :--- | ---- |
+| <img alt="" src="../shared/terminology.png" height="260"/> | A = alignment hole<br/><br/>B = panel trench<br/><br/>C = panel<br/><br/>D = panel cavity<br/><br/>E = compartment<br/><br/>F = compartment lid<br/><br/>G = board |
+
 ## Board layers
 
-There are either five layers of 3/16"=5mm material or six layers of 1/8"=3mm material that are laminated together to create a box. The layers are numbered as if there are five layers being assembled. When six layers are being assembled then layer 2 is duplicated. One chooses between the available fifth and sixth layers as the back of the box. The sixth layer is the same as the fifth layer but without any visible decoration.
+There are either five layers of 3/16"=5mm material or six layers of 1/8"=3mm material that are laminated together to create a box. In our tests the six layers of thinner material has worked better and the materials are cheaper.
 
-Therefore, the assembly choices are for five layers: 1-2-3-4-5 or 1-2-3-4-6, and for six layers: 1-2-2-3-4-5 or 1-2-2-3-4-6.
+The layers are numbered to be distinguished from each other.
+
+The assembly choices are for five layers: 1-2-3-4-5 or 1-2-3-4-6, and for six layers: 1-2-2-3-4-5 or 1-2-2-3-4-6.
 
 Layer 2 is special in that it has no visible printed or play content, only holes and chambers. This property permits you to use an alternative material for layer 2 than for the other layers. All of the other layers have at least some exposure to the players, and the burning is designed to work if the material has only one "good" side, so it is not necessary to purchase material that has two "good" sides.
 
