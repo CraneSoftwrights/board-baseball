@@ -4,7 +4,7 @@ These are the resources used to build a 3-dimensional box using a laser printer 
 
 <img alt="" src="../shared/box1.jpg" height="300"/> <img alt="" src="../shared/box2.jpg" height="300"/> 
 
-# Terminology
+## Terminology
 
 | Key | Legend |
 | ---- | ---- |  
