@@ -107,9 +107,13 @@ Use the play board with this marking between the columns: <img src="../shared/x-
 - when there are base runners or the game is being scored, the batter rolls three dice (two dice of one colour for the batter and one die of a different colour for the base runners) to determine as above how the pitch is put in play and the impact of the play on the runners, thus guiding how the play is scored
 
 
+## Design process
+
+See the [design resources](../design/README.md) for information regarding the design files and the initial steps in creating a release of files.
+
 ## Physical box assembly
 
-See the [building instructions](../build/#readme) for a collection of image files for laser engraving/cutting. The assumption is a line of size .001mm is a cut request.
+See the [building instructions](../build/README.md) for a collection of image files for laser engraving/cutting. The assumption is a line of size .001mm is a cut request.
 
 The image files are 250mm x 270mm each and, after cutting, the layers can be aligned for laminating by using the two 3/16" holes outside of the playing area. The alignment guides can be shaved off when the laminating is completed.
 

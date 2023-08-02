@@ -1,4 +1,4 @@
-# Design resources directory
+# Design resources
 
 Here are the SVG design files. Following the release instructions below, layers of SVG from these files are copied into the collage files in the [`../build`](../build#readme) directory as objects to be manipulated there for burning. The design files always retain their contents as objects.
 
@@ -50,7 +50,9 @@ For each level:
 
 Take the time to review all of the levels' combined layers. More than once! Consider reviewing all of the tickets checked in against the results.
 
-Ensure the `design-board-baseball-crane.svg` file is saved and a copy committed to git.
+Hide all of the layers.
+
+**IMPORTANT** Ensure the `design-board-baseball-crane.svg` file is saved and a copy committed to git. At this point, any inadvertent changes to the SVG file can be ignored and the committed copy restored for future use.
 
 ### Create the PNG and PDF results
 
@@ -66,8 +68,12 @@ PDF files used for play when printing the boards
 - print to [`shared/extended-print-board-baseball-crane.pdf`](../shared/extended-print-board-baseball-crane.pdf)
 - undo all actions until page size restored and all layers hidden
 
-### Create the individual level SVG files for making the burn files
+### Create the individual level SVG files and burn files
 
-Hide all of the layers.
+Close the `design-board-baseball-crane.svg` file to prevent it from being disturbed. And if it does get disturbed, one can replace it from the last copy committed to git.
 
-Close the `design-board-baseball-crane.svg` file to prevent it from being disturbed.
+In the [`../build`](../build) directory, delete all of the `objects-*` and `burn-*` files in preparation for recreating them from scratch. If they are not deleted, one might overlook updating one of them.
+
+Follow the instructions in [`../build/README.md`](../build/README.md) regarding creating the individual SVG and burn file collages.
+
+
