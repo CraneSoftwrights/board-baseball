@@ -1,6 +1,6 @@
 # Design resources
 
-Here are the SVG design files. Following the release instructions below, layers of SVG from these files are copied into the collage files in the [`../build`](../build#readme) directory as objects to be manipulated there for burning. The design files always retain their contents as objects.
+Here are the SVG design files. Following the release instructions below, layers of SVG from these files are copied into the collage files in the [`../build`](../build/README.md) directory as objects to be manipulated there for burning. The design files always retain their contents as objects.
 
 ## Fonts
 
@@ -18,9 +18,9 @@ The [Inkscape](https://inkscape.org) application helps to manage layers of conte
 - 2 layers of scratch-pad work areas, unorganized
 
 The format of the way a detail layer is labeled is: `L#:B#-#` representing:
-- `L`1-`B`{total layers of burns for the level}
+- `L#`{level of the physical board}`:B1-#`{count of layers of burns for the level}
    - main objects layer for the given level
-- `L`{level of the physical board}:`B`{index layer of burns for the level}
+- `L#`{level of the physical board}:`B#`{index of layer of burns for the level}
    - supplemental layer for the level
    - layer 2 has the outside cuts and the alignment holes
    - layer 3 has the peg holes
@@ -43,10 +43,11 @@ For each level:
 
 - select all of the layers for the given level
 - duplicate the layers using the keyboard shortcut (this will put all of the duplicates at the top of the list of layers and without the word "copy" at the end of the layer title ... which happens when other duplication methods are used)
-- select all of the layer copies found at the top and group them
+- select all of the layer copies found at the top of the list of layers
+- group the copy of all layers for the level
 - unhide all of the layers in the new group
-- drag the new group into the combined layers layer
-- collapse all of the expanded layers to make next manipulatoin easier
+- drag the new group into the combined layers' layer
+- collapse all of the expanded layers to make next manipulation easier
 
 Take the time to review all of the levels' combined layers. More than once! Consider reviewing all of the tickets checked in against the results.
 

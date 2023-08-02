@@ -10,7 +10,7 @@ These are the resources used to build a 3-dimensional box using a laser printer 
 | ---- | ---- |  
 | <img alt="" src="../shared/terminology.png" height="300"/> | A = alignment hole<br/><br/>B = panel trench<br/><br/>C = panel<br/><br/>D = panel cradle<br/><br/>E = compartment<br/><br/>F = compartment lid<br/><br/>G = board |  
 
-## Board layers and laminating steps
+## Board layers
 
 The design is optimized for six layers of 1/8"=3mm material that are laminated together to create a box 3/4"=19mm tall. Alternatively, one can use 3/16"=5mm material, but of course this would make the box 3/8" taller at 9/8"=29mm. This is mentioned because quality 1/8"=3mm material may be hard to find.
 
@@ -18,9 +18,7 @@ The layers are numbered to be distinguished from each other. At this time there 
 
 Layers 2 and 5 are special in that they have no visible printed or play content, only holes and chambers. This property permits you to use an alternative material for layers 2 and 5 than for the other layers. All of the other layers have at least some exposure to the players, and the burning is designed to work if the material has only one "good" side, so it is not necessary to purchase material that has two "good" sides.
 
-The test layer is positioned such that it can overlay layer 2. After burning the test layer, one can burn a layer 2 on the same piece of material. Thus, one could do a first test burn, adjust the settings and orient the surface positioning a different layer 2 at the home position and do a second test burn with the new parameters. Then layer 2 burns can overlay the test burns.
-
-
+The test layer is positioned such that it can overlay layer 2. After burning the test layer, one can burn a layer 2 on the flip side of the same piece of material. Thus, one could do a first test burn, adjust the settings and orient the surface positioning a different layer 2 at the home position and do a second test burn with the new parameters. Then layer 2 burns can overlay the test burns.
 
 ## Materials list
 
@@ -40,13 +38,12 @@ In addition to the board material being cut and assembled, the following items a
   - extended play - 22-count optionally in up to three colours (see [Extended setup](../shared/X-SETUP.md))
   - e.g. [`https://www.amazon.ca/dp/B08B41LNS4`](https://www.amazon.ca/dp/B08B41LNS4)
 - 12mm x 3mm earth magnets
-  - 14-count for a 5-layer board
-  - 18-count for a 6-layer board
+  - 18- or 20-count (see laminating steps)
   - e.g. [`https://www.amazon.ca/dp/B09XJ4SS23`](https://www.amazon.ca/dp/B09XJ4SS23)
-- 12mm outside diameter washers 1/16" thick as filler to bring the 1/8" magnets flush with the surface of the 3/16" material
-  - 8-count
 - 1/4" bolt, nut, and two wide washers for alignment holes during board gluing
   - 6-count: two for the board, two for the compartment lid, two for the play panel
+- when using 3/16"=5mm thick material, one needs 12mm outside diameter washers 1/16" thick as filler to bring the 1/8" magnets flush with the surface of the material
+  - 8-count
 
 ### Important safety note
 
@@ -57,6 +54,51 @@ Remember that the magnets are small and dangerous for children should they becom
 It isn't important to know which side of the earth magnets is positive and which is negative, so long as you are consistent in making the interpretation the same for every magnet you are using. One helpful tip is to "label" your choice of positive for each magnet with a small piece of masking tape. Once all the magnets are in position for a given layer, the tape can be removed before binding on the next layer.
 
 Each magnet hole has next to it an indication of which polarity is "up" when the material is placed flat on the table. Note that after laminating layer 2 onto layer 3 and all that is left is to laminate layer 1, there are four vertically-mounted magnets near the top of the box. Each is annotated with the polarity direction for dropping in the magnet.
+
+## Laminating steps
+
+### Main board
+
+Put the back level face down and add two 1/4" bolts pointing up through the two alignment holes (using a washer to protect the face of the back).
+
+Add adhesive to the back of level 5 and place it face up on the back level by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+
+Place six or eight magnets in the holes with the indicated polarity facing up. The two marked with a question mark are optional if your material is heavy and you think more anchoring is necessary. Certainly having them there doesn't hurt.
+
+Add adhesive to the back of level 4 and place it face up on level 5 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+
+Add adhesive to the back of level 3 and place it face up on level 4 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+
+Add adhesive to the back of level 2 and place it face up on level 3 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+
+Place the vertically-oriented magnets in the assembled slots above the panel cradle, careful to get the polarity correct as indicated. 
+Add adhesive to the back of level 1 and place it face up on level 2 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+
+Add a washer and nut to each of the alignment bolts and tighten loosely. Use weight or other clamps to assist in the bonding.
+
+### Panel
+
+Put the level 3 panel face down and add two 1/4" bolts pointing up through the two alignment holes (using a washer to protect the face of the back).
+
+Add adhesive to the back of level 2 and place it face up on level 3 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+
+Place six magnets in the holes with the indicated polarity facing up. There are no optional magnets on this level.
+
+Add adhesive to the back of level 1 and place it face up on level 2 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+
+Add a washer and nut to each of the alignment bolts and tighten loosely. Use weight or other clamps to assist in the bonding. 
+
+### Compartment lid
+
+Put the level 3 panel face down and add two 1/4" bolts pointing up through the two alignment holes (using a washer to protect the face of the back).
+
+Add adhesive to the back of level 2 and place it face up on level 3 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+
+Place two magnets in the holes with the indicated polarity facing up. There are no optional magnets on this level.
+
+Add adhesive to the back of level 1 and place it face up on level 2 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+
+Add a washer and nut to each of the alignment bolts and tighten loosely. Use weight or other clamps to assist in the bonding.
 
 ## Burn files
 
