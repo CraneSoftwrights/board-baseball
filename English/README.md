@@ -38,7 +38,7 @@ Should the score be tied at the end of the extra inning, another extra inning is
 
 ## Basic-mode play 
 
-Use the play board with this marking between the columns: <img src="../shared/z-batting.png" height="30px"/>, available for print in the PDF file: [`basic-print-board-baseball-crane.pdf`](../print/basic-print-board-baseball-crane.pdf)
+Use the play board with this marking between the columns: <img src="../shared/z-batting.png" height="30px"/>, available for print in the PDF file: [`basic-print-board-baseball-crane.pdf`](../shared/basic-print-board-baseball-crane.pdf) (200mm x 256mm at 100% scale; suitable for both A4 and US-letter page sizes)
 
 [<img src="../shared/step-1.png" height="30px"/>](../shared/Z-SETUP.md)
 
@@ -68,7 +68,7 @@ Use the play board with this marking between the columns: <img src="../shared/z-
 
 ## Extended-mode play 
 
-Use the play board with this marking between the columns: <img src="../shared/x-pitching.png" height="30px"/>, available for print in the PDF file: [`extended-print-board-baseball-crane.pdf`](../print/extended-print-board-baseball-crane.pdf)
+Use the play board with this marking between the columns: <img src="../shared/x-pitching.png" height="30px"/>, available for print in the PDF file: [`extended-print-board-baseball-crane.pdf`](../shared/extended-print-board-baseball-crane.pdf) (200mm x 256mm at 100% scale; suitable for both A4 and US-letter page sizes)
 
 [<img src="../shared/step-1.png" height="30px"/>](../shared/X-SETUP.md)
 

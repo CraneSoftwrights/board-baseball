@@ -33,9 +33,11 @@ In the course of work on any given layer, the SVG objects end up becoming ungrou
 
 Walk through each of the layers, introducing a top-level group that groups everything in that layer. That way, selecting the layer opens up only a single object and not many objects, thus making navigation of the layers more manageable.
 
-### Assembling levels
+### Assembling levels into combined layers
 
-First remove any existing top-level group for each of level.
+Update the version strings (two), one for print and the other for burning.
+
+Remove any existing top-level group for the combined layers for each of the levels
 
 For each level:
 
@@ -46,4 +48,26 @@ For each level:
 - drag the new group into the combined layers layer
 - collapse all of the expanded layers to make next manipulatoin easier
 
- 
+Take the time to review all of the levels' combined layers. More than once! Consider reviewing all of the tickets checked in against the results.
+
+Ensure the `design-board-baseball-crane.svg` file is saved and a copy committed to git.
+
+### Create the PNG and PDF results
+
+PNG used in the [`README.md`](../README.md)
+- un-hide the print layers using the combined panel
+- export the contents using the "Document" tab (not the "Page" tab) to [`shared/board.png`](../shared/board.png)
+
+PDF files used for play when printing the boards
+- un-hide the print layers using the basic panel
+- in the Document Properties dialogue, "Resize to content"
+- print to [`shared/basic-print-board-baseball-crane.pdf`](../shared/basic-print-board-baseball-crane.pdf)
+- hide the basic panel and un-hide the extended panel
+- print to [`shared/extended-print-board-baseball-crane.pdf`](../shared/extended-print-board-baseball-crane.pdf)
+- undo all actions until page size restored and all layers hidden
+
+### Create the individual level SVG files for making the burn files
+
+Hide all of the layers.
+
+Close the `design-board-baseball-crane.svg` file to prevent it from being disturbed.
