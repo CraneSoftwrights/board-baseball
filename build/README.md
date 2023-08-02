@@ -40,10 +40,10 @@ In addition to the board material being cut and assembled, the following items a
 - 12mm x 3mm earth magnets
   - 18- or 20-count (see laminating steps)
   - e.g. [`https://www.amazon.ca/dp/B09XJ4SS23`](https://www.amazon.ca/dp/B09XJ4SS23)
-- 12mm outside diameter washers 1/16" thick as filler to bring the 1/8" magnets flush with the surface of the 3/16" material
-  - 8-count
 - 1/4" bolt, nut, and two wide washers for alignment holes during board gluing
   - 6-count: two for the board, two for the compartment lid, two for the play panel
+- when using 3/16"=5mm thick material, one needs 12mm outside diameter washers 1/16" thick as filler to bring the 1/8" magnets flush with the surface of the material
+  - 8-count
 
 ### Important safety note
 
