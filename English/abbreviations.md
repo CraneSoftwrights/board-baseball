@@ -36,6 +36,7 @@ CS - caught stealing
 D ═ - double  
 DP - double play  
 E# - error  
+F - foul ball (strike 1 or strike 2)  
 F# - fly out  
 FC - fielder's choice  
 FO - force out  
@@ -48,10 +49,12 @@ K - strike out swinging
 ꓘ - strike out looking  
 L# - line drive out  
 LF - left fielder  
+LOB - left on base  
 P - pitcher  
 P# - pop out  
 PB - passed ball  
 PK - picked off  
+PH - pinch hit  
 R - run  
 RBI - run batted in  
 RF - right fielder  
