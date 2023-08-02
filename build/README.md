@@ -74,7 +74,7 @@ Add adhesive to the back of level 2 and place it face up on level 3 by putting t
 Place the vertically-oriented magnets in the assembled slots above the panel cradle, careful to get the polarity correct as indicated. 
 Add adhesive to the back of level 1 and place it face up on level 2 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
 
-Add a washer and nut to each of the alignment bolts and tighten loosely. Use weight or other clamps 
+Add a washer and nut to each of the alignment bolts and tighten loosely. Use weight or other clamps to assist in the bonding.
 
 ### Panel
 
@@ -86,7 +86,7 @@ Place six magnets in the holes with the indicated polarity facing up. There are 
 
 Add adhesive to the back of level 1 and place it face up on level 2 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
 
-Add a washer and nut to each of the alignment bolts and tighten loosely. Use weight or other clamps 
+Add a washer and nut to each of the alignment bolts and tighten loosely. Use weight or other clamps to assist in the bonding. 
 
 ### Compartment lid
 
@@ -98,7 +98,7 @@ Place two magnets in the holes with the indicated polarity facing up. There are 
 
 Add adhesive to the back of level 1 and place it face up on level 2 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
 
-Add a washer and nut to each of the alignment bolts and tighten loosely. Use weight or other clamps 
+Add a washer and nut to each of the alignment bolts and tighten loosely. Use weight or other clamps to assist in the bonding.
 
 ## Burn files
 
