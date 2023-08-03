@@ -30,7 +30,7 @@ The [Inkscape](https://inkscape.org) application helps to manage layers of conte
 The format of the way a detail layer is labeled is: `L#:B#-#` representing:
 - `L#`{level of the physical board}`:B1-#`{count of layers of burns for the level}
    - main objects layer for the given level
-- `L#`{level of the physical board}:`B#`{index of layer of burns for the level}
+- `L#`{level of the physical board}`:B#`{index of layer of burns for the level}
    - supplemental layer for the level
    - layer 2 has the outside cuts and the alignment holes
    - layer 3 has the peg holes
