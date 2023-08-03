@@ -1,6 +1,6 @@
 # Design resources
 
-Here are the SVG design files. Following the release instructions below, layers of SVG from these files are copied into the collage files in the [`../build`](../build/README.md) directory as objects to be manipulated there for burning. The design files always retain their contents as objects.
+This is information regarding the SVG design files, what is needed for them, how they are expected to be used, and how to tidy them up in preparation for creating the [`../build`](../build/README.md) directory files and release.
 
 ## Fonts
 
@@ -8,7 +8,17 @@ These design files use the "Noto Serif" and "Noto Sans" available for free from 
 
 ## Release notes
 
-These are the steps undertaken to make a final release. They are documented to help the developers remember to do everything, since there are many steps that need to be followed.
+These are the steps undertaken to make a final release, from initiation to final assembly. They are documented to help the developers remember to do everything, since there are many steps that need to be followed.
+
+### Initiating new SVG work after releasing to QA for testing
+
+The process of a release creates a number of build files in the [`../build`](../build) directory that reflect the content of the SVG file.
+
+Thus, as soon as the SVG file is touched, the build files no longer are guaranteed to reflect what is in the SVG.
+
+When starting new work after a snapshot has been moved to QA for testing, be sure to keep the `cut-*.*` files in the [`../build`](../build directory) and delete all of the `objects-*.*` and `burn-*.*` files. This way anyone visiting the site will find files only in the QA branch.
+
+Also, the version number in the SVG file needs to be changed early in two different layers (one for print and one for burn) so there is no confusion regarding the SVG file not reflecting the published files.
 
 ### SVG layers for the physical levels
 
