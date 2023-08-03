@@ -57,48 +57,57 @@ Each magnet hole has next to it an indication of which polarity is "up" when the
 
 ## Laminating steps
 
+The laminating instructions for each component of the board are the same and are detailed here for ease of tracking.
+
 ### Main board
 
-Put the back level face down and add two 1/4" bolts pointing up through the two alignment holes (using a washer to protect the face of the back).
+1. Put masking tape on back of level 1 in the compartment area. Using level 2 as a guide, trace that portion of the masking tape that is not in contact with level 2. Cut away that portion of the masking tape on level 1 that is in contact with level 2.
 
-Add adhesive to the back of level 5 and place it face up on the back level by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+1. Put the back level face down and add two 1/4" bolts pointing up through the two alignment holes (using a washer to protect the face of the back).
 
-Place six or eight magnets in the holes with the indicated polarity facing up. The two marked with a question mark are optional if your material is heavy and you think more anchoring is necessary. Certainly having them there doesn't hurt.
+1. Add adhesive to the back of level 5 and place it face up on the back level by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
 
-Add adhesive to the back of level 4 and place it face up on level 5 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+1. Place six or eight magnets in the holes with the indicated polarity facing up. The two marked with a question mark are optional if your material is heavy and you think more anchoring is necessary. Certainly having them there doesn't hurt.
 
-Add adhesive to the back of level 3 and place it face up on level 4 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+1. Add adhesive to the back of level 4 and place it face up on level 5 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
 
-Add adhesive to the back of level 2 and place it face up on level 3 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+1. Add adhesive to the back of level 3 and place it face up on level 4 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
 
-Place the vertically-oriented magnets in the assembled slots above the panel cradle, careful to get the polarity correct as indicated. 
-Add adhesive to the back of level 1 and place it face up on level 2 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+1. Add adhesive to the back of level 2 and place it face up on level 3 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
 
-Add a washer and nut to each of the alignment bolts and tighten loosely. Use weight or other clamps to assist in the bonding.
+1. Place the vertically-oriented magnets in the assembled slots above the panel cradle, careful to get the polarity correct as indicated.
+
+1. Add adhesive to the back of level 1, remove the masking tape from the compartment area, and place level 1 face up on level 2 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+
+1. Add a washer and nut to each of the alignment bolts and tighten loosely. Use weight or other clamps to assist in the bonding.
 
 ### Panel
 
-Put the level 3 panel face down and add two 1/4" bolts pointing up through the two alignment holes (using a washer to protect the face of the back).
+1. Put masking tape on back of level 1 along the bottom of the panel. Using level 2 as a guide, trace that portion of the masking tape that is not in contact with level 2. Cut away that portion of the masking tape on level 1 that is in contact with level 2.
 
-Add adhesive to the back of level 2 and place it face up on level 3 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+1. Put the level 3 panel face down and add two 1/4" bolts pointing up through the two alignment holes (using a washer to protect the face of the back).
 
-Place six magnets in the holes with the indicated polarity facing up. There are no optional magnets on this level.
+1. Add adhesive to the back of level 2 and place it face up on level 3 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
 
-Add adhesive to the back of level 1 and place it face up on level 2 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+1. Place six magnets in the holes with the indicated polarity facing up. There are no optional magnets on this level.
 
-Add a washer and nut to each of the alignment bolts and tighten loosely. Use weight or other clamps to assist in the bonding. 
+1. Add adhesive to the back of level 1, remove the masking tape from the panel, and place level 1 face up on level 2 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+
+1. Add a washer and nut to each of the alignment bolts and tighten loosely. Use weight or other clamps to assist in the bonding. 
 
 ### Compartment lid
 
-Put the level 3 panel face down and add two 1/4" bolts pointing up through the two alignment holes (using a washer to protect the face of the back).
+1. Put masking tape on back of level 1. Using level 2 as a guide, trace that portion of the masking tape that is not in contact with level 2. Cut away that portion of the masking tape on level 1 that is in contact with level 2.
 
-Add adhesive to the back of level 2 and place it face up on level 3 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+1. Put the level 3 panel face down and add two 1/4" bolts pointing up through the two alignment holes (using a washer to protect the face of the back).
 
-Place two magnets in the holes with the indicated polarity facing up. There are no optional magnets on this level.
+1. Add adhesive to the back of level 2 and place it face up on level 3 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
 
-Add adhesive to the back of level 1 and place it face up on level 2 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+1. Place two magnets in the holes with the indicated polarity facing up. There are no optional magnets on this level.
 
-Add a washer and nut to each of the alignment bolts and tighten loosely. Use weight or other clamps to assist in the bonding.
+1. Add adhesive to the back of level 1, remove the masking tape from the compartment lid, and place level 1 face up on level 2 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+
+1. Add a washer and nut to each of the alignment bolts and tighten loosely. Use weight or other clamps to assist in the bonding.
 
 ## Burn files
 
