@@ -6,9 +6,9 @@ These are the resources used to build a 3-dimensional box using a laser printer 
 
 ## Terminology
 
-| Key | Legend |
+| Legend | Key |
 | ---- | ---- |  
-| <img alt="" src="../shared/terminology.png" height="300"/> | A = alignment hole<br/><br/>B = panel trench<br/><br/>C = panel<br/><br/>D = panel cradle<br/><br/>E = compartment<br/><br/>F = compartment lid<br/><br/>G = board |  
+| **A** = alignment hole<br/><br/>**B** = panel trench<br/><br/>**C** = panel<br/><br/>**D** = panel cradle<br/><br/>**E** = compartment<br/><br/>**F** = compartment lid<br/><br/>**G** = main board | <img alt="" src="../shared/terminology.png" height="300"/> |  
 
 ## Board layers
 

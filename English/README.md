@@ -77,16 +77,30 @@ Use the play board with this marking between the columns: <img src="../shared/x-
 <img src="../shared/step-2.png" height="30px"/>
 
 - the team associated with the top or bottom of the inning goes up to bat
-- the batter's strike zone is an imaginary area above home plate in the horizontal and extending in the vertical from the batter's knees up to the mid-point between the top of the batter's pants and the batter's shoulders 
-- a ball is a pitch thrown outside of the batter's strike zone when the batter does not "offer" at the pitch by swinging
-- a strike is a pitch thrown inside of the batter's strike zone or any pitch at which the batter offers by swinging
-- the batter making contact with the pitch but resulting in the ball being outside of the third-base line and the first-base line makes for a "foul ball"
-- the tally of runs and hits is recorded for the batter and always is reported in the order of number of balls before the number of strikes
-- the pitcher rolls one die (of a colour different from the dice used by the batter) to determine which pitch is thrown
-- four balls <img src="../shared/pd2.png" height="35px"/> moves the batter to first base, which, if occupied, moves the first-base runner to second base, which, if occupied, moves the second-base runner to third base, which, if occupied, moves the third-base runner to home for a score
-- a foul ball <img src="../shared/pd5.png" height="35px"/> counts as a strike only when there are fewer than two strikes against the batter, otherwise there is no change in the tally of balls and strikes
-- a swinging third strike <img src="../shared/pd1.png" height="35px"/> or a looking third strike <img src="../shared/pd3.png" height="35px"/> is an out for the batter and the out is recorded for the team's inning
-- the batter making contact with the pitch with <img src="../shared/pd4.png" height="35px"/> or <img src="../shared/pd6.png" height="35px"/> puts the ball "in play" in between the third-base line and the first-base line
+- first some definitions
+  - the batter's strike zone is an imaginary area above home plate in the horizontal and extending in the vertical from the batter's knees up to the mid-point between the top of the batter's pants and the batter's shoulders 
+  - a ball is a pitch thrown outside of the batter's strike zone when the batter does not "offer" at the pitch by swinging
+  - a strike is a pitch thrown inside of the batter's strike zone or any pitch at which the batter offers by swinging
+  - the batter making contact with the pitch but resulting in the ball being outside of the third-base line and the first-base line makes for a "foul ball"
+- the tally of runs and hits is recorded for the batter and always is reported in the order of number of balls before the number of strikes (e.g. a count of "3 and 2" means "3 balls and two strikes")
+- the pitching team rolls one die (of a colour different from the dice used by the batter) to determine which pitch is thrown by the pitcher
+- three of the pitches result in no contact with the bat:
+  - four balls <img src="../shared/pd2.png" height="35px"/> makes a walk and moves the batter to first base, which, if occupied, moves the first-base runner to second base, which, if occupied, moves the second-base runner to third base, which, if occupied, moves the third-base runner to home for a run
+  - a swinging third strike <img src="../shared/pd1.png" height="35px"/> or a looking third strike <img src="../shared/pd3.png" height="35px"/> is an out for the batter and the out is recorded for the team's inning
+  - when the pitched ball has no contact with the bat, and the result is not a walk, the <img src="../shared/stealing-option.png" height="15px"/> in the icon indicates that the batting team has the option of a base runner attempting to steal an open base depending on the outcome of throwing the runner's die
+    - IMPORTANT: this is not a mandatory move and it is up to the batting team to choose to attempt to steal a base
+    - when there is a base runner on first base and the second base is unoccupied:
+      - throwing a <img src="../shared/d1.png" height="22px"/> or <img src="../shared/d2.png" height="22px"/> indicates that the runner was caught stealing and the runner is called out and leaves the pitch
+      - throwing a <img src="../shared/d3.png" height="22px"/>, <img src="../shared/d4.png" height="22px"/>, <img src="../shared/d5.png" height="22px"/>, or <img src="../shared/d6.png" height="22px"/> indicates that the runner successfully stole second base and an out is not recorded
+    - when there is a base runner on second base and the third base is unoccupied:
+      - throwing a <img src="../shared/d1.png" height="22px"/> indicates that the runner was caught stealing and the runner is called out and leaves the pitch
+      - throwing a <img src="../shared/d2.png" height="22px"/>, <img src="../shared/d3.png" height="22px"/>, <img src="../shared/d4.png" height="22px"/>, <img src="../shared/d5.png" height="22px"/>, or <img src="../shared/d6.png" height="22px"/> indicates that the runner successfully stole third base and an out is not recorded
+    - for some insight into the above choices, [ChatGPT was consulted](https://chat.openai.com/share/28530b4e-933a-408e-b516-6e1b7bbb4fcf) regarding past performance in Major League Baseball
+- three of the pitches result in contact with the bat:
+  - a foul ball <img src="../shared/pd5.png" height="35px"/> counts as a strike only when there are fewer than two strikes against the batter, otherwise there is no change in the tally of balls and strikes for the batter but it is counted as a strike on record for the pitcher
+  - the batter making contact with the pitch with <img src="../shared/pd4.png" height="35px"/> or <img src="../shared/pd6.png" height="35px"/> puts the ball "in play" in between the third-base line and the first-base line
+    - this is not counted as a strike against the batter, but it is counted as a strike on record for the pitcher
+  - a base runner is not allowed to attempt to steal a base when the pitched ball is in contact with the bat
 
 <img src="../shared/step-3.png" height="30px"/>
 

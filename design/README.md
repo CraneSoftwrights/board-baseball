@@ -2,13 +2,7 @@
 
 This is information regarding the SVG design files, what is needed for them, how they are expected to be used, and how to tidy them up in preparation for creating the [`../build`](../build/README.md) directory files and release.
 
-## Fonts
-
-These design files use the "Noto Serif" and "Noto Sans" available for free from the [`https://fonts.google.com/noto`](https://fonts.google.com/noto) site. The compressed and extra-compressed font variants are used predominantly.
-
-## Release notes
-
-These are the steps undertaken to make a final release, from initiation to final assembly. They are documented to help the developers remember to do everything, since there are many steps that need to be followed.
+## Development reminders
 
 ### Initiating new SVG work after releasing to QA for testing
 
@@ -36,6 +30,14 @@ The format of the way a detail layer is labeled is: `L#:B#-#` representing:
    - layer 3 has the peg holes
 
 The summary layers are labeled as "front", "middle", "back", and "test", followed by the level number. Note there are multiple back layers and only one of them is used in a given assembly. Level 6 is blank, while other back layers are decorated in some way (e.g. level 7 is a simple surrounding band).
+
+## Fonts
+
+These design files use the "Noto Serif" and "Noto Sans" available for free from the [`https://fonts.google.com/noto`](https://fonts.google.com/noto) site. The compressed and extra-compressed font variants are used predominantly.
+
+## Release notes
+
+These are the steps undertaken to make a final release suitable for checking into QA for testing. They are documented to help the developers remember to do everything, since there are many steps that need to be followed.
 
 ### Preparing each layer for use in assembling levels
 
