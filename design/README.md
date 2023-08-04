@@ -82,9 +82,9 @@ PNG used in the [`README.md`](../README.md)
 PDF files used for play when printing the boards
 - un-hide the print layers using the basic panel
 - in the Document Properties dialogue, "Resize to content"
-- print to [`shared/basic-print-board-baseball-crane.pdf`](../shared/basic-print-board-baseball-crane.pdf)
+- print to [`shared/basic-print-board-baseball-crane.pdf`](../shared/basic-print-board-baseball-crane.pdf) (be careful not to end with ".pdf.pdf")
 - hide the basic panel and un-hide the extended panel
-- print to [`shared/extended-print-board-baseball-crane.pdf`](../shared/extended-print-board-baseball-crane.pdf)
+- print to [`shared/extended-print-board-baseball-crane.pdf`](../shared/extended-print-board-baseball-crane.pdf) (be careful not to end with ".pdf.pdf")
 - undo all actions until page size restored and all layers hidden
 
 ### Create the individual level SVG files and burn files
@@ -93,6 +93,6 @@ Close the `design-board-baseball-crane.svg` file to prevent it from being distur
 
 In the [`../build`](../build) directory, delete all of the `objects-*` and `burn-*` files in preparation for recreating them from scratch. If they are not deleted, one might overlook updating one of them.
 
-Follow the instructions in [`../build/README.md`](../build/README.md) regarding creating the individual SVG and burn file collages.
+Follow the instructions in the "Burn files" section in [`../build/README.md`](../build/README.md#burn-files) regarding creating the individual SVG and burn file collages.
 
 

@@ -111,6 +111,8 @@ The laminating instructions for each component of the board are the same and are
 
 ## Burn files
 
+### Summary of files created during this process
+
 These are the files used to burn in a laser cutter, tested in an Epilog Helix branded machine:
 
 9"x12": [<img alt="" src="../shared/1-collage.png" height="60"/>](burn-1-9x12-collage-board-baseball-crane.pdf), [<img alt="" src="../shared/2-collage.png" height="60"/>](burn-2-9x12-collage-board-baseball-crane.pdf), [<img alt="" src="../shared/3-collage.png" height="60"/>](burn-3-9x12-collage-board-baseball-crane.pdf), [<img alt="" src="../shared/4-collage.png" height="60"/>](burn-4-9x12-collage-board-baseball-crane.pdf), [<img alt="" src="../shared/5-collage.png" height="60"/>](burn-5-9x12-collage-board-baseball-crane.pdf), [<img alt="" src="../shared/6-collage.png" height="60"/>](burn-6-9x12-collage-board-baseball-crane.pdf), [<img alt="" src="../shared/7-collage.png" height="60"/>](burn-7-9x12-collage-board-baseball-crane.pdf), and [<img alt="" src="../shared/T-collage.png" height="60"/>](burn-T-9x12-collage-board-baseball-crane.pdf) 
@@ -135,6 +137,10 @@ A number of convenience cutting files (without any text) are available should yo
 18"x12": [<img alt="" src="../shared/9x12-from-18x12.png" height="120"/>](cut-9x12-from-18x12.pdf)
 9"x24": [<img alt="" src="../shared/9x12-from-9x24.png" height="60"/>](cut-9x12-from-9x24.pdf)
 
+### Creating the burn files
+
+If the prior version of the files hasn't been deleted, be sure to keep the `cut-*.*` files in this directory and delete all of the `objects-*.*` and `burn-*.*` files.
+
 Copy the `design-board-baseball-crane.svg` file replacing all of the numbered and "T" SVG files found in the [`../build`](../build) directory using the target name `objects-#-9x12-collage-board-baseball-crane.svg`:
 - `objects-T-9x12-collage-board-baseball-crane.svg`
 - `objects-1-9x12-collage-board-baseball-crane.svg`
@@ -148,9 +154,11 @@ For each of the newly-created SVG files:
 - un-hide the combined layer (which should show everything)
 - select the layer and rotate it 90 degrees clockwise
 - in the Document Properties dialogue, "Resize to content" (should result in 12" x 9")
-- save the SVG and quit Inkscape (in my copy of Inkscape I cannot open from the file system when the application is open already)
+- save the SVG
+ 
+Quit Inkscape to ensure all of the object files have been saved.
 
-The "objects" individual files then are copied "burn" individual files, replacing the old "burn" individual files:
+The "objects" individual files then are copied to create "burn" individual files:
 
 - `burn-T-9x12-collage-board-baseball-crane.svg`
 - `burn-1-9x12-collage-board-baseball-crane.svg`
@@ -165,7 +173,8 @@ The "burn" collage files then, indiviually, have the following modifications mad
 - all objects below the top-most layer are ungrouped until there are no more groups below the top-most layer
 - a single magenta cut line is selected using right-click/Select Same.../Stroke color which selects every cut line in the entire collage
 - the stroke width of all lines is changed with a single entry of .001in in the Fill and Stroke dialogue
-- save the SVG and quit Inkscape
+- save the SVG
+- print the SVG to be PDF with the same name (careful not to end with ".pdf.pdf")
 
 Layers from the individual burn files are copied into the combined collage burn files by creating an empty SVG file of the target dimension, creating and naming the top layer, importing the individual files, and placing them tête-à-tête on the page as required:
 
@@ -179,7 +188,7 @@ Layers from the individual burn files are copied into the combined collage burn 
 [`burn-134625-27x24-collage-board-baseball-crane.svg`](burn-134625-27x24-collage-board-baseball-crane.svg)  
 [`burn-134725-27x24-collage-board-baseball-crane.svg`](burn-134725-27x24-collage-board-baseball-crane.svg)  
 
-The PDF files created from the "burn" collage files are what are sent to the appropriate laser; note that the printing of the SVG may unexpectedly rotate the image 180 degrees, needing rotating in the PDF files recreating the file from temporarily rotating the SVG (but not saving the changes):
+The PDF files created from the "burn" collage files are what are sent to the appropriate laser; note that the printing of the SVG may unexpectedly rotate the image 180 degrees, needing rotating in the PDF files recreating the file from temporarily rotating the SVG (but not saving the changes/ be sure to check the generated PDF files in a PDF reader before committing to git):
 
 [`burn-1-9x12-collage-board-baseball-crane.pdf`](burn-1-9x12-collage-board-baseball-crane.pdf)  
 [`burn-2-9x12-collage-board-baseball-crane.pdf`](burn-2-9x24-collage-board-baseball-crane.pdf)  
@@ -197,6 +206,8 @@ The PDF files created from the "burn" collage files are what are sent to the app
 [`burn-2525-18x24-collage-board-baseball-crane.pdf`](burn-2525-18x24-collage-board-baseball-crane.pdf)  
 [`burn-134625-27x24-collage-board-baseball-crane.pdf`](burn-134625-27x24-collage-board-baseball-crane.pdf)  
 [`burn-134725-27x24-collage-board-baseball-crane.pdf`](burn-134725-27x24-collage-board-baseball-crane.pdf)  
+
+At this point the new version can be committed to git and pushed to the server.
 
 The PDF files created from the cutting SVG files are as follows and shouldn't need to change:
 
