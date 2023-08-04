@@ -85,7 +85,7 @@ Use the play board with this marking between the columns: <img src="../shared/x-
 - the tally of runs and hits is recorded for the batter and always is reported in the order of number of balls before the number of strikes (e.g. a count of "3 and 2" means "3 balls and two strikes")
 - the pitching team rolls one die (of a colour different from the dice used by the batter) to determine which pitch is thrown by the pitcher
 - three of the pitches result in no contact with the bat:
-  - four balls <img src="../shared/pd2.png" height="35px"/> makes a walk and moves the batter to first base, which, if occupied, moves the first-base runner to second base, which, if occupied, moves the second-base runner to third base, which, if occupied, moves the third-base runner to home for a score
+  - four balls <img src="../shared/pd2.png" height="35px"/> makes a walk and moves the batter to first base, which, if occupied, moves the first-base runner to second base, which, if occupied, moves the second-base runner to third base, which, if occupied, moves the third-base runner to home for a run
   - a swinging third strike <img src="../shared/pd1.png" height="35px"/> or a looking third strike <img src="../shared/pd3.png" height="35px"/> is an out for the batter and the out is recorded for the team's inning
   - when the pitched ball has no contact with the bat, and the result is not a walk, the <img src="../shared/stealing-option.png" height="15px"/> in the icon indicates that the batting team has the option of a base runner attempting to steal an open base depending on the outcome of throwing the runner's die
     - IMPORTANT: this is not a mandatory move and it is up to the batting team to choose to attempt to steal a base
