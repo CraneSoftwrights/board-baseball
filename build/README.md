@@ -6,9 +6,9 @@ These are the resources used to build a 3-dimensional box using a laser printer 
 
 ## Terminology
 
-| Key | Legend |
+| Legend | Key |
 | ---- | ---- |  
-| <img alt="" src="../shared/terminology.png" height="300"/> | A = alignment hole<br/><br/>B = panel trench<br/><br/>C = panel<br/><br/>D = panel cradle<br/><br/>E = compartment<br/><br/>F = compartment lid<br/><br/>G = board |  
+| **A** = alignment hole<br/><br/>**B** = panel trench<br/><br/>**C** = panel<br/><br/>**D** = panel cradle<br/><br/>**E** = compartment<br/><br/>**F** = compartment lid<br/><br/>**G** = main board | <img alt="" src="../shared/terminology.png" height="300"/> |  
 
 ## Board layers
 
@@ -57,50 +57,61 @@ Each magnet hole has next to it an indication of which polarity is "up" when the
 
 ## Laminating steps
 
+The laminating instructions for each component of the board are the same and are detailed here for ease of tracking.
+
 ### Main board
 
-Put the back level face down and add two 1/4" bolts pointing up through the two alignment holes (using a washer to protect the face of the back).
+1. Put masking tape on back of level 1 in the compartment area. Using level 2 as a guide, trace that portion of the masking tape that is not in contact with level 2. Cut away that portion of the masking tape on level 1 that is in contact with level 2.
 
-Add adhesive to the back of level 5 and place it face up on the back level by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+1. Put the back level face down and add two 1/4" bolts pointing up through the two alignment holes (using a washer to protect the face of the back).
 
-Place six or eight magnets in the holes with the indicated polarity facing up. The two marked with a question mark are optional if your material is heavy and you think more anchoring is necessary. Certainly having them there doesn't hurt.
+1. Add adhesive to the back of level 5 and place it face up on the back level by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
 
-Add adhesive to the back of level 4 and place it face up on level 5 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+1. Place six or eight magnets in the holes with the indicated polarity facing up. The two marked with a question mark are optional if your material is heavy and you think more anchoring is necessary. Certainly having them there doesn't hurt.
 
-Add adhesive to the back of level 3 and place it face up on level 4 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+1. Add adhesive to the back of level 4 and place it face up on level 5 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
 
-Add adhesive to the back of level 2 and place it face up on level 3 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+1. Add adhesive to the back of level 3 and place it face up on level 4 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
 
-Place the vertically-oriented magnets in the assembled slots above the panel cradle, careful to get the polarity correct as indicated. 
-Add adhesive to the back of level 1 and place it face up on level 2 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+1. Add adhesive to the back of level 2 and place it face up on level 3 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
 
-Add a washer and nut to each of the alignment bolts and tighten loosely. Use weight or other clamps to assist in the bonding.
+1. Place the vertically-oriented magnets in the assembled slots above the panel cradle, careful to get the polarity correct as indicated.
+
+1. Add adhesive to the back of level 1, remove the masking tape from the compartment area, and place level 1 face up on level 2 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+
+1. Add a washer and nut to each of the alignment bolts and tighten loosely. Use weight or other clamps to assist in the bonding.
 
 ### Panel
 
-Put the level 3 panel face down and add two 1/4" bolts pointing up through the two alignment holes (using a washer to protect the face of the back).
+1. Put masking tape on back of level 1 along the bottom of the panel. Using level 2 as a guide, trace that portion of the masking tape that is not in contact with level 2. Cut away that portion of the masking tape on level 1 that is in contact with level 2.
 
-Add adhesive to the back of level 2 and place it face up on level 3 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+1. Put the level 3 panel face down and add two 1/4" bolts pointing up through the two alignment holes (using a washer to protect the face of the back).
 
-Place six magnets in the holes with the indicated polarity facing up. There are no optional magnets on this level.
+1. Add adhesive to the back of level 2 and place it face up on level 3 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
 
-Add adhesive to the back of level 1 and place it face up on level 2 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+1. Place six magnets in the holes with the indicated polarity facing up. There are no optional magnets on this level.
 
-Add a washer and nut to each of the alignment bolts and tighten loosely. Use weight or other clamps to assist in the bonding. 
+1. Add adhesive to the back of level 1, remove the masking tape from the panel, and place level 1 face up on level 2 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+
+1. Add a washer and nut to each of the alignment bolts and tighten loosely. Use weight or other clamps to assist in the bonding. 
 
 ### Compartment lid
 
-Put the level 3 panel face down and add two 1/4" bolts pointing up through the two alignment holes (using a washer to protect the face of the back).
+1. Put masking tape on back of level 1. Using level 2 as a guide, trace that portion of the masking tape that is not in contact with level 2. Cut away that portion of the masking tape on level 1 that is in contact with level 2.
 
-Add adhesive to the back of level 2 and place it face up on level 3 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+1. Put the level 3 panel face down and add two 1/4" bolts pointing up through the two alignment holes (using a washer to protect the face of the back).
 
-Place two magnets in the holes with the indicated polarity facing up. There are no optional magnets on this level.
+1. Add adhesive to the back of level 2 and place it face up on level 3 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
 
-Add adhesive to the back of level 1 and place it face up on level 2 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+1. Place two magnets in the holes with the indicated polarity facing up. There are no optional magnets on this level.
 
-Add a washer and nut to each of the alignment bolts and tighten loosely. Use weight or other clamps to assist in the bonding.
+1. Add adhesive to the back of level 1, remove the masking tape from the compartment lid, and place level 1 face up on level 2 by putting the alignment holes over the bolts pointing up. Finely tune the positioning of the level before the adhesive sets.
+
+1. Add a washer and nut to each of the alignment bolts and tighten loosely. Use weight or other clamps to assist in the bonding.
 
 ## Burn files
+
+### Summary of files created during this process
 
 These are the files used to burn in a laser cutter, tested in an Epilog Helix branded machine:
 
@@ -126,6 +137,10 @@ A number of convenience cutting files (without any text) are available should yo
 18"x12": [<img alt="" src="../shared/9x12-from-18x12.png" height="120"/>](cut-9x12-from-18x12.pdf)
 9"x24": [<img alt="" src="../shared/9x12-from-9x24.png" height="60"/>](cut-9x12-from-9x24.pdf)
 
+### Creating the burn files
+
+If the prior version of the files hasn't been deleted, be sure to keep the `cut-*.*` files in this directory and delete all of the `objects-*.*` and `burn-*.*` files.
+
 Copy the `design-board-baseball-crane.svg` file replacing all of the numbered and "T" SVG files found in the [`../build`](../build) directory using the target name `objects-#-9x12-collage-board-baseball-crane.svg`:
 - `objects-T-9x12-collage-board-baseball-crane.svg`
 - `objects-1-9x12-collage-board-baseball-crane.svg`
@@ -139,9 +154,11 @@ For each of the newly-created SVG files:
 - un-hide the combined layer (which should show everything)
 - select the layer and rotate it 90 degrees clockwise
 - in the Document Properties dialogue, "Resize to content" (should result in 12" x 9")
-- save the SVG and quit Inkscape (in my copy of Inkscape I cannot open from the file system when the application is open already)
+- save the SVG
+ 
+Quit Inkscape to ensure all of the object files have been saved.
 
-The "objects" individual files then are copied "burn" individual files, replacing the old "burn" individual files:
+The "objects" individual files then are copied to create "burn" individual files:
 
 - `burn-T-9x12-collage-board-baseball-crane.svg`
 - `burn-1-9x12-collage-board-baseball-crane.svg`
@@ -156,7 +173,8 @@ The "burn" collage files then, indiviually, have the following modifications mad
 - all objects below the top-most layer are ungrouped until there are no more groups below the top-most layer
 - a single magenta cut line is selected using right-click/Select Same.../Stroke color which selects every cut line in the entire collage
 - the stroke width of all lines is changed with a single entry of .001in in the Fill and Stroke dialogue
-- save the SVG and quit Inkscape
+- save the SVG
+- print the SVG to be PDF with the same name (careful not to end with ".pdf.pdf")
 
 Layers from the individual burn files are copied into the combined collage burn files by creating an empty SVG file of the target dimension, creating and naming the top layer, importing the individual files, and placing them tête-à-tête on the page as required:
 
@@ -170,7 +188,7 @@ Layers from the individual burn files are copied into the combined collage burn 
 [`burn-134625-27x24-collage-board-baseball-crane.svg`](burn-134625-27x24-collage-board-baseball-crane.svg)  
 [`burn-134725-27x24-collage-board-baseball-crane.svg`](burn-134725-27x24-collage-board-baseball-crane.svg)  
 
-The PDF files created from the "burn" collage files are what are sent to the appropriate laser; note that the printing of the SVG may unexpectedly rotate the image 180 degrees, needing rotating in the PDF files recreating the file from temporarily rotating the SVG (but not saving the changes):
+The PDF files created from the "burn" collage files are what are sent to the appropriate laser; note that the printing of the SVG may unexpectedly rotate the image 180 degrees, needing rotating in the PDF files recreating the file from temporarily rotating the SVG (but not saving the changes/ be sure to check the generated PDF files in a PDF reader before committing to git):
 
 [`burn-1-9x12-collage-board-baseball-crane.pdf`](burn-1-9x12-collage-board-baseball-crane.pdf)  
 [`burn-2-9x12-collage-board-baseball-crane.pdf`](burn-2-9x24-collage-board-baseball-crane.pdf)  
@@ -188,6 +206,8 @@ The PDF files created from the "burn" collage files are what are sent to the app
 [`burn-2525-18x24-collage-board-baseball-crane.pdf`](burn-2525-18x24-collage-board-baseball-crane.pdf)  
 [`burn-134625-27x24-collage-board-baseball-crane.pdf`](burn-134625-27x24-collage-board-baseball-crane.pdf)  
 [`burn-134725-27x24-collage-board-baseball-crane.pdf`](burn-134725-27x24-collage-board-baseball-crane.pdf)  
+
+At this point the new version can be committed to git and pushed to the server.
 
 The PDF files created from the cutting SVG files are as follows and shouldn't need to change:
 
