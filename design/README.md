@@ -39,22 +39,28 @@ These design files use the "Noto Serif" and "Noto Sans" available for free from 
 
 These are the steps undertaken to make a final release suitable for checking into QA for testing. They are documented to help the developers remember to do everything, since there are many steps that need to be followed.
 
+Remember to save frequently as Inkscape appears to crash easily when working with layers.
+
+### Update the version string
+
+Update the version strings (two), one for print and the other for burning. 
+
+Look in the layer view for the two layers with "version" in the layer name. Unhide the layer but leave the layer locked. Open up the nested groups until you find the text string "Version". Press "3" to zoom in on the string. Press "T" to enter text mode and make the change. Press "Esc" to get out of editing the string. Hide the layer again.
+
 ### Preparing each layer for use in assembling levels
 
 In the course of work on any given layer, the SVG objects end up becoming ungrouped. This makes for a pain point when dealing with selecting the layers in Inkscape because Inkscape automatically opens up the layer's contents for the (in)convenience of the user.
 
-Walk through each of the layers, introducing a top-level group that groups everything in that layer. That way, selecting the layer opens up only a single object and not many objects, thus making navigation of the layers more manageable.
+Walk through each of the design layers, introducing a top-level group that groups everything in that layer. That way, selecting the layer opens up only a single object and not many objects, thus making navigation of the layers more manageable.
 
-### Assembling levels into combined layers
+### Assembling design layers into combined layers
 
-Update the version strings (two), one for print and the other for burning.
-
-Remove any existing top-level group for the combined layers for each of the levels
+Walk through each of the combined layers, deleting the top-level group child of each in order to get rid of old work. Using right-click and deleting the group works without having to unlock the combined layer.
 
 For each level:
 
 - select all of the layers for the given level
-- duplicate the layers using the keyboard shortcut (this will put all of the duplicates at the top of the list of layers and without the word "copy" at the end of the layer title ... which happens when other duplication methods are used)
+- duplicate the layers using the keyboard shortcut (this will put all of the duplicates at the top of the list of layers and without the word "copy" at the end of the layer title ... which appears to happen when other duplication methods are used)
 - select all of the layer copies found at the top of the list of layers
 - group the copy of all layers for the level
 - unhide all of the layers in the new group
