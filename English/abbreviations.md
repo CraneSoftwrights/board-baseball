@@ -41,6 +41,8 @@ F# - fly out
 FC - fielder's choice  
 FO - force out  
 GIDP - ground into double play  
+GRD/AD - ground rule double / automatic double  
+GRT/RBT - ground rule triple / rule book triple  
 HP - hit by pitch  
 HR 𝄙 - home run  
 IBB - intentional walk  
