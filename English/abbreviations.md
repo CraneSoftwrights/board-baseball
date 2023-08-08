@@ -36,6 +36,7 @@ CS - caught stealing
 D ═ - double  
 DP - double play  
 E# - error  
+ER - earned run  
 F - foul ball (strike 1 or strike 2)  
 F# - fly out  
 FC - fielder's choice  
@@ -69,5 +70,7 @@ SS - shortstop
 T ≡ - triple  
 TP - triple play  
 #U - unassisted put out  
+#UDP - unassisted double play  
+#UTP - unassisted triple play  
 WP - wild pitch  
 
