@@ -28,6 +28,7 @@ OF - outfield
 *(not all of these are included in the game play)*
 
 ​# - # - # - player sequence for put out  
+AB - at bats  
 BB - walk (base on balls)  
 BK - balk  
 C - catcher  
