@@ -34,12 +34,12 @@
      id="namedview9"
      showgrid="false"
      inkscape:zoom="0.84548611"
-     inkscape:cx="233.00205"
+     inkscape:cx="431.70431"
      inkscape:cy="576"
      inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="layer30"
+     inkscape:current-layer="layer5"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
@@ -4764,7 +4764,7 @@
          inkscape:label="&quot;L7:B2-2&quot;"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan27681">L7:B2-2</tspan></text><text
+           id="tspan37808">L7:B2-2</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,793.47152,-1529.1284)"
          id="text15739"
@@ -4774,7 +4774,7 @@
          inkscape:label="L7:B1-2"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan27683">L7:B1-1</tspan></text><text
+           id="tspan37810">L7:B1-1</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,413.10149,-1529.2586)"
          id="text90427"
@@ -4784,7 +4784,7 @@
          inkscape:label="L6:B2-2"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan27685">L6:B2-2</tspan></text><text
+           id="tspan37812">L6:B2-2</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,307.29974,-1529.2586)"
          id="text90431"
@@ -4794,7 +4794,7 @@
          inkscape:label="L6:B1-2"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan27687">L6:B1-2</tspan></text><text
+           id="tspan37814">L6:B1-2</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,171.22926,-1526.8714)"
          id="text119051"
@@ -4804,7 +4804,7 @@
          inkscape:label="L5:B4-4"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan27689">L5:B4-4</tspan></text><text
+           id="tspan37816">L5:B4-4</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-57.137798,-1538.7854)"
          id="text125518"
@@ -4814,7 +4814,7 @@
          inkscape:label="L5:B1-4"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan27691">L5:B1-4</tspan></text><text
+           id="tspan37818">L5:B1-4</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-617.93588,-1529.6926)"
          id="text125492"
@@ -4824,7 +4824,7 @@
          inkscape:label="L4:B1-3"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan27693">L4:B1-3</tspan></text><text
+           id="tspan37820">L4:B1-3</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-1054.0727,-1529.519)"
          id="text118791"
@@ -4834,7 +4834,7 @@
          inkscape:label="L3:B5-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan27695">L3:B5-5</tspan></text><text
+           id="tspan37822">L3:B5-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-1162.1161,-1529.519)"
          id="text119139"
@@ -4844,7 +4844,7 @@
          inkscape:label="L3:B4-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan27697">L3:B4-5</tspan></text><text
+           id="tspan37824">L3:B4-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-1395.2562,-1529.519)"
          id="text79310"
@@ -4854,7 +4854,7 @@
          inkscape:label="L3:B1-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan27699">L3:B1-5</tspan></text><text
+           id="tspan37826">L3:B1-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-2009.9955,-1529.519)"
          id="text119075"
@@ -4864,7 +4864,7 @@
          inkscape:label="L2:B5-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan27701">L2:B5-5</tspan></text><text
+           id="tspan37828">L2:B5-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-2124.7309,-1529.519)"
          id="text118815"
@@ -4874,7 +4874,7 @@
          inkscape:label="L2:B4-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan27703">L2:B4-5</tspan></text><text
+           id="tspan37830">L2:B4-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-2368.0337,-1529.519)"
          id="text119007"
@@ -4884,7 +4884,7 @@
          inkscape:label="L2:B1-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan27705">L2:B1-5</tspan></text><text
+           id="tspan37832">L2:B1-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-3013.5442,-1527.8263)"
          id="text118923"
@@ -4894,7 +4894,7 @@
          inkscape:label="L1:B6-6"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan27707">L1:B6-6</tspan></text><text
+           id="tspan37834">L1:B6-6</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-3118.2482,-1527.8263)"
          id="text118839"
@@ -4904,7 +4904,7 @@
          inkscape:label="L1:B5-6"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan27709">L1:B5-6</tspan></text><text
+           id="tspan37836">L1:B5-6</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-3227.856,-1525.3255)"
          id="text118747"
@@ -4914,7 +4914,7 @@
          inkscape:label="L1:B4-6"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan27711">L1:B4-6</tspan></text><g
+           id="tspan37838">L1:B4-6</tspan></text><g
          id="g66471"
          style="display:inline;fill-rule:evenodd;stroke-linecap:round"
          inkscape:label="X and O"
@@ -4943,7 +4943,7 @@
          inkscape:label="L5:B2-4"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan27713">L5:B2-4</tspan></text><text
+           id="tspan37840">L5:B2-4</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-525.50371,-1532.6868)"
          id="text118571"
@@ -4953,7 +4953,7 @@
          inkscape:label="L4:B2-3"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan27715">L4:B2-3</tspan></text><text
+           id="tspan37842">L4:B2-3</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-1265.8737,-1529.519)"
          id="text118595"
@@ -4963,7 +4963,7 @@
          inkscape:label="L3:B2-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan27717">L3:B2-5</tspan></text><text
+           id="tspan37844">L3:B2-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-2259.6056,-1531.8744)"
          id="text118619"
@@ -4973,7 +4973,7 @@
          inkscape:label="L2:B2-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan27719">L2:B2-5</tspan></text><text
+           id="tspan37846">L2:B2-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-3341.115,-1527.8263)"
          id="text118643"
@@ -4983,7 +4983,7 @@
          inkscape:label="L1:B2-6"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan27721">L1:B2-6</tspan></text></g></g><g
+           id="tspan37848">L1:B2-6</tspan></text></g></g><g
      inkscape:groupmode="layer"
      id="layer24"
      inkscape:label="----------------- Scratchpads -------------" /><g
@@ -8522,7 +8522,7 @@
            id="tspan68137">Board Baseball © Crane Softwrights Ltd.    BSD License</tspan></text></g></g><g
      inkscape:groupmode="layer"
      id="layer20"
-     inkscape:label="L1:B3 L2:B3 L3:B3 L4:B3 L5:B3 Pegs - Print:P3"
+     inkscape:label="L1:B3 L2:B3 L3:B3 L4:B3 L5:B3 Peg holes - Print:P3"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true"><g
        id="g70374"><path
@@ -11890,8 +11890,7 @@ INF - infield fly out</tspan><tspan
      id="layer5"
      inkscape:label="L2:B1 - objects"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
-     transform="translate(-4.8565277e-5)"
-     sodipodi:insensitive="true"><text
+     transform="translate(-4.8565277e-5)"><text
        xml:space="preserve"
        style="font-weight:bold;font-size:284.444px;line-height:120%;font-family:'Noto Sans';-inkscape-font-specification:'Noto Sans Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:6.66667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="5372.6084"
@@ -12154,11 +12153,11 @@ INF - infield fly out</tspan><tspan
            id="path325174"
            sodipodi:nodetypes="cccc" /><path
            style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff00ff;stroke-width:39.009;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           d="m 2314.3674,3440.1051 v 165.7468 h -550.95 v -165.7468"
+           d="m 2377.8942,3440.1051 v 165.7468 h -613.7769 v -165.7468"
            id="path325181"
            sodipodi:nodetypes="cccc" /><path
            style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff00ff;stroke-width:39.009;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-           d="m 3995.9329,3440.1051 v 165.7468 h -550.9063 v -165.7468"
+           d="m 3995.281,3440.1051 v 165.7468 h -608.8249 v -165.7468"
            id="path325183"
            sodipodi:nodetypes="cccc" /></g></g><g
        id="g199234"
