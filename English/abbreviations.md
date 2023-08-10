@@ -28,6 +28,7 @@ OF - outfield
 *(not all of these are included in the game play)*
 
 ​# - # - # - player sequence for put out  
+AB - at bats  
 BB - walk (base on balls)  
 BK - balk  
 C - catcher  
@@ -36,11 +37,14 @@ CS - caught stealing
 D ═ - double  
 DP - double play  
 E# - error  
+ER - earned run  
 F - foul ball (strike 1 or strike 2)  
 F# - fly out  
 FC - fielder's choice  
 FO - force out  
 GIDP - ground into double play  
+GRD/AD - ground rule double / automatic double  
+GRT/RBT - ground rule triple / rule book triple  
 HP - hit by pitch  
 HR 𝄙 - home run  
 IBB - intentional walk  
@@ -67,5 +71,7 @@ SS - shortstop
 T ≡ - triple  
 TP - triple play  
 #U - unassisted put out  
+#UDP - unassisted double play  
+#UTP - unassisted triple play  
 WP - wild pitch  
 

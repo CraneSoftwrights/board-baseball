@@ -119,17 +119,17 @@ These are the files used to burn in a laser cutter, tested in an Epilog Helix br
 
 These are collages of layer images arranged tête-à-tête for board levels with a finished side that are user-facing:
 
-18"x24": [<img alt="" src="../shared/1346-collage.png" height="120"/>](burn-1346-18x24-collage-board-baseball-crane.pdf) and [<img alt="" src="../shared/1347-collage.png" height="120"/>](burn-1347-18x24-collage-board-baseball-crane.pdf)  
+18"x24": [<img alt="" src="../shared/1364-collage.png" height="120"/>](burn-1364-18x24-collage-board-baseball-crane.pdf) and [<img alt="" src="../shared/1374-collage.png" height="120"/>](burn-1374-18x24-collage-board-baseball-crane.pdf)  
 9"x24": [<img alt="" src="../shared/13-collage.png" height="60"/>](burn-13-9x24-collage-board-baseball-crane.pdf), [<img alt="" src="../shared/46-collage.png" height="60"/>](burn-46-9x24-collage-board-baseball-crane.pdf), and [<img alt="" src="../shared/47-collage.png" height="60"/>](burn-47-9x24-collage-board-baseball-crane.pdf)
 
 These are collages of layer images arranged tête-à-tête for internal unfinished board levels that are not user-facing:
 
-18"x24": [<img alt="" src="../shared/2525-collage.png" height="120"/>](burn-2525-18x24-collage-board-baseball-crane.pdf) 
+18"x24": [<img alt="" src="../shared/2552-collage.png" height="120"/>](burn-2552-18x24-collage-board-baseball-crane.pdf) 
 9"x24": [<img alt="" src="../shared/25-collage.png" height="60"/>](burn-25-9x24-collage-board-baseball-crane.pdf)
 
 These are collages of layer images arranged tête-à-tête for all boards in a single burn:
 
-27"x24": [<img alt="" src="../shared/134625-collage.png" height="180"/>](burn-1346-18x24-collage-board-baseball-crane.pdf) and [<img alt="" src="../shared/134725-collage.png" height="180"/>](burn-134725-18x24-collage-board-baseball-crane.pdf)  
+27"x24": [<img alt="" src="../shared/134625-collage.png" height="180"/>](burn-134625-18x24-collage-board-baseball-crane.pdf) and [<img alt="" src="../shared/134725-collage.png" height="180"/>](burn-134725-18x24-collage-board-baseball-crane.pdf)  
 
 A number of convenience cutting files (without any text) are available should you wish to carve up pieces of material with simple cuts:
 
@@ -182,9 +182,9 @@ Layers from the individual burn files are copied into the combined collage burn 
 [`burn-46-9x24-collage-board-baseball-crane.svg`](burn-46-9x24-collage-board-baseball-crane.svg)  
 [`burn-47-9x24-collage-board-baseball-crane.svg`](burn-47-9x24-collage-board-baseball-crane.svg)  
 [`burn-25-9x24-collage-board-baseball-crane.svg`](burn-25-9x24-collage-board-baseball-crane.svg)  
-[`burn-1346-18x24-collage-board-baseball-crane.svg`](burn-1346-18x24-collage-board-baseball-crane.svg)  
-[`burn-1347-18x24-collage-board-baseball-crane.svg`](burn-1347-18x24-collage-board-baseball-crane.svg)  
-[`burn-2525-18x24-collage-board-baseball-crane.svg`](burn-2525-18x24-collage-board-baseball-crane.svg)  
+[`burn-1364-18x24-collage-board-baseball-crane.svg`](burn-1364-18x24-collage-board-baseball-crane.svg)  
+[`burn-1374-18x24-collage-board-baseball-crane.svg`](burn-1374-18x24-collage-board-baseball-crane.svg)  
+[`burn-2552-18x24-collage-board-baseball-crane.svg`](burn-2552-18x24-collage-board-baseball-crane.svg)  
 [`burn-134625-27x24-collage-board-baseball-crane.svg`](burn-134625-27x24-collage-board-baseball-crane.svg)  
 [`burn-134725-27x24-collage-board-baseball-crane.svg`](burn-134725-27x24-collage-board-baseball-crane.svg)  
 
@@ -201,9 +201,9 @@ The PDF files created from the "burn" collage files are what are sent to the app
 [`burn-46-9x24-collage-board-baseball-crane.pdf`](burn-46-9x24-collage-board-baseball-crane.pdf)  
 [`burn-47-9x24-collage-board-baseball-crane.pdf`](burn-47-9x24-collage-board-baseball-crane.pdf)  
 [`burn-25-9x24-collage-board-baseball-crane.pdf`](burn-25-9x24-collage-board-baseball-crane.pdf)  
-[`burn-1346-18x24-collage-board-baseball-crane.pdf`](burn-1346-18x24-collage-board-baseball-crane.pdf)  
-[`burn-1347-18x24-collage-board-baseball-crane.pdf`](burn-1347-18x24-collage-board-baseball-crane.pdf)  
-[`burn-2525-18x24-collage-board-baseball-crane.pdf`](burn-2525-18x24-collage-board-baseball-crane.pdf)  
+[`burn-1364-18x24-collage-board-baseball-crane.pdf`](burn-1364-18x24-collage-board-baseball-crane.pdf)  
+[`burn-1374-18x24-collage-board-baseball-crane.pdf`](burn-1374-18x24-collage-board-baseball-crane.pdf)  
+[`burn-2552-18x24-collage-board-baseball-crane.pdf`](burn-2552-18x24-collage-board-baseball-crane.pdf)  
 [`burn-134625-27x24-collage-board-baseball-crane.pdf`](burn-134625-27x24-collage-board-baseball-crane.pdf)  
 [`burn-134725-27x24-collage-board-baseball-crane.pdf`](burn-134725-27x24-collage-board-baseball-crane.pdf)  
 
