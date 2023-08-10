@@ -54,9 +54,23 @@ In the course of work on any given layer, the SVG objects end up becoming ungrou
 
 Walk through each of the design layers, introducing a top-level group that groups everything in that layer. That way, selecting the layer opens up only a single object and not many objects, thus making navigation of the layers more manageable.
 
-### Assembling design layers into combined layers
+### Create the PNG and PDF results
 
-Walk through each of the combined layers, deleting the top-level group child of each in order to get rid of old work. Using right-click and deleting the group works without having to unlock the combined layer.
+PNG used in the [`README.md`](../README.md)
+- un-hide the print layers using the combined panel
+- export the contents using the "Document" tab (not the "Page" tab) to [`shared/board.png`](../shared/board.png)
+
+PDF files used for play when printing the boards
+- un-hide the print layers using the basic panel
+- in the Document Properties dialogue, "Resize to content"
+- print to [`shared/basic-print-board-baseball-crane.pdf`](../shared/basic-print-board-baseball-crane.pdf) (be careful not to end with ".pdf.pdf")
+- hide the basic panel and un-hide the extended panel
+- print to [`shared/extended-print-board-baseball-crane.pdf`](../shared/extended-print-board-baseball-crane.pdf) (be careful not to end with ".pdf.pdf")
+- undo all actions until page size restored and all layers hidden
+
+### Assembling design layers into combined levels
+
+Walk through each of the combined levels, deleting the top group child of each in order to get rid of any old work.
 
 For each level:
 
@@ -73,20 +87,6 @@ Take the time to review all of the levels' combined layers. More than once! Cons
 Hide all of the layers.
 
 **IMPORTANT** Ensure the `design-board-baseball-crane.svg` file is saved and a copy committed to git. At this point, any inadvertent changes to the SVG file can be ignored and the committed copy restored for future use.
-
-### Create the PNG and PDF results
-
-PNG used in the [`README.md`](../README.md)
-- un-hide the print layers using the combined panel
-- export the contents using the "Document" tab (not the "Page" tab) to [`shared/board.png`](../shared/board.png)
-
-PDF files used for play when printing the boards
-- un-hide the print layers using the basic panel
-- in the Document Properties dialogue, "Resize to content"
-- print to [`shared/basic-print-board-baseball-crane.pdf`](../shared/basic-print-board-baseball-crane.pdf) (be careful not to end with ".pdf.pdf")
-- hide the basic panel and un-hide the extended panel
-- print to [`shared/extended-print-board-baseball-crane.pdf`](../shared/extended-print-board-baseball-crane.pdf) (be careful not to end with ".pdf.pdf")
-- undo all actions until page size restored and all layers hidden
 
 ### Create the individual level SVG files and burn files
 
