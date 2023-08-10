@@ -17,19 +17,20 @@ Also, the version number in the SVG file needs to be changed early in two differ
 ### SVG layers for the physical levels
 
 The [Inkscape](https://inkscape.org) application helps to manage layers of content. The layer menu reveals:
-- 18 layers of burn detail content, organized semantically regarding content and use
-- 8 layers of burn summary content, organized as one for each physical level
-- 2 layers of scratch-pad work areas, unorganized
+- layers of print and burn detail content, organized semantically regarding content and use
+- layers of combined content for burning and cutting, organized as one for each physical level
+  - the title of the combined level includes the number of burn layers to be combined
+- singleton layers used in their own context
+- layers of scratch-pad work
 
-The format of the way a detail layer is labeled is: `L#:B#-#` representing:
-- `L#`{level of the physical board}`:B1-#`{count of layers of burns for the level}
-   - main objects layer for the given level
-- `L#`{level of the physical board}`:B#`{index of layer of burns for the level}
+The format of the way a detail layer is labeled is: `L#:B#` representing:
+- `L#`{level of the physical board}`:B#`{burn index for the level}
    - supplemental layer for the level
+   - layer 1 has the main objects layer for the given level
    - layer 2 has the outside cuts and the alignment holes
    - layer 3 has the peg holes
 
-The summary layers are labeled as "front", "middle", "back", and "test", followed by the level number. Note there are multiple back layers and only one of them is used in a given assembly. Level 6 is blank, while other back layers are decorated in some way (e.g. level 7 is a simple surrounding band).
+Note there are multiple back layers and only one of them is used in a given assembly. Level 6 is blank, while other back layers are decorated in some way (e.g. level 7 is a simple surrounding band).
 
 ## Fonts
 
