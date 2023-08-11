@@ -30,6 +30,7 @@ In addition to the board material being cut and assembled, the following items a
     - using Inkscape one could build any arbitrary combination of  
   - the masters below accommodate your use of either 9"x12", 9"x24", or 18"x24" material dimensions
   - the play area is 200mm x 248mm which fits both on A4 and US-letter paper page sizes and 8"x10" blanks
+  - when working with acrylic, the local shop prohibits polycarbonates and permits 
 - 12mm dice
   - 4-count optionally in three colours - one for pitching, two for batting, one for running
   - e.g. [`https://www.amazon.ca/dp/B08F72SLYD`](https://www.amazon.ca/dp/B08F72SLYD)
