@@ -177,9 +177,10 @@ For each of the newly-created SVG files:
     - 9"x12" cutting 200x248mm in centre without crop lines
       - used to create `burn-*-cut-200x248-board-baseball-crane.svg`
       - never used with the "T" test layer
-- position the crop/cut layer above the content layer for masking to work
-- select all the layers and rotate them 90 degrees clockwise
+- position the content layer after the crop/cut layers for masking to work
+- select all the layers, group them, and rotate the group 90 degrees clockwise
 - in the Document Properties dialogue, "Resize to content" (should result in 12" x 9")
+- ungroup the layers
 - save the SVG
  
 The "objects" individual files then are copied to create raw "burn" files:
