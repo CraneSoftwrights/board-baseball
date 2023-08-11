@@ -146,6 +146,8 @@ Two frame cutting patterns are available in order to make the scaffolding to hol
 
 A number of convenience cutting files (without any text) are available should you wish to carve up pieces of material with simple cuts:
 
+8"x10": [<img alt="" src="../shared/8x10-from-larger.png" height="80"/>](cut-8x10-from-larger.pdf)
+
 18"x24": [<img alt="" src="../shared/9x12-from-18x24.png" height="120"/>](cut-9x12-from-18x24.pdf), [<img alt="" src="../shared/9x24-from-18x24.png" height="120"/>](cut-9x24-from-18x24.pdf), and [<img alt="" src="../shared/18x12-from-18x24.png" height="120"/>](cut-18x12-from-18x24.pdf)  
 18"x12": [<img alt="" src="../shared/9x12-from-18x12.png" height="120"/>](cut-9x12-from-18x12.pdf)
 9"x24": [<img alt="" src="../shared/9x12-from-9x24.png" height="60"/>](cut-9x12-from-9x24.pdf)
@@ -163,7 +165,9 @@ Copy the `design-board-baseball-crane.svg` file replacing all of the numbered an
 
 For each of the newly-created SVG files:
 - open the file in Inkscape
-- delete every layer except the combined layer
+- delete every layer except for the following layers:
+  - the desired content level combined layer
+  - the set of cutting layers
 - un-hide the combined layer (which should show everything)
 - select the layer and rotate it 90 degrees clockwise
 - in the Document Properties dialogue, "Resize to content" (should result in 12" x 9")
@@ -174,12 +178,20 @@ Quit Inkscape to ensure all of the object files have been saved.
 The "objects" individual files then are copied to create "burn" individual files:
 
 - `burn-T-9x12-collage-board-baseball-crane.svg`
+- `burn-T-8x10-collage-board-baseball-crane.svg`
+- `burn-T-200x248-collage-board-baseball-crane.svg`
 - `burn-1-9x12-collage-board-baseball-crane.svg`
+- `burn-1-8x10-collage-board-baseball-crane.svg`
+- `burn-1-200x248-collage-board-baseball-crane.svg`
 - `burn-2-9x12-collage-board-baseball-crane.svg`
+- `burn-2-8x10-collage-board-baseball-crane.svg`
+- `burn-2-200x248-collage-board-baseball-crane.svg`
 - `burn-3-9x12-collage-board-baseball-crane.svg`
+- `burn-3-8x10-collage-board-baseball-crane.svg`
+- `burn-3-200x248-collage-board-baseball-crane.svg`
 - ...
 
-The "burn" collage files then, indiviually, have the following modifications made before saving them as complete:
+The "burn" collage files then, individually, have the following modifications made before saving them as complete:
 
 - open the file in Inkscape and unlock the top-most layer
 - all objects are selected using the top-most and the menu item "Path/Object to Path" is used to convert the fonts to paths
