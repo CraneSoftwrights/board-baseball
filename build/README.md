@@ -24,13 +24,19 @@ The test layer is positioned such that it can overlay layer 2. After burning the
 
 In addition to the board material being cut and assembled, the following items are useful in construction and play. Included are illustrative examples of the commercial availability of some of the materials, though these are not to be regarded as recommendations or requirements, just examples of materials that have worked for the two designers:
 
-- 9"x12" blank burn boards 1/8"=3mm thick (alternatively 3/8"=5mm)
+- layers of burn and cut material
+  - 9"x12" is assumed for every burn
+    - 9"x12" frame cut provided for holding an 8"x10" rectangle
   - 6-count in total, possibly combined in larger dimensions of material
+  - choice of dimensions and assuming thickness of 1/8"=3mm (alternatively 3/8"=5mm):
+    - 9"x12" rectangles (burn includes alignment holes and crop marks)
+    - 8"x10" rectangles (no alignment holes or crop marks)
+    - "content" 200mm x 248mm with rounded corners (no alignment holes or crop marks)
   - the equipment available to the designers works with either 9"x24", 18"x24", or 27"x24" pieces of material, thus governing the sizes below
     - using Inkscape one could build any arbitrary combination of  
   - the masters below accommodate your use of either 9"x12", 9"x24", or 18"x24" material dimensions
   - the play area is 200mm x 248mm which fits both on A4 and US-letter paper page sizes and 8"x10" blanks
-  - when working with acrylic, the local shop prohibits polycarbonates and permits 
+  - when working with acrylic, the local shop prohibits polycarbonates and permits polymethyl methacrylate (PMMA) 
 - 12mm dice
   - 4-count optionally in three colours - one for pitching, two for batting, one for running
   - e.g. [`https://www.amazon.ca/dp/B08F72SLYD`](https://www.amazon.ca/dp/B08F72SLYD)
@@ -132,6 +138,12 @@ These are collages of layer images arranged tête-à-tête for all boards in a s
 
 27"x24": [<img alt="" src="../shared/134625-collage.png" height="180"/>](burn-134625-18x24-collage-board-baseball-crane.pdf) and [<img alt="" src="../shared/134725-collage.png" height="180"/>](burn-134725-18x24-collage-board-baseball-crane.pdf)  
 
+Two frame cutting patterns are available in order to make the scaffolding to hold a piece of material less than 9"x12" within the 9"x12" workspace:
+
+8"x10" rectangle in 9"x12": [<img alt="" src="../shared/frame-8x10.png" height="120"/>](frame-8x10-in-9x12.pdf)
+
+200cm x 248cm rounded rectangle in 9"x12":  [<img alt="" src="../shared/frame-200x248.png" height="120"/>](frame-200x248-in-9x12.pdf)
+
 A number of convenience cutting files (without any text) are available should you wish to carve up pieces of material with simple cuts:
 
 18"x24": [<img alt="" src="../shared/9x12-from-18x24.png" height="120"/>](cut-9x12-from-18x24.pdf), [<img alt="" src="../shared/9x24-from-18x24.png" height="120"/>](cut-9x24-from-18x24.pdf), and [<img alt="" src="../shared/18x12-from-18x24.png" height="120"/>](cut-18x12-from-18x24.pdf)  
@@ -140,7 +152,7 @@ A number of convenience cutting files (without any text) are available should yo
 
 ### Creating the burn files
 
-If the prior version of the files hasn't been deleted, be sure to keep the `cut-*.*` files in this directory and delete all of the `objects-*.*` and `burn-*.*` files.
+If the prior version of the files hasn't been deleted, be sure to keep the `cut-*.*` and `frame-*.*` files in this directory and delete all of the `objects-*.*` and `burn-*.*` files.
 
 Copy the `design-board-baseball-crane.svg` file replacing all of the numbered and "T" SVG files found in the [`../build`](../build) directory using the target name `objects-#-9x12-collage-board-baseball-crane.svg`:
 - `objects-T-9x12-collage-board-baseball-crane.svg`
@@ -212,11 +224,14 @@ At this point the new version can be committed to git and pushed to the server.
 
 The PDF files created from the cutting SVG files are as follows and shouldn't need to change:
 
+[`frame-8x10-in-9x12.pdf`](frame-8x10-in-9x12.pdf)
+[`frame-220x248-in-9x12.pdf`](frame-220x248-in-9x12.pdf)
+[`cut-8x10-from-larger.pdf`](cut-8x10-from-larger.pdf)
+[`cut-9x12-from-9x24.pdf`](cut-9x12-from-9x24.pdf)  
+[`cut-9x12-from-18x12.pdf`](cut-9x12-from-18x12.pdf)  
 [`cut-9x12-from-18x24.pdf`](cut-9x12-from-18x24.pdf)  
 [`cut-9x24-from-18x24.pdf`](cut-9x24-from-18x24.pdf)  
 [`cut-18x12-from-18x24.pdf`](cut-18x12-from-18x24.pdf)  
-[`cut-9x12-from-18x12.pdf`](cut-9x12-from-18x12.pdf)  
-[`cut-9x12-from-9x24.pdf`](cut-9x12-from-9x24.pdf)  
 
 ## Assembly
 
