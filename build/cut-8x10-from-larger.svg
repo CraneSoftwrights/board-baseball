@@ -32,9 +32,9 @@
      inkscape:window-height="480"
      id="namedview9"
      showgrid="false"
-     inkscape:zoom="0.84548611"
-     inkscape:cx="571.26899"
-     inkscape:cy="431.70431"
+     inkscape:zoom="1.0130208"
+     inkscape:cx="576"
+     inkscape:cy="432.37018"
      inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
@@ -2340,6 +2340,7 @@
          style="display:inline;fill:none;stroke:#ffffff;stroke-width:40;stroke-linejoin:bevel"
          inkscape:label="Bounding 9&quot;x12&quot; for tiling in collages"
          d="m 19.9998,20 h 5720 v 7639.9995 h -5720 z" /><path
-         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff00ff;stroke-width:0.63999998;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-         d="M 658.89762,18.897699 V 6399.9998 H 5741.1021"
-         id="path37869" /></g></g></svg>
+         style="opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#ff00ff;stroke-width:0.64;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="M 636.69848,0.67987254 V 6399.9998 H 5758.886"
+         id="path37869"
+         sodipodi:nodetypes="ccc" /></g></g></svg>

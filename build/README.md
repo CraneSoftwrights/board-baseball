@@ -181,6 +181,7 @@ For each of the newly-created SVG files:
 - select all the layers, group them, and rotate the group 90 degrees clockwise
 - in the Document Properties dialogue, "Resize to content" (should result in 12" x 9")
 - ungroup the layers
+- hide the crop/cut layers
 - save the SVG
  
 The "objects" individual files then are copied to create raw "burn" files:
