@@ -34,12 +34,12 @@
      id="namedview9"
      showgrid="false"
      inkscape:zoom="0.84548611"
-     inkscape:cx="431.70431"
+     inkscape:cx="276.17248"
      inkscape:cy="576"
      inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g70380"
+     inkscape:current-layer="layer1"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
@@ -5209,7 +5209,7 @@
          inkscape:label="&quot;L7:B2-2&quot;"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan39864">L7:B2-2</tspan></text><text
+           id="tspan17891">L7:B2-2</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,793.47152,-1529.1284)"
          id="text15739"
@@ -5219,7 +5219,7 @@
          inkscape:label="L7:B1-2"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan39866">L7:B1-1</tspan></text><text
+           id="tspan17893">L7:B1-1</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,413.10149,-1529.2586)"
          id="text90427"
@@ -5229,7 +5229,7 @@
          inkscape:label="L6:B2-2"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan39868">L6:B2-2</tspan></text><text
+           id="tspan17895">L6:B2-2</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,307.29974,-1529.2586)"
          id="text90431"
@@ -5239,7 +5239,7 @@
          inkscape:label="L6:B1-2"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan39870">L6:B1-2</tspan></text><text
+           id="tspan17897">L6:B1-2</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,171.22926,-1526.8714)"
          id="text119051"
@@ -5249,7 +5249,7 @@
          inkscape:label="L5:B4-4"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan39872">L5:B4-4</tspan></text><text
+           id="tspan17899">L5:B4-4</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-57.137798,-1538.7854)"
          id="text125518"
@@ -5259,7 +5259,7 @@
          inkscape:label="L5:B1-4"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan39874">L5:B1-4</tspan></text><text
+           id="tspan17901">L5:B1-4</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-617.93588,-1529.6926)"
          id="text125492"
@@ -5269,7 +5269,7 @@
          inkscape:label="L4:B1-3"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan39876">L4:B1-3</tspan></text><text
+           id="tspan17903">L4:B1-3</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-1054.0727,-1529.519)"
          id="text118791"
@@ -5279,7 +5279,7 @@
          inkscape:label="L3:B5-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan39878">L3:B5-5</tspan></text><text
+           id="tspan17905">L3:B5-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-1162.1161,-1529.519)"
          id="text119139"
@@ -5289,7 +5289,7 @@
          inkscape:label="L3:B4-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan39880">L3:B4-5</tspan></text><text
+           id="tspan17907">L3:B4-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-1395.2562,-1529.519)"
          id="text79310"
@@ -5299,7 +5299,7 @@
          inkscape:label="L3:B1-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan39882">L3:B1-5</tspan></text><text
+           id="tspan17909">L3:B1-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-2009.9955,-1529.519)"
          id="text119075"
@@ -5309,7 +5309,7 @@
          inkscape:label="L2:B5-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan39884">L2:B5-5</tspan></text><text
+           id="tspan17911">L2:B5-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-2124.7309,-1529.519)"
          id="text118815"
@@ -5319,7 +5319,7 @@
          inkscape:label="L2:B4-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan39886">L2:B4-5</tspan></text><text
+           id="tspan17913">L2:B4-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-2368.0337,-1529.519)"
          id="text119007"
@@ -5329,7 +5329,7 @@
          inkscape:label="L2:B1-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan39888">L2:B1-5</tspan></text><text
+           id="tspan17915">L2:B1-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-3013.5442,-1527.8263)"
          id="text118923"
@@ -5339,7 +5339,7 @@
          inkscape:label="L1:B6-6"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan39890">L1:B6-6</tspan></text><text
+           id="tspan17917">L1:B6-6</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-3118.2482,-1527.8263)"
          id="text118839"
@@ -5349,7 +5349,7 @@
          inkscape:label="L1:B5-6"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan39892">L1:B5-6</tspan></text><text
+           id="tspan17919">L1:B5-6</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-3227.856,-1525.3255)"
          id="text118747"
@@ -5359,7 +5359,7 @@
          inkscape:label="L1:B4-6"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan39894">L1:B4-6</tspan></text><g
+           id="tspan17921">L1:B4-6</tspan></text><g
          id="g66471"
          style="display:inline;fill-rule:evenodd;stroke-linecap:round"
          inkscape:label="X and O"
@@ -5388,7 +5388,7 @@
          inkscape:label="L5:B2-4"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan39896">L5:B2-4</tspan></text><text
+           id="tspan17923">L5:B2-4</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-525.50371,-1532.6868)"
          id="text118571"
@@ -5398,7 +5398,7 @@
          inkscape:label="L4:B2-3"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan39898">L4:B2-3</tspan></text><text
+           id="tspan17925">L4:B2-3</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-1265.8737,-1529.519)"
          id="text118595"
@@ -5408,7 +5408,7 @@
          inkscape:label="L3:B2-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan39900">L3:B2-5</tspan></text><text
+           id="tspan17927">L3:B2-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-2259.6056,-1531.8744)"
          id="text118619"
@@ -5418,7 +5418,7 @@
          inkscape:label="L2:B2-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan39902">L2:B2-5</tspan></text><text
+           id="tspan17929">L2:B2-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-3341.115,-1527.8263)"
          id="text118643"
@@ -5428,7 +5428,7 @@
          inkscape:label="L1:B2-6"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan39904">L1:B2-6</tspan></text></g></g><g
+           id="tspan17931">L1:B2-6</tspan></text></g></g><g
      inkscape:groupmode="layer"
      id="layer24"
      inkscape:label="----------------- Scratchpads and common bounding design box -------------"
@@ -6788,7 +6788,7 @@
          inkscape:label="Basic play"><tspan
            x="343.33381"
            y="84.665542"
-           id="tspan39906">Basic play</tspan></text><path
+           id="tspan17933">Basic play</tspan></text><path
          id="path29665"
          style="display:inline;fill:#000000;fill-rule:evenodd;stroke:#220e0e;stroke-width:2.1894;stroke-linecap:round;stroke-dasharray:none"
          d="m 3329.6148,809.66983 c 117.0426,53.241 187.1445,103.61769 289.4402,145.5186 l 1.6626,-2.5079 c 3.9524,-0.57866 9.8801,1.00009 9.1592,4.1352 l -7.7086,16.49045 c -1.6453,2.25167 -7.0593,-1.01838 -9.1591,-4.13507 l 0.963,-3.45855 c -100.3224,-49.69399 -186.5538,-69.08945 -300.4102,-124.2382 -0.7202,-13.21808 3.7648,-23.98982 16.0559,-31.8035 z"
@@ -6802,7 +6802,7 @@
          inkscape:label="Extended play text"><tspan
            x="320.15521"
            y="84.665542"
-           id="tspan39908">Extended play</tspan></text><g
+           id="tspan17935">Extended play</tspan></text><g
          id="g29880"
          inkscape:export-filename="../shared/x-pitching.png"
          inkscape:export-xdpi="300"
@@ -21119,7 +21119,7 @@ INF - infield fly out</tspan><tspan
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      transform="translate(0,-104.69177)"
      sodipodi:insensitive="true"><g
-       id="g20700"><text
+       id="g12384"><text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:213.333px;line-height:120%;font-family:Calibri;-inkscape-font-specification:Calibri;text-align:center;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.51969;stroke-linecap:round;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
          x="549.6275"
@@ -21153,15 +21153,13 @@ INF - infield fly out</tspan><tspan
          xml:space="preserve"
          transform="matrix(6.6666665,0,0,6.6666665,-269.60635,438.42515)"
          id="text13933"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:203%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:end;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect13935);shape-padding:0;shape-margin:0;inline-size:0;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" /><g
-         id="g11750"
-         transform="translate(-258.44188,438.42515)"><path
-           d="m 2198.2273,6118.3853 h -79.569 v -39.7844 c 0,-22.0806 -17.7042,-39.7847 -39.7845,-39.7847 h -79.569 c -22.0803,0 -39.7845,17.7041 -39.7845,39.7847 v 39.7844 h -79.569 c -22.0803,0 -39.5856,17.7042 -39.5856,39.7846 l -0.1989,218.8146 c 0,22.0805 17.7041,39.7845 39.7845,39.7845 h 318.276 c 22.0803,0 39.7845,-17.704 39.7845,-39.7845 v -218.8146 c 0,-22.0804 -17.7042,-39.7846 -39.7845,-39.7846 z m -119.3535,0 h -79.569 v -39.7844 h 79.569 z"
-           id="path11534"
-           style="fill:#000000;stroke-width:6.66665" /><g
-           id="g11585"
-           transform="matrix(1.0317839,0,0,1.0317839,3961.4381,5990.3286)"
-           style="stroke-width:6.46131">
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.6667px;line-height:203%;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-variant-east-asian:normal;font-feature-settings:normal;font-variation-settings:normal;text-indent:0;text-align:end;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:0px;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;white-space:pre;shape-inside:url(#rect13935);shape-padding:0;shape-margin:0;inline-size:0;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.377953;stroke-linecap:round;stroke-linejoin:bevel;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000" /><path
+         d="m 3797.1915,6556.8104 h 79.569 v -39.7843 c 0,-22.0807 17.7042,-39.7848 39.7845,-39.7848 h 79.569 c 22.0803,0 39.7845,17.7041 39.7845,39.7848 v 39.7843 h 79.569 c 22.0803,0 39.5856,17.7042 39.5856,39.7846 l 0.1989,218.8146 c 0,22.0805 -17.7041,39.7845 -39.7845,39.7845 h -318.276 c -22.0803,0 -39.7845,-17.704 -39.7845,-39.7845 V 6596.595 c 0,-22.0804 17.7042,-39.7846 39.7845,-39.7846 z m 119.3535,0 h 79.569 v -39.7843 h -79.569 z"
+         id="path11534"
+         style="fill:#000000;stroke-width:6.66665" /><g
+         id="g11585"
+         transform="matrix(-1.0317839,0,0,1.0317839,2070.5028,6428.7537)"
+         style="stroke-width:6.46131">
 		<path
    d="M 230.149,120.939 65.986,256.274 c 0,0.191 -0.048,0.472 -0.144,0.855 -0.094,0.38 -0.144,0.656 -0.144,0.852 v 137.041 c 0,4.948 1.809,9.236 5.426,12.847 3.616,3.613 7.898,5.431 12.847,5.431 h 109.63 V 303.664 h 73.097 v 109.64 h 109.629 c 4.948,0 9.236,-1.814 12.847,-5.435 3.617,-3.607 5.432,-7.898 5.432,-12.847 V 257.981 c 0,-0.76 -0.104,-1.334 -0.288,-1.707 z"
    id="path11581"
@@ -21170,7 +21168,7 @@ INF - infield fly out</tspan><tspan
    d="M 457.122,225.438 394.6,173.476 V 56.989 c 0,-2.663 -0.856,-4.853 -2.574,-6.567 -1.704,-1.712 -3.894,-2.568 -6.563,-2.568 h -54.816 c -2.666,0 -4.855,0.856 -6.57,2.568 -1.711,1.714 -2.566,3.905 -2.566,6.567 v 55.673 L 251.849,54.417 c -6.084,-4.949 -13.318,-7.423 -21.694,-7.423 -8.375,0 -15.608,2.474 -21.698,7.423 L 3.172,225.438 c -1.903,1.52 -2.946,3.566 -3.14,6.136 -0.193,2.568 0.472,4.811 1.997,6.713 l 17.701,21.128 c 1.525,1.712 3.521,2.759 5.996,3.142 2.285,0.192 4.57,-0.476 6.855,-1.998 L 230.149,95.817 427.719,260.558 c 1.526,1.328 3.521,1.991 5.996,1.991 h 0.858 c 2.471,-0.376 4.463,-1.43 5.996,-3.138 l 17.703,-21.125 c 1.522,-1.906 2.189,-4.145 1.991,-6.716 -0.195,-2.563 -1.242,-4.609 -3.141,-6.132 z"
    id="path11583"
    style="stroke-width:6.46131" />
-	</g></g><text
+	</g><text
          xml:space="preserve"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:213.333px;line-height:120%;font-family:Calibri;-inkscape-font-specification:'Calibri, Bold';text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:6.66667px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="5900.1123"
