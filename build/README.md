@@ -186,58 +186,58 @@ For each of the newly-created SVG files:
  
 The "objects" individual files then are copied to create raw "burn" files:
 
-- `burn-T-9x12-board-baseball-crane.svg`
-- `burn-1-9x12-board-baseball-crane.svg`
-- `burn-1-crop-9x12-board-baseball-crane.svg`
-- `burn-1-cut-200x248-board-baseball-crane.svg`
-- `burn-2-9x12-board-baseball-crane.svg`
-- `burn-2-crop-9x12-board-baseball-crane.svg`
-- `burn-2-cut-200x248-board-baseball-crane.svg`
+- `SBF-frame-9x12-board-baseball-crane.svg`
+- `SBF-cut-200x248-board-baseball-crane.svg`
+- `SBB-frame-9x12-board-baseball-crane.svg`
+- `SBB-cut-200x248-board-baseball-crane.svg`
+- `LT-frame-9x12-board-baseball-crane.svg`
+- `L1-frame-9x12-board-baseball-crane.svg`
+- `L1-crop-9x12-board-baseball-crane.svg`
+- `L1-cut-200x248-board-baseball-crane.svg`
+- `L2-frame-9x12-board-baseball-crane.svg`
+- `L2-crop-9x12-board-baseball-crane.svg`
+- `L2-cut-200x248-board-baseball-crane.svg`
 - ...
-
-Note that `burn-6-9x12...` does not exist because of the blank background. Of course `burn-6-crop-9x12...` and `burn-2-cut-200x248...` need to exist because of what they do to affect the result.
 
 The raw "burn" collage files then, individually, have the following modifications made before saving them as complete:
 
 - delete the non-applicable crop/cut layers
-- move the applicable crop/cut layer into the content layer
-- select the now-only-top-layer content layer
 - all objects below the top-most layer are ungrouped until there are no more groups below the top-most layer
 - a single magenta cut line is selected using right-click/Select Same.../Stroke color which selects every cut line in the entire collage
 - the stroke width of all lines is changed with a single entry of .001in in the Fill and Stroke dialogue
 - save the SVG
 - print the SVG to be PDF with the same name (careful not to end with ".pdf.pdf")
 
-Layers from the individual burn files are copied into the combined collage burn files by creating an empty SVG file of the target dimension, creating and naming the top layer, importing the individual files, and placing them tête-à-tête on the page as required:
+Layers from the individual burn `*-crop-9x12-*.svg` files are imported into the combined collage burn files by creating an empty SVG file of the target dimension, creating and naming the top layer, importing the individual files, and placing them tête-à-tête on the page as required:
 
-[`burn-13-9x24-board-baseball-crane.svg`](burn-13-9x24-board-baseball-crane.svg)  
-[`burn-46-9x24-board-baseball-crane.svg`](burn-46-9x24-board-baseball-crane.svg)  
-[`burn-47-9x24-board-baseball-crane.svg`](burn-47-9x24-board-baseball-crane.svg)  
-[`burn-25-9x24-board-baseball-crane.svg`](burn-25-9x24-board-baseball-crane.svg)  
-[`burn-1364-18x24-board-baseball-crane.svg`](burn-1364-18x24-board-baseball-crane.svg)  
-[`burn-1374-18x24-board-baseball-crane.svg`](burn-1374-18x24-board-baseball-crane.svg)  
-[`burn-2552-18x24-board-baseball-crane.svg`](burn-2552-18x24-board-baseball-crane.svg)  
-[`burn-134625-27x24-board-baseball-crane.svg`](burn-134625-27x24-board-baseball-crane.svg)  
-[`burn-134725-27x24-board-baseball-crane.svg`](burn-134725-27x24-board-baseball-crane.svg)  
+[`13-crop-9x24-board-baseball-crane.svg`](13-crop-9x24-board-baseball-crane.svg)  
+[`46-crop-9x24-board-baseball-crane.svg`](46-crop-9x24-board-baseball-crane.svg)  
+[`47-crop-9x24-board-baseball-crane.svg`](47-crop-9x24-board-baseball-crane.svg)  
+[`25-crop-9x24-board-baseball-crane.svg`](25-crop-9x24-board-baseball-crane.svg)  
+[`1364-crop-18x24-board-baseball-crane.svg`](1364-crop-18x24-board-baseball-crane.svg)  
+[`1374-crop-18x24-board-baseball-crane.svg`](1374-crop-18x24-board-baseball-crane.svg)  
+[`2552-crop-18x24-board-baseball-crane.svg`](2552-crop-18x24-board-baseball-crane.svg)  
+[`134625-crop-27x24-board-baseball-crane.svg`](134625-crop-27x24-board-baseball-crane.svg)  
+[`134725-crop-27x24-board-baseball-crane.svg`](134725-crop-27x24-board-baseball-crane.svg)  
 
 The PDF files created from the "burn" collage files are what are sent to the appropriate laser; note that the printing of the SVG may unexpectedly rotate the image 180 degrees, needing rotating in the PDF files recreating the file from temporarily rotating the SVG (but not saving the changes/ be sure to check the generated PDF files in a PDF reader before committing to git):
 
-[`burn-1-9x12-board-baseball-crane.pdf`](burn-1-9x12-board-baseball-crane.pdf)  
-[`burn-2-9x12-board-baseball-crane.pdf`](burn-2-9x24-board-baseball-crane.pdf)  
-[`burn-3-9x12-board-baseball-crane.pdf`](burn-3-9x12-board-baseball-crane.pdf)  
-[`burn-4-9x12-board-baseball-crane.pdf`](burn-4-9x12-board-baseball-crane.pdf)  
-[`burn-5-9x12-board-baseball-crane.pdf`](burn-5-9x12-board-baseball-crane.pdf)  
-[`burn-6-9x12-board-baseball-crane.pdf`](burn-6-9x12-board-baseball-crane.pdf)  
-[`burn-T-9x12-board-baseball-crane.pdf`](burn-T-9x12-board-baseball-crane.pdf)  
-[`burn-13-9x24-board-baseball-crane.pdf`](burn-13-9x24-board-baseball-crane.pdf)  
-[`burn-46-9x24-board-baseball-crane.pdf`](burn-46-9x24-board-baseball-crane.pdf)  
-[`burn-47-9x24-board-baseball-crane.pdf`](burn-47-9x24-board-baseball-crane.pdf)  
-[`burn-25-9x24-board-baseball-crane.pdf`](burn-25-9x24-board-baseball-crane.pdf)  
-[`burn-1364-18x24-board-baseball-crane.pdf`](burn-1364-18x24-board-baseball-crane.pdf)  
-[`burn-1374-18x24-board-baseball-crane.pdf`](burn-1374-18x24-board-baseball-crane.pdf)  
-[`burn-2552-18x24-board-baseball-crane.pdf`](burn-2552-18x24-board-baseball-crane.pdf)  
-[`burn-134625-27x24-board-baseball-crane.pdf`](burn-134625-27x24-board-baseball-crane.pdf)  
-[`burn-134725-27x24-board-baseball-crane.pdf`](burn-134725-27x24-board-baseball-crane.pdf)  
+[`L1-crop-9x12-board-baseball-crane.pdf`](L1-crop-9x12-board-baseball-crane.pdf)  
+[`L2-crop-9x12-board-baseball-crane.pdf`](L2-crop-9x24-board-baseball-crane.pdf)  
+[`L3-crop-9x12-board-baseball-crane.pdf`](L3-crop-9x12-board-baseball-crane.pdf)  
+[`L4-crop-9x12-board-baseball-crane.pdf`](L4-crop-9x12-board-baseball-crane.pdf)  
+[`L5-crop-9x12-board-baseball-crane.pdf`](L5-crop-9x12-board-baseball-crane.pdf)  
+[`L6-crop-9x12-board-baseball-crane.pdf`](L6-crop-9x12-board-baseball-crane.pdf)  
+[`LT-frame-9x12-board-baseball-crane.pdf`](LT-frame-9x12-board-baseball-crane.pdf)  
+[`13-crop-9x24-board-baseball-crane.pdf`](13-crop-9x24-board-baseball-crane.pdf)  
+[`46-crop-9x24-board-baseball-crane.pdf`](46-crop-9x24-board-baseball-crane.pdf)  
+[`47-crop-9x24-board-baseball-crane.pdf`](47-crop-9x24-board-baseball-crane.pdf)  
+[`25-crop-9x24-board-baseball-crane.pdf`](25-crop-9x24-board-baseball-crane.pdf)  
+[`1364-crop-18x24-board-baseball-crane.pdf`](1364-crop-18x24-board-baseball-crane.pdf)  
+[`1374-crop-18x24-board-baseball-crane.pdf`](1374-crop-18x24-board-baseball-crane.pdf)  
+[`2552-crop-18x24-board-baseball-crane.pdf`](2552-crop-18x24-board-baseball-crane.pdf)  
+[`134625-crop-27x24-board-baseball-crane.pdf`](134625-crop-27x24-board-baseball-crane.pdf)  
+[`134725-crop-27x24-board-baseball-crane.pdf`](134725-crop-27x24-board-baseball-crane.pdf)  
 
 At this point the new version can be committed to git and pushed to the server.
 
