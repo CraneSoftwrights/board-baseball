@@ -158,31 +158,30 @@ If the prior version of the files hasn't been deleted, be sure to keep the `cut-
 
 Copy the `design-board-baseball-crane.svg` file replacing all of the numbered and "T" SVG files found in the [`../build`](../build) directory using the target name `objects-#-9x12-board-baseball-crane.svg`:
 - `objects-SBF-board-baseball-crane.svg`
-- `objects-SBBg-board-baseball-crane.svg`
-- `objects-T-board-baseball-crane.svg`
-- `objects-1-board-baseball-crane.svg`
-- `objects-2-board-baseball-crane.svg`
-- `objects-3-board-baseball-crane.svg`
+- `objects-SBB-board-baseball-crane.svg`
+- `objects-LT-board-baseball-crane.svg`
+- `objects-L1-board-baseball-crane.svg`
+- `objects-L2-board-baseball-crane.svg`
+- `objects-L3-board-baseball-crane.svg`
 - ...
 
 For each of the newly-created SVG files:
 - open the file in Inkscape
 - delete every layer except for the following layers:
-- - the applicable backing layer
+  - all the applicable backing layers
     - 9"x12" without crop lines (when frames are used to hold material centred)
       - choose one of front-facing or back-facing as needed for the given layer
       - used to create `L*-frame-9x12-board-baseball-crane.svg`
     - 9"x12" with crop lines (front-facing and back-facing alignment holes differ)
       - used to create `L*-crop-9x12-board-baseball-crane.svg`
-      - never used with the "T" test layer
+      - never used with the "T" test layer, "SBF" layer, or "SBB" layer
     - 9"x12" cutting 200x248mm in centre (alignment holes, finger grips, no crop lines)
       - used to create `L*-cut-200x248-board-baseball-crane.svg`
       - never used with the "T" test layer
   - the desired content level combined layer
-- select both the layers, group them, and rotate the group 90 degrees clockwise
+- unhide all layers, group all layers, and rotate the group 90 degrees clockwise
 - in the Document Properties dialogue, "Resize to content" (should result in 12" x 9")
-- ungroup the layers
-- hide the crop/cut layers
+- select the group and use "Path/Object to Path" to convert the fonts to paths
 - save the SVG
  
 The "objects" individual files then are copied to create raw "burn" files:
@@ -203,7 +202,6 @@ The raw "burn" collage files then, individually, have the following modification
 - delete the non-applicable crop/cut layers
 - move the applicable crop/cut layer into the content layer
 - select the now-only-top-layer content layer
-- use "Path/Object to Path" to convert the fonts to paths
 - all objects below the top-most layer are ungrouped until there are no more groups below the top-most layer
 - a single magenta cut line is selected using right-click/Select Same.../Stroke color which selects every cut line in the entire collage
 - the stroke width of all lines is changed with a single entry of .001in in the Fill and Stroke dialogue
