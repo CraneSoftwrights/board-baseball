@@ -154,9 +154,11 @@ A number of convenience cutting files (without any text) are available should yo
 
 ### Creating the burn files
 
-If the prior version of the files hasn't been deleted, be sure to keep the `cut-*.*` and `frame-*.*` files in this directory and delete all of the `objects-*.*` and `burn-*.*` files.
+If the prior version of the files hasn't been deleted, be sure to keep the `cut-*.*` and `frame-*.*` files in this directory and delete all of the `objects-*.*` and `L*burn*.*` files.
 
 Copy the `design-board-baseball-crane.svg` file replacing all of the numbered and "T" SVG files found in the [`../build`](../build) directory using the target name `objects-#-9x12-board-baseball-crane.svg`:
+- `objects-SBF-board-baseball-crane.svg`
+- `objects-SBBg-board-baseball-crane.svg`
 - `objects-T-board-baseball-crane.svg`
 - `objects-1-board-baseball-crane.svg`
 - `objects-2-board-baseball-crane.svg`
@@ -166,19 +168,18 @@ Copy the `design-board-baseball-crane.svg` file replacing all of the numbered an
 For each of the newly-created SVG files:
 - open the file in Inkscape
 - delete every layer except for the following layers:
-  - the desired content level combined layer
-  - the set of applicable crop/cut layers
+- - the applicable backing layer
     - 9"x12" without crop lines (when frames are used to hold material centred)
       - choose one of front-facing or back-facing as needed for the given layer
-      - used to create `burn-*-9x12-board-baseball-crane.svg`
+      - used to create `L*-frame-9x12-board-baseball-crane.svg`
     - 9"x12" with crop lines (front-facing and back-facing alignment holes differ)
-      - used to create `burn-*-crop-9x12-board-baseball-crane.svg`
+      - used to create `L*-crop-9x12-board-baseball-crane.svg`
       - never used with the "T" test layer
-    - 9"x12" cutting 200x248mm in centre without crop lines
-      - used to create `burn-*-cut-200x248-board-baseball-crane.svg`
+    - 9"x12" cutting 200x248mm in centre (alignment holes, finger grips, no crop lines)
+      - used to create `L*-cut-200x248-board-baseball-crane.svg`
       - never used with the "T" test layer
-- position the content layer after the crop/cut layers for masking to work
-- select all the layers, group them, and rotate the group 90 degrees clockwise
+  - the desired content level combined layer
+- select both the layers, group them, and rotate the group 90 degrees clockwise
 - in the Document Properties dialogue, "Resize to content" (should result in 12" x 9")
 - ungroup the layers
 - hide the crop/cut layers

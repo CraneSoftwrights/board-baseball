@@ -76,17 +76,17 @@ Hide all of the layers.
 
 ### Create the PNG and PDF results
 
-PNG used in the [`README.md`](../README.md)
-- un-hide the print layers using the combined panel
-- export the contents using the "Document" tab (not the "Page" tab) to [`shared/board.png`](../shared/board.png)
+PNG files used in the [`README.md`](../README.md)
+- un-hide only the Print back backing layer and the Single board front content levels
+- export the contents using the "Document" tab (not the "Page" tab) to [`shared/combo-board-baseball-crane.png`](../shared/combo-board-baseball-crane.png)
+- un-hide only the Print back backing layer and the Single board front content levels
+- export the contents using the "Document" tab (not the "Page" tab) to [`shared/back-board-baseball-crane.png`](../shared/back-board-baseball-crane.png)
 
-PDF files used for play when printing the boards
+PNG files used for play when printing the boards
 - un-hide the print layers using the basic panel
-- in the Document Properties dialogue, "Resize to content"
-- print to [`shared/basic-print-board-baseball-crane.pdf`](../shared/basic-print-board-baseball-crane.pdf) (be careful not to end with ".pdf.pdf")
-- hide the basic panel and un-hide the extended panel
-- print to [`shared/extended-print-board-baseball-crane.pdf`](../shared/extended-print-board-baseball-crane.pdf) (be careful not to end with ".pdf.pdf")
-- undo all actions until page size restored and all layers hidden
+- export the contents using the "Document" tab (not the "Page" tab) to [`shared/basic-board-baseball-crane.png`](../shared/basic-board-baseball-crane.png)
+- un-hide the print layers using the extended panel
+- export the contents using the "Document" tab (not the "Page" tab) to [`shared/extended-board-baseball-crane.png`](../shared/extended-board-baseball-crane.png)
 
 ### Create the individual level SVG files and burn files
 

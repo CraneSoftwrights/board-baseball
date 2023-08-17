@@ -1,11 +1,12 @@
 # A board baseball game to teach the sport
 
 Copyright © Crane Softwrights Ltd.
-
-https://github.com/CraneSoftwrights/board-baseball
+Development: https://github.com/CraneSoftwrights/board-baseball
+Tip jar: https://paypal.me/CraneSoftwrights
 
 Languages:
 
 - [English](English#readme) - [English/Readme.md](English#readme)
 
-<img alt="Complete board with dual play selections" src="shared/board.png"/>
+<img alt="Single board front" src="shared/sbf.png"/>
+<img alt="Single board back" src="shared/sbb.png"/>
