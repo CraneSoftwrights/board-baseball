@@ -49,7 +49,7 @@
 
 ### 2-3 <img alt="" src="../shared/z-2-3.png" style="height:35px"/>
 
-- a force out or a fielder's choice
+- a force out
 - the leading base runner is out, counting the batter as a base runner
 - if the batter is out at first, the play is recorded as a force out
 - if the batter is safe at first, the play is recorded as a fielder's choice
@@ -81,7 +81,7 @@
 
 ### 3-5 <img alt="" src="../shared/z-3-5.png" style="height:35px"/>
 
-- a force out or a fielder's choice
+- a force out
 - the leading base runner is out, counting the batter as a base runner
 - if the batter is out at first, the play is recorded as a force out
 - if the batter is safe at first, the play is recorded as a fielder's choice

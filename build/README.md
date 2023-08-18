@@ -2,13 +2,13 @@
 
 These are the resources used to build a 3-dimensional box using a laser printer to cut multiple layers according to a PDF file for each layer.
 
-<img alt="" src="../shared/box1.jpg" height="300"/> <img alt="" src="../shared/box2.jpg" height="300"/> 
+<img alt="" src="../shared/box1.jpg" style="height:300px"/> <img alt="" src="../shared/box2.jpg" style="height:300px"/> 
 
 ## Terminology
 
 | Legend | Key |
 | ---- | ---- |  
-| **A** = alignment hole<br/><br/>**B** = panel trench<br/><br/>**C** = panel<br/><br/>**D** = panel cradle<br/><br/>**E** = compartment<br/><br/>**F** = compartment lid<br/><br/>**G** = main board | <img alt="" src="../shared/terminology.png" height="300"/> |  
+| **A** = alignment hole<br/><br/>**B** = panel trench<br/><br/>**C** = panel<br/><br/>**D** = panel cradle<br/><br/>**E** = compartment<br/><br/>**F** = compartment lid<br/><br/>**G** = main board | <img alt="" src="../shared/terminology.png" style="height:300px"/> |  
 
 ## Board layers
 
@@ -122,35 +122,35 @@ The laminating instructions for each component of the board are the same and are
 
 These are the files used to burn in a laser cutter, tested in an Epilog Helix branded machine:
 
-9"x12": [<img alt="" src="../shared/1-collage.png" height="60"/>](burn-1-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/2-collage.png" height="60"/>](burn-2-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/3-collage.png" height="60"/>](burn-3-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/4-collage.png" height="60"/>](burn-4-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/5-collage.png" height="60"/>](burn-5-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/6-collage.png" height="60"/>](burn-6-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/7-collage.png" height="60"/>](burn-7-9x12-board-baseball-crane.pdf), and [<img alt="" src="../shared/T-collage.png" height="60"/>](burn-T-9x12-board-baseball-crane.pdf) 
+9"x12": [<img alt="" src="../shared/1-collage.png" style="height:60px"/>](burn-1-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/2-collage.png" style="height:60px"/>](burn-2-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/3-collage.png" style="height:60px"/>](burn-3-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/4-collage.png" style="height:60px"/>](burn-4-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/5-collage.png" style="height:60px"/>](burn-5-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/6-collage.png" style="height:60px"/>](burn-6-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/7-collage.png" style="height:60px"/>](burn-7-9x12-board-baseball-crane.pdf), and [<img alt="" src="../shared/T-collage.png" style="height:60px"/>](burn-T-9x12-board-baseball-crane.pdf) 
 
 These are collages of layer images arranged tête-à-tête for board levels with a finished side that are user-facing:
 
-18"x24": [<img alt="" src="../shared/1364-collage.png" height="120"/>](burn-1364-18x24-board-baseball-crane.pdf) and [<img alt="" src="../shared/1374-collage.png" height="120"/>](burn-1374-18x24-board-baseball-crane.pdf)  
-9"x24": [<img alt="" src="../shared/13-collage.png" height="60"/>](burn-13-9x24-board-baseball-crane.pdf), [<img alt="" src="../shared/46-collage.png" height="60"/>](burn-46-9x24-board-baseball-crane.pdf), and [<img alt="" src="../shared/47-collage.png" height="60"/>](burn-47-9x24-board-baseball-crane.pdf)
+18"x24": [<img alt="" src="../shared/1364-collage.png" style="height:120px"/>](burn-1364-18x24-board-baseball-crane.pdf) and [<img alt="" src="../shared/1374-collage.png" style="height:120px"/>](burn-1374-18x24-board-baseball-crane.pdf)  
+9"x24": [<img alt="" src="../shared/13-collage.png" style="height:60px"/>](burn-13-9x24-board-baseball-crane.pdf), [<img alt="" src="../shared/46-collage.png" style="height:60px"/>](burn-46-9x24-board-baseball-crane.pdf), and [<img alt="" src="../shared/47-collage.png" style="height:60px"/>](burn-47-9x24-board-baseball-crane.pdf)
 
 These are collages of layer images arranged tête-à-tête for internal unfinished board levels that are not user-facing:
 
-18"x24": [<img alt="" src="../shared/2552-collage.png" height="120"/>](burn-2552-18x24-board-baseball-crane.pdf) 
-9"x24": [<img alt="" src="../shared/25-collage.png" height="60"/>](burn-25-9x24-board-baseball-crane.pdf)
+18"x24": [<img alt="" src="../shared/2552-collage.png" style="height:120px"/>](burn-2552-18x24-board-baseball-crane.pdf) 
+9"x24": [<img alt="" src="../shared/25-collage.png" style="height:60px"/>](burn-25-9x24-board-baseball-crane.pdf)
 
 These are collages of layer images arranged tête-à-tête for all boards in a single burn:
 
-27"x24": [<img alt="" src="../shared/134625-collage.png" height="180"/>](burn-134625-18x24-board-baseball-crane.pdf) and [<img alt="" src="../shared/134725-collage.png" height="180"/>](burn-134725-18x24-board-baseball-crane.pdf)  
+27"x24": [<img alt="" src="../shared/134625-collage.png" style="height:180px"/>](burn-134625-18x24-board-baseball-crane.pdf) and [<img alt="" src="../shared/134725-collage.png" style="height:180px"/>](burn-134725-18x24-board-baseball-crane.pdf)  
 
 Two frame cutting patterns are available in order to make the scaffolding to hold a piece of material less than 9"x12" within the 9"x12" workspace:
 
-8"x10" rectangle in 9"x12": [<img alt="" src="../shared/frame-8x10.png" height="120"/>](frame-8x10-in-9x12.pdf)
+8"x10" rectangle in 9"x12": [<img alt="" src="../shared/frame-8x10.png" style="height:120px"/>](frame-8x10-in-9x12.pdf)
 
-200x248mm rounded rectangle in 9"x12":  [<img alt="" src="../shared/frame-200x248.png" height="120"/>](frame-200x248-in-9x12.pdf)
+200x248mm rounded rectangle in 9"x12":  [<img alt="" src="../shared/frame-200x248.png" style="height:120px"/>](frame-200x248-in-9x12.pdf)
 
 A number of convenience cutting files (without any text) are available should you wish to carve up pieces of material with simple cuts:
 
-8"x10": [<img alt="" src="../shared/8x10-from-larger.png" height="80"/>](cut-8x10-from-larger.pdf)
+8"x10": [<img alt="" src="../shared/8x10-from-larger.png" style="height:80px"/>](cut-8x10-from-larger.pdf)
 
-18"x24": [<img alt="" src="../shared/9x12-from-18x24.png" height="120"/>](cut-9x12-from-18x24.pdf), [<img alt="" src="../shared/9x24-from-18x24.png" height="120"/>](cut-9x24-from-18x24.pdf), and [<img alt="" src="../shared/18x12-from-18x24.png" height="120"/>](cut-18x12-from-18x24.pdf)  
-18"x12": [<img alt="" src="../shared/9x12-from-18x12.png" height="120"/>](cut-9x12-from-18x12.pdf)
-9"x24": [<img alt="" src="../shared/9x12-from-9x24.png" height="60"/>](cut-9x12-from-9x24.pdf)
+18"x24": [<img alt="" src="../shared/9x12-from-18x24.png" style="height:120px"/>](cut-9x12-from-18x24.pdf), [<img alt="" src="../shared/9x24-from-18x24.png" style="height:120px"/>](cut-9x24-from-18x24.pdf), and [<img alt="" src="../shared/18x12-from-18x24.png" style="height:120px"/>](cut-18x12-from-18x24.pdf)  
+18"x12": [<img alt="" src="../shared/9x12-from-18x12.png" style="height:120px"/>](cut-9x12-from-18x12.pdf)
+9"x24": [<img alt="" src="../shared/9x12-from-9x24.png" style="height:60px"/>](cut-9x12-from-9x24.pdf)
 
 ### Creating the burn files
 
