@@ -2,7 +2,7 @@
 
 <img src="step-1.png" style="height:60px"/>  
 
-<img src="start.png" style="height:360px"/>
+<img src="X-start.png" style="height:360px"/>
 
 <img src="colours.png" style="height:120px"/> [22 x A](X-SETUP.md#22-x-a) / [2 x A, 10 x B, 10 x C](X-SETUP.md#2-x-a-10-x-b-10-x-c) / [6 x A, 8 X B, 8 x C](X-SETUP.md#6-x-a-8-x-b-8-x-c)
 
