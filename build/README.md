@@ -2,13 +2,13 @@
 
 These are the resources used to build a 3-dimensional box using a laser printer to cut multiple layers according to a PDF file for each layer.
 
-<img alt="" src="../shared/box1.jpg" height="300"/> <img alt="" src="../shared/box2.jpg" height="300"/> 
+<img alt="" src="../shared/box1.jpg" style="height:300px"/> <img alt="" src="../shared/box2.jpg" style="height:300px"/> 
 
 ## Terminology
 
 | Legend | Key |
 | ---- | ---- |  
-| **A** = alignment hole<br/><br/>**B** = panel trench<br/><br/>**C** = panel<br/><br/>**D** = panel cradle<br/><br/>**E** = compartment<br/><br/>**F** = compartment lid<br/><br/>**G** = main board | <img alt="" src="../shared/terminology.png" height="300"/> |  
+| **A** = alignment hole<br/><br/>**B** = panel trench<br/><br/>**C** = panel<br/><br/>**D** = panel cradle<br/><br/>**E** = compartment<br/><br/>**F** = compartment lid<br/><br/>**G** = main board | <img alt="" src="../shared/terminology.png" style="height:300px"/> |  
 
 ## Board layers
 
@@ -24,12 +24,19 @@ The test layer is positioned such that it can overlay layer 2. After burning the
 
 In addition to the board material being cut and assembled, the following items are useful in construction and play. Included are illustrative examples of the commercial availability of some of the materials, though these are not to be regarded as recommendations or requirements, just examples of materials that have worked for the two designers:
 
-- 9"x12" blank burn boards 1/8"=3mm thick (alternatively 3/8"=5mm)
+- layers of burn and cut material
+  - 9"x12" is assumed for every burn
+    - 9"x12" frame cut provided for holding an 8"x10" rectangle
   - 6-count in total, possibly combined in larger dimensions of material
+  - choice of dimensions and assuming thickness of 1/8"=3mm (alternatively 3/8"=5mm):
+    - 9"x12" rectangles (burn includes alignment holes and crop marks)
+    - 8"x10" rectangles (no alignment holes or crop marks)
+    - "content" 200x248mm with rounded corners (no alignment holes or crop marks)
   - the equipment available to the designers works with either 9"x24", 18"x24", or 27"x24" pieces of material, thus governing the sizes below
     - using Inkscape one could build any arbitrary combination of  
   - the masters below accommodate your use of either 9"x12", 9"x24", or 18"x24" material dimensions
-  - the play area is 200mm x 256mm which fits both on A4 and US-letter paper page sizes
+  - the play area is 200x248mm which fits both on A4 and US-letter paper page sizes and 8"x10" blanks
+  - when working with acrylic, the local shop prohibits polycarbonates and permits polymethyl methacrylate (PMMA) 
 - 12mm dice
   - 4-count optionally in three colours - one for pitching, two for batting, one for running
   - e.g. [`https://www.amazon.ca/dp/B08F72SLYD`](https://www.amazon.ca/dp/B08F72SLYD)
@@ -115,107 +122,135 @@ The laminating instructions for each component of the board are the same and are
 
 These are the files used to burn in a laser cutter, tested in an Epilog Helix branded machine:
 
-9"x12": [<img alt="" src="../shared/1-collage.png" height="60"/>](burn-1-9x12-collage-board-baseball-crane.pdf), [<img alt="" src="../shared/2-collage.png" height="60"/>](burn-2-9x12-collage-board-baseball-crane.pdf), [<img alt="" src="../shared/3-collage.png" height="60"/>](burn-3-9x12-collage-board-baseball-crane.pdf), [<img alt="" src="../shared/4-collage.png" height="60"/>](burn-4-9x12-collage-board-baseball-crane.pdf), [<img alt="" src="../shared/5-collage.png" height="60"/>](burn-5-9x12-collage-board-baseball-crane.pdf), [<img alt="" src="../shared/6-collage.png" height="60"/>](burn-6-9x12-collage-board-baseball-crane.pdf), [<img alt="" src="../shared/7-collage.png" height="60"/>](burn-7-9x12-collage-board-baseball-crane.pdf), and [<img alt="" src="../shared/T-collage.png" height="60"/>](burn-T-9x12-collage-board-baseball-crane.pdf) 
+9"x12": [<img alt="" src="../shared/1-collage.png" style="height:60px"/>](burn-1-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/2-collage.png" style="height:60px"/>](burn-2-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/3-collage.png" style="height:60px"/>](burn-3-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/4-collage.png" style="height:60px"/>](burn-4-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/5-collage.png" style="height:60px"/>](burn-5-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/6-collage.png" style="height:60px"/>](burn-6-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/7-collage.png" style="height:60px"/>](burn-7-9x12-board-baseball-crane.pdf), and [<img alt="" src="../shared/T-collage.png" style="height:60px"/>](burn-T-9x12-board-baseball-crane.pdf) 
 
 These are collages of layer images arranged tête-à-tête for board levels with a finished side that are user-facing:
 
-18"x24": [<img alt="" src="../shared/1364-collage.png" height="120"/>](burn-1364-18x24-collage-board-baseball-crane.pdf) and [<img alt="" src="../shared/1374-collage.png" height="120"/>](burn-1374-18x24-collage-board-baseball-crane.pdf)  
-9"x24": [<img alt="" src="../shared/13-collage.png" height="60"/>](burn-13-9x24-collage-board-baseball-crane.pdf), [<img alt="" src="../shared/46-collage.png" height="60"/>](burn-46-9x24-collage-board-baseball-crane.pdf), and [<img alt="" src="../shared/47-collage.png" height="60"/>](burn-47-9x24-collage-board-baseball-crane.pdf)
+18"x24": [<img alt="" src="../shared/1364-collage.png" style="height:120px"/>](burn-1364-18x24-board-baseball-crane.pdf) and [<img alt="" src="../shared/1374-collage.png" style="height:120px"/>](burn-1374-18x24-board-baseball-crane.pdf)  
+9"x24": [<img alt="" src="../shared/13-collage.png" style="height:60px"/>](burn-13-9x24-board-baseball-crane.pdf), [<img alt="" src="../shared/46-collage.png" style="height:60px"/>](burn-46-9x24-board-baseball-crane.pdf), and [<img alt="" src="../shared/47-collage.png" style="height:60px"/>](burn-47-9x24-board-baseball-crane.pdf)
 
 These are collages of layer images arranged tête-à-tête for internal unfinished board levels that are not user-facing:
 
-18"x24": [<img alt="" src="../shared/2552-collage.png" height="120"/>](burn-2552-18x24-collage-board-baseball-crane.pdf) 
-9"x24": [<img alt="" src="../shared/25-collage.png" height="60"/>](burn-25-9x24-collage-board-baseball-crane.pdf)
+18"x24": [<img alt="" src="../shared/2552-collage.png" style="height:120px"/>](burn-2552-18x24-board-baseball-crane.pdf) 
+9"x24": [<img alt="" src="../shared/25-collage.png" style="height:60px"/>](burn-25-9x24-board-baseball-crane.pdf)
 
 These are collages of layer images arranged tête-à-tête for all boards in a single burn:
 
-27"x24": [<img alt="" src="../shared/134625-collage.png" height="180"/>](burn-134625-18x24-collage-board-baseball-crane.pdf) and [<img alt="" src="../shared/134725-collage.png" height="180"/>](burn-134725-18x24-collage-board-baseball-crane.pdf)  
+27"x24": [<img alt="" src="../shared/134625-collage.png" style="height:180px"/>](burn-134625-18x24-board-baseball-crane.pdf) and [<img alt="" src="../shared/134725-collage.png" style="height:180px"/>](burn-134725-18x24-board-baseball-crane.pdf)  
+
+Two frame cutting patterns are available in order to make the scaffolding to hold a piece of material less than 9"x12" within the 9"x12" workspace:
+
+8"x10" rectangle in 9"x12": [<img alt="" src="../shared/frame-8x10.png" style="height:120px"/>](frame-8x10-in-9x12.pdf)
+
+200x248mm rounded rectangle in 9"x12":  [<img alt="" src="../shared/frame-200x248.png" style="height:120px"/>](frame-200x248-in-9x12.pdf)
 
 A number of convenience cutting files (without any text) are available should you wish to carve up pieces of material with simple cuts:
 
-18"x24": [<img alt="" src="../shared/9x12-from-18x24.png" height="120"/>](cut-9x12-from-18x24.pdf), [<img alt="" src="../shared/9x24-from-18x24.png" height="120"/>](cut-9x24-from-18x24.pdf), and [<img alt="" src="../shared/18x12-from-18x24.png" height="120"/>](cut-18x12-from-18x24.pdf)  
-18"x12": [<img alt="" src="../shared/9x12-from-18x12.png" height="120"/>](cut-9x12-from-18x12.pdf)
-9"x24": [<img alt="" src="../shared/9x12-from-9x24.png" height="60"/>](cut-9x12-from-9x24.pdf)
+8"x10": [<img alt="" src="../shared/8x10-from-larger.png" style="height:80px"/>](cut-8x10-from-larger.pdf)
+
+18"x24": [<img alt="" src="../shared/9x12-from-18x24.png" style="height:120px"/>](cut-9x12-from-18x24.pdf), [<img alt="" src="../shared/9x24-from-18x24.png" style="height:120px"/>](cut-9x24-from-18x24.pdf), and [<img alt="" src="../shared/18x12-from-18x24.png" style="height:120px"/>](cut-18x12-from-18x24.pdf)  
+18"x12": [<img alt="" src="../shared/9x12-from-18x12.png" style="height:120px"/>](cut-9x12-from-18x12.pdf)
+9"x24": [<img alt="" src="../shared/9x12-from-9x24.png" style="height:60px"/>](cut-9x12-from-9x24.pdf)
 
 ### Creating the burn files
 
-If the prior version of the files hasn't been deleted, be sure to keep the `cut-*.*` files in this directory and delete all of the `objects-*.*` and `burn-*.*` files.
+If the prior version of the files hasn't been deleted, be sure to keep the `cut-*.*` and `frame-*.*` files in this directory and delete all of the `objects-*.*` and `L*burn*.*` files.
 
-Copy the `design-board-baseball-crane.svg` file replacing all of the numbered and "T" SVG files found in the [`../build`](../build) directory using the target name `objects-#-9x12-collage-board-baseball-crane.svg`:
-- `objects-T-9x12-collage-board-baseball-crane.svg`
-- `objects-1-9x12-collage-board-baseball-crane.svg`
-- `objects-2-9x12-collage-board-baseball-crane.svg`
-- `objects-3-9x12-collage-board-baseball-crane.svg`
+Copy the `design-board-baseball-crane.svg` file replacing all of the numbered and "T" SVG files found in the [`../build`](../build) directory using the target name `objects-#-9x12-board-baseball-crane.svg`:
+- `objects-SBF-board-baseball-crane.svg`
+- `objects-SBB-board-baseball-crane.svg`
+- `objects-LT-board-baseball-crane.svg`
+- `objects-L1-board-baseball-crane.svg`
+- `objects-L2-board-baseball-crane.svg`
+- `objects-L3-board-baseball-crane.svg`
 - ...
 
 For each of the newly-created SVG files:
 - open the file in Inkscape
-- delete every layer except the combined layer
-- un-hide the combined layer (which should show everything)
-- select the layer and rotate it 90 degrees clockwise
+- delete every layer except for the following layers:
+  - all the applicable backing layers
+    - 9"x12" without crop lines (when frames are used to hold material centred)
+      - choose one of front-facing or back-facing as needed for the given layer
+      - used to create `L*-frame-9x12-board-baseball-crane.svg`
+    - 9"x12" with crop lines (front-facing and back-facing alignment holes differ)
+      - used to create `L*-crop-9x12-board-baseball-crane.svg`
+      - never used with the "T" test layer, "SBF" layer, or "SBB" layer
+    - 9"x12" cutting 200x248mm in centre (alignment holes, finger grips, no crop lines)
+      - used to create `L*-cut-200x248-board-baseball-crane.svg`
+      - never used with the "T" test layer
+  - the desired content level combined layer
+- unhide all layers, group all layers, and rotate the group 90 degrees clockwise
 - in the Document Properties dialogue, "Resize to content" (should result in 12" x 9")
+- select the group and use "Path/Object to Path" to convert the fonts to paths
 - save the SVG
  
-Quit Inkscape to ensure all of the object files have been saved.
+The "objects" individual files then are copied to create raw "burn" files:
 
-The "objects" individual files then are copied to create "burn" individual files:
-
-- `burn-T-9x12-collage-board-baseball-crane.svg`
-- `burn-1-9x12-collage-board-baseball-crane.svg`
-- `burn-2-9x12-collage-board-baseball-crane.svg`
-- `burn-3-9x12-collage-board-baseball-crane.svg`
+- `SBF-frame-9x12-board-baseball-crane.svg`
+- `SBF-cut-200x248-board-baseball-crane.svg`
+- `SBB-frame-9x12-board-baseball-crane.svg`
+- `SBB-cut-200x248-board-baseball-crane.svg`
+- `LT-frame-9x12-board-baseball-crane.svg`
+- `L1-frame-9x12-board-baseball-crane.svg`
+- `L1-crop-9x12-board-baseball-crane.svg`
+- `L1-cut-200x248-board-baseball-crane.svg`
+- `L2-frame-9x12-board-baseball-crane.svg`
+- `L2-crop-9x12-board-baseball-crane.svg`
+- `L2-cut-200x248-board-baseball-crane.svg`
 - ...
 
-The "burn" collage files then, indiviually, have the following modifications made before saving them as complete:
+The raw "burn" collage files then, individually, have the following modifications made before saving them as complete:
 
-- open the file in Inkscape and unlock the top-most layer
-- all objects are selected using the top-most and the menu item "Path/Object to Path" is used to convert the fonts to paths
+- delete the non-applicable crop/cut layers
 - all objects below the top-most layer are ungrouped until there are no more groups below the top-most layer
 - a single magenta cut line is selected using right-click/Select Same.../Stroke color which selects every cut line in the entire collage
 - the stroke width of all lines is changed with a single entry of .001in in the Fill and Stroke dialogue
 - save the SVG
 - print the SVG to be PDF with the same name (careful not to end with ".pdf.pdf")
 
-Layers from the individual burn files are copied into the combined collage burn files by creating an empty SVG file of the target dimension, creating and naming the top layer, importing the individual files, and placing them tête-à-tête on the page as required:
+Layers from the individual burn `*-crop-9x12-*.svg` files are imported into the combined collage burn files by creating an empty SVG file of the target dimension, creating and naming the top layer, importing the individual files, and placing them tête-à-tête on the page as required:
 
-[`burn-13-9x24-collage-board-baseball-crane.svg`](burn-13-9x24-collage-board-baseball-crane.svg)  
-[`burn-46-9x24-collage-board-baseball-crane.svg`](burn-46-9x24-collage-board-baseball-crane.svg)  
-[`burn-47-9x24-collage-board-baseball-crane.svg`](burn-47-9x24-collage-board-baseball-crane.svg)  
-[`burn-25-9x24-collage-board-baseball-crane.svg`](burn-25-9x24-collage-board-baseball-crane.svg)  
-[`burn-1364-18x24-collage-board-baseball-crane.svg`](burn-1364-18x24-collage-board-baseball-crane.svg)  
-[`burn-1374-18x24-collage-board-baseball-crane.svg`](burn-1374-18x24-collage-board-baseball-crane.svg)  
-[`burn-2552-18x24-collage-board-baseball-crane.svg`](burn-2552-18x24-collage-board-baseball-crane.svg)  
-[`burn-134625-27x24-collage-board-baseball-crane.svg`](burn-134625-27x24-collage-board-baseball-crane.svg)  
-[`burn-134725-27x24-collage-board-baseball-crane.svg`](burn-134725-27x24-collage-board-baseball-crane.svg)  
+[`13-crop-9x24-board-baseball-crane.svg`](13-crop-9x24-board-baseball-crane.svg)  
+[`46-crop-9x24-board-baseball-crane.svg`](46-crop-9x24-board-baseball-crane.svg)  
+[`47-crop-9x24-board-baseball-crane.svg`](47-crop-9x24-board-baseball-crane.svg)  
+[`25-crop-9x24-board-baseball-crane.svg`](25-crop-9x24-board-baseball-crane.svg)  
+[`1364-crop-18x24-board-baseball-crane.svg`](1364-crop-18x24-board-baseball-crane.svg)  
+[`1374-crop-18x24-board-baseball-crane.svg`](1374-crop-18x24-board-baseball-crane.svg)  
+[`2552-crop-18x24-board-baseball-crane.svg`](2552-crop-18x24-board-baseball-crane.svg)  
+[`134625-crop-27x24-board-baseball-crane.svg`](134625-crop-27x24-board-baseball-crane.svg)  
+[`134725-crop-27x24-board-baseball-crane.svg`](134725-crop-27x24-board-baseball-crane.svg)  
 
 The PDF files created from the "burn" collage files are what are sent to the appropriate laser; note that the printing of the SVG may unexpectedly rotate the image 180 degrees, needing rotating in the PDF files recreating the file from temporarily rotating the SVG (but not saving the changes/ be sure to check the generated PDF files in a PDF reader before committing to git):
 
-[`burn-1-9x12-collage-board-baseball-crane.pdf`](burn-1-9x12-collage-board-baseball-crane.pdf)  
-[`burn-2-9x12-collage-board-baseball-crane.pdf`](burn-2-9x24-collage-board-baseball-crane.pdf)  
-[`burn-3-9x12-collage-board-baseball-crane.pdf`](burn-3-9x12-collage-board-baseball-crane.pdf)  
-[`burn-4-9x12-collage-board-baseball-crane.pdf`](burn-4-9x12-collage-board-baseball-crane.pdf)  
-[`burn-5-9x12-collage-board-baseball-crane.pdf`](burn-5-9x12-collage-board-baseball-crane.pdf)  
-[`burn-6-9x12-collage-board-baseball-crane.pdf`](burn-6-9x12-collage-board-baseball-crane.pdf)  
-[`burn-T-9x12-collage-board-baseball-crane.pdf`](burn-T-9x12-collage-board-baseball-crane.pdf)  
-[`burn-13-9x24-collage-board-baseball-crane.pdf`](burn-13-9x24-collage-board-baseball-crane.pdf)  
-[`burn-46-9x24-collage-board-baseball-crane.pdf`](burn-46-9x24-collage-board-baseball-crane.pdf)  
-[`burn-47-9x24-collage-board-baseball-crane.pdf`](burn-47-9x24-collage-board-baseball-crane.pdf)  
-[`burn-25-9x24-collage-board-baseball-crane.pdf`](burn-25-9x24-collage-board-baseball-crane.pdf)  
-[`burn-1364-18x24-collage-board-baseball-crane.pdf`](burn-1364-18x24-collage-board-baseball-crane.pdf)  
-[`burn-1374-18x24-collage-board-baseball-crane.pdf`](burn-1374-18x24-collage-board-baseball-crane.pdf)  
-[`burn-2552-18x24-collage-board-baseball-crane.pdf`](burn-2552-18x24-collage-board-baseball-crane.pdf)  
-[`burn-134625-27x24-collage-board-baseball-crane.pdf`](burn-134625-27x24-collage-board-baseball-crane.pdf)  
-[`burn-134725-27x24-collage-board-baseball-crane.pdf`](burn-134725-27x24-collage-board-baseball-crane.pdf)  
+[`L1-crop-9x12-board-baseball-crane.pdf`](L1-crop-9x12-board-baseball-crane.pdf)  
+[`L2-crop-9x12-board-baseball-crane.pdf`](L2-crop-9x24-board-baseball-crane.pdf)  
+[`L3-crop-9x12-board-baseball-crane.pdf`](L3-crop-9x12-board-baseball-crane.pdf)  
+[`L4-crop-9x12-board-baseball-crane.pdf`](L4-crop-9x12-board-baseball-crane.pdf)  
+[`L5-crop-9x12-board-baseball-crane.pdf`](L5-crop-9x12-board-baseball-crane.pdf)  
+[`L6-crop-9x12-board-baseball-crane.pdf`](L6-crop-9x12-board-baseball-crane.pdf)  
+[`LT-frame-9x12-board-baseball-crane.pdf`](LT-frame-9x12-board-baseball-crane.pdf)  
+[`13-crop-9x24-board-baseball-crane.pdf`](13-crop-9x24-board-baseball-crane.pdf)  
+[`46-crop-9x24-board-baseball-crane.pdf`](46-crop-9x24-board-baseball-crane.pdf)  
+[`47-crop-9x24-board-baseball-crane.pdf`](47-crop-9x24-board-baseball-crane.pdf)  
+[`25-crop-9x24-board-baseball-crane.pdf`](25-crop-9x24-board-baseball-crane.pdf)  
+[`1364-crop-18x24-board-baseball-crane.pdf`](1364-crop-18x24-board-baseball-crane.pdf)  
+[`1374-crop-18x24-board-baseball-crane.pdf`](1374-crop-18x24-board-baseball-crane.pdf)  
+[`2552-crop-18x24-board-baseball-crane.pdf`](2552-crop-18x24-board-baseball-crane.pdf)  
+[`134625-crop-27x24-board-baseball-crane.pdf`](134625-crop-27x24-board-baseball-crane.pdf)  
+[`134725-crop-27x24-board-baseball-crane.pdf`](134725-crop-27x24-board-baseball-crane.pdf)  
 
 At this point the new version can be committed to git and pushed to the server.
 
 The PDF files created from the cutting SVG files are as follows and shouldn't need to change:
 
+[`frame-8x10-in-9x12.pdf`](frame-8x10-in-9x12.pdf)
+[`frame-220x248-in-9x12.pdf`](frame-220x248-in-9x12.pdf)
+[`cut-8x10-from-larger.pdf`](cut-8x10-from-larger.pdf)
+[`cut-9x12-from-9x24.pdf`](cut-9x12-from-9x24.pdf)  
+[`cut-9x12-from-18x12.pdf`](cut-9x12-from-18x12.pdf)  
 [`cut-9x12-from-18x24.pdf`](cut-9x12-from-18x24.pdf)  
 [`cut-9x24-from-18x24.pdf`](cut-9x24-from-18x24.pdf)  
 [`cut-18x12-from-18x24.pdf`](cut-18x12-from-18x24.pdf)  
-[`cut-9x12-from-18x12.pdf`](cut-9x12-from-18x12.pdf)  
-[`cut-9x12-from-9x24.pdf`](cut-9x12-from-9x24.pdf)  
 
 ## Assembly
 
