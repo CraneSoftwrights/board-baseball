@@ -1,6 +1,4 @@
-
-
-<img src="step-1.png" style="height:60px"/>  
+# <img src="step-1.png" style="height:60px"/> <img src="x-pitching.png" style="height:60px"/>
 
 <img src="X-start.png" style="height:360px"/>
 
