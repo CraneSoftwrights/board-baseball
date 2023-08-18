@@ -1,8 +1,8 @@
 # A board baseball game to teach the sport
 
-Copyright © Crane Softwrights Ltd.
-Development: https://github.com/CraneSoftwrights/board-baseball
-Tip jar: https://paypal.me/CraneSoftwrights
+Copyright © Crane Softwrights Ltd.  
+Development: https://github.com/CraneSoftwrights/board-baseball  
+Tip jar: https://paypal.me/CraneSoftwrights  
 
 Languages:
 
