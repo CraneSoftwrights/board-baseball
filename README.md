@@ -8,5 +8,5 @@ Languages:
 
 - [English](English#readme) - [English/Readme.md](English#readme)
 
-<img alt="Single board front" src="shared/sbf.png"/>  
-<img alt="Single board back" src="shared/sbb.png"/>  
+<img alt="Single board front" src="shared/combo-board-baseball-crane.png"/>  
+<img alt="Single board back" src="shared/back-board-baseball-crane.png"/>  
