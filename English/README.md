@@ -36,19 +36,19 @@ Should the visiting team be in the lead at the end of the extra inning, the game
 
 Should the score be tied at the end of the extra inning, another extra inning is played as described above.
 
-## Basic-mode play 
+## Basic-mode play <img alt="" src="../shared/z-batting.png" style="height:30px"/>
 
-Use the play board with this marking between the columns: <img src="../shared/z-batting.png" height="30px"/>, available for print in the PDF file: [`basic-print-board-baseball-crane.pdf`](../shared/basic-print-board-baseball-crane.pdf) (200mm x 256mm at 100% scale; suitable for both A4 and US-letter page sizes)
+Use the play board with this marking between the columns: <img alt="" src="../shared/z-batting.png" style="height:30px"/>, available for print in the PDF file: [`basic-print-board-baseball-crane.pdf`](../shared/basic-print-board-baseball-crane.pdf) (200mm x 256mm at 100% scale; suitable for both A4 and US-letter page sizes)
 
-[<img src="../shared/step-1.png" height="30px"/>](../shared/Z-SETUP.md)
+[<img alt="" src="../shared/step-1.png" style="height:30px"/>](../shared/Z-SETUP.md)
 
 - see [Basic Setup](../shared/Z-SETUP.md) for details
 
-<img src="../shared/step-2-x.png" height="30px"/>
+<img alt="" src="../shared/step-2-x.png" style="height:30px"/>
 
 - in the basic mode there is no pitching
 
-<img src="../shared/step-3.png" height="30px"/>
+<img alt="" src="../shared/step-3.png" style="height:30px"/>
 
 - the player batting rolls two dice to determine the play according to the instructions at the dice combination below (click on the dice combination for details of each play):
 
@@ -62,19 +62,19 @@ Use the play board with this marking between the columns: <img src="../shared/z-
 |[<img alt="" src="../shared/z-1-6.png" style="height:35px"/>](Z-PLAYS.md#1-6-)| |[<img alt="" src="../shared/z-3-4.png" style="height:35px"/>](Z-PLAYS.md#3-4-)| |[<img alt="" src="../shared/z-5-6.png" style="height:35px"/>](Z-PLAYS.md#5-6-)|
 |[<img alt="" src="../shared/z-2-2.png" style="height:35px"/>](Z-PLAYS.md#2-2-)| |[<img alt="" src="../shared/z-3-5.png" style="height:35px"/>](Z-PLAYS.md#3-5-)| |[<img alt="" src="../shared/z-6-6.png" style="height:35px"/>](Z-PLAYS.md#6-6-)|
 
-<img src="../shared/step-4-x.png" height="30px"/>
+<img alt="" src="../shared/step-4-x.png" style="height:30px"/>
 
 - in the basic mode there is no nuanced control for base runners
 
-## Extended-mode play 
+## Extended-mode play <img alt="" src="../shared/x-pitching.png" style="height:30px"/>
 
-Use the play board with this marking between the columns: <img src="../shared/x-pitching.png" height="30px"/>, available for print in the PDF file: [`extended-print-board-baseball-crane.pdf`](../shared/extended-print-board-baseball-crane.pdf) (200mm x 256mm at 100% scale; suitable for both A4 and US-letter page sizes)
+Use the play board with this marking between the columns: <img alt="" src="../shared/x-pitching.png" style="height:30px"/>, available for print in the PDF file: [`extended-print-board-baseball-crane.pdf`](../shared/extended-print-board-baseball-crane.pdf) (200mm x 256mm at 100% scale; suitable for both A4 and US-letter page sizes)
 
-[<img src="../shared/step-1.png" height="30px"/>](../shared/X-SETUP.md)
+[<img alt="" src="../shared/step-1.png" style="height:30px"/>](../shared/X-SETUP.md)
 
 - see [Extended Setup](../shared/X-SETUP.md) for details
 
-<img src="../shared/step-2.png" height="30px"/>
+<img alt="" src="../shared/step-2.png" style="height:30px"/>
 
 - the team associated with the top or bottom of the inning goes up to bat
 - first some definitions
@@ -85,24 +85,26 @@ Use the play board with this marking between the columns: <img src="../shared/x-
 - the tally of runs and hits is recorded for the batter and always is reported in the order of number of balls before the number of strikes (e.g. a count of "3 and 2" means "3 balls and two strikes")
 - the pitching team rolls one die (of a colour different from the dice used by the batter) to determine which pitch is thrown by the pitcher
 - three of the pitches result in no contact with the bat:
-  - four balls <img src="../shared/pd2.png" height="35px"/> makes a walk and moves the batter to first base, which, if occupied, moves the first-base runner to second base, which, if occupied, moves the second-base runner to third base, which, if occupied, moves the third-base runner to home for a run
-  - a swinging third strike <img src="../shared/pd1.png" height="35px"/> or a looking third strike <img src="../shared/pd3.png" height="35px"/> is an out for the batter and the out is recorded for the team's inning
-  - when the pitched ball has no contact with the bat, and the result is not a walk, the <img src="../shared/stealing-option.png" height="15px"/> in the icon indicates that the batting team has the option of a base runner attempting to steal an open base depending on the outcome of throwing the runner's die
+  - four balls <img alt="" src="../shared/pd2.png" style="height:35px"/> makes a walk and moves the batter to first base, which, if occupied, moves the first-base runner to second base, which, if occupied, moves the second-base runner to third base, which, if occupied, moves the third-base runner to home for a run
+  - a swinging third strike <img alt="" src="../shared/pd1.png" style="height:35px"/> or a looking third strike <img alt="" src="../shared/pd3.png" style="height:35px"/> is an out for the batter and the out is recorded for the team's inning
+  - when the pitched ball has no contact with the bat, and the result is not a walk, the <img alt="" src="../shared/stealing-option.png" style="height:20px"/> in the icon indicates that the batting team has the option of a base runner attempting to steal an open base depending on the outcome of throwing the runner's die
     - IMPORTANT: this is not a mandatory move and it is up to the batting team to choose to attempt to steal a base
-    - when there is a base runner on first base and the second base is unoccupied:
-      - throwing a <img src="../shared/d1.png" height="22px"/> or <img src="../shared/d2.png" height="22px"/> indicates that the runner was caught stealing and the runner is called out and leaves the pitch
-      - throwing a <img src="../shared/d3.png" height="22px"/>, <img src="../shared/d4.png" height="22px"/>, <img src="../shared/d5.png" height="22px"/>, or <img src="../shared/d6.png" height="22px"/> indicates that the runner successfully stole second base and an out is not recorded
-    - when there is a base runner on second base and the third base is unoccupied:
-      - throwing a <img src="../shared/d1.png" height="22px"/> indicates that the runner was caught stealing and the runner is called out and leaves the pitch
-      - throwing a <img src="../shared/d2.png" height="22px"/>, <img src="../shared/d3.png" height="22px"/>, <img src="../shared/d4.png" height="22px"/>, <img src="../shared/d5.png" height="22px"/>, or <img src="../shared/d6.png" height="22px"/> indicates that the runner successfully stole third base and an out is not recorded
+    - <img alt="" src="../shared/stealing-2b.png" style="height:20px"/> - stealing second base
+      - when there is a base runner on first base and the second base is unoccupied:
+        - <img alt="" src="../shared/caught-stealing.png" style="height:20px"/> throwing a <img alt="" src="../shared/d1.png" style="height:22px"/> or <img alt="" src="../shared/d2.png" style="height:22px"/> indicates that the runner was caught stealing and the runner is called out and leaves the pitch
+        - <img alt="" src="../shared/stolen-2b.png" style="height:20px"/> throwing a <img alt="" src="../shared/d3.png" style="height:22px"/>, <img alt="" src="../shared/d4.png" style="height:22px"/>, <img alt="" src="../shared/d5.png" style="height:22px"/>, or <img alt="" src="../shared/d6.png" style="height:22px"/> indicates that the runner successfully stole second base and an out is not recorded
+    - <img alt="" src="../shared/stealing-3b.png" style="height:20px"/> - stealing third base
+      - when there is a base runner on second base and the third base is unoccupied:
+        - <img alt="" src="../shared/caught-stealing.png" style="height:20px"/> throwing a <img alt="" src="../shared/d1.png" style="height:22px"/> indicates that the runner was caught stealing and the runner is called out and leaves the pitch
+        - <img alt="" src="../shared/stolen-3b.png" style="height:20px"/> throwing a <img alt="" src="../shared/d2.png" style="height:22px"/>, <img alt="" src="../shared/d3.png" style="height:22px"/>, <img alt="" src="../shared/d4.png" style="height:22px"/>, <img alt="" src="../shared/d5.png" style="height:22px"/>, or <img alt="" src="../shared/d6.png" style="height:22px"/> indicates that the runner successfully stole third base and an out is not recorded
     - for some insight into the above choices, [ChatGPT was consulted](https://chat.openai.com/share/28530b4e-933a-408e-b516-6e1b7bbb4fcf) regarding past performance in Major League Baseball
 - three of the pitches result in contact with the bat:
-  - a foul ball <img src="../shared/pd5.png" height="35px"/> counts as a strike only when there are fewer than two strikes against the batter, otherwise there is no change in the tally of balls and strikes for the batter but it is counted as a strike on record for the pitcher
-  - the batter making contact with the pitch with <img src="../shared/pd4.png" height="35px"/> or <img src="../shared/pd6.png" height="35px"/> puts the ball "in play" in between the third-base line and the first-base line
+  - a foul ball <img alt="" src="../shared/pd5.png" style="height:35px"/> counts as a strike only when there are fewer than two strikes against the batter, otherwise there is no change in the tally of balls and strikes for the batter but it is counted as a strike on record for the pitcher
+  - the batter making contact with the pitch with <img alt="" src="../shared/pd4.png" style="height:35px"/> or <img alt="" src="../shared/pd6.png" style="height:35px"/> puts the ball "in play" in between the third-base line and the first-base line
     - this is not counted as a strike against the batter, but it is counted as a strike on record for the pitcher
   - a base runner is not allowed to attempt to steal a base when the pitched ball is in contact with the bat
 
-<img src="../shared/step-3.png" height="30px"/>
+<img alt="" src="../shared/step-3.png" style="height:30px"/>
 
 - when there are no base runners and the game is not being scored, the player batting rolls two dice to determine the play according to the instructions at the dice combination below (click on the dice combination for details of each play):
 
@@ -116,7 +118,7 @@ Use the play board with this marking between the columns: <img src="../shared/x-
 | [<img alt="" src="../shared/x-1-6.png" style="height:35px"/>](X-PLAYS.md#1-6-) |  | [<img alt="" src="../shared/x-3-4.png" style="height:35px"/>](X-PLAYS.md#3-4-) |  | [<img alt="" src="../shared/x-5-6.png" style="height:35px"/>](X-PLAYS.md#5-6-) |
 | [<img alt="" src="../shared/x-2-2.png" style="height:35px"/>](X-PLAYS.md#2-2-) |  | [<img alt="" src="../shared/x-3-5.png" style="height:35px"/>](X-PLAYS.md#3-5-) |  | [<img alt="" src="../shared/x-6-6.png" style="height:35px"/>](X-PLAYS.md#6-6-) |
 
-<img src="../shared/step-4.png" height="30px"/>
+<img alt="" src="../shared/step-4.png" style="height:30px"/>
 
 - when there are base runners or the game is being scored, the batter rolls three dice (two dice of one colour for the batter and one die of a different colour for the base runners) to determine as above how the pitch is put in play and the impact of the play on the runners, thus guiding how the play is scored
 
