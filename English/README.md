@@ -2,7 +2,7 @@
 
 Copyright © Crane Softwrights Ltd.
 
-*(Skip the introduction and jump to: [Basic Play](#basic-mode-play) or [Extended Play](#extended-mode-play))* 
+*(Skip the introduction and jump to: [Basic Play](#basic-mode-play-) or [Extended Play](#extended-mode-play-))* 
 
 This project develops a board game along the lines of the basic long-played baseball board game, but brought up to date to include new rule changes at MLB. Differing from other board baseball games, this one aims to educate the players on the rules, the notations, and the conventions used when scoring a baseball game, using official abbreviations used by MLB.
 
