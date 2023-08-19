@@ -1,3 +1,8 @@
+Copyright © Crane Softwrights Ltd.
+[https://GitHub.com/CraneSoftwrights/board-baseball](https://GitHub.com/CraneSoftwrights/board-baseball)  
+[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/shared/X-PLAYS.md](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/shared/X-SETUP.md)  
+[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/shared/X-PLAYS.html](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/shared/X-SETUP.html)  
+
 # <img alt="" src="step-1.png" style="height:60px"/> <img alt="" src="x-pitching.png" style="height:60px"/>
 
 <img alt="" src="X-start.png" style="height:360px"/>

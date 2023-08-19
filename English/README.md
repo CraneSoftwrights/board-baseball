@@ -1,6 +1,9 @@
 # A board baseball game to teach the sport
 
 Copyright © Crane Softwrights Ltd.
+[https://GitHub.com/CraneSoftwrights/board-baseball](https://GitHub.com/CraneSoftwrights/board-baseball)  
+[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/README.md](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/README.md)  
+[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/README.html](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/README.html)  
 
 *(Skip the introduction and jump to: [Basic Play](#basic-mode-play-) or [Extended Play](#extended-mode-play-))* 
 

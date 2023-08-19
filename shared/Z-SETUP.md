@@ -1,3 +1,8 @@
+Copyright © Crane Softwrights Ltd.
+[https://GitHub.com/CraneSoftwrights/board-baseball](https://GitHub.com/CraneSoftwrights/board-baseball)  
+[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/shared/Z-SETUP.md](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/shared/Z-SETUP.md)  
+[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/shared/Z-SETUP.html](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/shared/Z-SETUP.html)  
+
 # <img alt="" src="step-1.png" style="height:60px"/> <img alt="" src="z-batting.png" style="height:60px"/>
 
 <img alt="" src="Z-start.png" style="height:360px"/>  

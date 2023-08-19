@@ -1,5 +1,10 @@
 # Extended play summary <img alt="" src="../shared/x-pitching.png" style="height:35px"/>
 
+Copyright © Crane Softwrights Ltd.
+[https://GitHub.com/CraneSoftwrights/board-baseball](https://GitHub.com/CraneSoftwrights/board-baseball)  
+[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/X-PLAYS.md](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/X-PLAYS.md)  
+[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/X-PLAYS.html](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/X-PLAYS.html)  
+
 | | | | | |
 | ---: | ---: | ---: | ---: | ---: |
 | [<img alt="" src="../shared/x-1-1.png" style="height:35px"/>](X-PLAYS.md#1-1-) |  | [<img alt="" src="../shared/x-2-3.png" style="height:35px"/>](X-PLAYS.md#2-3-) |  | [<img alt="" src="../shared/x-3-6.png" style="height:35px"/>](X-PLAYS.md#3-6-) |
