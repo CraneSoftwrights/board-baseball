@@ -1,5 +1,10 @@
 # Basic play summary <img alt="" src="../shared/z-batting.png" style="height:35px"/>
 
+Copyright © Crane Softwrights Ltd.
+[https://GitHub.com/CraneSoftwrights/board-baseball](https://GitHub.com/CraneSoftwrights/board-baseball)  
+[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/Z-PLAYS.md](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/Z-PLAYS.md)  
+[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/Z-PLAYS.html](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/Z-PLAYS.html)  
+
 | | | | | |
 | :--- | :--- | :--- | :--- | :--- |
 |[<img alt="" src="../shared/z-1-1.png" style="height:35px"/>](Z-PLAYS.md#1-1-)| |[<img alt="" src="../shared/z-2-3.png" style="height:35px"/>](Z-PLAYS.md#2-3-)| |[<img alt="" src="../shared/z-3-6.png" style="height:35px"/>](Z-PLAYS.md#3-6-)|
