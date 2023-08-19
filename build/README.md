@@ -268,9 +268,9 @@ At this point the new version can be committed to git and pushed to the server.
 
 The PDF files created from the cutting SVG files are as follows and shouldn't need to change:
 
-[`frame-8x10-in-9x12.pdf`](frame-8x10-in-9x12.pdf)
-[`frame-220x248-in-9x12.pdf`](frame-220x248-in-9x12.pdf)
-[`cut-8x10-from-larger.pdf`](cut-8x10-from-larger.pdf)
+[`frame-8x10-in-9x12.pdf`](frame-8x10-in-9x12.pdf)  
+[`frame-220x248-in-9x12.pdf`](frame-220x248-in-9x12.pdf)  
+[`cut-8x10-from-larger.pdf`](cut-8x10-from-larger.pdf)  
 [`cut-9x12-from-9x24.pdf`](cut-9x12-from-9x24.pdf)  
 [`cut-9x12-from-18x12.pdf`](cut-9x12-from-18x12.pdf)  
 [`cut-9x12-from-18x24.pdf`](cut-9x12-from-18x24.pdf)  
