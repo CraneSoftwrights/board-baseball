@@ -1,6 +1,6 @@
 # <img src="step-1.png" style="height:60px"/> <img src="z-batting.png" style="height:60px"/>
 
-<img src="z-start.png" style="height:360px"/>  
+<img src="Z-start.png" style="height:360px"/>  
 
 <img src="colours.png" style="height:120px"/> [14 x A](Z-SETUP.md#14-x-a) / [2 x A, 6 x B, 6 x C](Z-SETUP.md#2-x-a-6-x-b-6-x-c)
 
