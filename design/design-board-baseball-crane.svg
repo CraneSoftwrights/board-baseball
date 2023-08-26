@@ -33,13 +33,13 @@
      inkscape:window-height="480"
      id="namedview9"
      showgrid="false"
-     inkscape:zoom="0.84548611"
-     inkscape:cx="384.39425"
-     inkscape:cy="585.46201"
+     inkscape:zoom="0.82291667"
+     inkscape:cx="490.32911"
+     inkscape:cy="591.79747"
      inkscape:window-x="0"
      inkscape:window-y="23"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g57470"
+     inkscape:current-layer="layer49"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
@@ -2640,7 +2640,7 @@
      inkscape:groupmode="layer"
      id="layer23"
      inkscape:label="Bounding 9&quot;x12&quot;"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true"><rect
        style="display:inline;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:40;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
        id="rect115120"
@@ -2653,7 +2653,7 @@
      inkscape:groupmode="layer"
      id="layer29"
      inkscape:label="Scratch pad 3 - games"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true"><g
        id="g269428"
        transform="translate(31.851853,-24.428841)"
@@ -2878,7 +2878,7 @@
      inkscape:groupmode="layer"
      id="layer33"
      inkscape:label="Scratch pad 3 - documentation"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true"><g
        id="g7695"><path
          id="path86285"
@@ -3186,7 +3186,7 @@
      inkscape:groupmode="layer"
      id="layer15"
      inkscape:label="Scratch pad 2 - documentation"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true"><g
        id="g11644"><g
          id="g4405"
@@ -4326,7 +4326,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Scratch pad"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true"><g
        id="g6631"><text
          xml:space="preserve"
@@ -5443,7 +5443,7 @@
          inkscape:label="&quot;L7:B2-2&quot;"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan189868">L7:B2-2</tspan></text><text
+           id="tspan213398">L7:B2-2</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,793.47152,-1529.1284)"
          id="text15739"
@@ -5453,7 +5453,7 @@
          inkscape:label="L7:B1-2"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan189870">L7:B1-1</tspan></text><text
+           id="tspan213400">L7:B1-1</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,413.10149,-1529.2586)"
          id="text90427"
@@ -5463,7 +5463,7 @@
          inkscape:label="L6:B2-2"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan189872">L6:B2-2</tspan></text><text
+           id="tspan213402">L6:B2-2</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,307.29974,-1529.2586)"
          id="text90431"
@@ -5473,7 +5473,7 @@
          inkscape:label="L6:B1-2"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan189874">L6:B1-2</tspan></text><text
+           id="tspan213404">L6:B1-2</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,171.22926,-1526.8714)"
          id="text119051"
@@ -5483,7 +5483,7 @@
          inkscape:label="L5:B4-4"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan189876">L5:B4-4</tspan></text><text
+           id="tspan213406">L5:B4-4</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-57.137798,-1538.7854)"
          id="text125518"
@@ -5493,7 +5493,7 @@
          inkscape:label="L5:B1-4"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan189878">L5:B1-4</tspan></text><text
+           id="tspan213408">L5:B1-4</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-617.93588,-1529.6926)"
          id="text125492"
@@ -5503,7 +5503,7 @@
          inkscape:label="L4:B1-3"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan189880">L4:B1-3</tspan></text><text
+           id="tspan213410">L4:B1-3</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-1054.0727,-1529.519)"
          id="text118791"
@@ -5513,7 +5513,7 @@
          inkscape:label="L3:B5-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan189882">L3:B5-5</tspan></text><text
+           id="tspan213412">L3:B5-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-1162.1161,-1529.519)"
          id="text119139"
@@ -5523,7 +5523,7 @@
          inkscape:label="L3:B4-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan189884">L3:B4-5</tspan></text><text
+           id="tspan213414">L3:B4-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-1395.2562,-1529.519)"
          id="text79310"
@@ -5533,7 +5533,7 @@
          inkscape:label="L3:B1-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan189886">L3:B1-5</tspan></text><text
+           id="tspan213416">L3:B1-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-2009.9955,-1529.519)"
          id="text119075"
@@ -5543,7 +5543,7 @@
          inkscape:label="L2:B5-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan189888">L2:B5-5</tspan></text><text
+           id="tspan213418">L2:B5-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-2124.7309,-1529.519)"
          id="text118815"
@@ -5553,7 +5553,7 @@
          inkscape:label="L2:B4-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan189890">L2:B4-5</tspan></text><text
+           id="tspan213420">L2:B4-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-2368.0337,-1529.519)"
          id="text119007"
@@ -5563,7 +5563,7 @@
          inkscape:label="L2:B1-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan189892">L2:B1-5</tspan></text><text
+           id="tspan213422">L2:B1-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-3013.5442,-1527.8263)"
          id="text118923"
@@ -5573,7 +5573,7 @@
          inkscape:label="L1:B6-6"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan189894">L1:B6-6</tspan></text><text
+           id="tspan213424">L1:B6-6</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-3118.2482,-1527.8263)"
          id="text118839"
@@ -5583,7 +5583,7 @@
          inkscape:label="L1:B5-6"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan189896">L1:B5-6</tspan></text><text
+           id="tspan213426">L1:B5-6</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-3227.856,-1525.3255)"
          id="text118747"
@@ -5593,7 +5593,7 @@
          inkscape:label="L1:B4-6"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan189898">L1:B4-6</tspan></text><g
+           id="tspan213428">L1:B4-6</tspan></text><g
          id="g66471"
          style="display:inline;fill-rule:evenodd;stroke-linecap:round"
          inkscape:label="X and O"
@@ -5622,7 +5622,7 @@
          inkscape:label="L5:B2-4"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan189900">L5:B2-4</tspan></text><text
+           id="tspan213430">L5:B2-4</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-525.50371,-1532.6868)"
          id="text118571"
@@ -5632,7 +5632,7 @@
          inkscape:label="L4:B2-3"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan189902">L4:B2-3</tspan></text><text
+           id="tspan213432">L4:B2-3</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-1265.8737,-1529.519)"
          id="text118595"
@@ -5642,7 +5642,7 @@
          inkscape:label="L3:B2-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan189904">L3:B2-5</tspan></text><text
+           id="tspan213434">L3:B2-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-2259.6056,-1531.8744)"
          id="text118619"
@@ -5652,7 +5652,7 @@
          inkscape:label="L2:B2-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan189906">L2:B2-5</tspan></text><text
+           id="tspan213436">L2:B2-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-3341.115,-1527.8263)"
          id="text118643"
@@ -5662,160 +5662,254 @@
          inkscape:label="L1:B2-6"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan189908">L1:B2-6</tspan></text></g></g><g
+           id="tspan213438">L1:B2-6</tspan></text></g></g><g
      inkscape:groupmode="layer"
      id="layer24"
      inkscape:label="----------------- Scratchpads and common bounding design box -------------"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
+     sodipodi:insensitive="true" /><g
+     inkscape:groupmode="layer"
+     id="layer40"
+     inkscape:label="13-9x24 = Tiling-9x24:* + L1-crop-9x12 + L3-crop-9x12"
+     style="display:none"
+     sodipodi:insensitive="true" /><g
+     inkscape:groupmode="layer"
+     id="layer41"
+     inkscape:label="46-9x24 = Tiling-9x24:* + L4-crop-9x12 + L6-crop-9x13"
+     style="display:none"
+     sodipodi:insensitive="true" /><g
+     inkscape:groupmode="layer"
+     id="layer42"
+     inkscape:label="47-9x24 = Tiling-9x24:* + L4-crop-9x12 + L7-crop-9x14"
+     style="display:none"
+     sodipodi:insensitive="true" /><g
+     inkscape:groupmode="layer"
+     id="layer43"
+     inkscape:label="25-9x24 = Tiling-9x24:* + L2-crop-9x12 + L5-crop-9x15"
+     style="display:none"
+     sodipodi:insensitive="true" /><g
+     inkscape:groupmode="layer"
+     id="layer44"
+     inkscape:label="2552-18x24 = Tiling-18x24:* + L2-crop-9x12 + L5-crop-9x16 + L5-crop-9x12 + L2-crop-9x16"
+     style="display:none"
+     sodipodi:insensitive="true" /><g
+     inkscape:groupmode="layer"
+     id="layer45"
+     inkscape:label="1364-18x24 = Tiling-18x24:* + L1-crop-9x12 + L3-crop-9x12 + L6-crop-9x12 + L4-crop-9x12"
+     style="display:none"
+     sodipodi:insensitive="true" /><g
+     inkscape:groupmode="layer"
+     id="layer46"
+     inkscape:label="1374-18x24 = Tiling-18x24:* + L1-crop-9x12 + L3-crop-9x12 + L7-crop-9x12 + L4-crop-9x13"
+     style="display:none"
+     sodipodi:insensitive="true" /><g
+     inkscape:groupmode="layer"
+     id="layer48"
+     inkscape:label="134625-27x24 = Tiling-27x24:* + L1-crop-9x12 + L3-crop-9x12 + L4-crop-9x12 + L6-crop-9x12 + L2-crop-9x12 + L5-crop-9x12"
+     style="display:none"
+     sodipodi:insensitive="true" /><g
+     inkscape:groupmode="layer"
+     id="layer49"
+     inkscape:label="134725-27x24 = Tiling-27x24:* + L1-crop-9x12 + L3-crop-9x12 + L4-crop-9x12 + L7-crop-9x12 + L2-crop-9x12 + L5-crop-9x12"
+     style="display:none"
+     sodipodi:insensitive="true" /><g
+     inkscape:groupmode="layer"
+     id="g189914"
+     inkscape:label="----------------- Collages -------------"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="layer7"
      inkscape:label="L7-cut-200x248 = C200x248:* L7:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      transform="matrix(0.99999997,0,0,-0.99999997,-217.17722,7441.9798)"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g162772"
      inkscape:label="L7-crop-9x12 = BackCrop9x12:* L7:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      transform="matrix(0.99999997,0,0,-0.99999997,-217.17722,7441.9798)"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g162802"
      inkscape:label="L7-frame-9x12 = Frame9x12:* L7:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      transform="matrix(0.99999997,0,0,-0.99999997,-217.17722,7441.9798)"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="layer11"
      inkscape:label="L6-cut-200x248 = C200x248:* L6:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g162695"
      inkscape:label="L6-crop-9x12 = Crop9x12:* L6:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="layer28"
      inkscape:label="L5-cut-200x248 = C200x248:* L5:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g162291"
      inkscape:label="L5-crop-9x12 = Crop9x12:* L5:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g162667"
      inkscape:label="L5-frame-9x12 = Frame9x12:* L5:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="layer10"
      inkscape:label="L4-cut-200x248 = C200x248:* L4:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g160677"
      inkscape:label="L4-crop-9x12 = Crop9x12:* L4:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g161913"
      inkscape:label="L4-frame-9x12 = Frame9x12:* L4:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="layer9"
      inkscape:label="L3-cut-200x248 = C200x248:* L3:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g158287"
      inkscape:label="L3-crop-9x12 = Crop9x12:* L3:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g159371"
      inkscape:label="L3-frame-9x12 = Frame9x12:* L3:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="layer8"
      inkscape:label="L2-cut-200x248 = C200x248:* L2:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g156791"
      inkscape:label="L2-crop-9x12 = Crop9x12:* L2:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g157195"
      inkscape:label="L2-frame-9x12 = Frame9x12:* L2:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="L1-cut-200x248 = C200x248:* L1:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g154187"
      inkscape:label="L1-crop-9x12 = CropMarks9x12:* Crop9x12:* L1:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g156393"
      inkscape:label="L1-frame-9x12 = Frame9x12:* L1:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g151871"
      inkscape:label="LT-frame-9x12 = Test:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      transform="translate(-217.17718,249.44509)"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="layer35"
      inkscape:label="SBB-cut-200x248 = C200x248:* SBB:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g130709"
      inkscape:label="SBB-frame-9x12 = Frame9x12:* SBB:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g125681"
      inkscape:label="SBB-print = Print2:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="layer34"
      inkscape:label="SBF-cut-200x248 = C200x248:* SBF:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g128331"
      inkscape:label="SBF-frame-9x12 = Frame9x12:* SBF:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g123302"
      inkscape:label="SBF-print = Print:*"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g92165"
      inkscape:label="----------------- Content levels (objects; no back/front) ---------------"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
+     inkscape:groupmode="layer"
+     id="g190081"
+     inkscape:label="Tiling-9x24:1 Bounding 9&quot;x24&quot; for tiling in collages"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
+     sodipodi:insensitive="true"><g
+       id="g190079"><rect
+         style="display:inline;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:39.9999;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
+         id="rect190077"
+         width="15320"
+         height="5720"
+         x="19.999912"
+         y="20.000128"
+         inkscape:label="9&quot;x24&quot; box"
+         sodipodi:insensitive="true" /></g></g><g
+     inkscape:groupmode="layer"
+     id="layer47"
+     inkscape:label="Tiling-18x24:1 Bounding 18&quot;x24&quot; for tiling in collages"
+     style="display:none"
+     sodipodi:insensitive="true"><g
+       id="g190148"
+       style="display:inline;fill-rule:evenodd;stroke-linecap:round"><rect
+         style="display:inline;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:39.9999;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
+         id="rect190146"
+         width="15320"
+         height="11480"
+         x="19.999912"
+         y="20.000128"
+         inkscape:label="18&quot;x24&quot; box"
+         sodipodi:insensitive="true" /></g></g><g
+     inkscape:groupmode="layer"
+     id="g190156"
+     inkscape:label="Tiling-27x24:1 Bounding 27&quot;x24&quot; for tiling in collages"
+     style="display:none"
+     sodipodi:insensitive="true"><g
+       id="g190154"
+       style="display:inline;fill-rule:evenodd;stroke-linecap:round"><rect
+         style="display:inline;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:39.9999;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
+         id="rect190152"
+         width="15320"
+         height="17240"
+         x="19.999912"
+         y="20.000128"
+         inkscape:label="27&quot;x24&quot; box"
+         sodipodi:insensitive="true" /></g></g><g
      inkscape:groupmode="layer"
      id="layer25"
      inkscape:label="Cut 8&quot;x10&quot; corner from larger"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true"><g
        id="g42614"><rect
          style="display:inline;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:40;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
@@ -5832,7 +5926,7 @@
      inkscape:groupmode="layer"
      id="layer30"
      inkscape:label="Frame for 8&quot;x10&quot; in 9&quot;x12&quot;"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true"><g
        id="g43145"><rect
          style="fill:none;stroke:#ff00ff;stroke-width:37.7954;stroke-linecap:square;stroke-linejoin:bevel;stroke-dasharray:none;stroke-opacity:1"
@@ -5864,7 +5958,7 @@
      inkscape:groupmode="layer"
      id="layer32"
      inkscape:label="Frame for 200x248mm in 9&quot;x12&quot;"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true"><g
        id="g43166"><rect
          y="734.48816"
@@ -5898,7 +5992,7 @@
      inkscape:groupmode="layer"
      id="layer18"
      inkscape:label="Test:1 objects (fits in half of layer 2 panel to allow flip of material)"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      transform="translate(-217.17718,249.44509)"
      sodipodi:insensitive="true"><g
        id="g109653"><rect
@@ -6363,7 +6457,7 @@
      inkscape:groupmode="layer"
      id="g92449"
      inkscape:label="----------------- Singleton layers (objects) -------------"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="layer38"
@@ -9663,7 +9757,7 @@
              inkscape:label="Basic play"><tspan
                x="343.33381"
                y="84.665542"
-               id="tspan189910">Basic play</tspan></text><g
+               id="tspan213440">Basic play</tspan></text><g
              id="g241376"
              transform="translate(74.313931,594.48598)"><g
                id="g240080"
@@ -9734,7 +9828,7 @@
              inkscape:label="Extended play text"><tspan
                x="320.15521"
                y="84.665542"
-               id="tspan189912">Extended play</tspan></text><g
+               id="tspan213442">Extended play</tspan></text><g
              id="g241358"
              transform="translate(74.313931,872.43601)"><g
                id="g240902"
@@ -16785,7 +16879,7 @@ INF - infield fly out</tspan><tspan
      inkscape:groupmode="layer"
      id="layer36"
      inkscape:label="Print back - Print:P4 Print2:P3"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true"><g
        id="g304417"><rect
          y="839.17993"
@@ -24499,12 +24593,12 @@ INF - infield fly out</tspan><tspan
      inkscape:groupmode="layer"
      id="g70380"
      inkscape:label="----------------- Design layers for combining content (objects) ----------"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="layer31"
      inkscape:label="C200x248:1 Cut content 200x248mm in 9&quot;x12&quot; (alignment and finger noles, no crops)"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true"><g
        id="g304414"><rect
          y="734.48816"
@@ -24637,7 +24731,7 @@ INF - infield fly out</tspan><tspan
      inkscape:groupmode="layer"
      id="layer16"
      inkscape:label="Crop9x12:1 Front-facing Frame 9&quot;x12&quot; cut and alignment holes"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true"><g
        id="g50338"><rect
          style="display:inline;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:40;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
@@ -24671,7 +24765,7 @@ INF - infield fly out</tspan><tspan
      inkscape:groupmode="layer"
      id="layer39"
      inkscape:label="CropMarks9x12:1 Crop marks for front-facing"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true"><g
        id="g325114"><g
          id="g15519"
@@ -24737,7 +24831,7 @@ INF - infield fly out</tspan><tspan
      inkscape:groupmode="layer"
      id="layer17"
      inkscape:label="BackCrop9x12:1 Back-facing Frame 9&quot;x12&quot; cut, crop, and alignment holes"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true"><g
        id="g274924"
        transform="translate(4.666262,5.7124796)"><path
@@ -24817,7 +24911,7 @@ INF - infield fly out</tspan><tspan
      inkscape:groupmode="layer"
      id="layer27"
      inkscape:label="Frame9x12:1 Mask frame rame 9&quot;x12&quot; (mask crop lines, alignment holes, and level number)"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true"><g
        id="g16395"><rect
          style="display:inline;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:40;stroke-linecap:round;stroke-linejoin:bevel;stroke-opacity:1"
@@ -24925,5 +25019,5 @@ INF - infield fly out</tspan><tspan
      inkscape:groupmode="layer"
      id="g57470"
      inkscape:label="----------------- Backing layers -------------"
-     style="fill-rule:evenodd;stroke-linecap:round;display:none"
+     style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /></svg>
