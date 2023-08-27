@@ -139,7 +139,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                 select="tokenize($c:layer/@inkscape:label,'\s+')"/>
   <!--the output layer uses the given name-->
   <g inkscape:label="{$c:refs[1]}"
-     style="display:{if(count($c:pastLayers)>1) then 'inline' else 'none'}">
+     style="display:{if(count($c:pastLayers)>0) then 'inline' else 'none'}">
     <xsl:for-each select="reverse($c:refs[contains(.,':')])">
       <xsl:variable name="c:ref" select="substring-before(.,':')"/>
       <xsl:choose>
