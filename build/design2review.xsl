@@ -4,10 +4,10 @@
                 xmlns:xs="http://www.CraneSoftwrights.com/ns/xslstyle"
                 xmlns:xsd="http://www.w3.org/2001/XMLSchema"
                 xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-                xmlns:svg="http://www.w3.org/2000/svg"
+                xmlns="http://www.w3.org/2000/svg"
                 xmlns:c="urn:X-Crane"
                 exclude-result-prefixes="xs xsd c"
-                xpath-default-namespace="svg"
+                xpath-default-namespace="http://www.w3.org/2000/svg"
                 version="2.0">
 
 <xs:doc info="$Id$"
@@ -17,6 +17,36 @@
     This stylesheet is looking for cues that assemble Inkscape layers
     for review and modification for bursting into burn files.
   </para>
+  <programlisting>
+BSD 3-Clause License
+
+Copyright (c) 2023, Crane Softwrights Ltd.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.    
+  </programlisting>
 </xs:doc>
 
 <!--========================================================================-->
@@ -38,6 +68,11 @@
   </para>
 </xs:doc>
 
+<xs:variable>
+  <para>Need to remember the input context for key() to work</para>
+</xs:variable>
+<xsl:variable name="c:top" as="document-node()" select="/"/>
+
 <!--========================================================================-->
 <xs:doc>
   <xs:title>Convert all identified layers</xs:title>
@@ -47,15 +82,15 @@
   <para>Find all layers that are building blocks</para>
 </xs:key>
 <xsl:key name="c:build" match="g[matches(@inkscape:label,':[^\*]')]"
-         use="'all',
+         use="'__all__',
               for $each in tokenize(@inkscape:label,'\s+')[matches(.,':[^\*]')]
               return substring-before($each,':')"/>
 
 <xs:key>
   <para>Find all layers that are assembled building blocks</para>
 </xs:key>
-<xsl:key name="c:assemble" match="g[tokenize(@inkscape:label,'\s+')='=']"
-         use="'all',tokenize(@inkscape:label,'\s+')[1]"/>
+<xsl:key name="c:assemble" match="/*/g[tokenize(@inkscape:label,'\s+')='=']"
+         use="'__all__',tokenize(@inkscape:label,'\s+')[1]"/>
 
 <xs:template>
   <para>
@@ -70,10 +105,76 @@
 <xs:template>
   <para>Get started</para>
 </xs:template>
-<xsl:template match="/svg:svg">
+<xsl:template match="/svg" priority="1">
   <xsl:copy>
+    <!--preserve document element-->
     <xsl:copy-of select="@*"/>
+    <!--preserve everything other than groups-->
+    <xsl:copy-of select="* except g"/>
+    <!--put everything in a group to make conversion easier-->
+    <g inkscape:label=
+               "Select this group, convert object to path, ungroup this group">
+      <xsl:for-each select="key('c:assemble','__all__',$c:top)">
+        <xsl:call-template name="c:addReferencedLayers">
+          <xsl:with-param name="c:layer" select="."/>
+        </xsl:call-template>
+      </xsl:for-each>
+    </g>
   </xsl:copy>
+</xsl:template>
+
+<xs:template>
+  <para>Recursively copy in referenced groups, checking for loops</para>
+  <xs:param name="c:layer">
+    <para>The layer making the references</para>
+  </xs:param>
+  <xs:param name="c:pastLayers">
+    <para>A history of layers to prevent infinite loops and visibility</para>
+  </xs:param>
+</xs:template>
+<xsl:template name="c:addReferencedLayers">
+  <xsl:param name="c:layer" as="element(g)" required="yes"/>
+  <xsl:param name="c:pastLayers" as="element(g)*"/>
+  <xsl:variable name="c:refs" 
+                select="tokenize($c:layer/@inkscape:label,'\s+')"/>
+  <!--the output layer uses the given name-->
+  <g inkscape:label="{$c:refs[1]}"
+     style="display:{if(count($c:pastLayers)>1) then 'inline' else 'none'}">
+    <xsl:for-each select="reverse($c:refs[contains(.,':')])">
+      <xsl:variable name="c:ref" select="substring-before(.,':')"/>
+      <xsl:choose>
+        <xsl:when test="some $c:past in $c:pastLayers
+                        satisfies $c:past is $c:layer">
+          <!--this is an infinite loop-->
+          <xsl:message terminate="yes">
+            <xsl:text>An infinite loop detected with:&#xa;</xsl:text>
+            <xsl:for-each select="$c:pastLayers">
+              <xsl:value-of select="@inkscape:label,'&#xa;'"/>
+            </xsl:for-each>
+          </xsl:message>
+        </xsl:when>
+        <xsl:when test="exists(key('c:assemble',$c:ref,$c:top))">
+          <xsl:call-template name="c:addReferencedLayers">
+            <xsl:with-param name="c:layer"
+                            select="key('c:assemble',$c:ref,$c:top)"/>
+            <xsl:with-param name="c:pastLayers"
+                            select="$c:pastLayers,$c:layer"/>
+          </xsl:call-template>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:for-each select="key('c:build',$c:ref,$c:top)">
+            <xsl:copy>
+              <xsl:copy-of select="@*"/>
+              <xsl:attribute name="style"
+                             select="'display:inline;',
+                                     replace(@style,'display:.+?;?','')"/>
+              <xsl:apply-templates/>
+            </xsl:copy>
+          </xsl:for-each>
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:for-each>
+  </g>
 </xsl:template>
 
 <xs:template>
