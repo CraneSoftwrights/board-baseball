@@ -132,9 +132,4 @@ See the [design resources](../design/README.md) for information regarding the de
 
 ## Physical box assembly
 
-See the [building instructions](../build/README.md) for a collection of image files for laser engraving/cutting. The assumption is a line of size .001mm is a cut request.
-
-The image files are 250mm x 270mm each and, after cutting, the layers can be aligned for laminating by using the two 3/16" holes outside of the playing area. The alignment guides can be shaved off when the laminating is completed.
-
-There are five layers in total to be cut in order to fashion the entire box. Each layer is assumed to be 3/16" in order to fit four 12mm dice in the storage compartment and to fit the play board in its cradle.
-
+See the [building instructions](../build/README.md) for a collection of image files for laser engraving/cutting.
