@@ -25,7 +25,7 @@ Each level is made up of a number of SVG layers in the [design SVG master file](
 
 The levels are numbered to be distinguished from each other. At this time there are two choices for the back level: number 6 is blank and number 7 has a simple border. It is anticipated that future candidate back covers might include a written or graphic summary of the rules of play.
 
-Levels 2 and 5 are special in that they have no visible printed or play content, only holes and chambers. This property permits you to use an alternative material for levels 2 and 5 than for the other levels. All of the other levels have at least some exposure to the plevels, and the burning is designed to work if the material has only one "good" side, so it is not necessary to purchase material that has two "good" sides.
+Levels 2 and 5 are special in that they have no visible printed or play content, only holes, chambers, and printed magnet polarity indicators. This property permits you to use an alternative material for levels 2 and 5 than for the other levels. All of the other levels have at least some exposure to the user, and the burning is designed to work if the material has only one "good" side, so it is not necessary to purchase material that has two "good" sides.
 
 The test level is positioned such that it can overlay level 2. After burning the test level, one can burn a second test on the flip side of the same piece of material. Thus, one could do a first test burn, adjust the settings and orient the surface positioning a different level 2 at the home position and do a second test burn with the new parameters. Then level 2 burns can overlay the test burns.
 
@@ -44,28 +44,30 @@ In addition to the board material being cut and assembled, the following items a
 - levels of burn and cut material
   - 1-count only for the single board version
   - 6-count in total for the box, possibly combined in larger dimensions of material
-  - 9"x12" is assumed for every burn
+  - 9"x12" is assumed for every burn, accommodating 8"x10" and 200mmx248mm centred in 9"x12" frames
   - choice of dimensions and assuming thickness of 1/8"=3mm (alternatively 3/8"=5mm):
     - 9"x12" rectangles (burn includes alignment holes and crop marks)
     - 8"x10" rectangles (no alignment holes or crop marks)
     - "content" 200x248mm with rounded corners (no alignment holes or crop marks)
   - the equipment available to the designers works with either 9"x24", 18"x24", or 27"x24" pieces of material, thus governing the sizes below
     - using Inkscape one could build any arbitrary combination of  
-  - the masters below accommodate your use of either 9"x12", 9"x24", or 18"x24" material dimensions
+  - the masters below accommodate your use of either 9"x12", 9"x24", 18"x24", or 27"x24" material dimensions
   - the play area is 200x248mm which fits both on A4 and US-letter paper page sizes and 8"x10" blanks
   - when working with acrylic, the local shop prohibits polycarbonates and permits polymethyl methacrylate (PMMA) 
 - 12mm D6 dice
-  - 4-count optionally in three colours - one for pitching, two for batting, one for running
+  - basic play - 2-count
+  - extended play - 4-count optionally in three colours - one for pitching, two for batting, one for running
+    - if only two dice are available, the pitcher throws one, then the batter throws both, then the batter throws one for the runner
   - e.g. [`https://www.amazon.ca/dp/B08F72SLYD`](https://www.amazon.ca/dp/B08F72SLYD)
 - cribbage pegs
   - basic play - 14-count optionally in up to three colours (see [Basic setup](../shared/Z-SETUP.md))
   - extended play - 22-count optionally in up to three colours (see [Extended setup](../shared/X-SETUP.md))
   - e.g. [`https://www.amazon.ca/dp/B08B41LNS4`](https://www.amazon.ca/dp/B08B41LNS4)
-    - note that 7 packages of 32 pegs makes up 10 games of 22 pegs with only two unused and the optimum 10+10+2 combination (use the [worksheet](../design/32-pegs.svg) to create game sets)
+    - note that 7 packages of 32 pegs makes up 10 games of 22 pegs with only four unused and the optimum 10+10+2 combination (use the [worksheet](../design/32-pegs.svg) to create game sets)
 - single board version only:
-  - 15mm dimension feet
+  - 15mm or less diameter feet
     - 4-count
-    - e.g. [`https://www.amazon.ca/dp/B07RYCRYY3`](https://www.amazon.ca/dp/B07RYCRYY3) but the screws provided are too long so 1/4" screws need to be purchased separately
+    - e.g. [`https://www.amazon.ca/dp/B07RYCRYY3`](https://www.amazon.ca/dp/B07RYCRYY3) but the screws provided are too long so 3/16"-length screws need to be purchased separately
 - box version only:
   - 12mm x 3mm earth magnets
     - 18- or 20-count (see laminating steps)
@@ -100,12 +102,13 @@ Two approaches for assembling the six levels have been practiced by the designer
   - put adhesive on the back of level 3 and position on level 4
   - put adhesive on the front of level 3 and position level 2 on level 3
   - put adhesive on the front of level 2 and position level 1 on level 2
+  - place magnets in the appropriate locations with the indicated polarity facing up
   - anchor alignment bolts with a washer and the nut
   - clamp/weigh the assembly for drying/curing
 
 - two sessions, the first with five levels not including the backing level:
   - transcribe with a pen on the back of level 5 the polarity of the vertical magnet holes
-  - transcribe with a pen on the back of level 5 the opposite polarity of the horizontal magnet noles
+  - transcribe with a pen on the back of level 5 the opposite polarity of the horizontal magnet holes
   - place level 5 facing up with the alignment bolts with a washer facing up
   - put adhesive on the front of level 5 and position level 4 on level 5
   - put adhesive on the back of level 3 and position on level 4
@@ -113,10 +116,11 @@ Two approaches for assembling the six levels have been practiced by the designer
   - put adhesive on the front of level 2 and position level 1 on level 2
   - anchor alignment bolts with a washer and the nut
   - clamp/weigh the 5-piece assembly for drying/curing
-  - inspect the completed assembly for any peg holes that need to be drilled out with a 1/8" bit, working from the back to the front
+  - inspect the completed assembly for any peg holes that need to be drilled out with a 1/8" bit, drilling from the back to the front
   - place the assembly facing down with the alignment bolts with a washer facing up
   - put adhesive on the back of level 5
-  - place the magnets in their horizontal holes with the indicated handwritten polarity facing up, not forgetting also to add magnets to the vertical magnet holes with unchanged polarity
+  - place the magnets in the horizontal holes with the indicated handwritten changed polarity facing up
+  - place the magnets in the vertical magnet holes with indicated handwritten unchanged polarity
   - position the backing level on level 5
   - clamp/weigh the 6-piece assembly for drying/curing
   
@@ -127,6 +131,7 @@ When working with both the panel and the compartment lid:
 - put adhesive on the front of level 2
 - place magnets in the appropriate locations with the indicated polarity facing up
 - position level 1 on level 2
+- clamp/weigh the 3-piece assembly for drying/curing
 
 ## 6. Burn files
 
@@ -138,33 +143,33 @@ The abbreviations "F" and "B" are, respectively, the front and back of the singl
 
 These are the files used to burn in a laser cutter, tested in an Epilog Helix branded machine:
 
-9"x12" frame: [<img alt="" src="../shared/1-collage.png" style="height:60px"/>](L1-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/2-collage.png" style="height:60px"/>](L2-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/3-collage.png" style="height:60px"/>](L3-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/4-collage.png" style="height:60px"/>](L4-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/5-collage.png" style="height:60px"/>](L5-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/7-collage.png" style="height:60px"/>](L7-frame-9x12-board-baseball-crane.pdf), and [<img alt="" src="../shared/T-collage.png" style="height:60px"/>](LT-frame-9x12-board-baseball-crane.pdf).  
+9"x12" frame: [<img alt="" src="../shared/1-collage.png" style="height:60px"/>](../burn/L1-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/2-collage.png" style="height:60px"/>](../burn/L2-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/3-collage.png" style="height:60px"/>](../burn/L3-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/4-collage.png" style="height:60px"/>](../burn/L4-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/5-collage.png" style="height:60px"/>](../burn/L5-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/7-collage.png" style="height:60px"/>](../burn/L7-frame-9x12-board-baseball-crane.pdf), and [<img alt="" src="../shared/T-collage.png" style="height:60px"/>](../burn/LT-frame-9x12-board-baseball-crane.pdf).  
 
-9"x12" crop: [<img alt="" src="../shared/1-collage.png" style="height:60px"/>](L1-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/2-collage.png" style="height:60px"/>](L2-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/3-collage.png" style="height:60px"/>](L3-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/4-collage.png" style="height:60px"/>](L4-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/5-collage.png" style="height:60px"/>](L5-crop-9x12-board-baseball-crane.pdf),  
-[<img alt="" src="../shared/6-collage.png" style="height:60px"/>](L6-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/7-collage.png" style="height:60px"/>](L7-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/B-collage.png" style="height:60px"/>](SBB-frame-9x12-board-baseball-crane.pdf), and [<img alt="" src="../shared/F-collage.png" style="height:60px"/>](SBF-frame-9x12-board-baseball-crane.pdf).  
+9"x12" crop: [<img alt="" src="../shared/1-collage.png" style="height:60px"/>](../burn/L1-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/2-collage.png" style="height:60px"/>](../burn/L2-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/3-collage.png" style="height:60px"/>](../burn/L3-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/4-collage.png" style="height:60px"/>](../burn/L4-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/5-collage.png" style="height:60px"/>](../burn/L5-crop-9x12-board-baseball-crane.pdf),  
+[<img alt="" src="../shared/6-collage.png" style="height:60px"/>](../burn/L6-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/7-collage.png" style="height:60px"/>](../burn/L7-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/B-collage.png" style="height:60px"/>](../burn/SBB-frame-9x12-board-baseball-crane.pdf), and [<img alt="" src="../shared/F-collage.png" style="height:60px"/>](../burn/SBF-frame-9x12-board-baseball-crane.pdf).  
 
-20mmx248mm cut: [<img alt="" src="../shared/1-collage.png" style="height:60px"/>](L1-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/2-collage.png" style="height:60px"/>](L2-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/3-collage.png" style="height:60px"/>](L3-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/4-collage.png" style="height:60px"/>](L4-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/5-collage.png" style="height:60px"/>](L5-cut-200x248-board-baseball-crane.pdf),  
-[<img alt="" src="../shared/6-collage.png" style="height:60px"/>](L6-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/7-collage.png" style="height:60px"/>](L7-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/B-collage.png" style="height:60px"/>](SBB-cut-200x248-board-baseball-crane.pdf), and [<img alt="" src="../shared/F-collage.png" style="height:60px"/>](SBF-cut-200x248-board-baseball-crane.pdf).  
+20mmx248mm cut: [<img alt="" src="../shared/1-collage.png" style="height:60px"/>](../burn/L1-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/2-collage.png" style="height:60px"/>](../burn/L2-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/3-collage.png" style="height:60px"/>](../burn/L3-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/4-collage.png" style="height:60px"/>](../burn/L4-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/5-collage.png" style="height:60px"/>](../burn/L5-cut-200x248-board-baseball-crane.pdf),  
+[<img alt="" src="../shared/6-collage.png" style="height:60px"/>](../burn/L6-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/7-collage.png" style="height:60px"/>](../burn/L7-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/B-collage.png" style="height:60px"/>](../burn/SBB-cut-200x248-board-baseball-crane.pdf), and [<img alt="" src="../shared/F-collage.png" style="height:60px"/>](../burn/SBF-cut-200x248-board-baseball-crane.pdf).  
 
 These are collages of level images arranged tête-à-tête for board levels with a finished side that are user-facing:
 
-18"x24": [<img alt="" src="../shared/1364-collage.png" style="height:120px"/>](burn-1364-18x24-board-baseball-crane.pdf) and [<img alt="" src="../shared/1374-collage.png" style="height:120px"/>](burn-1374-18x24-board-baseball-crane.pdf)  
-9"x24": [<img alt="" src="../shared/13-collage.png" style="height:60px"/>](burn-13-9x24-board-baseball-crane.pdf), [<img alt="" src="../shared/46-collage.png" style="height:60px"/>](burn-46-9x24-board-baseball-crane.pdf), and [<img alt="" src="../shared/47-collage.png" style="height:60px"/>](burn-47-9x24-board-baseball-crane.pdf)
+18"x24": [<img alt="" src="../shared/1364-collage.png" style="height:120px"/>](../burn/1364-18x24-board-baseball-crane.pdf) and [<img alt="" src="../shared/1374-collage.png" style="height:120px"/>](../burn/1374-18x24-board-baseball-crane.pdf)  
+9"x24": [<img alt="" src="../shared/13-collage.png" style="height:60px"/>](../burn/13-9x24-board-baseball-crane.pdf), [<img alt="" src="../shared/46-collage.png" style="height:60px"/>](../burn/46-9x24-board-baseball-crane.pdf), and [<img alt="" src="../shared/47-collage.png" style="height:60px"/>](../burn/47-9x24-board-baseball-crane.pdf)
 
 These are collages of level images arranged tête-à-tête for internal unfinished board levels that are not user-facing:
 
-18"x24": [<img alt="" src="../shared/2552-collage.png" style="height:120px"/>](burn-2552-18x24-board-baseball-crane.pdf) 
-9"x24": [<img alt="" src="../shared/25-collage.png" style="height:60px"/>](burn-25-9x24-board-baseball-crane.pdf)
+18"x24": [<img alt="" src="../shared/2552-collage.png" style="height:120px"/>](../burn/2552-18x24-board-baseball-crane.pdf) 
+9"x24": [<img alt="" src="../shared/25-collage.png" style="height:60px"/>](../burn/25-9x24-board-baseball-crane.pdf)
 
 These are collages of level images arranged tête-à-tête for all boards in a single burn:
 
-27"x24": [<img alt="" src="../shared/134625-collage.png" style="height:180px"/>](burn-134625-18x24-board-baseball-crane.pdf) and [<img alt="" src="../shared/134725-collage.png" style="height:180px"/>](burn-134725-18x24-board-baseball-crane.pdf)  
+27"x24": [<img alt="" src="../shared/134625-collage.png" style="height:180px"/>](../burn/134625-18x24-board-baseball-crane.pdf) and [<img alt="" src="../shared/134725-collage.png" style="height:180px"/>](../burn/134725-18x24-board-baseball-crane.pdf)  
 
 Two frame cutting patterns are available in order to make the scaffolding to hold a piece of material less than 9"x12" within the 9"x12" workspace:
 
-8"x10" rectangle in 9"x12": [<img alt="" src="../shared/frame-8x10.png" style="height:120px"/>](frame-8x10-in-9x12.pdf)
+8"x10" rectangle in 9"x12": [<img alt="" src="../shared/frame-8x10.png" style="height:120px"/>](..cuts/frame-8x10-in-9x12.pdf)
 
-200x248mm rounded rectangle in 9"x12":  [<img alt="" src="../shared/frame-200x248.png" style="height:120px"/>](frame-200x248-in-9x12.pdf)
+200x248mm rounded rectangle in 9"x12":  [<img alt="" src="../shared/frame-200x248.png" style="height:120px"/>](..cuts/frame-200x248-in-9x12.pdf)
 
 A number of convenience cutting files (without any text) are available should you wish to carve up pieces of material with simple cuts:
 
@@ -176,7 +181,7 @@ A number of convenience cutting files (without any text) are available should yo
 
 ### 6.2 Creating the burn files
 
-If the prior version of the burn files hasn't been deleted, delete every `.pdf` and `.svg` file in the `burn/` directory, leaving only the `README.md` file in the directory.
+If the prior version of the burn files haven't been deleted, delete every `.pdf` and `.svg` file in the `burn/` directory, leaving only the `README.md` file in the directory.
 
 Using the command line from the base git directory, create the [`burn/review-board-baseball-crane.svg`](../burn/review-board-baseball-crane.svg) file by running the `design2review` script:
 - in Windows: `build\design2review.bat`
@@ -193,12 +198,12 @@ Using the command line from the base git directory, automatically create the ind
 - in Shell: `sh build/review2burn.sh`
 
 Open each of the nine collage SVG files and perform the following steps from within the "Layers and Objects" panel:
-- press "4" to show the entire tiling sublayer
+- press "4" to show the entire set of objects
 - select the "tiling" sublayer and confirm the handles around the white rectangle
 - in the "Document Properties" panel select "Resize to content" so that the new page background is only the tiling rectangle
 - back in the "Layers and Objects" panel, select a content sublayer and:
-- - use one of the Rotate functions (clockwise or counterclockwise) as appropriate
-  - use the "Align and Distribute" panel to position the rotated layer to the edges or centre of the tiling rectangle
+  - use one of the Rotate functions (clockwise or counterclockwise) as appropriate
+  - use the "Align and Distribute" panel to position the rotated layer to the edges or centre of the new page size
 - save the SVG file
 
 Open each of the four print SVG files and perform the following steps without selecting any layers or objects:
@@ -216,51 +221,51 @@ Using the command line from the base git directory, automatically create the ind
 
 The end result is 38 PDF files as follows:
 
-`burn/13-9x24-collage-board-baseball-crane.pdf`
-`burn/134625-27x24-collage-board-baseball-crane.pdf`
-`burn/134725-27x24-collage-board-baseball-crane.pdf`
-`burn/1364-18x24-collage-board-baseball-crane.pdf`
-`burn/1374-18x24-collage-board-baseball-crane.pdf`
-`burn/25-9x24-collage-board-baseball-crane.pdf`
-`burn/2552-18x24-collage-board-baseball-crane.pdf`
-`burn/46-9x24-collage-board-baseball-crane.pdf`
-`burn/47-9x24-collage-board-baseball-crane.pdf`
-`burn/L1-crop-9x12-board-baseball-crane.pdf`
-`burn/L1-cut-200x248-board-baseball-crane.pdf`
-`burn/L1-frame-9x12-board-baseball-crane.pdf`
-`burn/L2-crop-9x12-board-baseball-crane.pdf`
-`burn/L2-cut-200x248-board-baseball-crane.pdf`
-`burn/L2-frame-9x12-board-baseball-crane.pdf`
-`burn/L3-crop-9x12-board-baseball-crane.pdf`
-`burn/L3-cut-200x248-board-baseball-crane.pdf`
-`burn/L3-frame-9x12-board-baseball-crane.pdf`
-`burn/L4-crop-9x12-board-baseball-crane.pdf`
-`burn/L4-cut-200x248-board-baseball-crane.pdf`
-`burn/L4-frame-9x12-board-baseball-crane.pdf`
-`burn/L5-crop-9x12-board-baseball-crane.pdf`
-`burn/L5-cut-200x248-board-baseball-crane.pdf`
-`burn/L5-frame-9x12-board-baseball-crane.pdf`
-`burn/L6-crop-9x12-board-baseball-crane.pdf`
-`burn/L6-cut-200x248-board-baseball-crane.pdf`
-`burn/L7-crop-9x12-board-baseball-crane.pdf`
-`burn/L7-cut-200x248-board-baseball-crane.pdf`
-`burn/L7-frame-9x12-board-baseball-crane.pdf`
-`burn/LT-frame-9x12-board-baseball-crane.pdf`
-`burn/SBB-cut-200x248-board-baseball-crane.pdf`
-`burn/SBB-frame-9x12-board-baseball-crane.pdf`
-`burn/SBB-print-board-baseball-crane.pdf`
-`burn/SBF-cut-200x248-board-baseball-crane.pdf`
-`burn/SBF-frame-9x12-board-baseball-crane.pdf`
-`burn/SBF-print-basic-board-baseball-crane.pdf`
-`burn/SBF-print-combo-board-baseball-crane.pdf`
-`burn/SBF-print-extended-board-baseball-crane.pdf`
+[`burn/13-9x24-collage-board-baseball-crane.pdf`](../burn/13-9x24-collage-board-baseball-crane.pdf)
+[`burn/134625-27x24-collage-board-baseball-crane.pdf`](../burn/134625-27x24-collage-board-baseball-crane.pdf)
+[`burn/134725-27x24-collage-board-baseball-crane.pdf`](../burn/134725-27x24-collage-board-baseball-crane.pdf)
+[`burn/1364-18x24-collage-board-baseball-crane.pdf`](../burn/1364-18x24-collage-board-baseball-crane.pdf)
+[`burn/1374-18x24-collage-board-baseball-crane.pdf`](../burn/1374-18x24-collage-board-baseball-crane.pdf)
+[`burn/25-9x24-collage-board-baseball-crane.pdf`](../burn/25-9x24-collage-board-baseball-crane.pdf)
+[`burn/2552-18x24-collage-board-baseball-crane.pdf`](../burn/2552-18x24-collage-board-baseball-crane.pdf)
+[`burn/46-9x24-collage-board-baseball-crane.pdf`](../burn/46-9x24-collage-board-baseball-crane.pdf)
+[`burn/47-9x24-collage-board-baseball-crane.pdf`](../burn/47-9x24-collage-board-baseball-crane.pdf)
+[`burn/L1-crop-9x12-board-baseball-crane.pdf`](../burn/L1-crop-9x12-board-baseball-crane.pdf)
+[`burn/L1-cut-200x248-board-baseball-crane.pdf`](../burn/L1-cut-200x248-board-baseball-crane.pdf)
+[`burn/L1-frame-9x12-board-baseball-crane.pdf`](../burn/L1-frame-9x12-board-baseball-crane.pdf)
+[`burn/L2-crop-9x12-board-baseball-crane.pdf`](../burn/L2-crop-9x12-board-baseball-crane.pdf)
+[`burn/L2-cut-200x248-board-baseball-crane.pdf`](../burn/L2-cut-200x248-board-baseball-crane.pdf)
+[`burn/L2-frame-9x12-board-baseball-crane.pdf`](../burn/L2-frame-9x12-board-baseball-crane.pdf)
+[`burn/L3-crop-9x12-board-baseball-crane.pdf`](../burn/L3-crop-9x12-board-baseball-crane.pdf)
+[`burn/L3-cut-200x248-board-baseball-crane.pdf`](../burn/L3-cut-200x248-board-baseball-crane.pdf)
+[`burn/L3-frame-9x12-board-baseball-crane.pdf`](../burn/L3-frame-9x12-board-baseball-crane.pdf)
+[`burn/L4-crop-9x12-board-baseball-crane.pdf`](../burn/L4-crop-9x12-board-baseball-crane.pdf)
+[`burn/L4-cut-200x248-board-baseball-crane.pdf`](../burn/L4-cut-200x248-board-baseball-crane.pdf)
+[`burn/L4-frame-9x12-board-baseball-crane.pdf`](../burn/L4-frame-9x12-board-baseball-crane.pdf)
+[`burn/L5-crop-9x12-board-baseball-crane.pdf`](../burn/L5-crop-9x12-board-baseball-crane.pdf)
+[`burn/L5-cut-200x248-board-baseball-crane.pdf`](../burn/L5-cut-200x248-board-baseball-crane.pdf)
+[`burn/L5-frame-9x12-board-baseball-crane.pdf`](../burn/L5-frame-9x12-board-baseball-crane.pdf)
+[`burn/L6-crop-9x12-board-baseball-crane.pdf`](../burn/L6-crop-9x12-board-baseball-crane.pdf)
+[`burn/L6-cut-200x248-board-baseball-crane.pdf`](../burn/L6-cut-200x248-board-baseball-crane.pdf)
+[`burn/L7-crop-9x12-board-baseball-crane.pdf`](../burn/L7-crop-9x12-board-baseball-crane.pdf)
+[`burn/L7-cut-200x248-board-baseball-crane.pdf`](../burn/L7-cut-200x248-board-baseball-crane.pdf)
+[`burn/L7-frame-9x12-board-baseball-crane.pdf`](../burn/L7-frame-9x12-board-baseball-crane.pdf)
+[`burn/LT-frame-9x12-board-baseball-crane.pdf`](../burn/LT-frame-9x12-board-baseball-crane.pdf)
+[`burn/SBB-cut-200x248-board-baseball-crane.pdf`](../burn/SBB-cut-200x248-board-baseball-crane.pdf)
+[`burn/SBB-frame-9x12-board-baseball-crane.pdf`](../burn/SBB-frame-9x12-board-baseball-crane.pdf)
+[`burn/SBB-print-board-baseball-crane.pdf`](../burn/SBB-print-board-baseball-crane.pdf)
+[`burn/SBF-cut-200x248-board-baseball-crane.pdf`](../burn/SBF-cut-200x248-board-baseball-crane.pdf)
+[`burn/SBF-frame-9x12-board-baseball-crane.pdf`](../burn/SBF-frame-9x12-board-baseball-crane.pdf)
+[`burn/SBF-print-basic-board-baseball-crane.pdf`](../burn/SBF-print-basic-board-baseball-crane.pdf)
+[`burn/SBF-print-combo-board-baseball-crane.pdf`](../burn/SBF-print-combo-board-baseball-crane.pdf)
+[`burn/SBF-print-extended-board-baseball-crane.pdf`](../burn/SBF-print-extended-board-baseball-crane.pdf)
 
 Open every PDF file and:
 - perform one final check on the content of the page
-- use your PDF tool to rotate the image to the orientation needed
+- use your PDF tool to rotate the image to the orientation needed for your cutter
 - save your PDF rotated as needed
 
-At this point the new version can be committed to git and pushed to the server.
+At this point the production is complete and the new version can be committed to git and pushed to the server.
 
 The PDF files in the `cuts/` directory shouldn't need to change:
 

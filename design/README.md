@@ -1,22 +1,22 @@
 # Design resources
 
-This is information regarding the SVG design files, what is needed for them, how they are expected to be used, and how to tidy them up in preparation for creating the [`../build`](../build/README.md) directory files and release.
+This is information regarding the SVG design files, what is needed for them, how they are expected to be used, and how to prepare them for creating the [`../burn`](../burn/README.md) directory files and release through the tools found in the [`../build`](../build/README.md).
 
 ## 1. Development reminders
 
 ### 1.1 Initiating new SVG work after releasing to QA for testing
 
-The process of a release creates a number of build files in the [`../build`](../build) directory that reflect the content of the SVG file.
+The process of a release creates a number of burn and print files in the [`../burn`](../burn) directory that reflect the content of the SVG file.
 
-Thus, as soon as the SVG file is touched, the build files no longer are guaranteed to reflect what is in the SVG.
+Thus, as soon as the SVG file is touched, the burn files no longer are guaranteed to reflect what is in the SVG.
 
-When starting new work after a snapshot has been moved to QA for testing, be sure to delete all files except the `README.md` file in the [`../burn`](../burn directory). This way anyone visiting the site will find files only in the QA branch and main branch.
+When starting new work after a snapshot has been moved to QA for testing, be sure to delete all files except the `README.md` file in the [`../burn` directory](../burn). This way anyone visiting the site will find files only in the QA branch and main branch.
 
 Also, the version number in the SVG file needs to be changed early in two different layers (one for print and one for burn) so there is no confusion regarding the SVG file not reflecting the published files.
 
 ### 1.2 SVG layers for the physical levels
 
-The [Inkscape](https://inkscape.org) application helps to manage layers of content. The layer menu reveals:
+The [Inkscape](https://inkscape.org) application helps to manage layers of content. The "Layers and Objects" panel reveals:
 - layers of print and burn detail content, organized semantically regarding content and use
 - singleton layers used in their own context
 - empty layers representing content levels
@@ -31,15 +31,13 @@ The typical format of the way a detail layer is labeled is: `L#:B#` representing
    - layer 2 has the outside cuts and the alignment holes
    - layer 3 has the peg holes
 
-The actual components of the label before and after are arbitrary and can be in any format. As described below regarding assembly labels are collected by the label prefix; the label suffix is used only for distinction.
-
-Note there are multiple back layers and only one of them is used in a given assembly. Level 6 is blank, while other back layers are decorated in some way (e.g. level 7 is a simple surrounding band).
+The actual components of the label before and after are arbitrary and can be in any format. As described below regarding assembly, labels are collected by the label prefix; the label suffix is used only for distinction.
 
 ## 2. Fonts
 
 These design files use the "Noto Serif" and "Noto Sans" available for free from the [`https://fonts.google.com/noto`](https://fonts.google.com/noto) site. The compressed and extra-compressed font variants are used predominantly.
 
-As part of the production process, all text is converted to paths and so there is no need for the PDF reader attached to the cutting machine to have these fonts pre-loaded.
+As part of the production process, all text in the review copy of the design file is converted to paths and so there is no need for the PDF reading tool attached to the cutting machine to have these fonts pre-loaded.
 
 ## 3. Cuts
 
@@ -57,7 +55,7 @@ Remember to save frequently as Inkscape appears to crash easily when working wit
 
 Update the version strings (two), one for print and the other for burning. 
 
-Look in the layer view for the two layers with "version" in the layer name. Unhide the layer but leave the layer locked. Open up the nested groups until you find the text string "Version". Press "3" to zoom in on the string. Press "T" to enter text mode and make the change. Press "Esc" to get out of editing the string. Hide the layer again.
+Look in the "Layers and Objects" panel for the two layers with "version" in the layer name. Un-hide the layer but leave the layer locked. Open up the nested groups until you find the text string "Version". Select it and press "3" to zoom in on the string. Press "T" to enter text mode and make the change. Press "Esc" to get out of editing the string. Hide the layer again.
 
 ### 4.2 Preparing each layer for use in assembling levels
 
@@ -76,13 +74,13 @@ A combined layer's title directs the assembly of all of the layers in the order 
 - `L1-crop-9x12 = CropMarks9x12:* Crop9x12:* L1:*`
   - pull in three sets of SVG layers, in order, into a single assembly
 
-In turn, collages use the same conventions to pull in assemblies:
+In turn, collages also are empty layers that use the same conventions in the layer title to pull in assemblies:
 
 - `13-9x24-collage = Tiling-9x24:* + L1-crop-9x12:* + L3-crop-9x12:*`
 
-The actual assembly is accomplished in the production steps by XSLT stylesheets that read the SVG XML and output a review of all assemblies. This process is very quick and so it makes sense to use it to create the assemblies for review.
+The actual assembly is accomplished in the production steps by XSLT stylesheets that read the design SVG XML and output a review SVG XML of all assemblies. This process is very quick and so it makes sense to use it to create the assemblies for review.
 
-The review file is then burst into individual SVG files for each assembly. The collage and print SVG files need some manual intervention before converting the SVG files to PDF using the synthesized batch script. The resulting PDF files need some manual intervention to orient them as desired for the laser cutter, as well as a one-last-time review of their accuracy before use.
+The review SVG file is then burst into individual SVG files, one for each collage and print assembly. The collage and print SVG files need some manual intervention before converting the SVG files to PDF using the synthesized batch script. The resulting PDF files need some manual intervention to orient them as desired for the laser cutter, as well as a one-last-time review of their accuracy before use.
 
 ## 5. Create the individual level SVG files and burn files
 
