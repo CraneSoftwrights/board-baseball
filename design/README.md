@@ -76,7 +76,7 @@ A combined layer's title directs the assembly of all of the layers in the order 
 
 In turn, collages also are empty layers that use the same conventions in the layer title to pull in assemblies:
 
-- `13-9x24-collage = Tiling-9x24:* + L1-crop-9x12:* + L3-crop-9x12:*`
+- `13-9x24-collage = L1-crop-9x12:* L3-crop-9x12:* Tiling-9x24:*`
 
 The actual assembly is accomplished in the production steps by XSLT stylesheets that read the design SVG XML and output a review SVG XML of all assemblies. This process is very quick and so it makes sense to use it to create the assemblies for review.
 
