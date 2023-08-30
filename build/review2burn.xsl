@@ -117,7 +117,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <para>Get started</para>
 </xs:template>
 <xsl:template match="/svg" priority="1">
-  <xsl:if test="exists(//text)">
+  <xsl:if test="exists(//text[string(.)!=''])">
     <xsl:message terminate="yes"
                select="'This SVG file has not had objects converted to paths.',
                        'Such is necessary to avoid font issues.'"/>

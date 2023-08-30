@@ -22,9 +22,9 @@ Copyright © Crane Softwrights Ltd.
 - the ball is popped up and caught by the infielder indicated by the number on the die 
 - the batter is out and the runners do not advance
 
-## FO/FC - Force-out and Fielder's choice
+## FC/FO - Fielder's choice and force-out
 
-<p><img alt="" src="../shared/fo-fc-1-6.png" style="height:120px"/></p>
+<p><img alt="" src="../shared/fc-fo-1-6.png" style="height:120px"/></p>
 
 - the ball is fielded by the infielder indicated by the number on the die
 - the batter and all runners advance one base
@@ -102,11 +102,11 @@ Copyright © Crane Softwrights Ltd.
 
 ### 2-3 <img alt="" src="../shared/x-2-3.png" style="height:35px"/>
 
-- a force out or a fielder's choice ([see FO-FC](X-PLAYS.md#fofc---force-out-and-fielders-choice))
+- a force out or a fielder's choice ([see FC-FO](X-PLAYS.md#fofc---force-out-and-fielders-choice))
 
 ### 2-4 <img alt="" src="../shared/x-2-4.png" style="height:35px"/>
 
-- a force out or a fielder's choice ([see FO-FC](X-PLAYS.md#fofc---force-out-and-fielders-choice))
+- a force out or a fielder's choice ([see FC-FO](X-PLAYS.md#fofc---force-out-and-fielders-choice))
 
 ### 2-5 <img alt="" src="../shared/x-2-5.png" style="height:35px"/>
 
@@ -115,7 +115,7 @@ Copyright © Crane Softwrights Ltd.
 
 ### 2-6 <img alt="" src="../shared/x-2-6.png" style="height:35px"/>
 
-- a force out or a fielder's choice ([see FO-FC](X-PLAYS.md#fofc---force-out-and-fielders-choice))
+- a force out or a fielder's choice ([see FC-FO](X-PLAYS.md#fofc---force-out-and-fielders-choice))
 
 ### 3-3 <img alt="" src="../shared/x-3-3.png" style="height:35px"/>
 
@@ -129,7 +129,7 @@ Copyright © Crane Softwrights Ltd.
 
 ### 3-5 <img alt="" src="../shared/x-3-5.png" style="height:35px"/>
 
-- a force out or a fielder's choice ([see FO-FC](X-PLAYS.md#fofc---force-out-and-fielders-choice))
+- a force out or a fielder's choice ([see FC-FO](X-PLAYS.md#fofc---force-out-and-fielders-choice))
 
 ### 3-6 <img alt="" src="../shared/x-3-6.png" style="height:35px"/>
 
@@ -146,7 +146,7 @@ Copyright © Crane Softwrights Ltd.
 
 ### 4-6 <img alt="" src="../shared/x-4-6.png" style="height:35px"/>
 
-- a force out or a fielder's choice ([see FO-FC](X-PLAYS.md#fofc---force-out-and-fielders-choice))
+- a force out or a fielder's choice ([see FC-FO](X-PLAYS.md#fofc---force-out-and-fielders-choice))
 
 ### 5-5 <img alt="" src="../shared/x-5-5.png" style="height:35px"/>
 

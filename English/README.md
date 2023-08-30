@@ -84,9 +84,9 @@ Use the play board with this marking between the columns: <img alt="" src="../sh
   - the batter's strike zone is an imaginary area above home plate in the horizontal and extending in the vertical from the batter's knees up to the mid-point between the top of the batter's pants and the batter's shoulders 
   - a ball is a pitch thrown outside of the batter's strike zone when the batter does not "offer" at the pitch by swinging
   - a strike is a pitch thrown inside of the batter's strike zone or any pitch at which the batter offers by swinging
-  - the batter making contact with the pitch but resulting in the ball being outside of the third-base line and the first-base line makes for a "foul ball"
-- the tally of runs and hits is recorded for the batter and always is reported in the order of number of balls before the number of strikes (e.g. a count of "3 and 2" means "3 balls and two strikes")
-- the pitching team rolls one die (of a colour different from the dice used by the batter) to determine which pitch is thrown by the pitcher
+  - the batter making contact with the pitch but resulting in the ball being outside of the field between the third-base line and the first-base line makes, so outside the third-base line or outside the first-base line, for a "foul ball"
+- the tally of runs and hits is recorded for the batter and always is reported in the order of number of balls before the number of strikes (e.g. a count of "2 and 1" means "two balls and one strike")
+- the pitching team rolls one die (of a colour different from the dice used by the batter if available) to determine which pitch is thrown by the pitcher
 - three of the pitches result in no contact with the bat:
   - four balls <img alt="" src="../shared/pd2.png" style="height:35px"/> makes a walk and moves the batter to first base, which, if occupied, moves the first-base runner to second base, which, if occupied, moves the second-base runner to third base, which, if occupied, moves the third-base runner to home for a run
   - a swinging third strike <img alt="" src="../shared/pd1.png" style="height:35px"/> or a looking third strike <img alt="" src="../shared/pd3.png" style="height:35px"/> is an out for the batter and the out is recorded for the team's inning
@@ -103,7 +103,7 @@ Use the play board with this marking between the columns: <img alt="" src="../sh
     - for some insight into the above choices, [ChatGPT was consulted](https://chat.openai.com/share/28530b4e-933a-408e-b516-6e1b7bbb4fcf) regarding past performance in Major League Baseball
 - three of the pitches result in contact with the bat:
   - a foul ball <img alt="" src="../shared/pd5.png" style="height:35px"/> counts as a strike only when there are fewer than two strikes against the batter, otherwise there is no change in the tally of balls and strikes for the batter but it is counted as a strike on record for the pitcher
-  - the batter making contact with the pitch with <img alt="" src="../shared/pd4.png" style="height:35px"/> or <img alt="" src="../shared/pd6.png" style="height:35px"/> puts the ball "in play" in between the third-base line and the first-base line
+  - the batter making contact with the pitch with <img alt="" src="../shared/pd4.png" style="height:35px"/> or <img alt="" src="../shared/pd6.png" style="height:35px"/> puts the ball "in play" in the field between the third-base line and the first-base line
     - this is not counted as a strike against the batter, but it is counted as a strike on record for the pitcher
   - a base runner is not allowed to attempt to steal a base when the pitched ball is in contact with the bat
 
@@ -123,18 +123,16 @@ Use the play board with this marking between the columns: <img alt="" src="../sh
 
 <img alt="" src="../shared/step-4.png" style="height:30px"/>
 
-- when there are base runners or the game is being scored, the batter rolls three dice (two dice of one colour for the batter and one die of a different colour for the base runners) to determine as above how the pitch is put in play and the impact of the play on the runners, thus guiding how the play is scored
+- when there are base runners or the game is being scored, the batter rolls three dice (two dice of one colour for the batter and one die of a different colour for the base runners if available) to determine as above how the pitch is put in play and the impact of the play on the runners, thus guiding how the play is scored
 
 
 ## Design process
 
 See the [design resources](../design/README.md) for information regarding the design files and the initial steps in creating a release of files.
 
-## Physical box assembly
+## Physical box and board assemblies
 
-See the [building instructions](../build/README.md) for a collection of image files for laser engraving/cutting. The assumption is a line of size .001mm is a cut request.
+See the [burn directory](../burn) for a collection of image files for laser engraving/cutting.
 
-The image files are 250mm x 270mm each and, after cutting, the layers can be aligned for laminating by using the two 3/16" holes outside of the playing area. The alignment guides can be shaved off when the laminating is completed.
-
-There are five layers in total to be cut in order to fashion the entire box. Each layer is assumed to be 3/16" in order to fit four 12mm dice in the storage compartment and to fit the play board in its cradle.
+See the [building instructions](../build/README.md) for how the image files are created from the design files.
 

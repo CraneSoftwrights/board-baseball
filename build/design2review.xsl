@@ -161,6 +161,13 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                             select="$c:pastLayers,$c:layer"/>
           </xsl:call-template>
         </xsl:when>
+        <xsl:when test="empty(key('c:build',$c:ref,$c:top))">
+          <!--something is amiss-->
+          <xsl:message>
+            <xsl:text>Missing a definition for the reference: </xsl:text>
+            <xsl:value-of select="$c:ref"/>
+          </xsl:message>
+        </xsl:when>
         <xsl:otherwise>
           <xsl:for-each select="key('c:build',$c:ref,$c:top)">
             <xsl:copy>
