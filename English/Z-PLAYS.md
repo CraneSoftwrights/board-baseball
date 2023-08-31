@@ -3,7 +3,7 @@
 Copyright © Crane Softwrights Ltd.
 [https://GitHub.com/CraneSoftwrights/board-baseball](https://GitHub.com/CraneSoftwrights/board-baseball)  
 [https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/Z-PLAYS.md](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/Z-PLAYS.md)  
-[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/Z-PLAYS.html](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/Z-PLAYS.html)  
+[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/Z-PLAYS.md.html](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/Z-PLAYS.md.html)  
 
 | | | | | |
 | :--- | :--- | :--- | :--- | :--- |

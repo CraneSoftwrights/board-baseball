@@ -1,5 +1,13 @@
 # Build resources
 
+Copyright © Crane Softwrights Ltd.
+[https://GitHub.com/CraneSoftwrights/board-baseball](https://GitHub.com/CraneSoftwrights/board-baseball)  
+[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/build/README.md](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/build/README.md)  
+[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/build/README.md.html](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/build/README.md.html)  
+[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/README.md](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/README.md)  
+[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/README.md.html](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/README.md.html)  
+
+
 These are the resources used to build two versions of the game using a laser cutter to etch and cut material:
 - a 3-dimensional box with six layers of 1/8"-3mm material, and
 

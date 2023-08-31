@@ -1,0 +1,1 @@
+find . -name \*.md -exec sh -c 'sh build/md2xhtml.sh <"$1" >"$1".html' called_shell '{}' \;

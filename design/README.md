@@ -1,6 +1,13 @@
 # Design resources
 
-This is information regarding the SVG design files, what is needed for them, how they are expected to be used, and how to prepare them for creating the [`../burn`](../burn/README.md) directory files and release through the tools found in the [`../build`](../build/README.md).
+Copyright © Crane Softwrights Ltd.
+[https://GitHub.com/CraneSoftwrights/board-baseball](https://GitHub.com/CraneSoftwrights/board-baseball)  
+[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/design/README.md](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/design/README.md)  
+[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/design/README.md.html](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/design/README.md.html)  
+[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/README.md](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/README.md)  
+[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/README.md.html](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/README.md.html)  
+
+This is information regarding the SVG design files, what is needed for them, how they are expected to be used, and how to prepare them for creating the [`../burn`](../burn/README.md) directory files and release through the tools found in the [`../build`](../build/README.md) directory.
 
 ## 1. Development reminders
 
