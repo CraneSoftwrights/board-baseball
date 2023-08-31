@@ -181,7 +181,7 @@ A number of convenience cutting files (without any text) are available should yo
 
 ### 6.2 Creating the burn files
 
-If the prior version of the burn files haven't been deleted, delete every `.pdf` and `.svg` file in the `burn/` directory, leaving only the `README.md` file in the directory.
+If the prior version of the burn files haven't been deleted, delete every `.pdf` and `.svg` file in the [`burn/`](../burn) directory, leaving only the `README.md` file in the directory.
 
 Using the command line from the base git directory, create the [`burn/review-board-baseball-crane.svg`](../burn/review-board-baseball-crane.svg) file by running the `design2review` script:
 - in Windows: `build\design2review.bat`
@@ -219,46 +219,46 @@ Using the command line from the base git directory, automatically create the ind
 - in Windows: `burn\burn2pdf.bat`
 - in Shell: `sh burn/burn2pdf.sh 2>/dev/null` (you may get away without redirecting stderr, but Inkscape burps a lot)
 
-The end result is 38 PDF files as follows:
+The end result is 38 PDF files listed alphabetically as follows:
 
-[`burn/13-9x24-collage-board-baseball-crane.pdf`](../burn/13-9x24-collage-board-baseball-crane.pdf)
-[`burn/134625-27x24-collage-board-baseball-crane.pdf`](../burn/134625-27x24-collage-board-baseball-crane.pdf)
-[`burn/134725-27x24-collage-board-baseball-crane.pdf`](../burn/134725-27x24-collage-board-baseball-crane.pdf)
-[`burn/1364-18x24-collage-board-baseball-crane.pdf`](../burn/1364-18x24-collage-board-baseball-crane.pdf)
-[`burn/1374-18x24-collage-board-baseball-crane.pdf`](../burn/1374-18x24-collage-board-baseball-crane.pdf)
-[`burn/25-9x24-collage-board-baseball-crane.pdf`](../burn/25-9x24-collage-board-baseball-crane.pdf)
-[`burn/2552-18x24-collage-board-baseball-crane.pdf`](../burn/2552-18x24-collage-board-baseball-crane.pdf)
-[`burn/46-9x24-collage-board-baseball-crane.pdf`](../burn/46-9x24-collage-board-baseball-crane.pdf)
-[`burn/47-9x24-collage-board-baseball-crane.pdf`](../burn/47-9x24-collage-board-baseball-crane.pdf)
-[`burn/L1-crop-9x12-board-baseball-crane.pdf`](../burn/L1-crop-9x12-board-baseball-crane.pdf)
-[`burn/L1-cut-200x248-board-baseball-crane.pdf`](../burn/L1-cut-200x248-board-baseball-crane.pdf)
-[`burn/L1-frame-9x12-board-baseball-crane.pdf`](../burn/L1-frame-9x12-board-baseball-crane.pdf)
-[`burn/L2-crop-9x12-board-baseball-crane.pdf`](../burn/L2-crop-9x12-board-baseball-crane.pdf)
-[`burn/L2-cut-200x248-board-baseball-crane.pdf`](../burn/L2-cut-200x248-board-baseball-crane.pdf)
-[`burn/L2-frame-9x12-board-baseball-crane.pdf`](../burn/L2-frame-9x12-board-baseball-crane.pdf)
-[`burn/L3-crop-9x12-board-baseball-crane.pdf`](../burn/L3-crop-9x12-board-baseball-crane.pdf)
-[`burn/L3-cut-200x248-board-baseball-crane.pdf`](../burn/L3-cut-200x248-board-baseball-crane.pdf)
-[`burn/L3-frame-9x12-board-baseball-crane.pdf`](../burn/L3-frame-9x12-board-baseball-crane.pdf)
-[`burn/L4-crop-9x12-board-baseball-crane.pdf`](../burn/L4-crop-9x12-board-baseball-crane.pdf)
-[`burn/L4-cut-200x248-board-baseball-crane.pdf`](../burn/L4-cut-200x248-board-baseball-crane.pdf)
-[`burn/L4-frame-9x12-board-baseball-crane.pdf`](../burn/L4-frame-9x12-board-baseball-crane.pdf)
-[`burn/L5-crop-9x12-board-baseball-crane.pdf`](../burn/L5-crop-9x12-board-baseball-crane.pdf)
-[`burn/L5-cut-200x248-board-baseball-crane.pdf`](../burn/L5-cut-200x248-board-baseball-crane.pdf)
-[`burn/L5-frame-9x12-board-baseball-crane.pdf`](../burn/L5-frame-9x12-board-baseball-crane.pdf)
-[`burn/L6-crop-9x12-board-baseball-crane.pdf`](../burn/L6-crop-9x12-board-baseball-crane.pdf)
-[`burn/L6-cut-200x248-board-baseball-crane.pdf`](../burn/L6-cut-200x248-board-baseball-crane.pdf)
-[`burn/L7-crop-9x12-board-baseball-crane.pdf`](../burn/L7-crop-9x12-board-baseball-crane.pdf)
-[`burn/L7-cut-200x248-board-baseball-crane.pdf`](../burn/L7-cut-200x248-board-baseball-crane.pdf)
-[`burn/L7-frame-9x12-board-baseball-crane.pdf`](../burn/L7-frame-9x12-board-baseball-crane.pdf)
-[`burn/LT-frame-9x12-board-baseball-crane.pdf`](../burn/LT-frame-9x12-board-baseball-crane.pdf)
-[`burn/SBB-cut-200x248-board-baseball-crane.pdf`](../burn/SBB-cut-200x248-board-baseball-crane.pdf)
-[`burn/SBB-frame-9x12-board-baseball-crane.pdf`](../burn/SBB-frame-9x12-board-baseball-crane.pdf)
-[`burn/SBB-print-board-baseball-crane.pdf`](../burn/SBB-print-board-baseball-crane.pdf)
-[`burn/SBF-cut-200x248-board-baseball-crane.pdf`](../burn/SBF-cut-200x248-board-baseball-crane.pdf)
-[`burn/SBF-frame-9x12-board-baseball-crane.pdf`](../burn/SBF-frame-9x12-board-baseball-crane.pdf)
-[`burn/SBF-print-basic-board-baseball-crane.pdf`](../burn/SBF-print-basic-board-baseball-crane.pdf)
-[`burn/SBF-print-combo-board-baseball-crane.pdf`](../burn/SBF-print-combo-board-baseball-crane.pdf)
-[`burn/SBF-print-extended-board-baseball-crane.pdf`](../burn/SBF-print-extended-board-baseball-crane.pdf)
+[`burn/13-9x24-collage-board-baseball-crane.pdf`](../burn/13-9x24-collage-board-baseball-crane.pdf)  
+[`burn/134625-27x24-collage-board-baseball-crane.pdf`](../burn/134625-27x24-collage-board-baseball-crane.pdf)  
+[`burn/134725-27x24-collage-board-baseball-crane.pdf`](../burn/134725-27x24-collage-board-baseball-crane.pdf)  
+[`burn/1364-18x24-collage-board-baseball-crane.pdf`](../burn/1364-18x24-collage-board-baseball-crane.pdf)  
+[`burn/1374-18x24-collage-board-baseball-crane.pdf`](../burn/1374-18x24-collage-board-baseball-crane.pdf)  
+[`burn/25-9x24-collage-board-baseball-crane.pdf`](../burn/25-9x24-collage-board-baseball-crane.pdf)  
+[`burn/2552-18x24-collage-board-baseball-crane.pdf`](../burn/2552-18x24-collage-board-baseball-crane.pdf)  
+[`burn/46-9x24-collage-board-baseball-crane.pdf`](../burn/46-9x24-collage-board-baseball-crane.pdf)  
+[`burn/47-9x24-collage-board-baseball-crane.pdf`](../burn/47-9x24-collage-board-baseball-crane.pdf)  
+[`burn/L1-crop-9x12-board-baseball-crane.pdf`](../burn/L1-crop-9x12-board-baseball-crane.pdf)  
+[`burn/L1-cut-200x248-board-baseball-crane.pdf`](../burn/L1-cut-200x248-board-baseball-crane.pdf)  
+[`burn/L1-frame-9x12-board-baseball-crane.pdf`](../burn/L1-frame-9x12-board-baseball-crane.pdf)  
+[`burn/L2-crop-9x12-board-baseball-crane.pdf`](../burn/L2-crop-9x12-board-baseball-crane.pdf)  
+[`burn/L2-cut-200x248-board-baseball-crane.pdf`](../burn/L2-cut-200x248-board-baseball-crane.pdf)  
+[`burn/L2-frame-9x12-board-baseball-crane.pdf`](../burn/L2-frame-9x12-board-baseball-crane.pdf)  
+[`burn/L3-crop-9x12-board-baseball-crane.pdf`](../burn/L3-crop-9x12-board-baseball-crane.pdf)  
+[`burn/L3-cut-200x248-board-baseball-crane.pdf`](../burn/L3-cut-200x248-board-baseball-crane.pdf)  
+[`burn/L3-frame-9x12-board-baseball-crane.pdf`](../burn/L3-frame-9x12-board-baseball-crane.pdf)  
+[`burn/L4-crop-9x12-board-baseball-crane.pdf`](../burn/L4-crop-9x12-board-baseball-crane.pdf)  
+[`burn/L4-cut-200x248-board-baseball-crane.pdf`](../burn/L4-cut-200x248-board-baseball-crane.pdf)  
+[`burn/L4-frame-9x12-board-baseball-crane.pdf`](../burn/L4-frame-9x12-board-baseball-crane.pdf)  
+[`burn/L5-crop-9x12-board-baseball-crane.pdf`](../burn/L5-crop-9x12-board-baseball-crane.pdf)  
+[`burn/L5-cut-200x248-board-baseball-crane.pdf`](../burn/L5-cut-200x248-board-baseball-crane.pdf)  
+[`burn/L5-frame-9x12-board-baseball-crane.pdf`](../burn/L5-frame-9x12-board-baseball-crane.pdf)  
+[`burn/L6-crop-9x12-board-baseball-crane.pdf`](../burn/L6-crop-9x12-board-baseball-crane.pdf)  
+[`burn/L6-cut-200x248-board-baseball-crane.pdf`](../burn/L6-cut-200x248-board-baseball-crane.pdf)  
+[`burn/L7-crop-9x12-board-baseball-crane.pdf`](../burn/L7-crop-9x12-board-baseball-crane.pdf)  
+[`burn/L7-cut-200x248-board-baseball-crane.pdf`](../burn/L7-cut-200x248-board-baseball-crane.pdf)  
+[`burn/L7-frame-9x12-board-baseball-crane.pdf`](../burn/L7-frame-9x12-board-baseball-crane.pdf)  
+[`burn/LT-frame-9x12-board-baseball-crane.pdf`](../burn/LT-frame-9x12-board-baseball-crane.pdf)  
+[`burn/SBB-cut-200x248-board-baseball-crane.pdf`](../burn/SBB-cut-200x248-board-baseball-crane.pdf)  
+[`burn/SBB-frame-9x12-board-baseball-crane.pdf`](../burn/SBB-frame-9x12-board-baseball-crane.pdf)  
+[`burn/SBB-print-board-baseball-crane.pdf`](../burn/SBB-print-board-baseball-crane.pdf)  
+[`burn/SBF-cut-200x248-board-baseball-crane.pdf`](../burn/SBF-cut-200x248-board-baseball-crane.pdf)  
+[`burn/SBF-frame-9x12-board-baseball-crane.pdf`](../burn/SBF-frame-9x12-board-baseball-crane.pdf)  
+[`burn/SBF-print-basic-board-baseball-crane.pdf`](../burn/SBF-print-basic-board-baseball-crane.pdf)  
+[`burn/SBF-print-combo-board-baseball-crane.pdf`](../burn/SBF-print-combo-board-baseball-crane.pdf)  
+[`burn/SBF-print-extended-board-baseball-crane.pdf`](../burn/SBF-print-extended-board-baseball-crane.pdf)  
 
 Open every PDF file and:
 - perform one final check on the content of the page
@@ -280,7 +280,7 @@ The PDF files in the `cuts/` directory shouldn't need to change:
 
 ## 7. Assembly
 
-Our second test build is documented [here: `test-20230728.md`](test-20230728.md).
+Our second test build is documented with photographs [here: `test-20230728.md`](test-20230728.md).
 
 Various timings of other test builds are documented [here: `other-tests.md`](other-tests.md).
 
