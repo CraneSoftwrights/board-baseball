@@ -6,4 +6,4 @@ Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrigh
 
 Languages:
 
-- [English](../English/cuts.md) - [Cuts resources](../English/cuts.md)
+- [English](../en/cuts.md) - [Cuts resources](../en/cuts.md)

@@ -6,4 +6,4 @@ Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrigh
 
 Languages:
 
-- [English](../English/shared.md) - [Shared resources](../English/shared.md)
+- [English](../en/shared.md) - [Shared resources](../en/shared.md)

@@ -6,7 +6,7 @@ Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrigh
 
 Languages:
 
-- [English](../English/build.md) - [Build resources](../English/build.md)
+- [English](../en/build.md) - [Build resources](../en/build.md)
 
 
 

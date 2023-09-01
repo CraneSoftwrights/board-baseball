@@ -6,4 +6,4 @@ Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrigh
 
 Languages:
 
-- [English](../English/burn.md) - [Burn resources](../English/burn.md)
+- [English](../en/burn.md) - [Burn resources](../en/burn.md)

@@ -6,6 +6,6 @@ Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrigh
 
 Languages:
 
-- [English](../English/design.md) - [Design resources](../English/design.md)
+- [English](../en/design.md) - [Design resources](../en/design.md)
 
 
