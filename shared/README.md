@@ -1,10 +1,9 @@
-# Shared images and iconic readme files
+# `shared/`
 
-Copyright © Crane Softwrights Ltd.
-[https://GitHub.com/CraneSoftwrights/board-baseball](https://GitHub.com/CraneSoftwrights/board-baseball)  
-[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/shared/README.md](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/shared/README.md)  
-[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/shared/README.md.html](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/shared/README.md.html)  
-[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/README.md](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/README.md)  
-[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/README.md.html](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/README.md.html)  
+Copyright © Crane Softwrights Ltd.  
+Development: [`https://github.com/CraneSoftwrights/board-baseball`](https://github.com/CraneSoftwrights/board-baseball)  
+Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrights)  
 
-These images are cited by the documentation files.
+Languages:
+
+- [English](../English/shared.md) - [Shared resources](../English/shared.md)

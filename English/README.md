@@ -1,9 +1,8 @@
 # A board baseball game to teach the sport
 
-Copyright © Crane Softwrights Ltd.
-[https://GitHub.com/CraneSoftwrights/board-baseball](https://GitHub.com/CraneSoftwrights/board-baseball)  
-[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/README.md](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/README.md)  
-[https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/README.md.html](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/English/README.md.html)  
+Copyright © Crane Softwrights Ltd.  
+Development: [`https://github.com/CraneSoftwrights/board-baseball`](https://github.com/CraneSoftwrights/board-baseball)  
+Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrights)  
 
 *(Skip the introduction and jump to: [Basic Play](#basic-mode-play-) or [Extended Play](#extended-mode-play-))* 
 
@@ -125,14 +124,22 @@ Use the play board with this marking between the columns: <img alt="" src="../sh
 
 - when there are base runners or the game is being scored, the batter rolls three dice (two dice of one colour for the batter and one die of a different colour for the base runners if available) to determine as above how the pitch is put in play and the impact of the play on the runners, thus guiding how the play is scored
 
+## Scoring a game
+
+See [the abbreviations summary](abbreviations.md) for a list of abbreviations used in scoring and in the plays described above.
+
+See [the scoring summary](scoring.md) for information regarding Crane's conventions for scoring a baseball game.
 
 ## Design process
 
-See the [design resources](../design/README.md) for information regarding the design files and the initial steps in creating a release of files.
+See the [design resources](design.md) for information regarding the design files and the initial steps in creating a release of files.
 
 ## Physical box and board assemblies
 
-See the [burn directory](../burn) for a collection of image files for laser engraving/cutting.
+See the [building instructions](build.md) for how the burn image files are created from the design files.
 
-See the [building instructions](../build/README.md) for how the image files are created from the design files.
+See the [burn directory](../burn) and [burn README](burn.md) for a collection of image files for laser engraving/cutting of game pieces
 
+See the [cuts directory](../cuts) and [cuts README](cuts.md) for a collection of image files for laser cutting of raw materials in preparation for engraving and cutting of game pieces.
+
+See the [shared directory](../shared) and [shared README](shared.md) for a collection of images used in documentation.
