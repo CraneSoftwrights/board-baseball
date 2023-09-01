@@ -8,9 +8,9 @@ Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrigh
 
 In addition to contrived abbreviations where none were found, this page lists abbreviations found at these web sites:
 
-- https://www.mlb.com/glossary/miscellaneous/scorekeeping
-- https://en.wikipedia.org/wiki/Baseball_scorekeeping
-- https://www.youtube.com/watch?v=kTcRRaXV-fg
+- [`https://www.mlb.com/glossary/miscellaneous/scorekeeping`](https://www.mlb.com/glossary/miscellaneous/scorekeeping)
+- [`https://en.wikipedia.org/wiki/Baseball_scorekeeping`](https://en.wikipedia.org/wiki/Baseball_scorekeeping)
+- [`https://www.youtube.com/watch?v=kTcRRaXV-fg`](https://www.youtube.com/watch?v=kTcRRaXV-fg)
 
 ## Players, positions, and their names
 
