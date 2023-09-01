@@ -1,12 +1,7 @@
-# `build/`
+# Shared images and iconic readme files
 
 Copyright © Crane Softwrights Ltd.  
 Development: [`https://github.com/CraneSoftwrights/board-baseball`](https://github.com/CraneSoftwrights/board-baseball)  
 Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrights)  
 
-Languages:
-
-- [English](../English/build.md) - [Build resources](../English/build.md)
-
-
-
+In [this `shared/` directory](../shared) are images are cited by the documentation files.
