@@ -14,18 +14,19 @@ In addition to contrived abbreviations where none were found, this page lists ab
 
 ## Players, positions, and their names
 
-1 - ① - P - Pitcher (Tomorrow)  
-2 - ② - C - Catcher (Today)  
-3 - ③ - 1B - First Base (Who)  
-4 - ④ - 2B - Second Base (What)  
-5 - ⑤ - 3B - Third Base (I Don't Know)  
-6 - ⑥ - SS - Shortstop  (I Don't Give A Darn)  
-7 - ⑦ - LF - Left Fielder (Why)  
-8 - ⑧ - CF - Center Fielder (Because)  
-9 - ⑨ - RF - Right Fielder (Unknown)  
-H -  home plate 
-IF - infield
-OF - outfield
+0 - ⓪ - DH - designated hitter (Unknown)  
+1 - ① - P - pitcher (Tomorrow)  
+2 - ② - C - catcher (Today)  
+3 - ③ - 1B - first base (Who)  
+4 - ④ - 2B - second base (What)  
+5 - ⑤ - 3B - third base (I Don't Know)  
+6 - ⑥ - SS - shortstop  (I Don't Give A Darn)  
+7 - ⑦ - LF - left fielder (Why)  
+8 - ⑧ - CF - center fielder (Because)  
+9 - ⑨ - RF - right fielder (Unknown)  
+H -  home plate  
+IF - infield  
+OF - outfield  
 
 ## Plays
 
@@ -39,6 +40,7 @@ C - catcher
 CF - center fielder  
 CS - caught stealing  
 D ═ - double  
+DH = designated hitter  
 DP - double play  
 E# - error  
 ER - earned run  
@@ -46,15 +48,21 @@ F - foul ball (strike 1 or strike 2)
 F# - fly out  
 FC - fielder's choice  
 FO - force out  
+FT - foul tip  
 GIDP - ground into double play  
 GRD/AD - ground rule double / automatic double  
 GRT/RBT - ground rule triple / rule book triple  
+H - (batting) hit  
+H - (pitching) hold  
+HB - hit batter  
 HP - hit by pitch  
 HR 𝄙 - home run  
 IBB - intentional walk  
 INF - infield fly out  
+IP - innings pitched: #, #.1, #.2, #+, #.1+, #.2+  
 K - strike out swinging  
 ꓘ - strike out looking  
+L - loss  
 L# - line drive out  
 LF - left fielder  
 LOB - left on base  
@@ -66,16 +74,23 @@ PH - pinch hit
 R - run  
 RBI - run batted in  
 RF - right fielder  
-S ― - single  
+S - (pitching) save  
+S ― - (batting) single  
 SB - stolen base  
 SF - sacrifice fly  
 SK - strike swinging  
 Sꓘ - strike looking  
+SO - strike out  
 SS - shortstop  
 T ≡ - triple  
+TBF - total batters faced  
 TP - triple play  
 #U - unassisted put out  
 #UDP - unassisted double play  
 #UTP - unassisted triple play  
+W - win  
+W/H/S/L - win, hold, save, loss  
 WP - wild pitch  
+WP/PB - wild pitch / passed ball  
 
+  
