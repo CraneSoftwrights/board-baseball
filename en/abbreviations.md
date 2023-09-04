@@ -40,7 +40,7 @@ C - catcher
 CF - center fielder  
 CS - caught stealing  
 D ═ - double  
-DH = designated hitter
+DH = designated hitter  
 DP - double play  
 E# - error  
 ER - earned run  
@@ -48,11 +48,12 @@ F - foul ball (strike 1 or strike 2)
 F# - fly out  
 FC - fielder's choice  
 FO - force out  
-FT - foul tip
+FT - foul tip  
 GIDP - ground into double play  
 GRD/AD - ground rule double / automatic double  
 GRT/RBT - ground rule triple / rule book triple  
-H - hit  
+H - (batting) hit  
+H - (pitching) hold  
 HB - hit batter  
 HP - hit by pitch  
 HR 𝄙 - home run  
@@ -61,6 +62,7 @@ INF - infield fly out
 IP - innings pitched: #, #.1, #.2, #+, #.1+, #.2+  
 K - strike out swinging  
 ꓘ - strike out looking  
+L - loss  
 L# - line drive out  
 LF - left fielder  
 LOB - left on base  
@@ -72,7 +74,8 @@ PH - pinch hit
 R - run  
 RBI - run batted in  
 RF - right fielder  
-S ― - single  
+S - (pitching) save  
+S ― - (batting) single  
 SB - stolen base  
 SF - sacrifice fly  
 SK - strike swinging  
@@ -85,7 +88,9 @@ TP - triple play
 #U - unassisted put out  
 #UDP - unassisted double play  
 #UTP - unassisted triple play  
-W/H/S/L - win, hold, save, lost    
+W - win  
+W/H/S/L - win, hold, save, loss  
 WP - wild pitch  
+WP/PB - wild pitch / passed ball  
 
   
