@@ -36,6 +36,7 @@ OF - outfield
 AB - at bats  
 BB - walk (base on balls)  
 BK - balk  
+BS - bunt single  
 C - catcher  
 CF - center fielder  
 CS - caught stealing  
@@ -76,7 +77,8 @@ RBI - run batted in
 RF - right fielder  
 S - (pitching) save  
 S ― - (batting) single  
-SB - stolen base  
+SB - (running) stolen base  
+SB - (batting) sacrifice bunt  
 SF - sacrifice fly  
 SK - strike swinging  
 Sꓘ - strike looking  
