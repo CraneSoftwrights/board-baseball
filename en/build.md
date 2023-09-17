@@ -283,7 +283,15 @@ The PDF files in the `cuts/` directory shouldn't need to change:
 [`cuts/cut-9x24-from-18x24.pdf`](../cuts/cut-9x24-from-18x24.pdf)  
 [`cuts/cut-18x12-from-18x24.pdf`](../cuts/cut-18x12-from-18x24.pdf)  
 
-## 7. Assembly
+## 7. Creating a git release from QA or Final
+
+1. Set the tag to be `CCYYMMDD-HHMMz-QA` or `CCYYMMDD-HHMMz-Final`
+1. Use the "Generate release notes" button to populate the notes
+1. Attach the four board PNG files to the release as binaries
+1. Publish the release
+1. Confirm the latest release on the home page
+
+## 8. Assembly
 
 Our second test build is documented with photographs [here: `../build/test-20230728.md`](test-20230728.md).
 
