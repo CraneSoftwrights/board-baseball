@@ -1,4 +1,4 @@
-# A board baseball game to teach the sport
+# A board baseball game to teach the sport to spectators
 
 Copyright © Crane Softwrights Ltd.  
 Development: [`https://github.com/CraneSoftwrights/board-baseball`](https://github.com/CraneSoftwrights/board-baseball)  
@@ -10,6 +10,7 @@ Languages *(see the bottom of this page regarding adding a new language)*:
 
 <img alt="Single board front" src="shared/combo-board-baseball-crane.png"/>  
 <img alt="Single board back" src="shared/back-board-baseball-crane.png"/>  
+<img alt="Scorecard" src="shared/scorecard-board-baseball-crane.pdf"/>  
 
 ## Adding additional language support
 

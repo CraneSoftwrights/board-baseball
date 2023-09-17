@@ -193,6 +193,7 @@ Using the command line from the base git directory, create the [`burn/review-boa
 
 Open the [`burn/review-board-baseball-crane.svg`](../burn/review-board-baseball-crane.svg) file and perform the following steps from within the "Layers and Objects" panel:
 - select the top-most "Select this group..." group and use `Path/Object to Path` menu item to convert every object in every layer to a path (this ensures installed-font-independent portability)
+  - *(the designers have experienced problems with the conversion being successful the first time; sometimes a second time helps; before continuing check that the version string has been changed into a path from its original text object)*
 - un-group the top-most group
 - review any of the combined layers that each represent the new output file by un-hiding the top-most layer of the combination
 - save the SVG file before continuing
@@ -221,7 +222,7 @@ Open each of the four print SVG files and perform the following steps without se
 
 Using the command line from the base git directory, automatically create the individual burn PDF files by running the `burn2pdf` script:
 - in Windows: `burn\burn2pdf.bat`
-- in Shell: `sh burn/burn2pdf.sh 2>/dev/null` (you may get away without redirecting stderr, but Inkscape burps a lot)
+- in Shell: `sh burn/burn2pdf.sh 2>/dev/null` *(you may get away without redirecting stderr, but Inkscape burps a lot)*
 
 The end result is 38 PDF files listed alphabetically as follows:
 

@@ -142,44 +142,46 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
      style="display:{if(count($c:pastLayers)>0) then 'inline' else 'none'}">
     <xsl:for-each select="reverse($c:refs[contains(.,':')])">
       <xsl:variable name="c:ref" select="substring-before(.,':')"/>
-      <xsl:choose>
-        <xsl:when test="some $c:past in $c:pastLayers
-                        satisfies $c:past is $c:layer">
-          <!--this is an infinite loop-->
-          <xsl:message terminate="yes">
-            <xsl:text>An infinite loop detected with:&#xa;</xsl:text>
-            <xsl:for-each select="$c:pastLayers">
-              <xsl:value-of select="@inkscape:label,'&#xa;'"/>
+      <g inkscape:label="{.}">
+        <xsl:choose>
+          <xsl:when test="some $c:past in $c:pastLayers
+                          satisfies $c:past is $c:layer">
+            <!--this is an infinite loop-->
+            <xsl:message terminate="yes">
+              <xsl:text>An infinite loop detected with:&#xa;</xsl:text>
+              <xsl:for-each select="$c:pastLayers">
+                <xsl:value-of select="@inkscape:label,'&#xa;'"/>
+              </xsl:for-each>
+            </xsl:message>
+          </xsl:when>
+          <xsl:when test="exists(key('c:assemble',$c:ref,$c:top))">
+            <xsl:call-template name="c:addReferencedLayers">
+              <xsl:with-param name="c:layer"
+                              select="key('c:assemble',$c:ref,$c:top)"/>
+              <xsl:with-param name="c:pastLayers"
+                              select="$c:pastLayers,$c:layer"/>
+            </xsl:call-template>
+          </xsl:when>
+          <xsl:when test="empty(key('c:build',$c:ref,$c:top))">
+            <!--something is amiss-->
+            <xsl:message>
+              <xsl:text>Missing a definition for the reference: </xsl:text>
+              <xsl:value-of select="$c:ref"/>
+            </xsl:message>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:for-each select="key('c:build',$c:ref,$c:top)">
+              <xsl:copy>
+                <xsl:copy-of select="@*"/>
+                <xsl:attribute name="style"
+                               select="'display:inline;',
+                                       replace(@style,'display:.+?;?','')"/>
+                <xsl:apply-templates/>
+              </xsl:copy>
             </xsl:for-each>
-          </xsl:message>
-        </xsl:when>
-        <xsl:when test="exists(key('c:assemble',$c:ref,$c:top))">
-          <xsl:call-template name="c:addReferencedLayers">
-            <xsl:with-param name="c:layer"
-                            select="key('c:assemble',$c:ref,$c:top)"/>
-            <xsl:with-param name="c:pastLayers"
-                            select="$c:pastLayers,$c:layer"/>
-          </xsl:call-template>
-        </xsl:when>
-        <xsl:when test="empty(key('c:build',$c:ref,$c:top))">
-          <!--something is amiss-->
-          <xsl:message>
-            <xsl:text>Missing a definition for the reference: </xsl:text>
-            <xsl:value-of select="$c:ref"/>
-          </xsl:message>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:for-each select="key('c:build',$c:ref,$c:top)">
-            <xsl:copy>
-              <xsl:copy-of select="@*"/>
-              <xsl:attribute name="style"
-                             select="'display:inline;',
-                                     replace(@style,'display:.+?;?','')"/>
-              <xsl:apply-templates/>
-            </xsl:copy>
-          </xsl:for-each>
-        </xsl:otherwise>
-      </xsl:choose>
+          </xsl:otherwise>
+        </xsl:choose>
+      </g>
     </xsl:for-each>
   </g>
 </xsl:template>

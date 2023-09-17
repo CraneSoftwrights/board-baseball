@@ -1,10 +1,10 @@
-# A board baseball game to teach the sport
+# A board baseball game to teach the sport to spectators
 
 Copyright © Crane Softwrights Ltd.  
 Development: [`https://github.com/CraneSoftwrights/board-baseball`](https://github.com/CraneSoftwrights/board-baseball)  
 Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrights)  
 
-*(Skip the introduction and jump to: [Basic Play](#basic-mode-play-) or [Extended Play](#extended-mode-play-))* 
+*(Skip the introduction and jump to: [Basic Play](#basic-mode-play-) or [Extended Play](#extended-mode-play-) or [Scoring a game](#scoring-a-game))* 
 
 This project develops a board game along the lines of the basic long-played baseball board game, but brought up to date to include new rule changes at MLB. Differing from other board baseball games, this one aims to educate the players on the rules, the notations, and the conventions used when scoring a baseball game, using official abbreviations used by MLB.
 
@@ -125,6 +125,8 @@ Use the play board with this marking between the columns: <img alt="" src="../sh
 - when there are base runners or the game is being scored, the batter rolls three dice (two dice of one colour for the batter and one die of a different colour for the base runners if available) to determine as above how the pitch is put in play and the impact of the play on the runners, thus guiding how the play is scored
 
 ## Scoring a game
+
+Print [Crane's scorecard](../shared/scorecard-board-baseball-crane.pdf) to use to track the plays of a game.
 
 See [the abbreviations summary](abbreviations.md) for a list of abbreviations used in scoring and in the plays described above.
 
