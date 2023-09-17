@@ -24,7 +24,7 @@ In addition to contrived abbreviations where none were found, this page lists ab
 7 - ⑦ - LF - left fielder (Why)  
 8 - ⑧ - CF - center fielder (Because)  
 9 - ⑨ - RF - right fielder (Unknown)  
-H -  home plate  
+HP -  home plate  
 IF - infield  
 OF - outfield  
 
@@ -56,9 +56,11 @@ GRT/RBT - ground rule triple / rule book triple
 H - (batting) hit  
 H - (pitching) hold  
 HB - hit batter  
-HP - hit by pitch  
+HBP - hit by pitch  
+HP - home plate  
 HR 𝄙 - home run  
 IBB - intentional walk  
+IF - infield  
 INF - infield fly out  
 IP - innings pitched: #, #.1, #.2, #+, #.1+, #.2+  
 K - strike out swinging  
@@ -67,6 +69,7 @@ L - loss
 L# - line drive out  
 LF - left fielder  
 LOB - left on base  
+OF - outfield  
 P - pitcher  
 P# - pop out  
 PB - passed ball  
