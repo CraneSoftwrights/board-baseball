@@ -10,13 +10,13 @@ In [this `design/` directory](../design) is information regarding the SVG design
 
 ### 1.1 Initiating new SVG work after releasing to QA for testing
 
-The process of a release creates a number of burn and print files in the [`../burn`](../burn) directory that reflect the content of the SVG file.
+The process of a release creates a number of burn and print files in the [`../burn`](../burn) subdirectories that reflect the content of the design SVG file.
 
 Thus, as soon as the SVG file is touched, the burn files no longer are guaranteed to reflect what is in the SVG.
 
-When starting new work after a snapshot has been moved to QA for testing, be sure to delete all files except the `README.md` file in the [`../burn` directory](../burn). This way anyone visiting the site will find files only in the QA branch and main branch.
+When starting new work after a snapshot has been moved to QA for testing, be sure to delete all files except the `README.md` file in the [`../burn/svg` directory](../burn/svg) and the [`../burn/pdf` directory](../burn/pdf). This way anyone visiting the site will find files only in the QA branch and main branch.
 
-Also, the version number in the SVG file needs to be changed early in two different layers (one for print and one for burn) so there is no confusion regarding the SVG file not reflecting the published files.
+Also, the version number in the SVG file needs to be changed early in two different layers (one for print and one for burn) so there is no confusion regarding the SVG file not reflecting the published files. See the "Update the version string" subsection below for details.
 
 ### 1.2 SVG layers for the physical levels
 
@@ -59,7 +59,7 @@ Remember to save frequently as Inkscape appears to crash easily when working wit
 
 Update the version strings (two), one for print and the other for burning. 
 
-Look in the "Layers and Objects" panel for the two layers with "version" in the layer name. Un-hide the layer but leave the layer locked. Open up the nested groups until you find the text string "Version". Select it and press "3" to zoom in on the string. Press "T" to enter text mode and make the change. Press "Esc" to get out of editing the string. Hide the layer again.
+Look in the "Layers and Objects" panel for the two layers with "+ version" in the layer name. Un-hide the layer but leave the layer locked. Open up the nested groups until you find the text string labeled "Version". Select it and press "3" to zoom in on the string. Press "T" to enter text mode and make the change. Press "Esc" to get out of editing the string. Hide the layer again.
 
 ### 4.2 Preparing each layer for use in assembling levels
 

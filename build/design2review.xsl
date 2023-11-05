@@ -92,6 +92,12 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 <xsl:key name="c:assemble" match="/*/g[tokenize(@inkscape:label,'\s+')='=']"
          use="'__all__',tokenize(@inkscape:label,'\s+')[1]"/>
 
+<xs:key>
+  <para>Find all objects based on their label</para>
+</xs:key>
+<xsl:key name="c:objectsByLabel" match="*[@inkscape:label]"
+         use="normalize-space(@inkscape:label)"/>
+
 <xs:template>
   <para>
     Can't get started
@@ -106,6 +112,15 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <para>Get started</para>
 </xs:template>
 <xsl:template match="/svg" priority="1">
+  <!--integrity check on version strings-->
+  <xsl:variable name="c:printVersionStrings"
+                select="key('c:objectsByLabel','Version')/
+                        replace(.,'[\s-:]','')"/>
+  <xsl:if test="count(distinct-values($c:printVersionStrings))>1">
+    <xsl:message terminate="yes"
+                 select="'Inconsistent version strings:',
+                         distinct-values($c:printVersionStrings)"/>
+  </xsl:if>
   <xsl:copy>
     <!--preserve document element-->
     <xsl:copy-of select="@*"/>
