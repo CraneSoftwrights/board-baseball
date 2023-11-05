@@ -283,7 +283,22 @@ The PDF files in the `cuts/` directory shouldn't need to change:
 [`cuts/cut-9x24-from-18x24.pdf`](../cuts/cut-9x24-from-18x24.pdf)  
 [`cuts/cut-18x12-from-18x24.pdf`](../cuts/cut-18x12-from-18x24.pdf)  
 
-## 7. Creating a git release from QA or Final
+## 7. Scorecard production
+
+Open [scorecard SVG file](../../design/scorecard-board-baseball-crane.svg):
+
+1. Make edits as required
+1. Save SVG master with the watermark
+1. Save SVG to a junk location for printing purposes
+1. In the `Layers and Objects` panel, select the scorecard apex item
+1. Use `Path/Object to Path` menu item to convert every object to a path (this ensures installed-font-independent portability)
+1. Confirm that the Version string no longer is a text object but now is a path
+1. Delete the watermark reminding of the conversion step
+1. Save the junk SVG
+1. Export the contents to `../shared/scorecard-board-baseball-crane.png`
+1. Remember to print the PNG file at 100%
+
+## 8. Creating a git release from QA or Final
 
 1. Set the tag to be `CCYYMMDD-HHMMz-QA` or `CCYYMMDD-HHMMz-Final`
 1. Use the "Generate release notes" button to populate the notes
@@ -291,7 +306,7 @@ The PDF files in the `cuts/` directory shouldn't need to change:
 1. Publish the release
 1. Confirm the latest release on the home page
 
-## 8. Assembly
+## 9. Assembly
 
 Our second test build is documented with photographs [here: `../build/test-20230728.md`](test-20230728.md).
 
