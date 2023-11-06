@@ -4,8 +4,8 @@ Copyright © Crane Softwrights Ltd.
 Development: [`https://github.com/CraneSoftwrights/board-baseball`](https://github.com/CraneSoftwrights/board-baseball)  
 Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrights)  
 
-In [this `burn/` directory](../burn) are the SVG and PDF files used in the creation of final play products.
+In [this `burn/` directory](../burn) are the SVG and PDF directories of files used in the creation of final play products.
 
-When beginning a new release, this directory should be emptied of every SVG and PDF file (leaving only this README file) so as not to leave the impression these burn files reflect the intermediate state of the design SVG file.
+When beginning a new release, the [`svg/`](svg) directory should be emptied of every SVG file and the [`pdf/`](pdf) directory should be emptied of every PDF file (leaving only the README files) so as not to leave the impression the burn files reflect the intermediate state of the design SVG file.
 
 The files in this directory are created during the [build process documented here](build.md).

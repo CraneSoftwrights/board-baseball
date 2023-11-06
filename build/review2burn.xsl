@@ -135,7 +135,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   </xsl:result-document>
   <xsl:for-each select="g">
     <xsl:variable name="c:thisGroup" select="."/>
-    <xsl:result-document href="{@inkscape:label}{$name-suffix}.svg"
+    <xsl:result-document href="svg/{@inkscape:label}{$name-suffix}.svg"
                          method="xml" indent="no">
       <xsl:for-each select="/*">
         <xsl:copy>
@@ -167,11 +167,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 </xs:template>
 <xsl:template name="c:commandLines">
   <xsl:for-each select="g">
-    <xsl:value-of select="concat('echo Processing ''burn/',@inkscape:label, 
+    <xsl:value-of select="concat('echo Processing ''burn/svg/',@inkscape:label, 
                                  $name-suffix,''' Files remaining: ',
                                  count(following-sibling::g),'&#xa;')"/>
-    <xsl:value-of select="concat('inkscape burn/',@inkscape:label,
-         $name-suffix,'.svg --export-type=pdf --export-filename=burn/',
+    <xsl:value-of select="concat('inkscape burn/svg/',@inkscape:label,
+         $name-suffix,'.svg --export-type=pdf --export-filename=burn/pdf/',
          @inkscape:label,$name-suffix,'.pdf&#xa;')"/>
   </xsl:for-each>
 </xsl:template>
