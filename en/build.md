@@ -298,7 +298,11 @@ Open [scorecard SVG file](../../design/scorecard-board-baseball-crane.svg):
 1. Export the contents to `../shared/scorecard-board-baseball-crane.png`
 1. Remember to print the PNG file at 100%
 
-## 8. Creating a git release from QA or Final
+## 8. Creating a ZIP of the XHTML of the Markdown files
+
+1. Run: `sh build/all-md2xhtml.sh` to create `md2xhtml.zip`
+
+## 9. Creating a git release from QA or Final
 
 1. Set the tag to be `CCYYMMDD-HHMMz-QA` or `CCYYMMDD-HHMMz-Final`
 1. Use the "Generate release notes" button to populate the notes
@@ -306,9 +310,9 @@ Open [scorecard SVG file](../../design/scorecard-board-baseball-crane.svg):
 1. Publish the release
 1. Confirm the latest release on the home page
 
-## 9. Assembly
+## 10. Assembly
 
-Our second test build is documented with photographs [here: `../build/test-20230728.md`](test-20230728.md).
+Our second test build is documented with photographs [here: `../build/test-20230728.md`](../build/test-20230728.md).
 
-Various timings of other test builds are documented [here: `../build/other-tests.md`](other-tests.md).
+Various timings of other test builds are documented [here: `../build/other-tests.md`](../build/other-tests.md).
 

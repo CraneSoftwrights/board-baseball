@@ -57,10 +57,12 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     These references are changed to be ".html" for linking purposes in the
     output.
   </para>
-  <para>
-    There are no invocation parameters.
-  </para>
 </xs:doc>
+
+<xs:param ignore-ns="yes">
+  <para>The base directory with which to chop off URI strings</para>
+</xs:param>
+<xsl:param name="baseDirectory" as="xsd:string" required="yes"/>
 
 <!--========================================================================-->
 <xs:doc>
@@ -80,8 +82,19 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 <xsl:template match="@href[starts-with(.,'#') and ends-with(.,'-') and
                            empty(key('c:ids',substring-after(.,'#'))) and
                        exists(key('c:ids',substring(.,2,string-length(.)-2)))]"
-              priority="1">
+              priority="2">
   <xsl:attribute name="href" select="substring(.,1,string-length(.)-1)"/>
+</xsl:template>
+
+<xs:template>
+  <para>
+    Catch the local links
+  </para>
+</xs:template>
+<xsl:template match="@href[starts-with(.,'#') and
+                       exists(key('c:ids',substring(.,2,string-length(.)-1)))]"
+              priority="1">
+  <xsl:attribute name="href" select="."/>
 </xsl:template>
 
 <xs:template>
@@ -89,8 +102,19 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     Links to md files now need to be links to HTML files.
   </para>
 </xs:template>
-<xsl:template match="@href[matches(.,'\.md')]">
+<xsl:template match="@href[matches(.,'\.md$')]">
   <xsl:attribute name="href" select="replace(.,'\.md([^\.]|$)','.md.html$1')"/>
+</xsl:template>
+
+<xs:template>
+  <para>
+    Links to non-md files now need to be links found in GitHub
+  </para>
+</xs:template>
+<xsl:template match="@href[not(matches(.,'\.md$')) and
+                           not(starts-with(.,'http'))]">
+  <xsl:attribute name="href" 
+                 select="concat($baseDirectory,replace(.,'\.\./',''))"/>
 </xsl:template>
 
 <xs:template>

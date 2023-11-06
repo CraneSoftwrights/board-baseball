@@ -8,9 +8,9 @@ Languages *(see the bottom of this page regarding adding a new language)*:
 
 - [English](en/README.md#readme) - [README.md](en/README.md)
 
-<img alt="Single board front" src="shared/combo-board-baseball-crane.png"/>  
-<img alt="Single board back" src="shared/back-board-baseball-crane.png"/>  
-<img alt="Scorecard" src="shared/scorecard-board-baseball-crane.png"/>  
+<img alt="Single board front" src="shared/combo-board-baseball-crane.png" width="100%"/>  
+<img alt="Single board back" src="shared/back-board-baseball-crane.png" width="100%"/>  
+<img alt="Scorecard" src="shared/scorecard-board-baseball-crane.png" width="100%"/>  
 
 ## Adding additional language support
 

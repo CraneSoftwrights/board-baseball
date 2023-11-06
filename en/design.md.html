@@ -18,7 +18,7 @@
          
          Tip jar: <a href="https://paypal.me/CraneSoftwrights"><code>https://paypal.me/CraneSoftwrights</code></a></p>
       
-      <p>In <a href="../design">this <code>design/</code> directory</a>
+      <p>In <a href="https://github.com/CraneSoftwrights/board-baseball/blob/qa/design">this <code>design/</code> directory</a>
          is information regarding the SVG design files, what is needed for
          them, how they are expected to be used, and how to prepare them for
          creating the <a href="burn.md.html"><code>../burn</code></a> directory
@@ -32,8 +32,8 @@
       </h3>
       
       <p>The process of a release creates a number of burn and print
-         files in the <a href="../burn"><code>../burn</code></a> directory
-         that reflect the content of the SVG file.
+         files in the <a href="https://github.com/CraneSoftwrights/board-baseball/blob/qa/burn"><code>../burn</code></a>
+         subdirectories that reflect the content of the design SVG file.
       </p>
       
       <p>Thus, as soon as the SVG file is touched, the burn files no
@@ -42,15 +42,17 @@
       
       <p>When starting new work after a snapshot has been moved to QA for
          testing, be sure to delete all files except the
-         <code>README.md</code> file in the <a href="../burn"><code>../burn</code> directory</a>. This way anyone
-         visiting the site will find files only in the QA branch and main
-         branch.
+         <code>README.md</code> file in the <a href="https://github.com/CraneSoftwrights/board-baseball/blob/qa/burn/svg"><code>../burn/svg</code> directory</a> and the
+         <a href="https://github.com/CraneSoftwrights/board-baseball/blob/qa/burn/pdf"><code>../burn/pdf</code> directory</a>. This
+         way anyone visiting the site will find files only in the QA branch
+         and main branch.
       </p>
       
       <p>Also, the version number in the SVG file needs to be changed
          early in two different layers (one for print and one for burn) so
          there is no confusion regarding the SVG file not reflecting the
-         published files.
+         published files. See the “Update the version string” subsection
+         below for details.
       </p>
       
       <h3 id="svg-layers-for-the-physical-levels">1.2 SVG layers for the
@@ -132,11 +134,11 @@
       </p>
       
       <p>Look in the “Layers and Objects” panel for the two layers with
-         “version” in the layer name. Un-hide the layer but leave the layer
-         locked. Open up the nested groups until you find the text string
-         “Version”. Select it and press “3” to zoom in on the string. Press
-         “T” to enter text mode and make the change. Press “Esc” to get out
-         of editing the string. Hide the layer again.
+         “+ version” in the layer name. Un-hide the layer but leave the
+         layer locked. Open up the nested groups until you find the text
+         string labeled “Version”. Select it and press “3” to zoom in on the
+         string. Press “T” to enter text mode and make the change. Press
+         “Esc” to get out of editing the string. Hide the layer again.
       </p>
       
       <h3 id="preparing-each-layer-for-use-in-assembling-levels">4.2
