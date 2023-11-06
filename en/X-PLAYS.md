@@ -25,25 +25,25 @@ Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrigh
 
 <p><img alt="" src="../shared/fc-fo-1-6.png" style="height:120px"/></p>
 
+- the batter and all runners try to advance one base
 - the ball is fielded by the infielder indicated by the number on the die
-- the batter and all runners advance one base
-- the number on the die is associated with a single out as indicated, listing in priority order the base at which the first runner is found and called out
+- the number on the die is associated with a single out as indicated, listing in priority order the base at which one of the runners is found and called out
 - <img alt="1" src="../shared/d1.png" style="height:20px"/>, <img alt="5" src="../shared/d5.png" style="height:20px"/>, and <img alt="6" src="../shared/d6.png" style="height:20px"/> indicate “1B” 
-  - the batter arriving at first base is called out and is scored as being forced out
+  - the batter arriving at first base is forced out
   - other runners that have advanced one base are safe
   - a runner arriving at home scores a run
 - <img alt="2" src="../shared/d2.png" style="height:20px"/> indicates “2B”, and “1B” 
-  - a base runner arriving at second base is called out and the batter is scored as reaching first base on a fielder’s choice
-  - if there is no runner arriving at second base, the batter arriving at first base is called out and is scored as being forced out
+  - a base runner arriving at second base is forced out and the batter is scored as reaching first base on a fielder’s choice
+  - if there is no runner arriving at second base, the batter arriving at first base is forced out
 - <img alt="3" src="../shared/d3.png" style="height:20px"/> indicates "3B", “2B”, and “1B” 
-  - a base runner arriving at third base is called out and the batter is scored as reaching first base on a fielder’s choice
-  - if there is no runner arriving at third base, a base runner arriving at second base is called out and the batter is scored as reaching base on a fielder’s choice
-  - if there is no runner arriving at second base, the batter arriving at first base is called out and is scored as being forced out
+  - a base runner arriving at third base is forced out and the batter is scored as reaching first base on a fielder’s choice
+  - if there is no runner arriving at third base, a base runner arriving at second base is forced out and the batter is scored as reaching base on a fielder’s choice
+  - if there is no runner arriving at second base or third base, the batter arriving at first base is forced out
 - <img alt="4" src="../shared/d4.png" style="height:20px"/> indicates “H”, “3B”, “2B”, and “1B” 
-  - a base runner arriving at home is called out and the batter is scored as reaching first base on a fielder’s choice
-  - if there is no base runner arriving at home, a base runner arriving at third base is called out and the batter is scored as reaching base on a fielder’s choice
-  - if there is no runner arriving at third base, a base runner arriving at second base is called out and the batter is scored as reaching base on a fielder’s choice
-  - if there is no runner arriving at second base, the batter arriving at first base is called out and is scored as being forced out
+  - a base runner arriving at home is forced out and the batter is scored as reaching first base on a fielder’s choice
+  - if there is no base runner arriving at home, a base runner arriving at third base is forced out and the batter is scored as reaching base on a fielder’s choice
+  - if there is no base runner arriving at home or third base, a base runner arriving at second base is forced out and the batter is scored as reaching base on a fielder’s choice
+  - if there is no base runner arriving at home, third base, or second base, the batter arriving at first base is forced out
 
 ## F# - Fly-out
 

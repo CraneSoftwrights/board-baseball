@@ -69,6 +69,7 @@ L - loss
 L# - line drive out  
 LF - left fielder  
 LOB - left on base  
+LRS - left/right/switch hitter  
 OF - outfield  
 P - pitcher  
 P# - pop out  
