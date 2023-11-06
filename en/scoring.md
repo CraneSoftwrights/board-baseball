@@ -6,7 +6,7 @@ Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrigh
 
 ## Introduction
 
-Print [Crane's scorecard](../shared/scorecard-board-baseball-crane.pdf) to use to track the plays of a game.
+Print [Crane's scorecard](../shared/scorecard-board-baseball-crane.png) to use to track the plays of a game. The dimensions fit both A4 and US-letter sized paper when printed at 100%.
 
 Everyone can make their own rules for scoring a game, these are our rules.
 
