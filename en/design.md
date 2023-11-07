@@ -3,6 +3,7 @@
 Copyright © Crane Softwrights Ltd.  
 Development: [`https://github.com/CraneSoftwrights/board-baseball`](https://github.com/CraneSoftwrights/board-baseball)  
 Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrights)  
+Browser pages: [`https://cranesoftwrights.github.io/board-baseball/en/design.md.html`](https://cranesoftwrights.github.io/board-baseball/en/design.md.html)  
 
 In [this `design/` directory](../design) is information regarding the SVG design files, what is needed for them, how they are expected to be used, and how to prepare them for creating the [`../burn`](burn.md) directory files and release through the tools found in the [`../build`](build.md) directory.
 

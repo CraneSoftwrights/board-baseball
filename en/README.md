@@ -3,8 +3,9 @@
 Copyright © Crane Softwrights Ltd.  
 Development: [`https://github.com/CraneSoftwrights/board-baseball`](https://github.com/CraneSoftwrights/board-baseball)  
 Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrights)  
+Browser pages: [`https://cranesoftwrights.github.io/board-baseball/en/README.md.html`](https://cranesoftwrights.github.io/board-baseball/en/README.md.html)  
 
-*(Skip the introduction and jump to: [Basic Play](#basic-mode-play-) or [Extended Play](#extended-mode-play-) or [Scoring a game](#scoring-a-game))* 
+*(Skip the introduction and jump to: [Basic Play](#basic-mode-play-), [Extended Play](#extended-mode-play-), [Scoring a game](#scoring-a-game)), [Design process](#design-process)), or [Physical box and board assemblies](#Physical-box-and-board-assemblies))*  
 
 This project develops a board game along the lines of the basic long-played baseball board game, but brought up to date to include new rule changes at MLB. Differing from other board baseball games, this one aims to educate the players on the rules, the notations, and the conventions used when scoring a baseball game, using official abbreviations used by MLB.
 

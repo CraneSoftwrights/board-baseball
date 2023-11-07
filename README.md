@@ -3,6 +3,7 @@
 Copyright © Crane Softwrights Ltd.  
 Development: [`https://github.com/CraneSoftwrights/board-baseball`](https://github.com/CraneSoftwrights/board-baseball)  
 Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrights)   
+Browser pages: [`https://cranesoftwrights.github.io/board-baseball/README.md.html`](https://cranesoftwrights.github.io/board-baseball/README.md.html)  
 
 Languages *(see the bottom of this page regarding adding a new language)*:
 

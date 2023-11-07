@@ -3,6 +3,7 @@
 Copyright © Crane Softwrights Ltd.  
 Development: [`https://github.com/CraneSoftwrights/board-baseball`](https://github.com/CraneSoftwrights/board-baseball)  
 Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrights)  
+Browser pages: [`https://cranesoftwrights.github.io/board-baseball/en/cuts.md.html`](https://cranesoftwrights.github.io/board-baseball/en/cuts.md.html)  
 
 In [this `cuts/` directory](../cuts) are utility SVG and PDF files used in the preparation of materials for later burning.
 
