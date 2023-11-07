@@ -11,7 +11,7 @@ This project develops a board game along the lines of the basic long-played base
 
 Also, this version introduces an extended play that involves pitching, something not included in the original. With pitching, both players are rolling dice for each inning. There is sufficient detail in this alternative play that a game can be scored in order to practice scoring techniques. Crane's own scoring conventions are documented for consideration.
 
-Both the original basic "only batter rolls dice" and this new extended "batter and pitcher both roll dice" are played on the same board with the basic mode using only a subset of the play pieces. The setup and play involved for both basic and extended modes of play are described below.
+Both the original basic "only pitcher rolls dice" and this new extended "pitcher and batter both roll dice" are played on the same board with the basic mode using only a subset of the play pieces. The setup and play involved for both basic and extended modes of play are described below.
 
 ## The essence of baseball play
 
@@ -49,11 +49,11 @@ Use the play board with this marking between the columns: <img alt="" src="../sh
 
 <img alt="" src="../shared/step-2-x.png" style="height:30px"/>
 
-- in the basic mode there is no pitching
+- in the basic mode there is no separate pitching
 
 <img alt="" src="../shared/step-3.png" style="height:30px"/>
 
-- the player batting rolls two dice to determine the play according to the instructions at the dice combination below (click on the dice combination for details of each play):
+- the player pitching rolls two dice to determine how the batter moves their pegs for the play according to the instructions at the dice combination below (click on the dice combination for details of each play):
 
 | | | | | |
 | :--- | :--- | :--- | :--- | :--- |
@@ -79,14 +79,13 @@ Use the play board with this marking between the columns: <img alt="" src="../sh
 
 <img alt="" src="../shared/step-2.png" style="height:30px"/>
 
-- the team associated with the top or bottom of the inning goes up to bat
-- first some definitions
+- the team associated with the top (visiting) or bottom (home) of the inning goes up to bat and the opposing team pitches
+- the pitcher uses one die (of a colour different from the dice used by the batter if available) to determine which pitch is thrown at the batter
+- first some definitions on which pitching and batting are based:
   - the batter's strike zone is an imaginary area above home plate in the horizontal and extending in the vertical from the batter's knees up to the mid-point between the top of the batter's pants and the batter's shoulders 
   - a ball is a pitch thrown outside of the batter's strike zone when the batter does not "offer" at the pitch by swinging
   - a strike is a pitch thrown inside of the batter's strike zone or any pitch at which the batter offers by swinging
   - the batter making contact with the pitch but resulting in the ball being outside of the field between the third-base line and the first-base line makes, so outside the third-base line or outside the first-base line, for a "foul ball"
-- the tally of runs and hits is recorded for the batter and always is reported in the order of number of balls before the number of strikes (e.g. a count of "2 and 1" means "two balls and one strike")
-- the pitching team rolls one die (of a colour different from the dice used by the batter if available) to determine which pitch is thrown by the pitcher
 - three of the pitches result in no contact with the bat:
   - four balls <img alt="" src="../shared/pd2.png" style="height:35px"/> makes a walk and moves the batter to first base, which, if occupied, moves the first-base runner to second base, which, if occupied, moves the second-base runner to third base, which, if occupied, moves the third-base runner to home for a run
   - a swinging third strike <img alt="" src="../shared/pd1.png" style="height:35px"/> or a looking third strike <img alt="" src="../shared/pd3.png" style="height:35px"/> is an out for the batter and the out is recorded for the team's inning
@@ -94,7 +93,7 @@ Use the play board with this marking between the columns: <img alt="" src="../sh
     - IMPORTANT: this is not a mandatory move and it is up to the batting team to choose to attempt to steal a base
     - <img alt="" src="../shared/stealing-2b.png" style="height:20px"/> - stealing second base
       - when there is a base runner on first base and the second base is unoccupied:
-        - <img alt="" src="../shared/caught-stealing.png" style="height:20px"/> throwing a <img alt="" src="../shared/d1.png" style="height:22px"/> or <img alt="" src="../shared/d2.png" style="height:22px"/> indicates that the runner was caught stealing and the runner is called out and leaves the pitch
+        - <img alt="" src="../shared/caught-stealing.png" style="height:20px"/> throwing a <img alt="" src="../shared/d1.png" style="height:22px"/> or <img alt="" src="../shared/d2.png" style="height:22px"/> indicates that the runner was caught stealing and the runner is called out and leaves the field
         - <img alt="" src="../shared/stolen-2b.png" style="height:20px"/> throwing a <img alt="" src="../shared/d3.png" style="height:22px"/>, <img alt="" src="../shared/d4.png" style="height:22px"/>, <img alt="" src="../shared/d5.png" style="height:22px"/>, or <img alt="" src="../shared/d6.png" style="height:22px"/> indicates that the runner successfully stole second base and an out is not recorded
     - <img alt="" src="../shared/stealing-3b.png" style="height:20px"/> - stealing third base
       - when there is a base runner on second base and the third base is unoccupied:
@@ -106,6 +105,7 @@ Use the play board with this marking between the columns: <img alt="" src="../sh
   - the batter making contact with the pitch with <img alt="" src="../shared/pd4.png" style="height:35px"/> or <img alt="" src="../shared/pd6.png" style="height:35px"/> puts the ball "in play" in the field between the third-base line and the first-base line
     - this is not counted as a strike against the batter, but it is counted as a strike on record for the pitcher
   - a base runner is not allowed to attempt to steal a base when the pitched ball is in contact with the bat
+- the tally of runs and hits is recorded for the batter and always is reported in the order of number of balls before the number of strikes (e.g. a count of "2 and 1" means "two balls and one strike")
 
 <img alt="" src="../shared/step-3.png" style="height:30px"/>
 
