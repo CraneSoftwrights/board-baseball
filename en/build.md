@@ -5,7 +5,6 @@ Development: [`https://github.com/CraneSoftwrights/board-baseball`](https://gith
 Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrights)  
 Browser pages: [`https://cranesoftwrights.github.io/board-baseball/en/build.md.html`](https://cranesoftwrights.github.io/board-baseball/en/build.md.html)  
 
-
 In [this `build/` directory](../build) are the resources used to build two versions of the game using a laser cutter to etch and cut material:
 
 - a 3-dimensional box with six layers of 1/8"-3mm material, and
