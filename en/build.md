@@ -7,12 +7,10 @@ Browser pages: [`https://cranesoftwrights.github.io/board-baseball/en/build.md.h
 
 
 In [this `build/` directory](../build) are the resources used to build two versions of the game using a laser cutter to etch and cut material:
+
 - a 3-dimensional box with six layers of 1/8"-3mm material, and
-
   - <img alt="" src="../shared/box1.jpg" style="height:300px"/> <img alt="" src="../shared/box2.jpg" style="height:300px"/> 
-
 - a single-board (of any thickness) with information on both sides
-
   - <img alt="" src="../shared/sbf.jpg" style="height:300px"/> <img alt="" src="../shared/sbb.jpg" style="height:300px"/> 
 
 ## 1. Terminology
@@ -111,7 +109,6 @@ Two approaches for assembling the six levels have been practiced by the designer
   - place magnets in the appropriate locations with the indicated polarity facing up
   - anchor alignment bolts with a washer and the nut
   - clamp/weigh the assembly for drying/curing
-
 - two sessions, the first with five levels not including the backing level:
   - transcribe with a pen on the back of level 5 the polarity of the vertical magnet holes
   - transcribe with a pen on the back of level 5 the opposite polarity of the horizontal magnet holes
@@ -190,10 +187,12 @@ A number of convenience cutting files (without any text) are available should yo
 If the prior version of the burn files haven't been deleted, delete every `.pdf` and `.svg` file in the [`burn/`](../burn) directory, leaving only the `README.md` file in the directory.
 
 Using the command line from the base git directory, create the [`burn/svg/review-board-baseball-crane.svg`](../burn/svg/review-board-baseball-crane.svg) file by running the `design2review` script:
+
 - in Windows: `build\design2review.bat`
 - in Shell: `sh build/design2review.sh`
 
 Open the [`burn/svg/review-board-baseball-crane.svg`](../burn/svg/review-board-baseball-crane.svg) file and perform the following steps from within the "Layers and Objects" panel:
+
 - select the top-most "Select this group..." group and use `Path/Object to Path` menu item to convert every object in every layer to a path (this ensures installed-font-independent portability)
   - *(the designers have experienced problems with the conversion being successful the first time; sometimes a second time helps; before continuing check that the version string has been changed into a path from its original text object)*
 - un-group the top-most group
@@ -201,10 +200,12 @@ Open the [`burn/svg/review-board-baseball-crane.svg`](../burn/svg/review-board-b
 - save the SVG file before continuing
 
 Using the command line from the base git directory, automatically create the individual burn SVG files by running the `review2burn` script:
+
 - in Windows: `build\review2burn.bat`
 - in Shell: `sh build/review2burn.sh`
 
 Open each of the nine collage SVG files and perform the following steps from within the "Layers and Objects" panel:
+
 - press "4" to show the entire set of objects
 - select the "tiling" sublayer and confirm the handles around the white rectangle
 - in the "Document Properties" panel select "Resize to content" so that the new page background is only the tiling rectangle
@@ -214,6 +215,7 @@ Open each of the nine collage SVG files and perform the following steps from wit
 - save the SVG file and then close it
 
 Open each of the four print SVG files and perform the following steps without selecting any layers or objects:
+
 - in the "Document Properties" panel select "Resize to content" so that the new page size is only the content seen without the white margins around the content
 - in the "Export" panel, export the entire contents to PNG files in the "shared" directory for use in documentation:
   - `burn/svg/SBF-print-combo-board-baseball-crane.svg` to [`shared/combo-board-baseball-crane.png`](../shared/combo-board-baseball-crane.png)
@@ -223,6 +225,7 @@ Open each of the four print SVG files and perform the following steps without se
 - save the SVG file and then close it
 
 Using the command line from the base git directory, automatically create the individual burn PDF files by running the `burn2pdf` script:
+
 - in Windows: `burn\burn2pdf.bat`
 - in Shell: `sh burn/burn2pdf.sh 2>/dev/null` *(you may get away without redirecting stderr, but Inkscape burps a lot)*
 
@@ -268,6 +271,7 @@ The end result is 38 PDF files listed alphabetically as follows:
 [`burn/pdf/SBF-print-extended-board-baseball-crane.pdf`](../burn/pdf/SBF-print-extended-board-baseball-crane.pdf)  
 
 Open every PDF file and:
+
 - perform one final check on the content of the page
 - if necessary, use your PDF tool to rotate the image to the orientation needed for your cutter
 - save your PDF rotated as needed
