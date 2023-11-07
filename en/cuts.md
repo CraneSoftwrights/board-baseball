@@ -5,9 +5,9 @@ Development: [`https://github.com/CraneSoftwrights/board-baseball`](https://gith
 Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrights)  
 Browser pages: [`https://cranesoftwrights.github.io/board-baseball/en/cuts.md.html`](https://cranesoftwrights.github.io/board-baseball/en/cuts.md.html)  
 
-In [this `cuts/` directory](../cuts) are utility SVG and PDF files used in the preparation of materials for later burning.
+In [this `cuts/` directory](../cuts) are directories of utility [SVG](../cuts/svg) and [PDF](../cuts/pdf) files used in the preparation of materials for later burning.
 
-There are no baseball-themed SVG or PDF files in this directory.
+There are no baseball-themed SVG or PDF files in thee directories.
 
 The dimensions using low numbers 24 and under are in inches, height x width.
 

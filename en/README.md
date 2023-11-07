@@ -5,7 +5,7 @@ Development: [`https://github.com/CraneSoftwrights/board-baseball`](https://gith
 Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrights)  
 Browser pages: [`https://cranesoftwrights.github.io/board-baseball/en/README.md.html`](https://cranesoftwrights.github.io/board-baseball/en/README.md.html)  
 
-*(Skip the introduction and jump to: [Basic Play](#basic-mode-play-), [Extended Play](#extended-mode-play-), [Scoring a game](#scoring-a-game)), [Design process](#design-process)), or [Physical box and board assemblies](#Physical-box-and-board-assemblies))*  
+*(Skip the introduction and jump to: [Basic Play](#basic-mode-play-), [Extended Play](#extended-mode-play-), [Scoring a game](#scoring-a-game), [Design process](#design-process), or [Physical box and board representations](#physical-box-and-board-representations))*  
 
 This project develops a board game along the lines of the basic long-played baseball board game, but brought up to date to include new rule changes at MLB. Differing from other board baseball games, this one aims to educate the players on the rules, the notations, and the conventions used when scoring a baseball game, using official abbreviations used by MLB.
 
@@ -137,12 +137,19 @@ See [the scoring summary](scoring.md) for information regarding Crane's conventi
 
 See the [design resources](design.md) for information regarding the design files and the initial steps in creating a release of files.
 
-## Physical box and board assemblies
+## Physical box and board representations
 
-See the [building instructions](build.md) for how the burn image files are created from the design files.
+The playing surfaces are PNG files that can be printed at 200mm x 248mm at 100% scale; suitable for both A4 and US-letter page sizes:
 
-See the [burn directory](../burn) and [burn README](burn.md) for a collection of image files for laser engraving/cutting of game pieces
+- [Basic-mode play surface ](../shared/basic-board-baseball-crane.png)
+- [Extended-mode play surface ](../shared/extended-board-baseball-crane.png)
+- [Combination dual-mode play surface ](../shared/combo-board-baseball-crane.png)
+- [Backing surface ](../shared/back-board-baseball-crane.png)
 
-See the [cuts directory](../cuts) and [cuts README](cuts.md) for a collection of image files for laser cutting of raw materials in preparation for engraving and cutting of game pieces.
+See the [building instructions](build.md) for how the laser burn image files are created from the design files.
+
+See the [burn directory](../burn) and [burn README](burn.md) for a collection of image files for laser engraving/cutting of game boards
+
+See the [cuts directory](../cuts) and [cuts README](cuts.md) for a collection of image files for laser cutting of raw materials in preparation for engraving and cutting of game boards.
 
 See the [shared directory](../shared) and [shared README](shared.md) for a collection of images used in documentation.
