@@ -3,14 +3,15 @@
 Copyright © Crane Softwrights Ltd.  
 Development: [`https://github.com/CraneSoftwrights/board-baseball`](https://github.com/CraneSoftwrights/board-baseball)  
 Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrights)   
+Browser pages: [`https://cranesoftwrights.github.io/board-baseball/README.md.html`](https://cranesoftwrights.github.io/board-baseball/README.md.html)  
 
 Languages *(see the bottom of this page regarding adding a new language)*:
 
 - [English](en/README.md#readme) - [README.md](en/README.md)
 
-<img alt="Single board front" src="shared/combo-board-baseball-crane.png" width="100%"/>  
-<img alt="Single board back" src="shared/back-board-baseball-crane.png" width="100%"/>  
-<img alt="Scorecard" src="shared/scorecard-board-baseball-crane.png" width="100%"/>  
+<img alt="Single board front" src="shared/combo-board-baseball-crane.png" style="max-width:800"/>  
+<img alt="Single board back" src="shared/back-board-baseball-crane.png" style="max-width:800"/>  
+<img alt="Scorecard" src="shared/scorecard-board-baseball-crane.png" style="max-width:800"/>  
 
 ## Adding additional language support
 
