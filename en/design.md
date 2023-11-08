@@ -3,6 +3,7 @@
 Copyright © Crane Softwrights Ltd.  
 Development: [`https://github.com/CraneSoftwrights/board-baseball`](https://github.com/CraneSoftwrights/board-baseball)  
 Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrights)  
+Browser pages: [`https://cranesoftwrights.github.io/board-baseball/en/design.md.html`](https://cranesoftwrights.github.io/board-baseball/en/design.md.html)  
 
 In [this `design/` directory](../design) is information regarding the SVG design files, what is needed for them, how they are expected to be used, and how to prepare them for creating the [`../burn`](burn.md) directory files and release through the tools found in the [`../build`](build.md) directory.
 
@@ -21,6 +22,7 @@ Also, the version number in the SVG file needs to be changed early in two differ
 ### 1.2 SVG layers for the physical levels
 
 The [Inkscape](https://inkscape.org) application helps to manage layers of content. The "Layers and Objects" panel reveals:
+
 - layers of print and burn detail content, organized semantically regarding content and use
 - singleton layers used in their own context
 - empty layers representing content levels
@@ -29,6 +31,7 @@ The [Inkscape](https://inkscape.org) application helps to manage layers of conte
 - layers of scratch-pad work
 
 The typical format of the way a detail layer is labeled is: `L#:B#` representing:
+
 - `L#`{level of the physical board}`:B#`{burn index for the level}
    - supplemental layer for the level
    - layer 1 has the main objects layer for the given level
