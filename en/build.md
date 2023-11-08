@@ -169,9 +169,9 @@ These are collages of level images arranged tête-à-tête for all boards in a s
 
 Two frame cutting patterns are available in order to make the scaffolding to hold a piece of material less than 9"x12" within the 9"x12" workspace:
 
-8"x10" rectangle in 9"x12": [<img alt="" src="../shared/frame-8x10.png" style="height:120px"/>](..cuts/frame-8x10-in-9x12.pdf)
+8"x10" rectangle in 9"x12": [<img alt="" src="../shared/frame-8x10.png" style="height:120px"/>](..cuts/pdf/frame-8x10-in-9x12.pdf)
 
-200x248mm rounded rectangle in 9"x12":  [<img alt="" src="../shared/frame-200x248.png" style="height:120px"/>](..cuts/frame-200x248-in-9x12.pdf)
+200x248mm rounded rectangle in 9"x12":  [<img alt="" src="../shared/frame-200x248.png" style="height:120px"/>](..cuts/pdf/frame-200x248-in-9x12.pdf)
 
 A number of convenience cutting files (without any text) are available should you wish to carve up pieces of material with simple cuts:
 
@@ -277,16 +277,16 @@ Open every PDF file and:
 
 At this point the production is complete and the new version can be committed to git and pushed to the server.
 
-The PDF files in the `cuts/` directory shouldn't need to change:
+The PDF files in the `cuts/pdf/` directory shouldn't need to change:
 
-[`cuts/frame-8x10-in-9x12.pdf`](../cuts/frame-8x10-in-9x12.pdf)  
-[`cuts/frame-220x248-in-9x12.pdf`](../cuts/frame-220x248-in-9x12.pdf)  
-[`cuts/cut-8x10-from-larger.pdf`](../cuts/cut-8x10-from-larger.pdf)  
-[`cuts/cut-9x12-from-9x24.pdf`](../cuts/cut-9x12-from-9x24.pdf)  
-[`cuts/cut-9x12-from-18x12.pdf`](../cuts/cut-9x12-from-18x12.pdf)  
-[`cuts/cut-9x12-from-18x24.pdf`](../cuts/cut-9x12-from-18x24.pdf)  
-[`cuts/cut-9x24-from-18x24.pdf`](../cuts/cut-9x24-from-18x24.pdf)  
-[`cuts/cut-18x12-from-18x24.pdf`](../cuts/cut-18x12-from-18x24.pdf)  
+[`cuts/pdf/frame-8x10-in-9x12.pdf`](../cuts/pdf/frame-8x10-in-9x12.pdf)  
+[`cuts/pdf/frame-220x248-in-9x12.pdf`](../cuts/pdf/frame-220x248-in-9x12.pdf)  
+[`cuts/pdf/cut-8x10-from-larger.pdf`](../cuts/pdf/cut-8x10-from-larger.pdf)  
+[`cuts/pdf/cut-9x12-from-9x24.pdf`](../cuts/pdf/cut-9x12-from-9x24.pdf)  
+[`cuts/pdf/cut-9x12-from-18x12.pdf`](../cuts/pdf/cut-9x12-from-18x12.pdf)  
+[`cuts/pdf/cut-9x12-from-18x24.pdf`](../cuts/pdf/cut-9x12-from-18x24.pdf)  
+[`cuts/pdf/cut-9x24-from-18x24.pdf`](../cuts/pdf/cut-9x24-from-18x24.pdf)  
+[`cuts/pdf/cut-18x12-from-18x24.pdf`](../cuts/pdf/cut-18x12-from-18x24.pdf)  
 
 ## 7. Scorecard production
 
