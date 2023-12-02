@@ -13,7 +13,7 @@ Also, this version introduces an extended play that involves pitching, something
 
 Both the original basic "only pitcher rolls dice" and this new extended "pitcher and batter both roll dice" are played on the same board with the basic mode using only a subset of the play pieces. The setup and play involved for both basic and extended modes of play are described below.
 
-Three playing surfaces are available in this project: a paper version for use with foam backing and dress pins, and two wooden versions for use with cribbage pegs: a single-board version and a 6-layer-board version with a storage cavity:
+Three playing surfaces are available in this project: a paper version for use with foam backing and dress pins, and two wooden versions for use with cribbage pegs: a single-board version and a 6-layer-board version with a storage compartment:
 
 <a href="../shared/paper-front.jpg"><img alt="" src="../shared/paper-front.jpg" style="height:120px"/></a> <a href="../shared/paper-side.jpg"><img alt="" src="../shared/paper-side.jpg" style="width:120px"/></a> <a href="../shared/sbf.jpg"><img alt="" src="../shared/sbf.jpg" style="height:120px"/></a> <a href="../shared/sbb.jpg"><img alt="" src="../shared/sbb.jpg" style="height:120px"/></a> <a href="../shared/box1.jpg"><img alt="" src="../shared/box1.jpg" style="height:120px"/></a> <a href="../shared/box2.jpg"><img alt="" src="../shared/box2.jpg" style="height:120px"/></a>
 

@@ -5,7 +5,7 @@ Development: [`https://github.com/CraneSoftwrights/board-baseball`](https://gith
 Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrights)   
 Browser pages: [`https://cranesoftwrights.github.io/board-baseball/README.md.html`](https://cranesoftwrights.github.io/board-baseball/README.md.html)  
 
-<a href="shared/paper-front.jpg"><img alt="" src="shared/paper-front.jpg" style="height:120px"/></a> <a href="shared/paper-side.jpg"><img alt="" src="shared/paper-side.jpg" style="width:120px"/></a> <a href="shared/sbf.jpg"><img alt="" src="shared/sbf.jpg" style="height:120px"/></a> <a href="shared/sbb.jpg"><img alt="" src="shared/sbb.jpg" style="height:120px"/></a> <a href="shared/box1.jpg"><img alt="" src="shared/box1.jpg" style="height:120px"/></a> <a href="shared/box2.jpg"><img alt="" src="shared/box2.jpg" style="height:120px"/></a>
+<a href="shared/paper-front.jpg"><img alt="" src="shared/paper-front.jpg" style="height:120px"/></a> <a href="shared/paper-side.jpg"><img alt="" src="shared/paper-side.jpg" style="width:120px"/></a> <a href="shared/sbf.jpg"><img alt="" src="shared/sbf.jpg" style="height:120px"/></a> <a href="shared/sbb.jpg"><img alt="" src="shared/sbb.jpg" style="height:120px"/></a> <a href="shared/box1.jpg"><img alt="" src="shared/box1.jpg" style="height:120px"/></a> <a href="shared/box2.jpg"><img alt="" src="shared/box2.jpg" style="height:120px"/></a>     <img alt="" src="shared/QR-bitly-cranebb-logo.png" style="height:120px"/>
 
 
 Languages *(see the bottom of this page regarding adding a new language)*:
