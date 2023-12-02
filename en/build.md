@@ -7,7 +7,7 @@ Browser pages: [`https://cranesoftwrights.github.io/board-baseball/en/build.md.h
 
 In [this `build/` directory](../build) are the resources used to build two versions of the game using a laser cutter to etch and cut material:
 
-- a 3-dimensional box with six layers of 1/8"-3mm material, and
+- a 3-dimensional box with six layers of 1/8"-3mm material creating a storage compartment, and
   - <a href="../shared/box1.jpg"><img alt="" src="../shared/box1.jpg" style="height:300px"/></a> <a href="../shared/box2.jpg"><img alt="" src="../shared/box2.jpg" style="height:300px"/></a> 
 - a single-board (of any thickness) with information on both sides
   - <a href="../shared/sbf.jpg"><img alt="" src="../shared/sbf.jpg" style="height:300px"/></a> <a href="../shared/sbb.jpg"><img alt="" src="../shared/sbb.jpg" style="height:300px"/></a> 
