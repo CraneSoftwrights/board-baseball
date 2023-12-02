@@ -7,10 +7,15 @@ Browser pages: [`https://cranesoftwrights.github.io/board-baseball/en/build.md.h
 
 In [this `build/` directory](../build) are the resources used to build two versions of the game using a laser cutter to etch and cut material:
 
-- a 3-dimensional box with six layers of 1/8"-3mm material, and
-  - <img alt="" src="../shared/box1.jpg" style="height:300px"/> <img alt="" src="../shared/box2.jpg" style="height:300px"/> 
+- a 3-dimensional box with six layers of 1/8"-3mm material creating a storage compartment, and
+  - <a href="../shared/box1.jpg"><img alt="" src="../shared/box1.jpg" style="height:300px"/></a> <a href="../shared/box2.jpg"><img alt="" src="../shared/box2.jpg" style="height:300px"/></a> 
 - a single-board (of any thickness) with information on both sides
-  - <img alt="" src="../shared/sbf.jpg" style="height:300px"/> <img alt="" src="../shared/sbb.jpg" style="height:300px"/> 
+  - <a href="../shared/sbf.jpg"><img alt="" src="../shared/sbf.jpg" style="height:300px"/></a> <a href="../shared/sbb.jpg"><img alt="" src="../shared/sbb.jpg" style="height:300px"/></a> 
+
+In the shared/ directory are paper resources (A4 or US-letter) to be used with a foam or styrofoam backing and dress pins:
+
+- a [basic game](../shared/basic-board-baseball-crane.png), an [extended game](extended-board-baseball-crane.png), and a [combination game](../shared/combo-board-baseball-crane.png)
+  - <a href="../shared/paper-front.jpg"><img alt="" src="../shared/paper-front.jpg" style="height:300px"/></a> <a href="../shared/paper-side.jpg"><img alt="" src="../shared/paper-side.jpg" style="width:300px"/></a> 
 
 ## 1. Terminology
 
@@ -305,13 +310,20 @@ Open [scorecard SVG file](../../design/scorecard-board-baseball-crane.svg):
 
 ## 8. Creating a ZIP of the XHTML of the Markdown files
 
-1. Run: `sh build/all-md2xhtml.sh` to create `md2xhtml.zip`
+This shell script (not available as a Windows batch file) has two tool dependencies not included in the git repository that must be on the command path:
+
+- pandoc - conversion of markdown to HTML
+- tidy - conversion of HTML to XHTML
+
+1. Run: `sh build/documentation.sh` to create `documentation-board-baseball-crane.zip`
+1. Remember to update the web site with the latest
 
 ## 9. Creating a git release from QA or Final
 
 1. Set the tag to be `CCYYMMDD-HHMMz-QA` or `CCYYMMDD-HHMMz-Final`
 1. Use the "Generate release notes" button to populate the notes
 1. Attach the four board PNG files to the release as binaries
+1. Attach the documentation ZIP to the release as a binary
 1. Publish the release
 1. Confirm the latest release on the home page
 
