@@ -7,10 +7,15 @@ Browser pages: [`https://cranesoftwrights.github.io/board-baseball/en/build.md.h
 
 In [this `build/` directory](../build) are the resources used to build two versions of the game using a laser cutter to etch and cut material:
 
-- a 3-dimensional box with six layers of 1/8"-3mm material, and
-  - <img alt="" src="../shared/box1.jpg" style="height:300px"/> <img alt="" src="../shared/box2.jpg" style="height:300px"/> 
+- a 3-dimensional box with six layers of 1/8"-3mm material creating a storage compartment, and
+  - <a href="../shared/box1.jpg"><img alt="" src="../shared/box1.jpg" style="height:300px"/></a> <a href="../shared/box2.jpg"><img alt="" src="../shared/box2.jpg" style="height:300px"/></a> 
 - a single-board (of any thickness) with information on both sides
-  - <img alt="" src="../shared/sbf.jpg" style="height:300px"/> <img alt="" src="../shared/sbb.jpg" style="height:300px"/> 
+  - <a href="../shared/sbf.jpg"><img alt="" src="../shared/sbf.jpg" style="height:300px"/></a> <a href="../shared/sbb.jpg"><img alt="" src="../shared/sbb.jpg" style="height:300px"/></a> 
+
+In the shared/ directory are paper resources (A4 or US-letter) to be used with a foam or styrofoam backing and dress pins:
+
+- a [basic game](../shared/basic-board-baseball-crane.png), an [extended game](extended-board-baseball-crane.png), and a [combination game](../shared/combo-board-baseball-crane.png)
+  - <a href="../shared/paper-front.jpg"><img alt="" src="../shared/paper-front.jpg" style="height:300px"/></a> <a href="../shared/paper-side.jpg"><img alt="" src="../shared/paper-side.jpg" style="width:300px"/></a> 
 
 ## 1. Terminology
 
