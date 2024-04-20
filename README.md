@@ -12,6 +12,8 @@ Languages *(see the bottom of this page regarding adding a new language)*:
 
 - [English](en/README.md#readme) - [README.md](en/README.md)
 
+Print images (click the image then use the download icon at top right beside the pencil):
+
 <img alt="Single board front" src="shared/combo-board-baseball-crane.png" style="max-width:800"/>  
 <img alt="Single board back" src="shared/back-board-baseball-crane.png" style="max-width:800"/>  
 <img alt="Scorecard" src="shared/scorecard-board-baseball-crane.png" style="max-width:800"/>  
