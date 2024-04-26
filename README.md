@@ -23,7 +23,7 @@ Print images *(click the image then use the download icon at top right beside th
 <td><img alt="Extended board" src="shared/extended-board-baseball-crane.png" style="max-width:250"/></td>
 <td><img alt="Basic board" src="shared/basic-board-baseball-crane.png" style="max-width:250"/></td>
 </tr>
-<td><img alt="Scorecard" src="shared/scorecard-board-baseball-crane.png" style="max-width:600"/></td>
+<td colspan="2"><img alt="Scorecard" src="shared/scorecard-board-baseball-crane.png" style="max-width:600"/></td>
 </tr>
 </table>
 
