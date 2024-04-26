@@ -141,19 +141,19 @@ See [the scoring summary](scoring.md) for information regarding Crane's conventi
 
 See the [design resources](design.md) for information regarding the design files and the initial steps in creating a release of files.
 
-## Physical box and board representations
+## Print, board, and box representations
 
-The playing surfaces are PNG files that can be printed at 200mm x 248mm at 100% scale; suitable for both A4 and US-letter page sizes:
+Print to paper any playing surface using these PNG files at 200mm x 248mm at 100% scale; suitable for both A4 and US-letter page sizes:
 
 - [Basic-mode play surface ](../shared/basic-board-baseball-crane.png)
 - [Extended-mode play surface ](../shared/extended-board-baseball-crane.png)
 - [Combination dual-mode play surface ](../shared/combo-board-baseball-crane.png)
 - [Backing surface ](../shared/back-board-baseball-crane.png)
 
-See the [building instructions](build.md) for how the laser burn image files are created from the design files.
-
-See the [burn directory](../burn) and [burn README](burn.md) for a collection of image files for laser engraving/cutting of game boards
-
-See the [cuts directory](../cuts) and [cuts README](cuts.md) for a collection of image files for laser cutting of raw materials in preparation for engraving and cutting of game boards.
-
 See the [shared directory](../shared) and [shared README](shared.md) for a collection of images used in documentation.
+
+For board and box representations, see the [building instructions](build.md) for how the laser burn image files are created from the design files.
+
+See the [burn directory](../burn) and [burn README](burn.md) for a collection of image files for laser engraving/cutting of game board and box layer materials.
+
+See the [cuts directory](../cuts) and [cuts README](cuts.md) for a collection of image files for laser cutting of raw materials in preparation for engraving and cutting of game boards and box layers.
