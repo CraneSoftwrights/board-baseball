@@ -97,11 +97,11 @@ Use the play board with this marking between the columns: <img alt="" src="../sh
     - IMPORTANT: this is not a mandatory move and it is up to the batting team to choose to attempt to steal a base
     - <img alt="" src="../shared/stealing-2b.png" style="height:20px"/> - stealing second base
       - when there is a base runner on first base and the second base is unoccupied:
-        - <img alt="" src="../shared/caught-stealing.png" style="height:20px"/> throwing a <img alt="" src="../shared/d1.png" style="height:22px"/> or <img alt="" src="../shared/d2.png" style="height:22px"/> indicates that the runner was caught stealing and the runner is called out and leaves the field
+        - <img alt="" src="../shared/caught-stealing-2b.png" style="height:20px"/> throwing a <img alt="" src="../shared/d1.png" style="height:22px"/> or <img alt="" src="../shared/d2.png" style="height:22px"/> indicates that the runner was caught stealing and the runner is called out and leaves the field
         - <img alt="" src="../shared/stolen-2b.png" style="height:20px"/> throwing a <img alt="" src="../shared/d3.png" style="height:22px"/>, <img alt="" src="../shared/d4.png" style="height:22px"/>, <img alt="" src="../shared/d5.png" style="height:22px"/>, or <img alt="" src="../shared/d6.png" style="height:22px"/> indicates that the runner successfully stole second base and an out is not recorded
     - <img alt="" src="../shared/stealing-3b.png" style="height:20px"/> - stealing third base
       - when there is a base runner on second base and the third base is unoccupied:
-        - <img alt="" src="../shared/caught-stealing.png" style="height:20px"/> throwing a <img alt="" src="../shared/d1.png" style="height:22px"/> indicates that the runner was caught stealing and the runner is called out and leaves the pitch
+        - <img alt="" src="../shared/caught-stealing-3b.png" style="height:20px"/> throwing a <img alt="" src="../shared/d1.png" style="height:22px"/> indicates that the runner was caught stealing and the runner is called out and leaves the pitch
         - <img alt="" src="../shared/stolen-3b.png" style="height:20px"/> throwing a <img alt="" src="../shared/d2.png" style="height:22px"/>, <img alt="" src="../shared/d3.png" style="height:22px"/>, <img alt="" src="../shared/d4.png" style="height:22px"/>, <img alt="" src="../shared/d5.png" style="height:22px"/>, or <img alt="" src="../shared/d6.png" style="height:22px"/> indicates that the runner successfully stole third base and an out is not recorded
     - for some insight into the above choices, [ChatGPT was consulted](https://chat.openai.com/share/28530b4e-933a-408e-b516-6e1b7bbb4fcf) regarding past performance in Major League Baseball
 - three of the pitches result in contact with the bat:
