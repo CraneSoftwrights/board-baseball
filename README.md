@@ -16,12 +16,12 @@ Print images *(click the image then use the download icon at top right beside th
 
 <table width="100%">
 <tr>
-<td width="50%">Extended-mode play surface print image:<br/><img alt="Extended board" src="shared/extended-board-baseball-crane.png" style="max-width:250"/></td>
-<td width="50%">Basic-mode play surface print image:<br/><img alt="Basic board" src="shared/basic-board-baseball-crane.png" style="max-width:250"/></td>
+<td width="50%" valign="top">Extended-mode play surface print image:<br/><img alt="Extended board" src="shared/extended-board-baseball-crane.png" style="max-width:250"/></td>
+<td width="50%" valign="top">Basic-mode play surface print image:<br/><img alt="Basic board" src="shared/basic-board-baseball-crane.png" style="max-width:250"/></td>
 </tr>
 <tr>
-<td width="50%">SBF Single board front (dual-mode play) surface print image:<br/><img alt="Single board front" src="shared/combo-board-baseball-crane.png" style="max-width:250"/></td>  
-<td width="50%">SBB Single board back surface print image:<br/><img alt="Single board back" src="shared/back-board-baseball-crane.png" style="max-width:250"/></td>
+<td width="50%" valign="top">SBF Single board front surface print image:<br/><img alt="Single board front" src="shared/combo-board-baseball-crane.png" style="max-width:250"/></td>  
+<td width="50%" valign="top">SBB Single board back surface print image:<br/><img alt="Single board back" src="shared/back-board-baseball-crane.png" style="max-width:250"/></td>
 </tr>
 <td colspan="2">Scorecard print image:<br/><img alt="Scorecard" src="shared/scorecard-board-baseball-crane.png" style="max-width:600"/></td>
 </tr>
