@@ -5,7 +5,7 @@ Development: [`https://github.com/CraneSoftwrights/board-baseball`](https://gith
 Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrights)  
 Browser pages: [`https://cranesoftwrights.github.io/board-baseball/en/README.md.html`](https://cranesoftwrights.github.io/board-baseball/en/README.md.html)  
 
-*(Skip the introduction and jump to: [Basic Play](#basic-mode-play-), [Extended Play](#extended-mode-play-), [Scoring a game](#scoring-a-game), [Design process](#design-process), or [Physical box and board representations](#physical-box-and-board-representations))*  
+*(Skip the introduction and jump to: [Basic Play](#basic-mode-play-), [Extended Play](#extended-mode-play-), [Scoring a game](#scoring-a-game), [Design process](#design-process), or [Print, board, and box representations](#print--board--and-box-representations))*  
 
 This project develops a board game along the lines of the basic long-played baseball board game, but brought up to date to include new rule changes at MLB. Differing from other board baseball games, this one aims to educate the players on the rules, the notations, and the conventions used when scoring a baseball game, using official abbreviations used by MLB.
 
@@ -45,7 +45,7 @@ Should the score be tied at the end of the extra inning, another extra inning is
 
 ## Basic-mode play <img alt="" src="../shared/z-batting.png" style="height:30px"/>
 
-Use the play board with this marking between the columns: <img alt="" src="../shared/z-batting.png" style="height:30px"/>, available for print in the PNG file: [`basic-board-baseball-crane.png`](../shared/basic-board-baseball-crane.png) (200mm x 248mm at 100% scale; suitable for both A4 and US-letter page sizes)
+Use the play surface with this marking between the columns: <img alt="" src="../shared/z-batting.png" style="height:30px"/>, available for print in the PNG file: [`basic-board-baseball-crane.png`](../shared/basic-board-baseball-crane.png) (200mm x 248mm at 100% scale; suitable for both A4 and US-letter page sizes)
 
 [<img alt="" src="../shared/step-1.png" style="height:30px"/>](../shared/Z-SETUP.md)
 
@@ -75,7 +75,7 @@ Use the play board with this marking between the columns: <img alt="" src="../sh
 
 ## Extended-mode play <img alt="" src="../shared/x-pitching.png" style="height:30px"/>
 
-Use the play board with this marking between the columns: <img alt="" src="../shared/x-pitching.png" style="height:30px"/>, available for print in the PNG file: [`extended-board-baseball-crane.png`](../shared/extended-board-baseball-crane.png) (200mm x 248mm at 100% scale; suitable for both A4 and US-letter page sizes)
+Use the play surface with this marking between the columns: <img alt="" src="../shared/x-pitching.png" style="height:30px"/>, available for print in the PNG file: [`extended-board-baseball-crane.png`](../shared/extended-board-baseball-crane.png) (200mm x 248mm at 100% scale; suitable for both A4 and US-letter page sizes)
 
 [<img alt="" src="../shared/step-1.png" style="height:30px"/>](../shared/X-SETUP.md)
 
@@ -97,11 +97,11 @@ Use the play board with this marking between the columns: <img alt="" src="../sh
     - IMPORTANT: this is not a mandatory move and it is up to the batting team to choose to attempt to steal a base
     - <img alt="" src="../shared/stealing-2b.png" style="height:20px"/> - stealing second base
       - when there is a base runner on first base and the second base is unoccupied:
-        - <img alt="" src="../shared/caught-stealing.png" style="height:20px"/> throwing a <img alt="" src="../shared/d1.png" style="height:22px"/> or <img alt="" src="../shared/d2.png" style="height:22px"/> indicates that the runner was caught stealing and the runner is called out and leaves the field
+        - <img alt="" src="../shared/caught-stealing-2b.png" style="height:20px"/> throwing a <img alt="" src="../shared/d1.png" style="height:22px"/> or <img alt="" src="../shared/d2.png" style="height:22px"/> indicates that the runner was caught stealing and the runner is called out and leaves the field
         - <img alt="" src="../shared/stolen-2b.png" style="height:20px"/> throwing a <img alt="" src="../shared/d3.png" style="height:22px"/>, <img alt="" src="../shared/d4.png" style="height:22px"/>, <img alt="" src="../shared/d5.png" style="height:22px"/>, or <img alt="" src="../shared/d6.png" style="height:22px"/> indicates that the runner successfully stole second base and an out is not recorded
     - <img alt="" src="../shared/stealing-3b.png" style="height:20px"/> - stealing third base
       - when there is a base runner on second base and the third base is unoccupied:
-        - <img alt="" src="../shared/caught-stealing.png" style="height:20px"/> throwing a <img alt="" src="../shared/d1.png" style="height:22px"/> indicates that the runner was caught stealing and the runner is called out and leaves the pitch
+        - <img alt="" src="../shared/caught-stealing-3b.png" style="height:20px"/> throwing a <img alt="" src="../shared/d1.png" style="height:22px"/> indicates that the runner was caught stealing and the runner is called out and leaves the pitch
         - <img alt="" src="../shared/stolen-3b.png" style="height:20px"/> throwing a <img alt="" src="../shared/d2.png" style="height:22px"/>, <img alt="" src="../shared/d3.png" style="height:22px"/>, <img alt="" src="../shared/d4.png" style="height:22px"/>, <img alt="" src="../shared/d5.png" style="height:22px"/>, or <img alt="" src="../shared/d6.png" style="height:22px"/> indicates that the runner successfully stole third base and an out is not recorded
     - for some insight into the above choices, [ChatGPT was consulted](https://chat.openai.com/share/28530b4e-933a-408e-b516-6e1b7bbb4fcf) regarding past performance in Major League Baseball
 - three of the pitches result in contact with the bat:
@@ -141,19 +141,19 @@ See [the scoring summary](scoring.md) for information regarding Crane's conventi
 
 See the [design resources](design.md) for information regarding the design files and the initial steps in creating a release of files.
 
-## Physical box and board representations
+## Print, board, and box representations
 
-The playing surfaces are PNG files that can be printed at 200mm x 248mm at 100% scale; suitable for both A4 and US-letter page sizes:
+Print to paper any playing surface using these PNG files at 200mm x 248mm at 100% scale; suitable for both A4 and US-letter page sizes:
 
 - [Basic-mode play surface ](../shared/basic-board-baseball-crane.png)
 - [Extended-mode play surface ](../shared/extended-board-baseball-crane.png)
-- [Combination dual-mode play surface ](../shared/combo-board-baseball-crane.png)
-- [Backing surface ](../shared/back-board-baseball-crane.png)
-
-See the [building instructions](build.md) for how the laser burn image files are created from the design files.
-
-See the [burn directory](../burn) and [burn README](burn.md) for a collection of image files for laser engraving/cutting of game boards
-
-See the [cuts directory](../cuts) and [cuts README](cuts.md) for a collection of image files for laser cutting of raw materials in preparation for engraving and cutting of game boards.
+- [SBF Single board front (dual-mode play) surface ](../shared/combo-board-baseball-crane.png)
+- [SBB Single board back surface ](../shared/back-board-baseball-crane.png)
 
 See the [shared directory](../shared) and [shared README](shared.md) for a collection of images used in documentation.
+
+For board and box representations, see the [building instructions](build.md) for how the laser burn image files are created from the design files.
+
+See the [burn directory](../burn) and [burn README](burn.md) for a collection of image files for laser engraving/cutting of game board and box layer materials.
+
+See the [cuts directory](../cuts) and [cuts README](cuts.md) for a collection of image files for laser cutting of raw materials in preparation for engraving and cutting of game boards and box layers.

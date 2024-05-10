@@ -150,6 +150,8 @@ Pages with a single digit are levels of a physical 3-D playing board.
 
 The abbreviations "F" and "B" are, respectively, the front and back of the single-board playing board.
 
+#### 6.1.1 Single surface files
+
 These are the files used to burn in a laser cutter, tested in an Epilog Helix branded machine:
 
 9"x12" frame: [<img alt="" src="../shared/1-collage.png" style="height:60px"/>](../burn/pdf/pdf/L1-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/2-collage.png" style="height:60px"/>](../burn/pdf/pdf/L2-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/3-collage.png" style="height:60px"/>](../burn/pdf/L3-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/4-collage.png" style="height:60px"/>](../burn/pdf/L4-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/5-collage.png" style="height:60px"/>](../burn/pdf/L5-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/7-collage.png" style="height:60px"/>](../burn/pdf/L7-frame-9x12-board-baseball-crane.pdf), and [<img alt="" src="../shared/T-collage.png" style="height:60px"/>](../burn/pdf/LT-frame-9x12-board-baseball-crane.pdf).  
@@ -160,19 +162,23 @@ These are the files used to burn in a laser cutter, tested in an Epilog Helix br
 20mmx248mm cut: [<img alt="" src="../shared/1-collage.png" style="height:60px"/>](../burn/pdf/L1-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/2-collage.png" style="height:60px"/>](../burn/pdf/L2-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/3-collage.png" style="height:60px"/>](../burn/pdf/L3-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/4-collage.png" style="height:60px"/>](../burn/pdf/L4-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/5-collage.png" style="height:60px"/>](../burn/pdf/L5-cut-200x248-board-baseball-crane.pdf),  
 [<img alt="" src="../shared/6-collage.png" style="height:60px"/>](../burn/pdf/L6-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/7-collage.png" style="height:60px"/>](../burn/pdf/L7-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/B-collage.png" style="height:60px"/>](../burn/pdf/SBB-cut-200x248-board-baseball-crane.pdf), and [<img alt="" src="../shared/F-collage.png" style="height:60px"/>](../burn/pdf/SBF-cut-200x248-board-baseball-crane.pdf).  
 
+#### 6.1.2 Collage files
+
 These are collages of level images arranged tête-à-tête for board levels with a finished side that are user-facing:
 
-18"x24": [<img alt="" src="../shared/1364-collage.png" style="height:120px"/>](../burn/pdf/1364-18x24-board-baseball-crane.pdf) and [<img alt="" src="../shared/1374-collage.png" style="height:120px"/>](../burn/pdf/1374-18x24-board-baseball-crane.pdf)  
 9"x24": [<img alt="" src="../shared/13-collage.png" style="height:60px"/>](../burn/pdf/13-9x24-board-baseball-crane.pdf), [<img alt="" src="../shared/46-collage.png" style="height:60px"/>](../burn/pdf/46-9x24-board-baseball-crane.pdf), and [<img alt="" src="../shared/47-collage.png" style="height:60px"/>](../burn/pdf/47-9x24-board-baseball-crane.pdf)
+18"x24": [<img alt="" src="../shared/1364-collage.png" style="height:120px"/>](../burn/pdf/1364-18x24-board-baseball-crane.pdf) and [<img alt="" src="../shared/1374-collage.png" style="height:120px"/>](../burn/pdf/1374-18x24-board-baseball-crane.pdf)  
 
 These are collages of level images arranged tête-à-tête for internal unfinished board levels that are not user-facing:
 
-18"x24": [<img alt="" src="../shared/2552-collage.png" style="height:120px"/>](../burn/pdf/2552-18x24-board-baseball-crane.pdf) 
-9"x24": [<img alt="" src="../shared/25-collage.png" style="height:60px"/>](../burn/pdf/25-9x24-board-baseball-crane.pdf)
+9"x24": [<img alt="" src="../shared/25-collage.png" style="height:60px"/>](../burn/pdf/25-9x24-board-baseball-crane.pdf)  
+18"x24": [<img alt="" src="../shared/2552-collage.png" style="height:120px"/>](../burn/pdf/2552-18x24-board-baseball-crane.pdf)  
 
 These are collages of level images arranged tête-à-tête for all boards in a single burn:
 
 27"x24": [<img alt="" src="../shared/134625-collage.png" style="height:180px"/>](../burn/pdf/134625-18x24-board-baseball-crane.pdf) and [<img alt="" src="../shared/134725-collage.png" style="height:180px"/>](../burn/pdf/134725-18x24-board-baseball-crane.pdf)  
+
+#### 6.1.3 Convenience cutting files
 
 Two frame cutting patterns are available in order to make the scaffolding to hold a piece of material less than 9"x12" within the 9"x12" workspace:
 
@@ -190,7 +196,7 @@ A number of convenience cutting files (without any text) are available should yo
 
 ### 6.2 Creating the burn files
 
-If the prior version of the burn files haven't been deleted, delete every `.pdf` and `.svg` file in the [`burn/`](../burn) directory, leaving only the `README.md` file in the directory.
+If the prior version of the burn files haven't been deleted, delete every `.pdf` file in the [`burn/pdf/`](../burn/pdf) directory and every `.svg` file in the [`burn/svg/`](../burn/svg) directory, leaving only the `README.md` file and `README.md.html` files in the directory.
 
 Using the command line from the base git directory, create the [`burn/svg/review-board-baseball-crane.svg`](../burn/svg/review-board-baseball-crane.svg) file by running the `design2review` script:
 
@@ -200,7 +206,7 @@ Using the command line from the base git directory, create the [`burn/svg/review
 Open the [`burn/svg/review-board-baseball-crane.svg`](../burn/svg/review-board-baseball-crane.svg) file and perform the following steps from within the "Layers and Objects" panel:
 
 - select the top-most "Select this group..." group and use `Path/Object to Path` menu item to convert every object in every layer to a path (this ensures installed-font-independent portability)
-  - *(the designers have experienced problems with the conversion being successful the first time; sometimes a second time helps; before continuing check that the version string has been changed into a path from its original text object)*
+  - *(the designers have experienced problems with the conversion being unsuccessful the first time; sometimes a second time helps; before continuing check that the version string has been changed into a path from its original text object)*
 - un-group the top-most group
 - review any of the combined layers that each represent the new output file by un-hiding the top-most layer of the combination
 - save the SVG file before continuing
@@ -210,20 +216,25 @@ Using the command line from the base git directory, automatically create the ind
 - in Windows: `build\review2burn.bat`
 - in Shell: `sh build/review2burn.sh`
 
-Open each of the nine collage SVG files and perform the following steps from within the "Layers and Objects" panel:
+Open each of the nine collage SVG files (illustrated in [6.1.2 Collage files](#612-collage-files) and perform the following steps from within the "Layers and Objects" panel:
 
 - press "4" to show the entire set of objects
 - select the "tiling" sublayer and confirm the handles around the white rectangle
 - in the "Document Properties" panel select "Resize to content" so that the new page background is only the tiling rectangle
-- back in the "Layers and Objects" panel, select a content sublayer and:
-  - use one of the Rotate functions (clockwise or counterclockwise) as appropriate
+- back in the "Layers and Objects" panel, for each content sublayer:
+  - use one of the Rotate functions (clockwise or counterclockwise) as appropriate to put the top of each page in the middle of the content area
+    - for examples:
+      - 9"x24": [<img alt="" src="../shared/13-collage.png" style="height:60px"/>](../burn/pdf/13-9x24-board-baseball-crane.pdf)
+      - 18"x24": [<img alt="" src="../shared/1364-collage.png" style="height:120px"/>](../burn/pdf/1364-18x24-board-baseball-crane.pdf)
+      - 27"x24": [<img alt="" src="../shared/134625-collage.png" style="height:180px"/>](../burn/pdf/134625-18x24-board-baseball-crane.pdf)
   - use the "Align and Distribute" panel to position the rotated layer to the edges or centre of the new page size
-- save the SVG file and then close it
+- save the SVG file 
 
-Open each of the four print SVG files and perform the following steps without selecting any layers or objects:
+Open each of the four print SVG files (`SBF-print-*` and `SBB-print-*`) and perform the following steps without selecting any layers or objects:
 
 - in the "Document Properties" panel select "Resize to content" so that the new page size is only the content seen without the white margins around the content
-- in the "Export" panel, export the entire contents to PNG files in the "shared" directory for use in documentation:
+- in the "Export" panel, select the "Document" tab and the preview at the bottom should show no margin around the page content
+- export the entire contents to PNG files in the "shared" directory for use in documentation:
   - `burn/svg/SBF-print-combo-board-baseball-crane.svg` to [`shared/combo-board-baseball-crane.png`](../shared/combo-board-baseball-crane.png)
   - `burn/svg/SBF-print-basic-board-baseball-crane.svg` to [`shared/basic-board-baseball-crane.png`](../shared/basic-board-baseball-crane.png)
   - `burn/svg/SBF-print-extended-board-baseball-crane.svg` to [`shared/extended-board-baseball-crane.png`](../shared/extended-board-baseball-crane.png)
@@ -280,9 +291,10 @@ Open every PDF file and:
 
 - perform one final check on the content of the page
 - if necessary, use your PDF tool to rotate the image to the orientation needed for your cutter
+  - in the case of the PDF files stored in git, all single surface PDF files have been rotated according to the indications in [6.1.1 Single surface files](#611-single-surface-files)
 - save your PDF rotated as needed
 
-At this point the production is complete and the new version can be committed to git and pushed to the server.
+At this point the production of the burn files is complete and the new version can be committed to git and pushed to the server.
 
 The PDF files in the `cuts/pdf/` directory shouldn't need to change:
 

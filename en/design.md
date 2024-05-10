@@ -64,13 +64,7 @@ Update the version strings (two), one for print and the other for burning.
 
 Look in the "Layers and Objects" panel for the two layers with "+ version" in the layer name. Un-hide the layer but leave the layer locked. Open up the nested groups until you find the text string labeled "Version". Select it and press "3" to zoom in on the string. Press "T" to enter text mode and make the change. Press "Esc" to get out of editing the string. Hide the layer again.
 
-### 4.2 Preparing each layer for use in assembling levels
-
-In the course of work on any given layer, the SVG objects end up becoming ungrouped. This makes for a pain point when dealing with selecting the layers in Inkscape because Inkscape automatically opens up the layer's contents for the (in)convenience of the user.
-
-Walk through each of the design layers, introducing a top-level group that groups everything in that layer. That way, selecting the layer opens up only a single object and not many objects, thus making navigation of the layers more manageable.
-
-### 4.3 Assembling design layers into combined levels
+### 4.2 Assembling design layers into combined levels
 
 Assembling design layers into combined levels is accomplished by naming conventions used in the layer titles in the SVG. These combining layers should be empty because they are replaced in their entirety during the production process.
 
