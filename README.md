@@ -10,20 +10,20 @@ Browser pages: [`https://cranesoftwrights.github.io/board-baseball/README.md.htm
 
 Rules, resources, and instructions *(see the bottom of this page regarding adding a new language)*:
 
-- [English](en/README.md#readme) - [README.md](en/README.md)
+- [English rules, resources, and instructions](en/README.md#readme) - [README.md](en/README.md)
 
 Print images *(click the image then use the download icon at top right beside the pencil)*:
 
 <table width="100%">
 <tr>
-<td><img alt="Single board front" src="shared/combo-board-baseball-crane.png" style="max-width:250"/></td>  
-<td><img alt="Single board back" src="shared/back-board-baseball-crane.png" style="max-width:250"/></td>
+<td>Extended-mode play surface print image:<br/><img alt="Extended board" src="shared/extended-board-baseball-crane.png" style="max-width:250"/></td>
+<td>Basic-mode play surface print image:<br/><img alt="Basic board" src="shared/basic-board-baseball-crane.png" style="max-width:250"/></td>
 </tr>
 <tr>
-<td><img alt="Extended board" src="shared/extended-board-baseball-crane.png" style="max-width:250"/></td>
-<td><img alt="Basic board" src="shared/basic-board-baseball-crane.png" style="max-width:250"/></td>
+<td>SBF Single board front (dual-mode play) surface print image:<br/><img alt="Single board front" src="shared/combo-board-baseball-crane.png" style="max-width:250"/></td>  
+<td>SBB Single board back surface print image:<br/><img alt="Single board back" src="shared/back-board-baseball-crane.png" style="max-width:250"/></td>
 </tr>
-<td colspan="2"><img alt="Scorecard" src="shared/scorecard-board-baseball-crane.png" style="max-width:600"/></td>
+<td colspan="2">Scorecard print image:<br/><img alt="Scorecard" src="shared/scorecard-board-baseball-crane.png" style="max-width:600"/></td>
 </tr>
 </table>
 

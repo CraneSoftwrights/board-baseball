@@ -5,7 +5,7 @@ Development: [`https://github.com/CraneSoftwrights/board-baseball`](https://gith
 Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrights)  
 Browser pages: [`https://cranesoftwrights.github.io/board-baseball/en/README.md.html`](https://cranesoftwrights.github.io/board-baseball/en/README.md.html)  
 
-*(Skip the introduction and jump to: [Basic Play](#basic-mode-play-), [Extended Play](#extended-mode-play-), [Scoring a game](#scoring-a-game), [Design process](#design-process), or [Physical box and board representations](#physical-box-and-board-representations))*  
+*(Skip the introduction and jump to: [Basic Play](#basic-mode-play-), [Extended Play](#extended-mode-play-), [Scoring a game](#scoring-a-game), [Design process](#design-process), or [Print, board, and box representations](#print--board--and-box-representations))*  
 
 This project develops a board game along the lines of the basic long-played baseball board game, but brought up to date to include new rule changes at MLB. Differing from other board baseball games, this one aims to educate the players on the rules, the notations, and the conventions used when scoring a baseball game, using official abbreviations used by MLB.
 
@@ -45,7 +45,7 @@ Should the score be tied at the end of the extra inning, another extra inning is
 
 ## Basic-mode play <img alt="" src="../shared/z-batting.png" style="height:30px"/>
 
-Use the play board with this marking between the columns: <img alt="" src="../shared/z-batting.png" style="height:30px"/>, available for print in the PNG file: [`basic-board-baseball-crane.png`](../shared/basic-board-baseball-crane.png) (200mm x 248mm at 100% scale; suitable for both A4 and US-letter page sizes)
+Use the play surface with this marking between the columns: <img alt="" src="../shared/z-batting.png" style="height:30px"/>, available for print in the PNG file: [`basic-board-baseball-crane.png`](../shared/basic-board-baseball-crane.png) (200mm x 248mm at 100% scale; suitable for both A4 and US-letter page sizes)
 
 [<img alt="" src="../shared/step-1.png" style="height:30px"/>](../shared/Z-SETUP.md)
 
@@ -75,7 +75,7 @@ Use the play board with this marking between the columns: <img alt="" src="../sh
 
 ## Extended-mode play <img alt="" src="../shared/x-pitching.png" style="height:30px"/>
 
-Use the play board with this marking between the columns: <img alt="" src="../shared/x-pitching.png" style="height:30px"/>, available for print in the PNG file: [`extended-board-baseball-crane.png`](../shared/extended-board-baseball-crane.png) (200mm x 248mm at 100% scale; suitable for both A4 and US-letter page sizes)
+Use the play surface with this marking between the columns: <img alt="" src="../shared/x-pitching.png" style="height:30px"/>, available for print in the PNG file: [`extended-board-baseball-crane.png`](../shared/extended-board-baseball-crane.png) (200mm x 248mm at 100% scale; suitable for both A4 and US-letter page sizes)
 
 [<img alt="" src="../shared/step-1.png" style="height:30px"/>](../shared/X-SETUP.md)
 
@@ -147,8 +147,8 @@ Print to paper any playing surface using these PNG files at 200mm x 248mm at 100
 
 - [Basic-mode play surface ](../shared/basic-board-baseball-crane.png)
 - [Extended-mode play surface ](../shared/extended-board-baseball-crane.png)
-- [Combination dual-mode play surface ](../shared/combo-board-baseball-crane.png)
-- [Backing surface ](../shared/back-board-baseball-crane.png)
+- [SBF Single board front (dual-mode play) surface ](../shared/combo-board-baseball-crane.png)
+- [SBB Single board back surface ](../shared/back-board-baseball-crane.png)
 
 See the [shared directory](../shared) and [shared README](shared.md) for a collection of images used in documentation.
 
