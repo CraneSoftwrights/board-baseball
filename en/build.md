@@ -216,7 +216,7 @@ Using the command line from the base git directory, automatically create the ind
 - in Windows: `build\review2burn.bat`
 - in Shell: `sh build/review2burn.sh`
 
-Open each of the nine collage SVG files (illustrated in [6.1.2 Collage files](#6.1.2-collage-files) and perform the following steps from within the "Layers and Objects" panel:
+Open each of the nine collage SVG files (illustrated in [6.1.2 Collage files](#612-collage-files) and perform the following steps from within the "Layers and Objects" panel:
 
 - press "4" to show the entire set of objects
 - select the "tiling" sublayer and confirm the handles around the white rectangle
@@ -291,10 +291,10 @@ Open every PDF file and:
 
 - perform one final check on the content of the page
 - if necessary, use your PDF tool to rotate the image to the orientation needed for your cutter
-  - in the case of the PDF files stored in git, all single surface PDF files have been rotated according to the indications in [6.1.1 Single surface files](#6.1.1-single-surface-files)
+  - in the case of the PDF files stored in git, all single surface PDF files have been rotated according to the indications in [6.1.1 Single surface files](#611-single-surface-files)
 - save your PDF rotated as needed
 
-At this point the production is complete and the new version can be committed to git and pushed to the server.
+At this point the production of the burn files is complete and the new version can be committed to git and pushed to the server.
 
 The PDF files in the `cuts/pdf/` directory shouldn't need to change:
 
