@@ -107,14 +107,15 @@ Two approaches for assembling the six levels have been practiced by the designer
   - place the bottom level facing down with the alignment bolts with a washer facing up
   - put adhesive on the back of level 5 and position on level 6
   - put adhesive on the front of level 5
-  - place magnets in the appropriate locations with the indicated polarity facing up
+  - place magnets in the horizontal locations only with the indicated polarity facing up
   - position level 4 on level 5
   - put adhesive on the back of level 3 and position on level 4
   - put adhesive on the front of level 3 and position level 2 on level 3
-  - put adhesive on the front of level 2 and position level 1 on level 2
-  - place magnets in the appropriate locations with the indicated polarity facing up
+  - put adhesive on the front of level 2
+  - place magnets in the vertical locations with the indicated polarity
+  - position level 1 on level 2
   - anchor alignment bolts with a washer and the nut
-  - clamp/weigh the assembly for drying/curing
+  - clamp/weigh down the assembly for drying/curing
 - two sessions, the first with five levels not including the backing level:
   - transcribe with a pen on the back of level 5 the polarity of the vertical magnet holes
   - transcribe with a pen on the back of level 5 the opposite polarity of the horizontal magnet holes
