@@ -209,15 +209,16 @@ Open the [`burn/svg/review-board-baseball-crane.svg`](../burn/svg/review-board-b
 - select the top-most "Select this group..." group and use `Path/Object to Path` menu item to convert every object in every layer to a path (this ensures installed-font-independent portability)
   - *(the designers have experienced problems with the conversion being unsuccessful the first time; sometimes a second time helps; before continuing check that the version string has been changed into a path from its original text object)*
 - un-group the top-most group
-- review any of the combined layers that each represent the new output file by un-hiding the top-most layer of the combination
 - save the SVG file before continuing
+- review any of the combined layers that each represent the new output file by un-hiding the top-most layer of the combination
+- close the SVG file without saving the changed status due to the review process
 
 Using the command line from the base git directory, automatically create the individual burn SVG files by running the `review2burn` script:
 
 - in Windows: `build\review2burn.bat`
 - in Shell: `sh build/review2burn.sh`
 
-Open each of the nine collage SVG files (illustrated in [6.1.2 Collage files](#612-collage-files) and perform the following steps from within the "Layers and Objects" panel:
+From the [`burn/svg/`](../burn/svg/) directory open each of the nine collage SVG files (illustrated in [6.1.2 Collage files](#612-collage-files) and perform the following steps from within the "Layers and Objects" panel:
 
 - press "4" to show the entire set of objects
 - select the "tiling" sublayer and confirm the handles around the white rectangle
