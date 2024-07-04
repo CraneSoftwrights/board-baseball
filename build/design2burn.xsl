@@ -90,13 +90,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 <xs:param>
   <para>
-    The path in which to put the script to invoke inkscape
-  </para>
-</xs:param>
-<xsl:param name="script" as="xsd:string" required="yes"/>
-
-<xs:param>
-  <para>
     The suffix to use for the names of the files generated.
   </para>
 </xs:param>
@@ -140,9 +133,6 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <para>Get started</para>
 </xs:template>
 <xsl:template match="/svg" priority="1">
-  <xsl:result-document href="{$script}" method="text">
-    <xsl:call-template name="c:commandLines"/>
-  </xsl:result-document>
   <xsl:for-each select="key('c:assemble','__all__',$c:top)">
     <xsl:variable name="c:thisGroup" select="."/>
     <!--determine (and assume) umique identifier for each-->
@@ -177,38 +167,52 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <!--create the Inkscape actions file for the target layer-->
     <xsl:result-document href="{$path2svg}{$c:id}{$name-suffix}.svg.txt"
                          method="text">
-EditSelectById:<xsl:value-of select="concat($c:id,';ObjectToPath;')"/>
+<xsl:text/>select-by-id:<xsl:value-of 
+                                  select="$c:id"/>;object-to-path;select-clear;
+<xsl:text/>
       <xsl:choose>
         <xsl:when test="$c:directive='=#'"><!--this is a collage-->
+          <xsl:for-each select="$c:tokens[starts-with(.,'#')]">
+<xsl:text/>select-by-id:<xsl:value-of select="replace(.,'^#?(.+?):.*$','$1')"
+                                         />;page-fit-to-selection;select-clear;  
+<xsl:text/>
+          </xsl:for-each>
           <xsl:for-each select="$c:tokens[position()>2 and
                                           not(starts-with(.,'#'))]">
             <xsl:variable name="c:rotation"
-                    select="if( position() mod 2 = 0 ) then '-90' else '90;'"/>
+           select="if( position() mod 2 = 0 ) then 'ccw;' else 'cw;'"/>
             <xsl:variable name="c:horizontal"
-                    select="if( position() mod 2 = 0 )
-                    then 'AlignHoriznotalRight;' else 'AlignHorizontalLeft;'"/>
+           select="if( position() mod 2 = 0 ) then 'object-align:right page;'
+                                              else 'object-align:left page;'"/>
             <xsl:variable name="c:vertical"
-                select="if( position() = ( 1,2 ) ) then 'AlignVerticalTop;'
-                   else if( position() > last()-2 ) then 'AlignVerticalBottom;'
-                   else 'AlignVerticalCenter'"/>
-EditSelectById:<xsl:value-of select="concat(.,';ObjectRotate',$c:rotation,
-                                          $c:vertical,$c:horizontal)"/>
+           select="if( position() = ( 1,2 ) ) then 'object-align:top page;'
+              else if( position() > last()-2 ) then 'object-align:bottom page;'
+              else 'object-align:vcenter page;'"/>
+<xsl:text/>select-by-id:<xsl:value-of select="
+    concat(replace(.,'^#?(.+?):.*$','$1'),
+    ';object-rotate-90-',$c:rotation,$c:vertical,$c:horizontal)"/>select-clear;
+<xsl:text/>
           </xsl:for-each>
         </xsl:when>
         <xsl:when test="$c:directive='=!'"><!--this page is trimmed-->
-EditSelectById:<xsl:value-of select="concat($c:id,';FitCanvasToDrawing;')"/>
+<xsl:text/>page-fit-to-selection;
+<xsl:text/>
         </xsl:when>
         <xsl:otherwise>
-EditSelectById:<xsl:value-of select="concat($c:id,';TransformRotate90;')"/>
+<xsl:text/>select-by-id:<xsl:value-of
+       select="$c:id"/>;object-rotate-90-cw;page-fit-to-selection;select-clear;
+<xsl:text/>
         </xsl:otherwise>
       </xsl:choose>
-
-FileSave
---export-filename:<xsl:value-of
-             select='concat($path2png,$c:id,$name-suffix,".png""")'/>;--export-do
---export-filename:<xsl:value-of
-             select='concat($path2pdf,$c:id,$name-suffix,".pdf""")'/>;--export-do
-FileClose
+<xsl:text/>export-filename:<xsl:value-of
+             select='concat($path2svg,$c:id,$name-suffix,".svg")'/>;export-do;
+<xsl:text/>
+<xsl:text/>export-filename:<xsl:value-of
+             select='concat($path2png,$c:id,$name-suffix,".png")'/>;export-do;
+<xsl:text/>
+<xsl:text/>export-filename:<xsl:value-of
+             select='concat($path2pdf,$c:id,$name-suffix,".pdf")'/>;export-do;
+<xsl:text/>
 
     </xsl:result-document>
   </xsl:for-each>
@@ -218,23 +222,6 @@ FileClose
 echo Remaining files to be processed: <xsl:value-of select="last()-position()+1"/>
 inkscape "<xsl:value-of select='concat($path2svg,$c:id,$name-suffix,".svg""",
         " --actions-file=""",$path2svg,$c:id,$name-suffix,".svg.txt""&#xa;")'/>
-  </xsl:for-each>
-</xsl:template>
-
-<xs:template>
-  <para>
-    Synthesize the command line functions for conversion to PDF assuming that
-    the command is being invoked from the parent directory.
-  </para>
-</xs:template>
-<xsl:template name="c:commandLines">
-  <xsl:for-each select="g">
-    <xsl:value-of select="concat('echo Processing ''burn/svg/',@inkscape:label, 
-                                 $name-suffix,''' Files remaining: ',
-                                 count(following-sibling::g),'&#xa;')"/>
-    <xsl:value-of select="concat('inkscape burn/svg/',@inkscape:label,
-         $name-suffix,'.svg --export-type=pdf --export-filename=burn/pdf/',
-         @inkscape:label,$name-suffix,'.pdf&#xa;')"/>
   </xsl:for-each>
 </xsl:template>
 
@@ -253,12 +240,10 @@ inkscape "<xsl:value-of select='concat($path2svg,$c:id,$name-suffix,".svg""",
   <xsl:variable name="c:refs" 
                 select="tokenize($c:layer/@inkscape:label,'\s+')"/>
   <!--the output layer uses the given name-->
-  <g inkscape:label="{$c:refs[1]}" id="{$c:refs[1]}"
-     style="display:{if(count($c:pastLayers)>0) then 'inline' else 'none'}">
     <xsl:for-each select="reverse($c:refs[contains(.,':')])">
       <xsl:variable name="c:ref"
                     select="replace(.,'^#?(.+?):.*$','$1')"/>
-      <g inkscape:label="{.}">
+      <g inkscape:label="{$c:ref}" id="{$c:ref}">
         <xsl:choose>
           <xsl:when test="some $c:past in $c:pastLayers
                           satisfies $c:past is $c:layer">
@@ -299,7 +284,6 @@ inkscape "<xsl:value-of select='concat($path2svg,$c:id,$name-suffix,".svg""",
         </xsl:choose>
       </g>
     </xsl:for-each>
-  </g>
 </xsl:template>
 
 <xs:template>
