@@ -251,7 +251,7 @@ inkscape "<xsl:value-of select='concat($path2svg,$c:id,$name-suffix,".svg""",
             <!--this is an infinite loop-->
             <xsl:message terminate="yes">
               <xsl:text>An infinite loop detected with:&#xa;</xsl:text>
-              <xsl:for-each select="$c:pastLayers">i
+              <xsl:for-each select="$c:pastLayers">
                 <xsl:value-of select="@inkscape:label,'&#xa;'"/>
               </xsl:for-each>
             </xsl:message>
