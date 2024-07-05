@@ -119,6 +119,12 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 <xsl:key name="c:assemble" use="'__all__',tokenize(@inkscape:label,'\s+')[1]"
          match="/*/g[tokenize(@inkscape:label,'\s+')[starts-with(.,'=')]]"/>
 
+<xs:key>
+  <para>Find all objects based on their label</para>
+</xs:key>
+<xsl:key name="c:objectsByLabel" match="*[@inkscape:label]"
+         use="normalize-space(@inkscape:label)"/>
+
 <xs:template>
   <para>
     Can't get started
@@ -133,6 +139,40 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   <para>Get started</para>
 </xs:template>
 <xsl:template match="/svg" priority="1">
+  <!--integrity check on version strings-->
+  <xsl:variable name="c:printVersionStrings"
+                select="key('c:objectsByLabel','Version')/
+                        replace(.,'[\s-:]','')"/>
+  <xsl:if test="count(distinct-values($c:printVersionStrings))>1">
+    <xsl:message terminate="yes"
+                 select="'Inconsistent version strings:',
+                         distinct-values($c:printVersionStrings)"/>
+  </xsl:if>
+  <!--create reivew SVG file of all layers-->
+  <xsl:result-document href="{$path2svg}review-all-burns{$name-suffix}.svg"
+                       method="xml" indent="no">
+    <xsl:copy>
+      <!--preserve document element-->
+      <xsl:copy-of select="@*"/>
+      <!--preserve everything other than groups-->
+      <xsl:copy-of select="* except g"/>
+      <!--put everything in a group to make conversion easier-->
+      <g inkscape:label="All {count(key('c:assemble','__all__',$c:top))
+                        } burn files with cutting disabled but visible">
+        <xsl:for-each select="key('c:assemble','__all__',$c:top)">
+          <xsl:variable name="c:refs" 
+                        select="tokenize(@inkscape:label,'\s+')"/>
+          <!--the output layer uses the given name-->
+          <g inkscape:label="{$c:refs[1]}" style="display:none">
+            <xsl:call-template name="c:addReferencedLayers">
+              <xsl:with-param name="c:layer" select="."/>
+              <xsl:with-param name="c:review" tunnel="yes" select="true()"/>
+            </xsl:call-template>
+          </g>
+        </xsl:for-each>
+      </g>
+    </xsl:copy>  </xsl:result-document>
+  <!--create individual SVG files for each layer-->
   <xsl:for-each select="key('c:assemble','__all__',$c:top)">
     <xsl:variable name="c:thisGroup" select="."/>
     <!--determine (and assume) umique identifier for each-->
@@ -289,12 +329,23 @@ inkscape "<xsl:value-of select='concat($path2svg,$c:id,$name-suffix,".svg""",
 
 <xs:template>
   <para>
-    Convert magenta lines to .001in.
+    Convert magenta lines to .001in, but only when creating burn, not review
   </para>
+  <xs:param name="c:review">
+    <para>Indication that a review copy is being created</para>
+  </xs:param>
 </xs:template>
 <xsl:template match="@style[contains(.,'stroke:#ff00ff')]">
-  <xsl:attribute name="style"
-           select="replace(.,'stroke-width:[^;]*;?','stroke-width:.001in;')"/>
+  <xsl:param name="c:review" as="xsd:boolean" tunnel="yes" select="false()"/>
+  <xsl:choose>
+    <xsl:when test="$c:review">
+      <xsl:copy/><!--preserve thickness for review purposes-->
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:attribute name="style"
+            select="replace(.,'stroke-width:[^;]*;?','stroke-width:.001in;')"/>
+    </xsl:otherwise>
+  </xsl:choose>  
 </xsl:template>
 
 <xs:template>
