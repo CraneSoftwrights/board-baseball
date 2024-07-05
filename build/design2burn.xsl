@@ -261,7 +261,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <xsl:variable name="c:id" select="tokenize(@inkscape:label,'\s+')[1]"/>
 echo Remaining files to be processed: <xsl:value-of select="last()-position()+1"/>
 inkscape "<xsl:value-of select='concat($path2svg,$c:id,$name-suffix,".svg""",
-        " --batch-process --actions-file=""",
+        " --actions-file=""",(: --batch-process slows things down a lot!:)
         $path2svg,$c:id,$name-suffix,".svg.txt""&#xa;")'/>
   </xsl:for-each>
 </xsl:template>
