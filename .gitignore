@@ -1,6 +1,19 @@
 # Ignore Mac system files
 **/.DS_Store
 
-# Local only to Ken's machine
+# Intermediate files
+burn/svg2svgpdfpng.*
+burn/svg/*
+!burn/svg/README.md
+!burn/svg/README.md.html
 
+# For now keep final files in GitHub, but think about this 
+#burn/png/*
+#!burn/png/README.md
+#!burn/png/README.md.html
+#burn/pdf/*
+#!burn/pdf/README.md
+#!burn/pdf/README.md.html
+
+# Local only to Ken's machine
 ken-notes.txt
