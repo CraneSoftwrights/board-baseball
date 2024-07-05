@@ -221,7 +221,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <xsl:variable name="c:id" select="tokenize(@inkscape:label,'\s+')[1]"/>
 echo Remaining files to be processed: <xsl:value-of select="last()-position()+1"/>
 inkscape "<xsl:value-of select='concat($path2svg,$c:id,$name-suffix,".svg""",
-        " --actions-file=""",$path2svg,$c:id,$name-suffix,".svg.txt""&#xa;")'/>
+        " --batch-process --actions-file=""",
+        $path2svg,$c:id,$name-suffix,".svg.txt""&#xa;")'/>
   </xsl:for-each>
 </xsl:template>
 
@@ -250,7 +251,7 @@ inkscape "<xsl:value-of select='concat($path2svg,$c:id,$name-suffix,".svg""",
             <!--this is an infinite loop-->
             <xsl:message terminate="yes">
               <xsl:text>An infinite loop detected with:&#xa;</xsl:text>
-              <xsl:for-each select="$c:pastLayers">
+              <xsl:for-each select="$c:pastLayers">i
                 <xsl:value-of select="@inkscape:label,'&#xa;'"/>
               </xsl:for-each>
             </xsl:message>
