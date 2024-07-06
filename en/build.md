@@ -214,7 +214,7 @@ The following shared files are updated as part of the make-all process:
 [`shared/scorecard-board-baseball-crane.png`](../shared/scorecard-board-baseball-crane.png)  
 
 
-The end result includes 38 PDF and PNG files listed alphabetically as follows (for PDF):
+The end result includes 39 PDF and PNG files listed alphabetically as follows (for PDF):
 
 [`burn/pdf/13-9x24-collage-board-baseball-crane.pdf`](../burn/pdf/13-9x24-collage-board-baseball-crane.pdf)  
 [`burn/pdf/134625-27x24-collage-board-baseball-crane.pdf`](../burn/pdf/134625-27x24-collage-board-baseball-crane.pdf)  
