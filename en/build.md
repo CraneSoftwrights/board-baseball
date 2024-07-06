@@ -203,7 +203,7 @@ The burn files are updated with every check-in to the repository. The build proc
 - in Windows: `make-all.bat`
 - in Shell: `make-all.sh`
 
-When done, open the [`burn/svg/review-board-baseball-crane.svg`](../burn/svg/review-board-baseball-crane.svg) file and selectively review the various layers to check the work you most recently checked in to the graphic design.
+When done, open the [`burn/svg/review-all-burns-board-baseball-crane.svg`](../burn/svg/review-all-burns-board-baseball-crane.svg) file and selectively review the various layers to check the work you most recently checked in to the graphic design.
 
 The following shared files are updated as part of the make-all process:
 
@@ -254,6 +254,8 @@ The end result includes 38 PDF and PNG files listed alphabetically as follows (f
 [`burn/pdf/SBF-print-basic-board-baseball-crane.pdf`](../burn/pdf/SBF-print-basic-board-baseball-crane.pdf)  
 [`burn/pdf/SBF-print-combo-board-baseball-crane.pdf`](../burn/pdf/SBF-print-combo-board-baseball-crane.pdf)  
 [`burn/pdf/SBF-print-extended-board-baseball-crane.pdf`](../burn/pdf/SBF-print-extended-board-baseball-crane.pdf)  
+[`burn/pdf/scorecard-board-baseball-crane.pdf`](../burn/pdf/scorecard-board-baseball-crane.pdf)  
+[`burn/png/`](../burn/png/*)  
 
 Preview every PDF file and:
 
