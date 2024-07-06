@@ -255,7 +255,7 @@ The end result includes 39 PDF and PNG files listed alphabetically as follows (f
 [`burn/pdf/SBF-print-combo-board-baseball-crane.pdf`](../burn/pdf/SBF-print-combo-board-baseball-crane.pdf)  
 [`burn/pdf/SBF-print-extended-board-baseball-crane.pdf`](../burn/pdf/SBF-print-extended-board-baseball-crane.pdf)  
 [`burn/pdf/scorecard-board-baseball-crane.pdf`](../burn/pdf/scorecard-board-baseball-crane.pdf)  
-[`burn/png/`](../burn/png/*)  
+[`burn/png/*`](../burn/png/)  
 
 Preview every PDF file and:
 
