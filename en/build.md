@@ -194,6 +194,7 @@ A number of convenience cutting files (without any text) are available should yo
 18"x24": [<img alt="" src="../shared/9x12-from-18x24.png" style="height:120px"/>](cut-9x12-from-18x24.pdf), [<img alt="" src="../shared/9x24-from-18x24.png" style="height:120px"/>](cut-9x24-from-18x24.pdf), and [<img alt="" src="../shared/18x12-from-18x24.png" style="height:120px"/>](cut-18x12-from-18x24.pdf)  
 18"x12": [<img alt="" src="../shared/9x12-from-18x12.png" style="height:120px"/>](cut-9x12-from-18x12.pdf)
 9"x24": [<img alt="" src="../shared/9x12-from-9x24.png" style="height:60px"/>](cut-9x12-from-9x24.pdf)
+12"x20": [<img alt="" src="../shared/12x10-from-12x20.png" style="height:80px"/>](cut-12x10-from-12x20.pdf)
 
 ### 6.2 Creating the burn files
 
