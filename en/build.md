@@ -198,12 +198,17 @@ A number of convenience cutting files (without any text) are available should yo
 
 ### 6.2 Creating the burn files
 
-The burn files are updated with every check-in to the repository. The build process can be run locally as well using the command line from the base git directory:
+The burn files are updated with every push to the repository. In order to test work before pushing to the repository, the build process can be run locally using this command line from the base git directory:
 
 - in Windows: `make-all.bat`
-- in Shell: `make-all.sh`
+- in Shell: `bash make-all.sh`
 
-When done, open the [`burn/svg/review-all-burns-board-baseball-crane.svg`](../burn/svg/review-all-burns-board-baseball-crane.svg) file and selectively review the various layers to check the work you most recently checked in to the graphic design.
+Test files can be deleted before checking in changes using:
+
+- in Windows: `build/deleteburn.bat`
+- in Shell: `bash build/deleteburn.sh`
+
+When the files have been created, open the [`burn/svg/review-all-burns-board-baseball-crane.svg`](../burn/svg/review-all-burns-board-baseball-crane.svg) file and selectively review the various layers to check the work you most recently checked in to the graphic design.
 
 The following shared files are updated as part of the make-all process:
 

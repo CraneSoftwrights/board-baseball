@@ -1,0 +1,53 @@
+name: Build artefacts and release on every push
+
+on: 
+  push:
+    branches:
+      - '**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Inkscape
+        run: |
+          sudo add-apt-repository ppa:inkscape.dev/stable
+          sudo apt-get update
+          sudo apt-get install -y inkscape
+          inkscape --version
+          
+      - name: Set up Git
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+
+      - name: Run make-all.sh script
+        run: bash make-all.sh
+
+      - name: Commit changes
+        if: success()
+        run: |
+          git add .
+          git commit -m "Update artifacts from push action"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install GitHub CLI
+        if: success()
+        run: sudo apt-get install -y gh
+
+      - name: Create GitHub Release
+        if: success()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Define the release version using UTC in the format CCMMYYDD-HHMMz
+          RELEASE_VERSION=$(date -u +'%C%y%m%d-%H%Mz')
+          BRANCH_NAME=${GITHUB_REF##*/}
+          # Create the release
+          gh release create "${BRANCH_NAME}-${RELEASE_VERSION}" --title "Release ${BRANCH_NAME}-${RELEASE_VERSION}" --notes "Automated release created by GitHub Actions."

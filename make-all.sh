@@ -2,16 +2,16 @@ DP0=$( cd "$(dirname "$0")" ; pwd -P )
 
 pushd "$DP0" >/dev/null
 
-sh build/deleteburn.sh
+bash build/deleteburn.sh
 errorReturn=$?
 if [ $errorReturn -ne 0 ]; then exit $errorReturn ; fi
 
-sh build/scorecard2burn.sh
+bash build/scorecard2burn.sh
 errorReturn=$?
 if [ $errorReturn -ne 0 ]; then exit $errorReturn ; fi
 
 # The error output is filtered for Inkscape warnings that appear innocuous
-sh build/design2burn.sh 2>&1 | grep -v org.inkscape | grep -v "^\s*$"
+bash build/design2burn.sh 2>&1 | grep -v org.inkscape | grep -v "^\s*$"
 errorReturn=$?
 if [ $errorReturn -ne 0 ]; then exit $errorReturn ; fi
 
