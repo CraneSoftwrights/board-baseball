@@ -38,12 +38,12 @@ jobs:
           echo BRANCH_NAME=${GITHUB_REF##*/}
           mkdir download
           echo >download/crane-baseball-outputs-${BRANCH_NAME}-${RELEASE_VERSION}.txt crane-baseball-outputs-${BRANCH_NAME}-${RELEASE_VERSION}
-          zip -r download/crane-baseball-outputs-${BRANCH_NAME}-${RELEASE_VERSION}.zip download/crane-baseball-outputs-${BRANCH_NAME}-${RELEASE_VERSION}.txt burn/svg burn/pdf cuts/svg cuts/pdf -x 'burn/svg/*.txt'
+          zip -r download/crane-baseball-outputs-${BRANCH_NAME}-${RELEASE_VERSION}.zip download/crane-baseball-outputs-${BRANCH_NAME}-${RELEASE_VERSION}.txt burn/svg burn/pdf cuts/svg cuts/pdf -x 'burn/svg/*.txt' -x '*/README*'
                   
       - name: Upload artefacts for action 
         uses: actions/upload-artifact@v4
         with:
-          name: crane-baseball-outputs-${BRANCH_NAME}-${RELEASE_VERSION}.zip
+          name: crane-baseball-outputs-${{BRANCH_NAME}}-${{RELEASE_VERSION}}
           path: download/*.zip
 
       - name: Commit changes
