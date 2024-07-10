@@ -52,22 +52,6 @@ jobs:
           name: crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}
           path: download/*
 
-#     - name: Create action result ZIP
-#       run: |
-#         echo RELEASE_VERSION=${{ env.RELEASE_VERSION }}
-#         echo BRANCH_NAME=${{ env.BRANCH_NAME }}
-#         mkdir  download
-#         echo  >download/crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}
-#         zip -r download/crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip burn/svg burn/pdf burn/png cuts/svg cuts/pdf -x 'burn/svg/*.txt' -x '*/README*'
-#         cd     download
-#         zip -r          crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt
-#                 
-#     - name: Upload artefacts for action 
-#       uses: actions/upload-artifact@v4
-#       with:
-#         name: crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}
-#         path: download/*.zip
-
       - name: Commit changes
         if: success()
         run: |
