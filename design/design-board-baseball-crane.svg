@@ -25406,12 +25406,11 @@
            transform="matrix(1.0170848,0,0,0.92191984,-53.870465,293.27685)"
            style="stroke-width:1.03271"
            inkscape:label="Horizontal crop marks"><path
-             style="display:inline;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.20419;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
-             d="M 432.84015,454.48648 H 48.377693"
+             style="display:inline;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:2.34916;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+             d="M 406.27796,454.48647 H 186.53377"
              id="path8"
              sodipodi:nodetypes="cc"
-             inkscape:label="HTL"
-             transform="matrix(0.45139814,0,0,0.45139814,26.540093,249.33213)" /><path
+             inkscape:label="HTL" /><path
              style="display:inline;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:5.20418;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
              d="M 5575.6273,454.48646 H 5327.6666"
              id="path9"
