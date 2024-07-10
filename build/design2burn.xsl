@@ -174,9 +174,11 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     </xsl:copy>  </xsl:result-document>
   <!--create individual SVG files for each layer-->
   <xsl:for-each select="key('c:assemble','__all__',$c:top)">
-    <xsl:variable name="c:thisGroup" select="."/>
+    <xsl:variable name="c:thisAssembly" select="."/>
     <!--determine (and assume) umique identifier for each-->
-    <xsl:variable name="c:tokens" select="tokenize(@inkscape:label,'\s+')"/>
+    <xsl:variable name="c:tokens" 
+               select="c:disambiguateTokens(tokenize(@inkscape:label,'\s+'))"/>
+    <!--act on the disambiguated references; initial tokens should be same-->
     <xsl:variable name="c:id" select="$c:tokens[1]"/>
     <xsl:variable name="c:directive" select="$c:tokens[2]"/>
     <!--create the SVG file for the target layer-->
@@ -189,7 +191,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           <!--preserve everything other than groups-->
           <xsl:copy-of select="* except g"/>
           <!--put out the one group only, turning on visibility-->
-          <xsl:for-each select="$c:thisGroup">
+          <xsl:for-each select="$c:thisAssembly">
             <xsl:copy>
               <xsl:copy-of select="@*"/>
               <xsl:attribute name="id" select="$c:id"/>
@@ -278,13 +280,18 @@ inkscape "<xsl:value-of select='concat($path2svg,$c:id,$name-suffix,".svg""",
 <xsl:template name="c:addReferencedLayers">
   <xsl:param name="c:layer" as="element(g)" required="yes"/>
   <xsl:param name="c:pastLayers" as="element(g)*"/>
-  <xsl:variable name="c:refs" 
-                select="tokenize($c:layer/@inkscape:label,'\s+')"/>
+  <xsl:variable name="c:labelTokens" 
+      select="c:disambiguateTokens(tokenize($c:layer/@inkscape:label,'\s+'))"/>
   <!--the output layer uses the given name-->
-    <xsl:for-each select="reverse($c:refs[contains(.,':')])">
-      <xsl:variable name="c:ref"
+    <xsl:for-each select="reverse($c:labelTokens[contains(.,':')])">
+      <!--the entire string before the colon is unique and disambiguated-->
+      <xsl:variable name="c:uniqueRef"
                     select="replace(.,'^#?(.+?):.*$','$1')"/>
-      <g inkscape:label="{$c:ref}" id="{$c:ref}">
+      <!--tease out the authored reference before it was disambiguated-->
+      <xsl:variable name="c:ref"
+                    select="replace(.,'^#?(.+?)(____\d+)?:.*$','$1')"/>
+      <!--label the group uniquely, but populate the group as authored-->
+      <g inkscape:label="{$c:uniqueRef}" id="{$c:uniqueRef}">
         <xsl:choose>
           <xsl:when test="some $c:past in $c:pastLayers
                           satisfies $c:past is $c:layer">
@@ -360,4 +367,28 @@ inkscape "<xsl:value-of select='concat($path2svg,$c:id,$name-suffix,".svg""",
   </xsl:copy>
 </xsl:template>
 
+<xs:function>
+  <para>Disambiguate a string of token values ahead of a colon</para>
+  <xs:param name="c:inputs">
+    <para>The set of tokens to be disambiguated</para>
+  </xs:param>
+</xs:function>
+<xsl:function name="c:disambiguateTokens" as="xsd:string*">
+  <xsl:param name="c:inputs" as="xsd:string*"/>
+  
+  <xsl:for-each select="$c:inputs">
+    <xsl:variable name="c:disambiguatePosition" select="position()"/>
+    <xsl:choose>
+      <xsl:when test=". = $c:inputs[position() &lt; $c:disambiguatePosition]">
+        <!--this is a duplicate, so disambiguate-->
+        <xsl:sequence select="replace(.,':',concat('____',
+                       count($c:inputs[position() &lt; $c:disambiguatePosition]
+                                      [. = current()]) + 1,':'))"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:sequence select="."/>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:for-each>
+</xsl:function>
 </xsl:stylesheet>
