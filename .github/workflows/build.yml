@@ -20,6 +20,12 @@ jobs:
           sudo apt-get install -y inkscape
           inkscape --version
           
+      - name: Set environment variables
+        run: |
+          # Define the release version using UTC in the format CCMMYYDD-HHMMz
+          echo "RELEASE_VERSION=$(date -u +'%C%y%m%d-%H%Mz')" >> $GITHUB_ENV
+          echo "BRANCH_NAME=${GITHUB_REF##*/}" >> $GITHUB_ENV
+                    
       - name: Set up Git
         run: |
           git config --global user.name 'github-actions'
@@ -31,16 +37,13 @@ jobs:
 
       - name: Create action result ZIP
         run: |
-          # Define the release version using UTC in the format CCMMYYDD-HHMMz
-          RELEASE_VERSION=$(date -u +'%C%y%m%d-%H%Mz')
-          BRANCH_NAME=${GITHUB_REF##*/}
-          echo RELEASE_VERSION=${RELEASE_VERSION}
-          echo BRANCH_NAME=${GITHUB_REF##*/}
+          echo RELEASE_VERSION=${{ env.RELEASE_VERSION }}
+          echo BRANCH_NAME=${{ env.BRANCH_NAME }}
           mkdir  download
-          echo  >download/crane-baseball-outputs-${BRANCH_NAME}-${RELEASE_VERSION}.txt crane-baseball-outputs-${BRANCH_NAME}-${RELEASE_VERSION}
-          zip -r download/crane-baseball-outputs-${BRANCH_NAME}-${RELEASE_VERSION}.zip burn/svg burn/pdf cuts/svg cuts/pdf -x 'burn/svg/*.txt' -x '*/README*'
+          echo  >download/crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}
+          zip -r download/crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip burn/svg burn/pdf cuts/svg cuts/pdf -x 'burn/svg/*.txt' -x '*/README*'
           cd     download
-          zip -r          crane-baseball-outputs-${BRANCH_NAME}-${RELEASE_VERSION}.zip crane-baseball-outputs-${BRANCH_NAME}-${RELEASE_VERSION}.txt
+          zip -r          crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt
                   
       - name: Upload artefacts for action 
         uses: actions/upload-artifact@v4
@@ -67,4 +70,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # Create the release
-          gh release create "${BRANCH_NAME}-${RELEASE_VERSION}" --title "Release ${BRANCH_NAME}-${RELEASE_VERSION}" --notes "Automated release created by GitHub Actions."
+          gh release create "${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}" --title "Release ${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}" --notes "Automated release created by GitHub Actions."
