@@ -26,7 +26,22 @@ jobs:
           git config --global user.email 'github-actions@github.com'
 
       - name: Run make-all.sh script
-        run: bash make-all.sh
+        run: |
+          bash make-all.sh
+
+      - name: Create action result ZIP
+        run: |
+          # Define the release version using UTC in the format CCMMYYDD-HHMMz
+          RELEASE_VERSION=$(date -u +'%C%y%m%d-%H%Mz')
+          BRANCH_NAME=${GITHUB_REF##*/}
+          echo >download/crane-baseball-outputs-${BRANCH_NAME}-${RELEASE_TIMESTAMP}.txt crane-baseball-outputs-${BRANCH_NAME}-${RELEASE_TIMESTAMP}
+          zip -r download/crane-baseball-outputs-${BRANCH_NAME}-${RELEASE_TIMESTAMP}.zip download/crane-baseball-outputs-${BRANCH_NAME}-${RELEASE_TIMESTAMP}.txt burn/svg burn/pdf cuts/svg cuts/pdf
+                  
+      - name: Upload artefacts for action 
+        uses: actions/upload-artifact@v4
+        with:
+          name: Packaged artefacts
+          path: download/*.zip
 
       - name: Commit changes
         if: success()
@@ -38,16 +53,13 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Install GitHub CLI
-        if: success()
+        if: success() && ( github.ref == 'refs/heads/develop' || github.ref == 'refs/heads/qa' || github.ref == 'refs/heads/main' )
         run: sudo apt-get install -y gh
 
       - name: Create GitHub Release
-        if: success()
+        if: success() && ( github.ref == 'refs/heads/develop' || github.ref == 'refs/heads/qa' || github.ref == 'refs/heads/main' )
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Define the release version using UTC in the format CCMMYYDD-HHMMz
-          RELEASE_VERSION=$(date -u +'%C%y%m%d-%H%Mz')
-          BRANCH_NAME=${GITHUB_REF##*/}
           # Create the release
           gh release create "${BRANCH_NAME}-${RELEASE_VERSION}" --title "Release ${BRANCH_NAME}-${RELEASE_VERSION}" --notes "Automated release created by GitHub Actions."
