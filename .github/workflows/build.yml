@@ -43,7 +43,7 @@ jobs:
       - name: Upload artefacts for action 
         uses: actions/upload-artifact@v4
         with:
-          name: crane-baseball-outputs-${{BRANCH_NAME}}-${{RELEASE_VERSION}}
+          name: crane-baseball-outputs-${{env.BRANCH_NAME}}-${{env.RELEASE_VERSION}}
           path: download/*.zip
 
       - name: Commit changes
