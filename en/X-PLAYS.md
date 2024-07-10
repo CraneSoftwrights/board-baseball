@@ -17,14 +17,12 @@ Browser pages: [`https://cranesoftwrights.github.io/board-baseball/en/X-PLAYS.md
 
 ## P# - Pop-out
 
-<p><img alt="" src="../shared/p-1-6.png" style="height:120px"/></p>
-
-- the ball is popped up and caught by the infielder indicated by the number on the die 
+- the ball is popped up and caught by the infielder indicated by the number on the die, position 1 through 6
 - the batter is out and the runners do not advance
 
 ## FC/FO - Fielder's choice and force-out
 
-<p><img alt="" src="../shared/fc-fo-1-6.png" style="height:120px"/></p>
+<p><img alt="" src="../shared/fc-fo-1-6.png" style="width:400px"/></p>
 
 - the batter and all runners try to advance one base
 - the ball is fielded by the infielder indicated by the number on the die
@@ -48,7 +46,7 @@ Browser pages: [`https://cranesoftwrights.github.io/board-baseball/en/X-PLAYS.md
 
 ## F# - Fly-out
 
-<p><img alt="" src="../shared/f-1-6.png" style="height:120px"/></p>
+<p><img alt="" src="../shared/f-1-6.png" style="width:400px"/></p>
 
 - the ball is fielded by the outfielder associated with the number on the die
 - the batter is out
@@ -58,7 +56,7 @@ Browser pages: [`https://cranesoftwrights.github.io/board-baseball/en/X-PLAYS.md
 
 ## DP - Double play
 
-<p><img alt="" src="../shared/dp-1-6.png" style="height:120px"/></p>
+<p><img alt="" src="../shared/dp-1-6.png" style="width:400px"/></p>
 
 - if there are less than two base runners, both the batter and the base runner are out
 - if there are two or three base runners:

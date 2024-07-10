@@ -17,6 +17,9 @@ In the shared/ directory are paper resources (A4 or US-letter) to be used with a
 - a [basic game](../shared/basic-board-baseball-crane.png), an [extended game](extended-board-baseball-crane.png), and a [combination game](../shared/combo-board-baseball-crane.png)
   - <a href="../shared/paper-front.jpg"><img alt="" src="../shared/paper-front.jpg" style="height:300px"/></a> <a href="../shared/paper-side.jpg"><img alt="" src="../shared/paper-side.jpg" style="width:300px"/></a> 
 
+*(Skip the introduction and jump to: [1 Terminology](#1-terminology), [2 Board levels and SVG layers](#2-board-levels-and-svg-layers), [3 Materials](#3-materials), [4 Working with the magnets](#4-working-with-the-magnets), [5 Laminating thoughts](#4-laminating-thoughts), [6 Print and burn file creation and use](#6-print-and-burn-file-creation-and-use), [7 Creating a ZIP of the XHTML of the Markdown files](#7-creating-a-zip-of-the-xhtml-of-the-markdown-files), or [8 Assembly](#8-assembly)  
+
+
 ## 1. Terminology
 
 | Legend | Key |
@@ -107,14 +110,15 @@ Two approaches for assembling the six levels have been practiced by the designer
   - place the bottom level facing down with the alignment bolts with a washer facing up
   - put adhesive on the back of level 5 and position on level 6
   - put adhesive on the front of level 5
-  - place magnets in the appropriate locations with the indicated polarity facing up
+  - place magnets in the horizontal locations only with the indicated polarity facing up
   - position level 4 on level 5
   - put adhesive on the back of level 3 and position on level 4
   - put adhesive on the front of level 3 and position level 2 on level 3
-  - put adhesive on the front of level 2 and position level 1 on level 2
-  - place magnets in the appropriate locations with the indicated polarity facing up
+  - put adhesive on the front of level 2
+  - place magnets in the vertical locations with the indicated polarity
+  - position level 1 on level 2
   - anchor alignment bolts with a washer and the nut
-  - clamp/weigh the assembly for drying/curing
+  - clamp/weigh down the assembly for drying/curing
 - two sessions, the first with five levels not including the backing level:
   - transcribe with a pen on the back of level 5 the polarity of the vertical magnet holes
   - transcribe with a pen on the back of level 5 the opposite polarity of the horizontal magnet holes
@@ -142,7 +146,7 @@ When working with both the panel and the compartment lid:
 - position level 1 on level 2
 - clamp/weigh the 3-piece assembly for drying/curing
 
-## 6. Burn files
+## 6. Print and burn file creation and uses
 
 ### 6.1 Summary of files created during this process
 
@@ -188,65 +192,46 @@ Two frame cutting patterns are available in order to make the scaffolding to hol
 
 A number of convenience cutting files (without any text) are available should you wish to carve up pieces of material with simple cuts:
 
-8"x10": [<img alt="" src="../shared/8x10-from-larger.png" style="height:80px"/>](cut-8x10-from-larger.pdf)
-
+8"x10": [<img alt="" src="../shared/8x10-from-larger.png" style="height:80px"/>](cut-8x10-from-larger.pdf), 9"x12": [<img alt="" src="../shared/9x12-from-larger.png" style="height:85px"/>](cut-9x12-from-larger.pdf)  
 18"x24": [<img alt="" src="../shared/9x12-from-18x24.png" style="height:120px"/>](cut-9x12-from-18x24.pdf), [<img alt="" src="../shared/9x24-from-18x24.png" style="height:120px"/>](cut-9x24-from-18x24.pdf), and [<img alt="" src="../shared/18x12-from-18x24.png" style="height:120px"/>](cut-18x12-from-18x24.pdf)  
 18"x12": [<img alt="" src="../shared/9x12-from-18x12.png" style="height:120px"/>](cut-9x12-from-18x12.pdf)
 9"x24": [<img alt="" src="../shared/9x12-from-9x24.png" style="height:60px"/>](cut-9x12-from-9x24.pdf)
+12"x20": [<img alt="" src="../shared/12x10-from-12x20.png" style="height:80px"/>](cut-12x10-from-12x20.pdf)
 
 ### 6.2 Creating the burn files
 
-If the prior version of the burn files haven't been deleted, delete every `.pdf` file in the [`burn/pdf/`](../burn/pdf) directory and every `.svg` file in the [`burn/svg/`](../burn/svg) directory, leaving only the `README.md` file and `README.md.html` files in the directory.
+During development one can test a new design file (remember to update the version string!) locally by creating the assembly SVG and burn PDF files locally using the following from the base git directory:
 
-Using the command line from the base git directory, create the [`burn/svg/review-board-baseball-crane.svg`](../burn/svg/review-board-baseball-crane.svg) file by running the `design2review` script:
+- in Windows: `make-all.bat`
+- in Shell: `bash make-all.sh`
 
-- in Windows: `build\design2review.bat`
-- in Shell: `sh build/design2review.sh`
+When the files have been created from this invocation, open the [`burn/svg/review-all-burns-board-baseball-crane.svg`](../burn/svg/review-all-burns-board-baseball-crane.svg) file and selectively review the various layers to check the work you most recently made to the graphic design.
 
-Open the [`burn/svg/review-board-baseball-crane.svg`](../burn/svg/review-board-baseball-crane.svg) file and perform the following steps from within the "Layers and Objects" panel:
+Before checking in your design changes, test result files can be deleted using:
 
-- select the top-most "Select this group..." group and use `Path/Object to Path` menu item to convert every object in every layer to a path (this ensures installed-font-independent portability)
-  - *(the designers have experienced problems with the conversion being unsuccessful the first time; sometimes a second time helps; before continuing check that the version string has been changed into a path from its original text object)*
-- un-group the top-most group
-- review any of the combined layers that each represent the new output file by un-hiding the top-most layer of the combination
-- save the SVG file before continuing
+- in Windows: `build/deleteburn.bat`
+- in Shell: `bash build/deleteburn.sh`
 
-Using the command line from the base git directory, automatically create the individual burn SVG files by running the `review2burn` script:
+The act of pushing your changes to the repository triggers a rebuild of the assembly and burn files to ensure what is in the repository is derived from the design files in the repository and has not inadvertently changed before check-in.
 
-- in Windows: `build\review2burn.bat`
-- in Shell: `sh build/review2burn.sh`
+Your server-side branch also is updated with the results of the re-build process and these changes should be pulled into your local repository when informed that the push action was successful. 
 
-Open each of the nine collage SVG files (illustrated in [6.1.2 Collage files](#612-collage-files) and perform the following steps from within the "Layers and Objects" panel:
+A copy of the GitHub-generated assembly and burn files from the push action is available as a downloadable ZIP on the actions page [`https://github.com/CraneSoftwrights/board-baseball/actions`](https://github.com/CraneSoftwrights/board-baseball/actions) by clicking on the given workflow run's summary page under the title "Artifacts".
 
-- press "4" to show the entire set of objects
-- select the "tiling" sublayer and confirm the handles around the white rectangle
-- in the "Document Properties" panel select "Resize to content" so that the new page background is only the tiling rectangle
-- back in the "Layers and Objects" panel, for each content sublayer:
-  - use one of the Rotate functions (clockwise or counterclockwise) as appropriate to put the top of each page in the middle of the content area
-    - for examples:
-      - 9"x24": [<img alt="" src="../shared/13-collage.png" style="height:60px"/>](../burn/pdf/13-9x24-board-baseball-crane.pdf)
-      - 18"x24": [<img alt="" src="../shared/1364-collage.png" style="height:120px"/>](../burn/pdf/1364-18x24-board-baseball-crane.pdf)
-      - 27"x24": [<img alt="" src="../shared/134625-collage.png" style="height:180px"/>](../burn/pdf/134625-18x24-board-baseball-crane.pdf)
-  - use the "Align and Distribute" panel to position the rotated layer to the edges or centre of the new page size
-- save the SVG file 
+Note in the case of the PDF files stored in git, all single surface PDF files have been rotated according to the indications in [6.1.1 Single surface files] based on the equipment avaialble to the author. You may need to spin the PDF files as needed in your PDF tool, but any such modified PDF saved to the repository will be overwritten when changes next are pushed.
 
-Open each of the four print SVG files (`SBF-print-*` and `SBB-print-*`) and perform the following steps without selecting any layers or objects:
+### 6.3 Generated print and burn files
 
-- in the "Document Properties" panel select "Resize to content" so that the new page size is only the content seen without the white margins around the content
-- in the "Export" panel, select the "Document" tab and the preview at the bottom should show no margin around the page content
-- export the entire contents to PNG files in the "shared" directory for use in documentation:
-  - `burn/svg/SBF-print-combo-board-baseball-crane.svg` to [`shared/combo-board-baseball-crane.png`](../shared/combo-board-baseball-crane.png)
-  - `burn/svg/SBF-print-basic-board-baseball-crane.svg` to [`shared/basic-board-baseball-crane.png`](../shared/basic-board-baseball-crane.png)
-  - `burn/svg/SBF-print-extended-board-baseball-crane.svg` to [`shared/extended-board-baseball-crane.png`](../shared/extended-board-baseball-crane.png)
-  - `burn/svg/SBB-print-board-baseball-crane.svg` to [`shared/back-board-baseball-crane.png`](../shared/back-board-baseball-crane.png)
-- save the SVG file and then close it
+The following shared files are updated as part of the make-all process:
 
-Using the command line from the base git directory, automatically create the individual burn PDF files by running the `burn2pdf` script:
+[`shared/back-board-baseball-crane.png`](../shared/back-board-baseball-crane.png)  
+[`shared/basic-board-baseball-crane.png`](../shared/basic-board-baseball-crane.png)  
+[`shared/combo-board-baseball-crane.png`](../shared/combo-board-baseball-crane.png)  
+[`shared/extended-board-baseball-crane.png`](../shared/extended-board-baseball-crane.png)  
+[`shared/scorecard-board-baseball-crane.png`](../shared/scorecard-board-baseball-crane.png)  
 
-- in Windows: `burn\burn2pdf.bat`
-- in Shell: `sh burn/burn2pdf.sh 2>/dev/null` *(you may get away without redirecting stderr, but Inkscape burps a lot)*
 
-The end result is 38 PDF files listed alphabetically as follows:
+The end result includes 39 PDF and PNG files listed alphabetically as follows (for PDF):
 
 [`burn/pdf/13-9x24-collage-board-baseball-crane.pdf`](../burn/pdf/13-9x24-collage-board-baseball-crane.pdf)  
 [`burn/pdf/134625-27x24-collage-board-baseball-crane.pdf`](../burn/pdf/134625-27x24-collage-board-baseball-crane.pdf)  
@@ -286,43 +271,23 @@ The end result is 38 PDF files listed alphabetically as follows:
 [`burn/pdf/SBF-print-basic-board-baseball-crane.pdf`](../burn/pdf/SBF-print-basic-board-baseball-crane.pdf)  
 [`burn/pdf/SBF-print-combo-board-baseball-crane.pdf`](../burn/pdf/SBF-print-combo-board-baseball-crane.pdf)  
 [`burn/pdf/SBF-print-extended-board-baseball-crane.pdf`](../burn/pdf/SBF-print-extended-board-baseball-crane.pdf)  
-
-Open every PDF file and:
-
-- perform one final check on the content of the page
-- if necessary, use your PDF tool to rotate the image to the orientation needed for your cutter
-  - in the case of the PDF files stored in git, all single surface PDF files have been rotated according to the indications in [6.1.1 Single surface files](#611-single-surface-files)
-- save your PDF rotated as needed
-
-At this point the production of the burn files is complete and the new version can be committed to git and pushed to the server.
+[`burn/pdf/scorecard-board-baseball-crane.pdf`](../burn/pdf/scorecard-board-baseball-crane.pdf)  
+[`burn/png/*`](../burn/png/)  
 
 The PDF files in the `cuts/pdf/` directory shouldn't need to change:
 
 [`cuts/pdf/frame-8x10-in-9x12.pdf`](../cuts/pdf/frame-8x10-in-9x12.pdf)  
 [`cuts/pdf/frame-220x248-in-9x12.pdf`](../cuts/pdf/frame-220x248-in-9x12.pdf)  
 [`cuts/pdf/cut-8x10-from-larger.pdf`](../cuts/pdf/cut-8x10-from-larger.pdf)  
+[`cuts/pdf/cut-9x12-from-larger.pdf`](../cuts/pdf/cut-9x12-from-larger.pdf)  
 [`cuts/pdf/cut-9x12-from-9x24.pdf`](../cuts/pdf/cut-9x12-from-9x24.pdf)  
 [`cuts/pdf/cut-9x12-from-18x12.pdf`](../cuts/pdf/cut-9x12-from-18x12.pdf)  
 [`cuts/pdf/cut-9x12-from-18x24.pdf`](../cuts/pdf/cut-9x12-from-18x24.pdf)  
 [`cuts/pdf/cut-9x24-from-18x24.pdf`](../cuts/pdf/cut-9x24-from-18x24.pdf)  
 [`cuts/pdf/cut-18x12-from-18x24.pdf`](../cuts/pdf/cut-18x12-from-18x24.pdf)  
+[`cuts/pdf/cut-12x10-from-12x20.pdf`](../cuts/pdf/cut-12x10-from-12x20.pdf)  
 
-## 7. Scorecard production
-
-Open [scorecard SVG file](../../design/scorecard-board-baseball-crane.svg):
-
-1. Make edits as required
-1. Save SVG master with the watermark
-1. Save SVG to a junk location for printing purposes
-1. In the `Layers and Objects` panel, select the scorecard apex item
-1. Use `Path/Object to Path` menu item to convert every object to a path (this ensures installed-font-independent portability)
-1. Confirm that the Version string no longer is a text object but now is a path
-1. Delete the watermark reminding of the conversion step
-1. Save the junk SVG
-1. Export the contents to `../shared/scorecard-board-baseball-crane.png`
-1. Remember to print the PNG file at 100%
-
-## 8. Creating a ZIP of the XHTML of the Markdown files
+## 7. Creating a ZIP of the XHTML of the Markdown files
 
 This shell script (not available as a Windows batch file) has two tool dependencies not included in the git repository that must be on the command path:
 
@@ -332,16 +297,7 @@ This shell script (not available as a Windows batch file) has two tool dependenc
 1. Run: `sh build/documentation.sh` to create `documentation-board-baseball-crane.zip`
 1. Remember to update the web site with the latest
 
-## 9. Creating a git release from QA or Final
-
-1. Set the tag to be `CCYYMMDD-HHMMz-QA` or `CCYYMMDD-HHMMz-Final`
-1. Use the "Generate release notes" button to populate the notes
-1. Attach the four board PNG files to the release as binaries
-1. Attach the documentation ZIP to the release as a binary
-1. Publish the release
-1. Confirm the latest release on the home page
-
-## 10. Assembly
+## 8 Assembly
 
 Our second test build is documented with photographs [here: `../build/test-20230728.md`](../build/test-20230728.md).
 

@@ -1,0 +1,74 @@
+name: Build artefacts and release on every push
+
+on: 
+  push:
+    branches:
+      - '**'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Inkscape
+        run: |
+          sudo add-apt-repository ppa:inkscape.dev/stable
+          sudo apt-get update
+          sudo apt-get install -y inkscape
+          inkscape --version
+          
+      - name: Set environment variables
+        run: |
+          # Define the release version using UTC in the format CCMMYYDD-HHMMz
+          echo "RELEASE_VERSION=$(date -u +'%C%y%m%d-%H%Mz')" >> $GITHUB_ENV
+          echo "BRANCH_NAME=${GITHUB_REF##*/}" >> $GITHUB_ENV
+                    
+      - name: Set up Git
+        run: |
+          git config --global user.name 'github-actions'
+          git config --global user.email 'github-actions@github.com'
+
+      - name: Run make-all.sh script
+        run: |
+          bash make-all.sh
+
+      - name: Create action result ZIP
+        run: |
+          echo RELEASE_VERSION=${{ env.RELEASE_VERSION }}
+          echo BRANCH_NAME=${{ env.BRANCH_NAME }}
+          mkdir  download
+          echo  >download/crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}
+          zip -r download/temp.zip burn/svg burn/pdf burn/png cuts/svg cuts/pdf -x 'burn/svg/*.txt' -x '*/README*'
+          cd     download
+          unzip  temp.zip
+          rm     temp.zip
+                  
+      - name: Upload artefacts for action 
+        uses: actions/upload-artifact@v4
+        with:
+          name: crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}
+          path: download/*
+
+      - name: Commit changes
+        if: success()
+        run: |
+          git add .
+          git commit -m "Update artifacts from push action"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install GitHub CLI
+        if: ${{ success() && (github.ref == 'refs/heads/develop' || github.ref == 'refs/heads/qa' || github.ref == 'refs/heads/main') }}
+        run: sudo apt-get install -y gh
+
+      - name: Create GitHub Release
+        if: ${{ success() && (github.ref == 'refs/heads/develop' || github.ref == 'refs/heads/qa' || github.ref == 'refs/heads/main') }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Create the release
+          gh release create "${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}" --title "Release ${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}" --notes "Automated release created by GitHub Actions."
