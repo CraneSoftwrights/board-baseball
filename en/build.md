@@ -200,7 +200,7 @@ A number of convenience cutting files (without any text) are available should yo
 
 ### 6.2 Creating the burn files
 
-During development one can test the design file locally by creating the assembly SVG and burn PDF files locally using the following from the base git directory:
+During development one can test a new design file (remember to update the version string!) locally by creating the assembly SVG and burn PDF files locally using the following from the base git directory:
 
 - in Windows: `make-all.bat`
 - in Shell: `bash make-all.sh`
