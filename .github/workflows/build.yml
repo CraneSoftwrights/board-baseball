@@ -34,8 +34,11 @@ jobs:
           # Define the release version using UTC in the format CCMMYYDD-HHMMz
           RELEASE_VERSION=$(date -u +'%C%y%m%d-%H%Mz')
           BRANCH_NAME=${GITHUB_REF##*/}
-          echo >download/crane-baseball-outputs-${BRANCH_NAME}-${RELEASE_TIMESTAMP}.txt crane-baseball-outputs-${BRANCH_NAME}-${RELEASE_TIMESTAMP}
-          zip -r download/crane-baseball-outputs-${BRANCH_NAME}-${RELEASE_TIMESTAMP}.zip download/crane-baseball-outputs-${BRANCH_NAME}-${RELEASE_TIMESTAMP}.txt burn/svg burn/pdf cuts/svg cuts/pdf
+          echo RELEASE_VERSION=${RELEASE_VERSION}
+          echo BRANCH_NAME=${GITHUB_REF##*/}
+          mkdir download
+          echo >download/crane-baseball-outputs-${BRANCH_NAME}-${RELEASE_VERSION}.txt crane-baseball-outputs-${BRANCH_NAME}-${RELEASE_TIMESTAMP}
+          zip -r download/crane-baseball-outputs-${BRANCH_NAME}-${RELEASE_VERSION}.zip download/crane-baseball-outputs-${BRANCH_NAME}-${RELEASE_TIMESTAMP}.txt burn/svg burn/pdf cuts/svg cuts/pdf
                   
       - name: Upload artefacts for action 
         uses: actions/upload-artifact@v4
