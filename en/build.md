@@ -17,6 +17,9 @@ In the shared/ directory are paper resources (A4 or US-letter) to be used with a
 - a [basic game](../shared/basic-board-baseball-crane.png), an [extended game](extended-board-baseball-crane.png), and a [combination game](../shared/combo-board-baseball-crane.png)
   - <a href="../shared/paper-front.jpg"><img alt="" src="../shared/paper-front.jpg" style="height:300px"/></a> <a href="../shared/paper-side.jpg"><img alt="" src="../shared/paper-side.jpg" style="width:300px"/></a> 
 
+*(Skip the introduction and jump to: [1 Terminology](#1-terminology), [2 Board levels and SVG layers](#2-board-levels-and-svg-layers), [3 Materials](#3-materials), [4 Working with the magnets](#4-working-with-the-magnets), [5 Laminating thoughts](#4-laminating-thoughts), [6 Print and burn file creation and use](#6-print-and-burn-file-creation-and-use), [7 Creating a ZIP of the XHTML of the Markdown files](#7-creating-a-zip-of-the-xhtml-of-the-markdown-files), or [8 Assembly](#8-assembly)  
+
+
 ## 1. Terminology
 
 | Legend | Key |
@@ -143,7 +146,7 @@ When working with both the panel and the compartment lid:
 - position level 1 on level 2
 - clamp/weigh the 3-piece assembly for drying/curing
 
-## 6. Burn files
+## 6. Print and burn file creation and uses
 
 ### 6.1 Summary of files created during this process
 
@@ -197,17 +200,27 @@ A number of convenience cutting files (without any text) are available should yo
 
 ### 6.2 Creating the burn files
 
-The burn files are updated with every push to the repository. In order to test work before pushing to the repository, the build process can be run locally using this command line from the base git directory:
+During development one can test the design file locally by creating the assembly SVG and burn PDF files locally using the following from the base git directory:
 
 - in Windows: `make-all.bat`
 - in Shell: `bash make-all.sh`
 
-Test files can be deleted before checking in changes using:
+When the files have been created from this invocation, open the [`burn/svg/review-all-burns-board-baseball-crane.svg`](../burn/svg/review-all-burns-board-baseball-crane.svg) file and selectively review the various layers to check the work you most recently made to the graphic design.
+
+Before checking in your design changes, test result files can be deleted using:
 
 - in Windows: `build/deleteburn.bat`
 - in Shell: `bash build/deleteburn.sh`
 
-When the files have been created, open the [`burn/svg/review-all-burns-board-baseball-crane.svg`](../burn/svg/review-all-burns-board-baseball-crane.svg) file and selectively review the various layers to check the work you most recently checked in to the graphic design.
+The act of pushing your changes to the repository triggers a rebuild of the assembly and burn files to ensure what is in the repository is derived from the design files in the repository and has not inadvertently changed before check-in.
+
+Your server-side branch also is updated with the results of the re-build process and these changes should be pulled into your local repository when informed that the push action was successful. 
+
+A copy of the GitHub-generated assembly and burn files from the push action is available as a downloadable ZIP on the actions page [`https://github.com/CraneSoftwrights/board-baseball/actions`](https://github.com/CraneSoftwrights/board-baseball/actions) by clicking on the given workflow run's summary page under the title "Artifacts".
+
+Note in the case of the PDF files stored in git, all single surface PDF files have been rotated according to the indications in [6.1.1 Single surface files] based on the equipment avaialble to the author. You may need to spin the PDF files as needed in your PDF tool, but any such modified PDF saved to the repository will be overwritten when changes next are pushed.
+
+### 6.3 Generated print and burn files
 
 The following shared files are updated as part of the make-all process:
 
@@ -261,20 +274,12 @@ The end result includes 39 PDF and PNG files listed alphabetically as follows (f
 [`burn/pdf/scorecard-board-baseball-crane.pdf`](../burn/pdf/scorecard-board-baseball-crane.pdf)  
 [`burn/png/*`](../burn/png/)  
 
-Preview every PDF file and:
-
-- perform one final check on the content of the page
-- if necessary, use your PDF tool to rotate the image to the orientation needed for your cutter
-  - in the case of the PDF files stored in git, all single surface PDF files have been rotated according to the indications in [6.1.1 Single surface files](#611-single-surface-files)
-- save your PDF rotated as needed
-
-At this point if everything is acceptable, the work is done. Otherwise, check in your changes and the results will be updated.
-
 The PDF files in the `cuts/pdf/` directory shouldn't need to change:
 
 [`cuts/pdf/frame-8x10-in-9x12.pdf`](../cuts/pdf/frame-8x10-in-9x12.pdf)  
 [`cuts/pdf/frame-220x248-in-9x12.pdf`](../cuts/pdf/frame-220x248-in-9x12.pdf)  
 [`cuts/pdf/cut-8x10-from-larger.pdf`](../cuts/pdf/cut-8x10-from-larger.pdf)  
+[`cuts/pdf/cut-9x12-from-larger.pdf`](../cuts/pdf/cut-9x12-from-larger.pdf)  
 [`cuts/pdf/cut-9x12-from-9x24.pdf`](../cuts/pdf/cut-9x12-from-9x24.pdf)  
 [`cuts/pdf/cut-9x12-from-18x12.pdf`](../cuts/pdf/cut-9x12-from-18x12.pdf)  
 [`cuts/pdf/cut-9x12-from-18x24.pdf`](../cuts/pdf/cut-9x12-from-18x24.pdf)  
@@ -282,7 +287,7 @@ The PDF files in the `cuts/pdf/` directory shouldn't need to change:
 [`cuts/pdf/cut-18x12-from-18x24.pdf`](../cuts/pdf/cut-18x12-from-18x24.pdf)  
 [`cuts/pdf/cut-12x10-from-12x20.pdf`](../cuts/pdf/cut-12x10-from-12x20.pdf)  
 
-## 8. Creating a ZIP of the XHTML of the Markdown files
+## 7. Creating a ZIP of the XHTML of the Markdown files
 
 This shell script (not available as a Windows batch file) has two tool dependencies not included in the git repository that must be on the command path:
 
@@ -292,16 +297,7 @@ This shell script (not available as a Windows batch file) has two tool dependenc
 1. Run: `sh build/documentation.sh` to create `documentation-board-baseball-crane.zip`
 1. Remember to update the web site with the latest
 
-## 9. Creating a git release from QA or Final
-
-1. Set the tag to be `CCYYMMDD-HHMMz-QA` or `CCYYMMDD-HHMMz-Final`
-1. Use the "Generate release notes" button to populate the notes
-1. Attach the four board PNG files to the release as binaries
-1. Attach the documentation ZIP to the release as a binary
-1. Publish the release
-1. Confirm the latest release on the home page
-
-## 10. Assembly
+## 8 Assembly
 
 Our second test build is documented with photographs [here: `../build/test-20230728.md`](../build/test-20230728.md).
 
