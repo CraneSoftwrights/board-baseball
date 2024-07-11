@@ -39,27 +39,52 @@ jobs:
         run: |
           echo RELEASE_VERSION=${{ env.RELEASE_VERSION }}
           echo BRANCH_NAME=${{ env.BRANCH_NAME }}
-          mkdir  download
-          echo  >download/crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}
-          zip -r download/temp.zip burn/svg burn/pdf burn/png cuts/svg cuts/pdf -x 'burn/svg/*.txt' -x '*/README*'
-          cd     download
-          unzip  temp.zip
-          rm     temp.zip
+          mkdir   download
+          cp      shared/outputs-readme.txt \
+                  download/crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt
+          echo  >>download/crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}
+          zip -r  download/crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip burn/svg burn/pdf burn/png cuts/svg cuts/pdf -x 'burn/svg/*.txt' -x '*/README*'
+          cd      download
+          zip -r           crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt
+          rm               crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt
+          unzip            crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip
                   
       - name: Upload artefacts for action 
         uses: actions/upload-artifact@v4
         with:
           name: crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}
-          path: download/*
+          path: |
+            download/*
+            !download/crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip
 
       - name: Commit changes
         if: success()
         run: |
           git add .
           git commit -m "Update artifacts from push action"
+          NEW_COMMIT_SHA=$(git rev-parse HEAD)
+          echo "NEW_COMMIT_SHA=$NEW_COMMIT_SHA" >> $GITHUB_ENV
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Wait for push to complete
+        if: success()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NEW_COMMIT_SHA: ${{ env.NEW_COMMIT_SHA }}
+        run: |
+          OWNER=$(echo $GITHUB_REPOSITORY | cut -d'/' -f1)
+          REPO=$(echo $GITHUB_REPOSITORY | cut -d'/' -f2)
+          for i in {2..10}; do
+            sleep $((2**i))
+            if gh api repos/$OWNER/$REPO/commits/$NEW_COMMIT_SHA --silent; then
+              echo "Push completed"
+              break
+            else
+              echo "Push not yet completed. Retrying in $((2**i)) seconds..."
+            fi
+          done
 
       - name: Install GitHub CLI
         if: ${{ success() && (github.ref == 'refs/heads/develop' || github.ref == 'refs/heads/qa' || github.ref == 'refs/heads/main') }}
@@ -72,3 +97,10 @@ jobs:
         run: |
           # Create the release
           gh release create "${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}" --title "Release ${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}" --notes "Automated release created by GitHub Actions."
+
+      - name: Attach artefacts to the release
+        if: ${{ success() && (github.ref == 'refs/heads/develop' || github.ref == 'refs/heads/qa' || github.ref == 'refs/heads/main') }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release upload "${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}" download/crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip
