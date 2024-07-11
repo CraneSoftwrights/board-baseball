@@ -41,16 +41,17 @@ jobs:
           echo BRANCH_NAME=${{ env.BRANCH_NAME }}
           mkdir  download
           echo  >download/crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}
-          zip -r download/temp.zip burn/svg burn/pdf burn/png cuts/svg cuts/pdf -x 'burn/svg/*.txt' -x '*/README*'
+          zip -r download/crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip burn/svg burn/pdf burn/png cuts/svg cuts/pdf -x 'burn/svg/*.txt' -x '*/README*'
           cd     download
-          unzip  temp.zip
-          rm     temp.zip
+          unzip  crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip
                   
       - name: Upload artefacts for action 
         uses: actions/upload-artifact@v4
         with:
           name: crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}
-          path: download/*
+          path: |
+            download/*
+            !download/crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip
 
       - name: Commit changes
         if: success()
@@ -98,4 +99,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release upload "${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}" download/*
+          gh release upload "${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}" download/crane-baseball-outputs-${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip
