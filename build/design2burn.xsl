@@ -210,8 +210,10 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
     <xsl:result-document href="{$path2svg}{$c:id}{$name-suffix}.svg.txt"
                          method="text">
 <xsl:text/>select-by-id:<xsl:value-of 
-                                  select="$c:id"/>;object-to-path;select-clear;
-<xsl:text/>
+                                  select="$c:id"/>
+      <xsl:text>;object-to-path;object-to-path;object-to-path;</xsl:text>
+      <xsl:text>object-to-path;object-to-path;select-clear;
+</xsl:text>
       <xsl:choose>
         <xsl:when test="$c:directive='=#'"><!--this is a collage-->
           <xsl:for-each select="$c:tokens[starts-with(.,'#')]">
