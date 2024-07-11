@@ -71,13 +71,13 @@ jobs:
         run: |
           OWNER=$(echo $GITHUB_REPOSITORY | cut -d'/' -f1)
           REPO=$(echo $GITHUB_REPOSITORY | cut -d'/' -f2)
-          for i in {1..10}; do
+          for i in {2..10}; do
+            sleep $((2**i))
             if gh api repos/$OWNER/$REPO/commits/$NEW_COMMIT_SHA --silent; then
               echo "Push completed"
               break
             else
               echo "Push not yet completed. Retrying in $((2**i)) seconds..."
-              sleep $((2**i))
             fi
           done
 
