@@ -17,8 +17,11 @@ jobs:
         run: |
           set -e
           mkdir -p ~/.fonts
-          wget -qO- https://noto-website-2.storage.googleapis.com/pkgs/NotoSans-hinted.zip | bsdtar -xvf- -C ~/.fonts
-          wget -qO- https://noto-website-2.storage.googleapis.com/pkgs/NotoSerif-hinted.zip | bsdtar -xvf- -C ~/.fonts
+          wget -q https://noto-website-2.storage.googleapis.com/pkgs/NotoSans-hinted.zip -O /tmp/NotoSans-hinted.zip || { echo 'Failed to download Noto Sans'; exit 1; }
+          wget -q https://noto-website-2.storage.googleapis.com/pkgs/NotoSerif-hinted.zip -O /tmp/NotoSerif-hinted.zip || { echo 'Failed to download Noto Serif'; exit 1; }
+          
+          unzip -q /tmp/NotoSans-hinted.zip -d ~/.fonts || { echo 'Failed to unzip Noto Sans'; exit 1; }
+          unzip -q /tmp/NotoSerif-hinted.zip -d ~/.fonts || { echo 'Failed to unzip Noto Serif'; exit 1; }
           fc-cache -f -v
           ls ~/.fonts/Noto*
 
