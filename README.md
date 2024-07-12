@@ -8,13 +8,24 @@ Browser pages: [`https://cranesoftwrights.github.io/board-baseball/README.md.htm
 <a href="shared/paper-front.jpg"><img alt="" src="shared/paper-front.jpg" style="height:120px"/></a> <a href="shared/paper-side.jpg"><img alt="" src="shared/paper-side.jpg" style="width:120px"/></a> <a href="shared/sbf.jpg"><img alt="" src="shared/sbf.jpg" style="height:120px"/></a> <a href="shared/sbb.jpg"><img alt="" src="shared/sbb.jpg" style="height:120px"/></a> <a href="shared/box1.jpg"><img alt="" src="shared/box1.jpg" style="height:120px"/></a> <a href="shared/box2.jpg"><img alt="" src="shared/box2.jpg" style="height:120px"/></a>     <img alt="" src="shared/QR-bitly-cranebb-logo.png" style="height:120px"/>
 
 
-Languages *(see the bottom of this page regarding adding a new language)*:
+Rules, resources, and instructions *(see the bottom of this page regarding adding a new language)*:
 
-- [English](en/README.md#readme) - [README.md](en/README.md)
+- [English rules, resources, and instructions](en/README.md#readme) - [README.md](en/README.md)
 
-<img alt="Single board front" src="shared/combo-board-baseball-crane.png" style="max-width:800"/>  
-<img alt="Single board back" src="shared/back-board-baseball-crane.png" style="max-width:800"/>  
-<img alt="Scorecard" src="shared/scorecard-board-baseball-crane.png" style="max-width:800"/>  
+Print images *(click the image then use the download icon at top right beside the pencil)*:
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">Extended-mode play surface print image:<br/><img alt="Extended board" src="shared/extended-board-baseball-crane.png" style="max-width:250"/></td>
+<td width="50%" valign="top">Basic-mode play surface print image:<br/><img alt="Basic board" src="shared/basic-board-baseball-crane.png" style="max-width:250"/></td>
+</tr>
+<tr>
+<td width="50%" valign="top">SBF Single board front surface print image:<br/><img alt="Single board front" src="shared/combo-board-baseball-crane.png" style="max-width:250"/></td>  
+<td width="50%" valign="top">SBB Single board back surface print image:<br/><img alt="Single board back" src="shared/back-board-baseball-crane.png" style="max-width:250"/></td>
+</tr>
+<td colspan="2">Scorecard print image:<br/><img alt="Scorecard" src="shared/scorecard-board-baseball-crane.png" style="max-width:600"/></td>
+</tr>
+</table>
 
 ## Adding additional language support
 
