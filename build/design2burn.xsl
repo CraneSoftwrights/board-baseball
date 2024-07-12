@@ -163,7 +163,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           <xsl:variable name="c:refs" 
                         select="tokenize(@inkscape:label,'\s+')"/>
           <!--the output layer uses the given name-->
-          <g inkscape:label="{$c:refs[1]}" style="display:none">
+          <g inkscape:label="{$c:refs[1]}" id="{$c:refs[1]}"
+             style="display:none">
             <xsl:call-template name="c:addReferencedLayers">
               <xsl:with-param name="c:layer" select="."/>
               <xsl:with-param name="c:review" tunnel="yes" select="true()"/>
@@ -171,7 +172,8 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
           </g>
         </xsl:for-each>
       </g>
-    </xsl:copy>  </xsl:result-document>
+    </xsl:copy>
+  </xsl:result-document>
   <!--create individual SVG files for each layer-->
   <xsl:for-each select="key('c:assemble','__all__',$c:top)">
     <xsl:variable name="c:thisAssembly" select="."/>
@@ -211,8 +213,7 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
                          method="text">
 <xsl:text/>select-by-id:<xsl:value-of 
                                   select="$c:id"/>
-      <xsl:text>;object-to-path;object-to-path;object-to-path;</xsl:text>
-      <xsl:text>object-to-path;object-to-path;select-clear;
+      <xsl:text>;object-to-path;select-clear;
 </xsl:text>
       <xsl:choose>
         <xsl:when test="$c:directive='=#'"><!--this is a collage-->
