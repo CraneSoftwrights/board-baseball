@@ -13,6 +13,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Install required fonts
+        run: |
+          set -e
+          mkdir -p ~/.fonts
+          wget -qO- https://noto-website-2.storage.googleapis.com/pkgs/NotoSans-hinted.zip | bsdtar -xvf- -C ~/.fonts
+          wget -qO- https://noto-website-2.storage.googleapis.com/pkgs/NotoSerif-hinted.zip | bsdtar -xvf- -C ~/.fonts
+          fc-cache -f -v
+          ls ~/.fonts/Noto*
+
       - name: Install Inkscape
         run: |
           sudo add-apt-repository ppa:inkscape.dev/stable
