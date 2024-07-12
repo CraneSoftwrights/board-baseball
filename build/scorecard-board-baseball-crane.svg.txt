@@ -1,5 +1,5 @@
 select-by-id:reminder;delete;select-clear;
-select-by-id:scorecard;object-to-path;select-clear;
+select-by-id:scorecard;object-to-path;object-to-path;object-to-path;object-to-path;select-clear;
 page-fit-to-selection;
 export-filename:svg/scorecard-board-baseball-crane.svg;export-do;
 export-filename:png/scorecard-board-baseball-crane.png;export-do;
