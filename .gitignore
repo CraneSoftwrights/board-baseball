@@ -7,7 +7,7 @@ burn/svg/*
 !burn/svg/README.md
 !burn/svg/README.md.html
 
-# For now keep final files in GitHub, but think about this 
+# Keep PNG in the repository, ignore PDF and find it in the ZIP
 #burn/png/*
 #!burn/png/README.md
 #!burn/png/README.md.html
