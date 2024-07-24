@@ -143,17 +143,19 @@ See the [design resources](design.md) for information regarding the design files
 
 ## Print, board, and box representations
 
-Print to paper any playing surface using these PNG files at 200mm x 248mm at 100% scale; suitable for both A4 and US-letter page sizes:
+Print to paper any of the playing surface using these PNG files at 200mm x 248mm dimension at 100% scale (which is suitable for both A4 and US-letter page sizes):
 
 - [Basic-mode play surface ](../shared/basic-board-baseball-crane.png)
 - [Extended-mode play surface ](../shared/extended-board-baseball-crane.png)
 - [SBF Single board front (dual-mode play) surface ](../shared/combo-board-baseball-crane.png)
 - [SBB Single board back surface ](../shared/back-board-baseball-crane.png)
 
-See the [shared directory](../shared) and [shared README](shared.md) for a collection of images used in documentation.
+For the PDF burn files for laser cutters, see the [releases page](https://github.com/CraneSoftwrights/board-baseball/releases) for ZIP collections of all of the PDF, PNG, and SVG files created from the design files.
 
-For board and box representations, see the [building instructions](build.md) for how the laser burn image files are created from the design files.
+To build new versions of the board and box representations, see the [building instructions](build.md) for how the laser burn image files in the releases ZIP collections are created from the design files.
 
-See the [burn directory](../burn) and [burn README](burn.md) for a collection of image files for laser engraving/cutting of game board and box layer materials.
+See the [burn directory](../burn) and [burn README](burn.md) for a collection of SVG and PNG image files of game board and box layer materials. In the releases page ZIP collections these repository files are included with the PDF burn files. The PDF burn files are not part of the git repository because unchanged republished PDF files bloat the repository due to immutable PDF metadata differences in every replacement file.
 
 See the [cuts directory](../cuts) and [cuts README](cuts.md) for a collection of image files for laser cutting of raw materials in preparation for engraving and cutting of game boards and box layers.
+
+See the [shared directory](../shared) and [shared README](shared.md) for a collection of images used in documentation.

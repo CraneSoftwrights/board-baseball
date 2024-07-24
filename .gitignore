@@ -11,9 +11,9 @@ burn/svg/*
 #burn/png/*
 #!burn/png/README.md
 #!burn/png/README.md.html
-#burn/pdf/*
-#!burn/pdf/README.md
-#!burn/pdf/README.md.html
+burn/pdf/*
+!burn/pdf/README.md
+!burn/pdf/README.md.html
 
 # Download directory used on server is not checked in
 download/*
