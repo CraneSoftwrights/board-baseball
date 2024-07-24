@@ -73,10 +73,14 @@ jobs:
         if: success()
         run: |
           git add .
-          git commit -m "Update artifacts from push action"
-          NEW_COMMIT_SHA=$(git rev-parse HEAD)
-          echo "NEW_COMMIT_SHA=$NEW_COMMIT_SHA" >> $GITHUB_ENV
-          git push
+          if ! git diff-index --quiet HEAD --; then
+            git commit -m "Update artifacts from push action"
+            NEW_COMMIT_SHA=$(git rev-parse HEAD)
+            echo "NEW_COMMIT_SHA=$NEW_COMMIT_SHA" >> $GITHUB_ENV
+            git push
+          else
+            echo "No changes to commit"
+          fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
