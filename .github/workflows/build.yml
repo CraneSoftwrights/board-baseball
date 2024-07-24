@@ -80,6 +80,7 @@ jobs:
             git push
           else
             echo "No changes to commit"
+            NEW_COMMIT_SHA=""
           fi
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -92,16 +93,20 @@ jobs:
         run: |
           OWNER=$(echo $GITHUB_REPOSITORY | cut -d'/' -f1)
           REPO=$(echo $GITHUB_REPOSITORY | cut -d'/' -f2)
-          for i in {2..10}; do
-            sleep $((2**i))
-            if gh api repos/$OWNER/$REPO/commits/$NEW_COMMIT_SHA --silent; then
-              echo "Push completed"
-              break
-            else
-              echo "Push not yet completed. Retrying in $((2**i)) seconds..."
-            fi
-          done
-
+          if [ -n "$NEW_COMMIT_SHA" ]; then
+            for i in {2..10}; do
+              sleep $((2**i))
+              if gh api repos/$OWNER/$REPO/commits/$NEW_COMMIT_SHA --silent; then
+                echo "Push completed"
+                break
+              else
+                echo "Push not yet completed. Retrying in $((2**i)) seconds..."
+              fi
+            done
+          else
+            echo "No new commit was created. Skipping wait for push."
+          fi
+          
       - name: Install GitHub CLI
         if: ${{ success() && (github.ref == 'refs/heads/develop' || github.ref == 'refs/heads/qa' || github.ref == 'refs/heads/main') }}
         run: sudo apt-get install -y gh
