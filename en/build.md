@@ -11,6 +11,7 @@ In [this `build/` directory](../build) are the resources used to build two versi
   - <a href="../shared/box1.jpg"><img alt="" src="../shared/box1.jpg" style="height:300px"/></a> <a href="../shared/box2.jpg"><img alt="" src="../shared/box2.jpg" style="height:300px"/></a> 
 - a single-board (of any thickness) with information on both sides
   - <a href="../shared/sbf.jpg"><img alt="" src="../shared/sbf.jpg" style="height:300px"/></a> <a href="../shared/sbb.jpg"><img alt="" src="../shared/sbb.jpg" style="height:300px"/></a> 
+- a double-board (of any total thickness) with information on both sides
 
 In the shared/ directory are paper resources (A4 or US-letter) to be used with a foam or styrofoam backing and dress pins:
 
@@ -28,7 +29,7 @@ In the shared/ directory are paper resources (A4 or US-letter) to be used with a
 
 ## 2. Board levels and SVG layers
 
-### 2.1 Six-layer 3D game boards
+### 2.1 Six-layer 3D game board
 
 The design is optimized for six levels of 1/8"=3mm material that are laminated together to create a box 3/4"=19mm tall. Alternatively, one can use 3/16"=5mm material, but of course this would make the box 3/8" taller at 9/8"=29mm. This is mentioned because quality 1/8"=3mm material may be hard to find.
 
@@ -42,11 +43,33 @@ Levels 2 and 5 are special in that they have no visible printed or play content,
 
 The test level is positioned such that it can overlay level 2. After burning the test level, one can burn a second test on the flip side of the same piece of material. Thus, one could do a first test burn, adjust the settings and orient the surface positioning a different level 2 at the home position and do a second test burn with the new parameters. Then level 2 burns can overlay the test burns.
 
-### 2.2 Two-sided single-board 2D game boards
+### 2.2 Two-sided single-board 2D game board
 
-Two of the levels are designed to create single-board game boards, SBF (single board front) and SBB (single board back).
+Two of the levels are designed to create a back-to-back single-board game board, SBF (single board front) and SBB (single board back).
+
+This board is raised from a table surface using rubber feet in the corners so that the pegs can rest in the peg holes, and dice in the dice cradles.
 
 Many of the layers of the 3D game boards are used in the single-board game boards.
+
+When burning these surfaces on a single blank piece of material, follow these steps:
+- anchor the 9x12" blank edges to the burn table (I've used masking tape at the edges)
+- raster the SBF (single board front) as often as you need to etch as deep as you wish
+- vector the SBF once in order to cut out the front board
+- flip the front board so that the untouched back of the board is sitting in the cut-out hole in the anchored frame
+- raster the SBB (single board back) as often as you need to etch as deep as you wish
+
+### 2.3 Two-layer double-board 2D game board
+
+Two of the levels are designed to create a back-to-back double-board game boards, DBF (double board front) and DBB (double board back).
+
+From the front, this board looks the same as the two-sided single-board 2D game board. From the back, there are no peg holes or other cuts.
+
+When burning these surfaces on two (or more) pieces of material, follow these steps:
+- raster the DBF (double board front) as often as you need to etch as deep as you wish
+- vector the DBF once in order to cut out the front board
+- vector (without rastering) as many other DBF boards as needed to accommodate the length of the pegs being used, noting that the cradles for the 7/16" dice may end up being deeper than the dice themselves making them difficult to remove without tipping the board if the pegs are not tight
+- raster the SBB (single board back) as often as you need to etch as deep as you wish
+- vector the SBB to create the alignment holes
 
 ## 3. Materials
 
@@ -163,7 +186,7 @@ These are the files that represent only a single page, not in a collage:
 9"x12" frame: [<img alt="" src="../shared/1-collage.png" style="height:60px"/>](../burn/pdf/pdf/L1-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/2-collage.png" style="height:60px"/>](../burn/pdf/pdf/L2-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/3-collage.png" style="height:60px"/>](../burn/pdf/L3-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/4-collage.png" style="height:60px"/>](../burn/pdf/L4-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/5-collage.png" style="height:60px"/>](../burn/pdf/L5-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/7-collage.png" style="height:60px"/>](../burn/pdf/L7-frame-9x12-board-baseball-crane.pdf), and [<img alt="" src="../shared/T-collage.png" style="height:60px"/>](../burn/pdf/LT-frame-9x12-board-baseball-crane.pdf).  
 
 9"x12" crop: [<img alt="" src="../shared/1-collage.png" style="height:60px"/>](../burn/pdf/L1-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/2-collage.png" style="height:60px"/>](../burn/pdf/L2-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/3-collage.png" style="height:60px"/>](../burn/pdf/L3-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/4-collage.png" style="height:60px"/>](../burn/pdf/L4-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/5-collage.png" style="height:60px"/>](../burn/pdf/L5-crop-9x12-board-baseball-crane.pdf),  
-[<img alt="" src="../shared/6-collage.png" style="height:60px"/>](../burn/pdf/L6-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/7-collage.png" style="height:60px"/>](../burn/pdf/L7-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/B-collage.png" style="height:60px"/>](../burn/pdf/SBB-frame-9x12-board-baseball-crane.pdf), and [<img alt="" src="../shared/F-collage.png" style="height:60px"/>](../burn/pdf/SBF-frame-9x12-board-baseball-crane.pdf).  
+[<img alt="" src="../shared/6-collage.png" style="height:60px"/>](../burn/pdf/L6-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/7-collage.png" style="height:60px"/>](../burn/pdf/L7-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/B-collage.png" style="height:60px"/>](../burn/pdf/DBB-frame-9x12-board-baseball-crane.pdf), and [<img alt="" src="../shared/F-collage.png" style="height:60px"/>](../burn/pdf/DBF-frame-9x12-board-baseball-crane.pdf).  
 
 20mmx248mm cut: [<img alt="" src="../shared/1-collage.png" style="height:60px"/>](../burn/pdf/L1-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/2-collage.png" style="height:60px"/>](../burn/pdf/L2-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/3-collage.png" style="height:60px"/>](../burn/pdf/L3-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/4-collage.png" style="height:60px"/>](../burn/pdf/L4-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/5-collage.png" style="height:60px"/>](../burn/pdf/L5-cut-200x248-board-baseball-crane.pdf),  
 [<img alt="" src="../shared/6-collage.png" style="height:60px"/>](../burn/pdf/L6-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/7-collage.png" style="height:60px"/>](../burn/pdf/L7-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/B-collage.png" style="height:60px"/>](../burn/pdf/SBB-cut-200x248-board-baseball-crane.pdf), and [<img alt="" src="../shared/F-collage.png" style="height:60px"/>](../burn/pdf/SBF-cut-200x248-board-baseball-crane.pdf).  
@@ -266,13 +289,13 @@ The end result includes 39 PDF and PNG files listed alphabetically as follows (f
 [`burn/png/L7-frame-9x12-board-baseball-crane.png`](../burn/png/L7-frame-9x12-board-baseball-crane.png)  
 [`burn/png/LT-frame-9x12-board-baseball-crane.png`](../burn/png/LT-frame-9x12-board-baseball-crane.png)  
 [`burn/png/SBB-cut-200x248-board-baseball-crane.png`](../burn/png/SBB-cut-200x248-board-baseball-crane.png)  
-[`burn/png/SBB-frame-9x12-board-baseball-crane.png`](../burn/png/SBB-frame-9x12-board-baseball-crane.png)  
-[`burn/png/SBB-print-board-baseball-crane.png`](../burn/png/SBB-print-board-baseball-crane.png)  
+[`burn/png/DBB-frame-9x12-board-baseball-crane.png`](../burn/png/DBB-frame-9x12-board-baseball-crane.png)  
+[`burn/png/PBB-print-board-baseball-crane.png`](../burn/png/PBB-print-board-baseball-crane.png)  
 [`burn/png/SBF-cut-200x248-board-baseball-crane.png`](../burn/png/SBF-cut-200x248-board-baseball-crane.png)  
-[`burn/png/SBF-frame-9x12-board-baseball-crane.png`](../burn/png/SBF-frame-9x12-board-baseball-crane.png)  
-[`burn/png/SBF-print-basic-board-baseball-crane.png`](../burn/png/SBF-print-basic-board-baseball-crane.png)  
-[`burn/png/SBF-print-combo-board-baseball-crane.png`](../burn/png/SBF-print-combo-board-baseball-crane.png)  
-[`burn/png/SBF-print-extended-board-baseball-crane.png`](../burn/png/SBF-print-extended-board-baseball-crane.png)  
+[`burn/png/DBF-frame-9x12-board-baseball-crane.png`](../burn/png/DBF-frame-9x12-board-baseball-crane.png)  
+[`burn/png/PBF-print-basic-board-baseball-crane.png`](../burn/png/PBF-print-basic-board-baseball-crane.png)  
+[`burn/png/PBF-print-combo-board-baseball-crane.png`](../burn/png/PBF-print-combo-board-baseball-crane.png)  
+[`burn/png/PBF-print-extended-board-baseball-crane.png`](../burn/png/PBF-print-extended-board-baseball-crane.png)  
 [`burn/png/scorecard-board-baseball-crane.png`](../burn/png/scorecard-board-baseball-crane.png)  
 
 The PDF files in the `cuts/pdf/` directory shouldn't need to change:
