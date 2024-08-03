@@ -5714,7 +5714,7 @@
          inkscape:label="&quot;L7:B2-2&quot;"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan53">L7:B2-2</tspan></text><text
+           id="tspan26">L7:B2-2</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,793.47152,-1529.1284)"
          id="text15739"
@@ -5724,7 +5724,7 @@
          inkscape:label="L7:B1-2"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan56">L7:B1-1</tspan></text><text
+           id="tspan29">L7:B1-1</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,413.10149,-1529.2586)"
          id="text90427"
@@ -5734,7 +5734,7 @@
          inkscape:label="L6:B2-2"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan57">L6:B2-2</tspan></text><text
+           id="tspan30">L6:B2-2</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,307.29974,-1529.2586)"
          id="text90431"
@@ -5744,7 +5744,7 @@
          inkscape:label="L6:B1-2"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan58">L6:B1-2</tspan></text><text
+           id="tspan31">L6:B1-2</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,171.22926,-1526.8714)"
          id="text119051"
@@ -5754,7 +5754,7 @@
          inkscape:label="L5:B4-4"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan59">L5:B4-4</tspan></text><text
+           id="tspan32">L5:B4-4</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-57.137798,-1538.7854)"
          id="text125518"
@@ -5764,7 +5764,7 @@
          inkscape:label="L5:B1-4"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan60">L5:B1-4</tspan></text><text
+           id="tspan33">L5:B1-4</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-617.93588,-1529.6926)"
          id="text125492"
@@ -5774,7 +5774,7 @@
          inkscape:label="L4:B1-3"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan61">L4:B1-3</tspan></text><text
+           id="tspan34">L4:B1-3</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-1054.0727,-1529.519)"
          id="text118791"
@@ -5784,7 +5784,7 @@
          inkscape:label="L3:B5-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan62">L3:B5-5</tspan></text><text
+           id="tspan35">L3:B5-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-1162.1161,-1529.519)"
          id="text119139"
@@ -5794,7 +5794,7 @@
          inkscape:label="L3:B4-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan63">L3:B4-5</tspan></text><text
+           id="tspan36">L3:B4-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-1395.2562,-1529.519)"
          id="text79310"
@@ -5804,7 +5804,7 @@
          inkscape:label="L3:B1-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan64">L3:B1-5</tspan></text><text
+           id="tspan37">L3:B1-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-2009.9955,-1529.519)"
          id="text119075"
@@ -5814,7 +5814,7 @@
          inkscape:label="L2:B5-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan65">L2:B5-5</tspan></text><text
+           id="tspan38">L2:B5-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-2124.7309,-1529.519)"
          id="text118815"
@@ -5824,7 +5824,7 @@
          inkscape:label="L2:B4-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan66">L2:B4-5</tspan></text><text
+           id="tspan39">L2:B4-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-2368.0337,-1529.519)"
          id="text119007"
@@ -5834,7 +5834,7 @@
          inkscape:label="L2:B1-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan67">L2:B1-5</tspan></text><text
+           id="tspan40">L2:B1-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-3013.5442,-1527.8263)"
          id="text118923"
@@ -5844,7 +5844,7 @@
          inkscape:label="L1:B6-6"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan68">L1:B6-6</tspan></text><text
+           id="tspan41">L1:B6-6</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-3118.2482,-1527.8263)"
          id="text118839"
@@ -5854,7 +5854,7 @@
          inkscape:label="L1:B5-6"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan70">L1:B5-6</tspan></text><text
+           id="tspan42">L1:B5-6</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-3227.856,-1525.3255)"
          id="text118747"
@@ -5864,7 +5864,7 @@
          inkscape:label="L1:B4-6"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan71">L1:B4-6</tspan></text><g
+           id="tspan43">L1:B4-6</tspan></text><g
          id="g66471"
          style="display:inline;fill-rule:evenodd;stroke-linecap:round"
          inkscape:label="X and O"
@@ -5893,7 +5893,7 @@
          inkscape:label="L5:B2-4"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan72">L5:B2-4</tspan></text><text
+           id="tspan44">L5:B2-4</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-525.50371,-1532.6868)"
          id="text118571"
@@ -5903,7 +5903,7 @@
          inkscape:label="L4:B2-3"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan73">L4:B2-3</tspan></text><text
+           id="tspan45">L4:B2-3</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-1265.8737,-1529.519)"
          id="text118595"
@@ -5913,7 +5913,7 @@
          inkscape:label="L3:B2-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan75">L3:B2-5</tspan></text><text
+           id="tspan46">L3:B2-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-2259.6056,-1531.8744)"
          id="text118619"
@@ -5923,7 +5923,7 @@
          inkscape:label="L2:B2-5"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan76">L2:B2-5</tspan></text><text
+           id="tspan47">L2:B2-5</tspan></text><text
          xml:space="preserve"
          transform="matrix(0,-6.6666665,6.6666665,0,-3341.115,-1527.8263)"
          id="text118643"
@@ -5933,7 +5933,7 @@
          inkscape:label="L1:B2-6"><tspan
            x="-294.07422"
            y="620.71612"
-           id="tspan78">L1:B2-6</tspan></text></g></g><g
+           id="tspan48">L1:B2-6</tspan></text></g></g><g
      inkscape:groupmode="layer"
      id="layer50"
      inkscape:label="Staged new and old bits"
@@ -8513,127 +8513,127 @@
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="layer7"
-     inkscape:label="L7-cut-200x248 = C200x248:* L7:*"
+     inkscape:label="L7-cut-200x248 =&gt; C200x248:* L7:*"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g162772"
-     inkscape:label="L7-crop-9x12 = BackCut9x12:* L7:*"
+     inkscape:label="L7-crop-9x12 =&gt; BackCut9x12:* L7:*"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g162802"
-     inkscape:label="L7-frame-9x12 = Frame9x12:* L7:*"
+     inkscape:label="L7-frame-9x12 =&gt; Frame9x12:* L7:*"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="layer11"
-     inkscape:label="L6-cut-200x248 = C200x248:* L6:*"
+     inkscape:label="L6-cut-200x248 =&gt; C200x248:* L6:*"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g162695"
-     inkscape:label="L6-crop-9x12 = BackCut9x12:* L6:*"
+     inkscape:label="L6-crop-9x12 =&gt; BackCut9x12:* L6:*"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="layer28"
-     inkscape:label="L5-cut-200x248 = C200x248:* L5:*"
+     inkscape:label="L5-cut-200x248 =&gt; C200x248:* L5:*"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g162291"
-     inkscape:label="L5-crop-9x12 = FrontCut9x12:* L5:* GlueMarks:*"
+     inkscape:label="L5-crop-9x12 =&gt; FrontCut9x12:* L5:* GlueMarks:*"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g162667"
-     inkscape:label="L5-frame-9x12 = Frame9x12:* L5:*"
+     inkscape:label="L5-frame-9x12 =&gt; Frame9x12:* L5:*"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="layer10"
-     inkscape:label="L4-cut-200x248 = C200x248:* L4:*"
+     inkscape:label="L4-cut-200x248 =&gt; C200x248:* L4:*"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g160677"
-     inkscape:label="L4-crop-9x12 = FrontCut9x12:* L4:* GlueMarks:*"
+     inkscape:label="L4-crop-9x12 =&gt; FrontCut9x12:* L4:* GlueMarks:*"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g161913"
-     inkscape:label="L4-frame-9x12 = Frame9x12:* L4:*"
+     inkscape:label="L4-frame-9x12 =&gt; Frame9x12:* L4:*"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="layer9"
-     inkscape:label="L3-cut-200x248 = C200x248:* L3:*"
+     inkscape:label="L3-cut-200x248 =&gt; C200x248:* L3:*"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g158287"
-     inkscape:label="L3-crop-9x12 = FrontCut9x12:* L3:* GlueMarks:*"
+     inkscape:label="L3-crop-9x12 =&gt; FrontCut9x12:* L3:* GlueMarks:*"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g159371"
-     inkscape:label="L3-frame-9x12 = Frame9x12:* L3:*"
+     inkscape:label="L3-frame-9x12 =&gt; Frame9x12:* L3:*"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="layer8"
-     inkscape:label="L2-cut-200x248 = C200x248:* L2:*"
+     inkscape:label="L2-cut-200x248 =&gt; C200x248:* L2:*"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g156791"
-     inkscape:label="L2-crop-9x12 = FrontCut9x12:* L2:* GlueMarks:*"
+     inkscape:label="L2-crop-9x12 =&gt; FrontCut9x12:* L2:* GlueMarks:*"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g157195"
-     inkscape:label="L2-frame-9x12 = Frame9x12:* L2:*"
+     inkscape:label="L2-frame-9x12 =&gt; Frame9x12:* L2:*"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="layer3"
-     inkscape:label="L1-cut-200x248 = C200x248:* L1:*"
+     inkscape:label="L1-cut-200x248 =&gt; C200x248:* L1:*"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g154187"
-     inkscape:label="L1-crop-9x12 = FrontCut9x12:* L1:* CropMarks9x12:*"
+     inkscape:label="L1-crop-9x12 =&gt; FrontCut9x12:* L1:* CropMarks9x12:*"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g156393"
-     inkscape:label="L1-frame-9x12 = Frame9x12:* L1:*"
+     inkscape:label="L1-frame-9x12 =&gt;Frame9x12:* L1:*"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g151871"
-     inkscape:label="LT-frame-9x12 = Test:*"
+     inkscape:label="LT-frame-9x12 =&gt; Test:*"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g130709"
-     inkscape:label="DBB-frame-9x12 = BackCut9x12:* SBB:*"
+     inkscape:label="DBB-frame-9x12 =&gt; BackCut9x12:* SBB:*"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="g128331"
-     inkscape:label="DBF-frame-9x12 = FrontCut9x12:* SBF:* CropMarks9x12:*"
+     inkscape:label="DBF-frame-9x12 =&gt; FrontCut9x12:* SBF:* CropMarks9x12:*"
      style="fill-rule:evenodd;stroke-linecap:round;display:none"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="layer35"
-     inkscape:label="SBB-cut-200x248 = C200x248:* SBB:*"
+     inkscape:label="SBB-cut-200x248 =&gt; C200x248:* SBB:*"
      style="fill-rule:evenodd;stroke-linecap:round;display:none"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
      id="layer34"
-     inkscape:label="SBF-cut-200x248 = C200x248:* SBF:*"
+     inkscape:label="SBF-cut-200x248 =&gt; C200x248:* SBF:*"
      style="display:none;fill-rule:evenodd;stroke-linecap:round"
      sodipodi:insensitive="true" /><g
      inkscape:groupmode="layer"
@@ -9992,7 +9992,7 @@
            inkscape:label="Basic play"><tspan
              x="343.33397"
              y="84.665542"
-             id="tspan79">Basic play</tspan></text><g
+             id="tspan51">Basic play</tspan></text><g
            id="g241376"
            transform="translate(74.313931,594.48598)"><g
              id="g240080"
@@ -10063,7 +10063,7 @@
            inkscape:label="Extended play text"><tspan
              x="320.15535"
              y="84.665542"
-             id="tspan81">Extended play</tspan></text><g
+             id="tspan52">Extended play</tspan></text><g
            id="g241358"
            transform="translate(74.313931,872.43601)"><g
              id="g240902"

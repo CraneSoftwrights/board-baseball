@@ -243,10 +243,39 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 <xsl:text/>page-fit-to-selection;
 <xsl:text/>
         </xsl:when>
-        <xsl:otherwise>
+        <xsl:when test="$c:directive='=>'">
 <xsl:text/>select-by-id:<xsl:value-of
        select="$c:id"/>;object-rotate-90-cw;page-fit-to-selection;select-clear;
 <xsl:text/>
+        </xsl:when>
+        <xsl:when test="$c:directive='=&lt;'">
+<xsl:text/>select-by-id:<xsl:value-of
+       select="$c:id"/>;object-rotate-90-ccw;page-fit-to-selection;select-clear;
+<xsl:text/>
+        </xsl:when>
+        <xsl:when test="$c:directive=('=v','=V')">
+<xsl:text/>select-by-id:<xsl:value-of
+       select="$c:id"/>;object-rotate-90-cw;object-rotate-90-cw;page-fit-to-selection;select-clear;
+<xsl:text/>
+        </xsl:when>
+        <xsl:when test="$c:directive='=|'">
+<xsl:text/>select-by-id:<xsl:value-of
+       select="$c:id"/>;object-flip-horizontal;page-fit-to-selection;select-clear;
+<xsl:text/>
+        </xsl:when>
+        <xsl:when test="$c:directive='=-'">
+<xsl:text/>select-by-id:<xsl:value-of
+       select="$c:id"/>;object-flip-vertical;page-fit-to-selection;select-clear;
+<xsl:text/>
+        </xsl:when>
+        <xsl:when test="$c:directive='='">
+          <!--do nothing with the upright image-->
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:message select="concat('Unexpected assignment directive ''',
+                                      $c:directive,''' in layer ''',
+                                      string(@inkscape:label),'''')"
+                       terminate="yes"/>
         </xsl:otherwise>
       </xsl:choose>
 <xsl:text/>export-filename:<xsl:value-of
