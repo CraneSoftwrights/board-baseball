@@ -9,9 +9,9 @@ In [this `build/` directory](../build) are the resources used to build two versi
 
 - a 3-dimensional box with six layers of 1/8"-3mm material creating a storage compartment, and
   - <a href="../shared/box1.jpg"><img alt="" src="../shared/box1.jpg" style="height:300px"/></a> <a href="../shared/box2.jpg"><img alt="" src="../shared/box2.jpg" style="height:300px"/></a> 
-- a single-board (of any thickness) with information on both sides
+- a single board (of any thickness) with information on both sides
   - <a href="../shared/sbf.jpg"><img alt="" src="../shared/sbf.jpg" style="height:300px"/></a> <a href="../shared/sbb.jpg"><img alt="" src="../shared/sbb.jpg" style="height:300px"/></a> 
-- a double-board (of any total thickness) with information on both sides
+- a double board (of any total thickness) with information on both sides identical to the single board except that the backing has no peg or cradle holes
 
 In the shared/ directory are paper resources (A4 or US-letter) to be used with a foam or styrofoam backing and dress pins:
 
@@ -68,8 +68,8 @@ When burning these surfaces on two (or more) pieces of material, follow these st
 - raster the DBF (double board front) as often as you need to etch as deep as you wish
 - vector the DBF once in order to cut out the front board
 - vector (without rastering) as many other DBF boards as needed to accommodate the length of the pegs being used, noting that the cradles for the 7/16" dice may end up being deeper than the dice themselves making them difficult to remove without tipping the board if the pegs are not tight
-- raster the SBB (single board back) as often as you need to etch as deep as you wish
-- vector the SBB to create the alignment holes
+- raster the DBB (double board back) as often as you need to etch as deep as you wish
+- vector the DBB to create the alignment holes
 
 ## 3. Materials
 
@@ -104,14 +104,17 @@ In addition to the board material being cut and assembled, the following items a
   - 15mm or less diameter rubber feet
     - 4-count
     - e.g. [`https://www.amazon.ca/dp/B07RYCRYY3`](https://www.amazon.ca/dp/B07RYCRYY3) but the screws provided are too long so 3/16"-length screws need to be purchased separately
+- double board version only:
+  - 1/4" bolt, nut, and two wide washers for alignment holes during board gluing
+    - 4-count
 - box version only:
   - 12mm x 3mm earth magnets
     - 18- or 20-count (see laminating steps)
     - e.g. [`https://www.amazon.ca/dp/B09XJ4SS23`](https://www.amazon.ca/dp/B09XJ4SS23) and [`https://www.amazon.ca/dp/B09XVBL8SK`](https://www.amazon.ca/dp/B09XVBL8SK)  
-  - 1/4" bolt, nut, and two wide washers for alignment holes during board gluing
-    - 6-count: two for the board, two for the compartment lid, two for the play panel
   - when using 3/16"=5mm thick material, one needs 12mm outside diameter washers 1/16" thick as filler to bring the 1/8" magnets flush with the surface of the material
     - 8-count
+  - 1/4" bolt, nut, and two wide washers for alignment holes during board gluing
+    - 8-count: four for the board, two for the compartment lid, two for the play panel
 
 ### 3.2 Important safety note
 
