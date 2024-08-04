@@ -345,7 +345,7 @@ inkscape "<xsl:value-of select='concat($path2svg,$c:id,$name-suffix,".svg""",
           </xsl:when>
           <xsl:when test="empty(key('c:build',$c:ref,$c:top))">
             <!--something is amiss-->
-            <xsl:message>
+            <xsl:message terminate="yes">
               <xsl:text>Missing a definition for the reference: </xsl:text>
               <xsl:value-of select="$c:ref"/>
             </xsl:message>
