@@ -29,7 +29,15 @@ In the shared/ directory are paper resources (A4 or US-letter) to be used with a
 
 ## 2. Board levels and SVG layers
 
-### 2.1 Six-layer 3D game board
+### 2.1 Print renditions - PBF and PBB
+
+Various print surfaces are available:
+- the basic play surface
+- the extended play surface
+- a combination surface combining both basic and extended play
+- a back page surface mimicking the board versions
+
+### 2.2 Six-layer 3D game board - L1 through L7
 
 The design is optimized for six levels of 1/8"=3mm material that are laminated together to create a box 3/4"=19mm tall. Alternatively, one can use 3/16"=5mm material, but of course this would make the box 3/8" taller at 9/8"=29mm. This is mentioned because quality 1/8"=3mm material may be hard to find.
 
@@ -43,7 +51,7 @@ Levels 2 and 5 are special in that they have no visible printed or play content,
 
 The test level is positioned such that it can overlay level 2. After burning the test level, one can burn a second test on the flip side of the same piece of material. Thus, one could do a first test burn, adjust the settings and orient the surface positioning a different level 2 at the home position and do a second test burn with the new parameters. Then level 2 burns can overlay the test burns.
 
-### 2.2 Two-sided single-board 2D game board
+### 2.3 Two-sided single-board 2D game board - SBF and SBB
 
 Two of the levels are designed to create a back-to-back single-board game board, SBF (single board front) and SBB (single board back).
 
@@ -58,7 +66,7 @@ When burning these surfaces on a single blank piece of material, follow these st
 - flip the front board so that the untouched back of the board is sitting in the cut-out hole in the anchored frame
 - raster the SBB (single board back) as often as you need to etch as deep as you wish
 
-### 2.3 Two-layer double-board 2D game board
+### 2.4 Two-layer double-board 2D game board - DBF and DBB
 
 Two of the levels are designed to create a back-to-back double-board game boards, DBF (double board front) and DBB (double board back).
 
