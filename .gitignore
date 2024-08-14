@@ -16,7 +16,10 @@ burn/pdf/*
 !burn/pdf/README.md.html
 
 # Download directory used on server is not checked in
-download/*
+download
+
+# Utilities now are fetched dynamically on the server and not included in the repository
+utilities
 
 # Local only to Ken's machine
 ken-notes.txt

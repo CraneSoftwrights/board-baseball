@@ -32,6 +32,28 @@ jobs:
           sudo apt-get install -y inkscape
           inkscape --version
           
+      - name: Create subdirectories
+        run: |
+          mkdir -p utilities/xslstyle
+          mkdir -p utilities/saxon9he
+          mkdir -p utilities/designSVG2burnPDF
+  
+      - name: Fetch xslstyle.xsl from CraneSoftwrights
+        run: |
+          git clone --depth 1 https://github.com/CraneSoftwrights/xslstyle.git temp-repo
+          cp -r temp-repo/* utilities/xslstyle
+          rm -rf temp-repo
+  
+      - name: Fetch designSVG2burnPDF.xsl from CraneSoftwrights
+        run: |
+          git clone --depth 1 https://github.com/CraneSoftwrights/designSVG2burnPDF.git temp-repo
+          cp -r temp-repo/* utilities/designSVG2burnPDF
+          rm -rf temp-repo
+  
+      - name: Fetch saxon9he.jar
+        run: |
+          curl -L -o utilities/saxon9he/saxon9he.jar https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/9.9.1-8/Saxon-HE-9.9.1-8.jar
+        
       - name: Set environment variables
         run: |
           # Define the release version using UTC in the format CCMMYYDD-HHMMz
@@ -53,13 +75,13 @@ jobs:
           echo BRANCH_NAME=${{ env.BRANCH_NAME }}
           mkdir   download
           cp      shared/outputs-readme.txt \
-                  download/crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt
-          echo  >>download/crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}
-          zip -r  download/crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip burn/svg burn/pdf burn/png cuts/svg cuts/pdf -x 'burn/svg/*.txt' -x '*/README*'
-          cd      download
-          zip -r           crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt
-          rm               crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt
-          unzip            crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip
+                  download/README-crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt
+          echo         >>download/crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}
+          zip -r         download/crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip burn/svg burn/pdf burn/png cuts/svg cuts/pdf -x 'burn/svg/*.txt' -x '*/README*'
+          cd             download
+          zip -r                  crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt
+          rm                      crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt
+          unzip                   crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip
                   
       - name: Upload artefacts for action 
         uses: actions/upload-artifact@v4
