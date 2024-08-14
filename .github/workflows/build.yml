@@ -74,13 +74,19 @@ jobs:
           echo RELEASE_VERSION=${{ env.RELEASE_VERSION }}
           echo BRANCH_NAME=${{ env.BRANCH_NAME }}
           mkdir   download
+          # compose README file
           cp      shared/outputs-readme.txt \
                   download/README-crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt
-          echo         >>download/crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}
+          echo  >>download/README-crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}
+          # package up everything except README
           zip -r         download/crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip burn/svg burn/pdf burn/png cuts/svg cuts/pdf -x 'burn/svg/*.txt' -x '*/README*'
+          # add README without the directory prefix
           cd             download
-          zip -r                  crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt
-          rm                      crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt
+          zip -r                  crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip \
+                           README-crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt
+          # remove the README file in order to test the ZIP
+          rm               README-crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt
+          # test the ZIP by unzipping it
           unzip                   crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip
                   
       - name: Upload artefacts for action 
