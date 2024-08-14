@@ -26,5 +26,3 @@ Naming conventions are as follows:
  - L1 through L7 - for burning six layers of material
 
 
-
-/end
