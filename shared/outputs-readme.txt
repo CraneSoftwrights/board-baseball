@@ -35,6 +35,7 @@ Assembly naming conventions are as follows:
                - frame-8x10-in-9x12.pdf    - for acrylic blanks (or isometric)
                - frame-200x248-in-9x12.pdf - for blanks the same shape as
                                              the "-cut-" assemblies
+ - "-print-" - 200mm x 248mm image suitable both for A4 and US-letter page size
  
 Dimension conventions are as follows:
 
