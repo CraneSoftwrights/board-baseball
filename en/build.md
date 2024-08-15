@@ -18,14 +18,44 @@ In the shared/ directory are paper resources (A4 or US-letter) to be used with a
 - a [basic game](../shared/basic-board-baseball-crane.png), an [extended game](extended-board-baseball-crane.png), and a [combination game](../shared/combo-board-baseball-crane.png)
   - <a href="../shared/paper-front.jpg"><img alt="" src="../shared/paper-front.jpg" style="height:300px"/></a> <a href="../shared/paper-side.jpg"><img alt="" src="../shared/paper-side.jpg" style="width:300px"/></a> 
 
-*(Skip the introduction and jump to: [1 Terminology](#1-terminology), [2 Board levels and SVG layers](#2-board-levels-and-svg-layers), [3 Materials](#3-materials), [4 Working with the magnets](#4-working-with-the-magnets), [5 Laminating thoughts](#4-laminating-thoughts), [6 Print and burn file creation and use](#6-print-and-burn-file-creation-and-use), [7 Creating a ZIP of the XHTML of the Markdown files](#7-creating-a-zip-of-the-xhtml-of-the-markdown-files), or [8 Assembly](#8-assembly)  
+### Table of contents
+- [1 Terminology and naming conventions](#1-terminology-and-naming-conventions)
+- [2 Board levels and SVG layers](#2-board-levels-and-svg-layers)
+- [3 Materials](#3-materials)
+- [4 Working with the magnets](#4-working-with-the-magnets)
+- [5 Laminating thoughts](#5-laminating-thoughts)
+- [6 Print and burn file creation and use](#6-print-and-burn-file-creation-and-use)
+- [7 Creating a ZIP of the XHTML of the Markdown files](#7-creating-a-zip-of-the-xhtml-of-the-markdown-files)
+- [8 Assembly](#8-assembly)  
 
 
-## 1. Terminology
+## 1. Terminology and naming conventions
 
 | Legend | Key |
 | ---- | ---- |  
 | **A** = alignment hole<br/><br/>**B** = panel trench<br/><br/>**C** = panel<br/><br/>**D** = panel cradle<br/><br/>**E** = compartment<br/><br/>**F** = compartment lid<br/><br/>**G** = main board | <img alt="" src="../shared/terminology.png" style="height:300px"/> |  
+
+Surface naming conventions are as follows:
+
+ - PBF and PBB - print board front and back for printing on paper
+ - SBF and SBB - single board front and back for burning one layer of material
+ - DBF and DBB - double board front and back for burning two layers of material
+ - L1 through L7 - for burning six layers of material
+
+Assembly naming conventions are as follows:
+
+ - "-crop-"  - after full-size boards are joined they must be cropped to size
+ - "-cut-"   - the laser cutter cuts the boards to size before they are joined
+ - "-frame-" - no edge cutting is done, the raw materials are burned as they sit in a frame that contains them centred in 9"x12"
+   - in the burn/cuts directory are two available frames:
+     - frame-8x10-in-9x12.pdf    - for acrylic blanks (or isometric)
+     - frame-200x248-in-9x12.pdf - for blanks the same shape as the "-cut-" assemblies
+ 
+Dimension conventions are as follows:
+
+ - 8x10 - inches
+ - 9x12 - inches
+ - 200x248 - millimetres
 
 ## 2. Board levels and SVG layers
 
@@ -88,15 +118,16 @@ In addition to the board material being cut and assembled, the following items a
 - levels of burn and cut material
   - 1-count only for the single board version
   - 6-count in total for the box, possibly combined in larger dimensions of material
-  - 9"x12" is assumed for every burn, accommodating 8"x10" and 200mmx248mm centred in 9"x12" frames
-  - choice of dimensions and assuming thickness of 1/8"=3mm (alternatively 3/8"=5mm):
+    - assuming thickness of 1/8"=3mm (alternatively 3/8"=5mm)
+  - 9"x12" (or larger) is assumed for every burn, accommodating 8"x10" and 200mmx248mm centred in 9"x12" frames
+  - choice of dimensions:
     - 9"x12" rectangles (burn includes alignment holes and crop marks)
-    - 8"x10" rectangles (no alignment holes or crop marks)
+    - 8"x10" rectangles (no alignment holes or crop marks; useful for acrylic blanks)
     - "content" 200x248mm with rounded corners (no alignment holes or crop marks)
   - the equipment available to the designers works with either 9"x24", 18"x24", or 27"x24" pieces of material, thus governing the sizes below
     - using Inkscape one could build any arbitrary combination of  
   - the masters below accommodate your use of either 9"x12", 9"x24", 18"x24", or 27"x24" material dimensions
-  - the play area is 200x248mm which fits both on A4 and US-letter paper page sizes and 8"x10" blanks
+  - the play area is 200x248mm which fits both on A4 and US-letter paper page sizes and 8"x10" acrylic blanks
   - when working with acrylic, the local shop prohibits polycarbonates and permits polymethyl methacrylate (PMMA) 
 - 12mm D6 dice
   - basic play - 2-count
@@ -197,7 +228,7 @@ These are the files that represent only a single page, not in a collage:
 9"x12" frame: [<img alt="" src="../shared/1-collage.png" style="height:60px"/>](../burn/pdf/pdf/L1-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/2-collage.png" style="height:60px"/>](../burn/pdf/pdf/L2-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/3-collage.png" style="height:60px"/>](../burn/pdf/L3-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/4-collage.png" style="height:60px"/>](../burn/pdf/L4-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/5-collage.png" style="height:60px"/>](../burn/pdf/L5-frame-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/7-collage.png" style="height:60px"/>](../burn/pdf/L7-frame-9x12-board-baseball-crane.pdf), and [<img alt="" src="../shared/T-collage.png" style="height:60px"/>](../burn/pdf/LT-frame-9x12-board-baseball-crane.pdf).  
 
 9"x12" crop: [<img alt="" src="../shared/1-collage.png" style="height:60px"/>](../burn/pdf/L1-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/2-collage.png" style="height:60px"/>](../burn/pdf/L2-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/3-collage.png" style="height:60px"/>](../burn/pdf/L3-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/4-collage.png" style="height:60px"/>](../burn/pdf/L4-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/5-collage.png" style="height:60px"/>](../burn/pdf/L5-crop-9x12-board-baseball-crane.pdf),  
-[<img alt="" src="../shared/6-collage.png" style="height:60px"/>](../burn/pdf/L6-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/7-collage.png" style="height:60px"/>](../burn/pdf/L7-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/B-collage.png" style="height:60px"/>](../burn/pdf/DBB-frame-9x12-board-baseball-crane.pdf), and [<img alt="" src="../shared/F-collage.png" style="height:60px"/>](../burn/pdf/DBF-frame-9x12-board-baseball-crane.pdf).  
+[<img alt="" src="../shared/6-collage.png" style="height:60px"/>](../burn/pdf/L6-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/7-collage.png" style="height:60px"/>](../burn/pdf/L7-crop-9x12-board-baseball-crane.pdf), [<img alt="" src="../shared/B-collage.png" style="height:60px"/>](../burn/pdf/DBB-crop-9x12-board-baseball-crane.pdf), and [<img alt="" src="../shared/F-collage.png" style="height:60px"/>](../burn/pdf/DBF-crop-9x12-board-baseball-crane.pdf).  
 
 20mmx248mm cut: [<img alt="" src="../shared/1-collage.png" style="height:60px"/>](../burn/pdf/L1-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/2-collage.png" style="height:60px"/>](../burn/pdf/L2-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/3-collage.png" style="height:60px"/>](../burn/pdf/L3-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/4-collage.png" style="height:60px"/>](../burn/pdf/L4-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/5-collage.png" style="height:60px"/>](../burn/pdf/L5-cut-200x248-board-baseball-crane.pdf),  
 [<img alt="" src="../shared/6-collage.png" style="height:60px"/>](../burn/pdf/L6-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/7-collage.png" style="height:60px"/>](../burn/pdf/L7-cut-200x248-board-baseball-crane.pdf), [<img alt="" src="../shared/B-collage.png" style="height:60px"/>](../burn/pdf/SBB-cut-200x248-board-baseball-crane.pdf), and [<img alt="" src="../shared/F-collage.png" style="height:60px"/>](../burn/pdf/SBF-cut-200x248-board-baseball-crane.pdf).  
@@ -300,10 +331,10 @@ The end result includes 39 PDF and PNG files listed alphabetically as follows (f
 [`burn/png/L7-frame-9x12-board-baseball-crane.png`](../burn/png/L7-frame-9x12-board-baseball-crane.png)  
 [`burn/png/LT-frame-9x12-board-baseball-crane.png`](../burn/png/LT-frame-9x12-board-baseball-crane.png)  
 [`burn/png/SBB-cut-200x248-board-baseball-crane.png`](../burn/png/SBB-cut-200x248-board-baseball-crane.png)  
-[`burn/png/DBB-frame-9x12-board-baseball-crane.png`](../burn/png/DBB-frame-9x12-board-baseball-crane.png)  
+[`burn/png/DBB-crop-9x12-board-baseball-crane.png`](../burn/png/DBB-crop-9x12-board-baseball-crane.png)  
 [`burn/png/PBB-print-board-baseball-crane.png`](../burn/png/PBB-print-board-baseball-crane.png)  
 [`burn/png/SBF-cut-200x248-board-baseball-crane.png`](../burn/png/SBF-cut-200x248-board-baseball-crane.png)  
-[`burn/png/DBF-frame-9x12-board-baseball-crane.png`](../burn/png/DBF-frame-9x12-board-baseball-crane.png)  
+[`burn/png/DBF-crop-9x12-board-baseball-crane.png`](../burn/png/DBF-crop-9x12-board-baseball-crane.png)  
 [`burn/png/PBF-print-basic-board-baseball-crane.png`](../burn/png/PBF-print-basic-board-baseball-crane.png)  
 [`burn/png/PBF-print-combo-board-baseball-crane.png`](../burn/png/PBF-print-combo-board-baseball-crane.png)  
 [`burn/png/PBF-print-extended-board-baseball-crane.png`](../burn/png/PBF-print-extended-board-baseball-crane.png)  

@@ -18,11 +18,28 @@ in Inkscape to review the individual layers:
 
   burn/svg/review-all-burns-board-baseball-crane.svg 
 
-Naming conventions are as follows:
+Surface naming conventions are as follows:
 
  - PBF and PBB - print board front and back for printing on paper
  - SBF and SBB - single board front and back for burning one layer of material
  - DBF and DBB - double board front and back for burning two layers of material
  - L1 through L7 - for burning six layers of material
+
+Assembly naming conventions are as follows:
+
+ - "-crop-"  - after full-size boards are joined they must be cropped to size
+ - "-cut-"   - the laser cutter cuts the boards to size before they are joined
+ - "-frame-" - no edge cutting is done, the raw materials are burned as they
+               sit in a frame that contains them centred in 9"x12"
+             - in the burn/cuts directory are two available frames:
+               - frame-8x10-in-9x12.pdf    - for acrylic blanks (or isometric)
+               - frame-200x248-in-9x12.pdf - for blanks the same shape as
+                                             the "-cut-" assemblies
+ 
+Dimension conventions are as follows:
+
+ - 8x10 - inches
+ - 9x12 - inches
+ - 200x248 - millimetres
 
 

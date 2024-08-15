@@ -5,7 +5,15 @@ Development: [`https://github.com/CraneSoftwrights/board-baseball`](https://gith
 Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrights)  
 Browser pages: [`https://cranesoftwrights.github.io/board-baseball/en/README.md.html`](https://cranesoftwrights.github.io/board-baseball/en/README.md.html)  
 
-*(Skip the introduction and jump to: [Basic Play](#basic-mode-play-), [Extended Play](#extended-mode-play-), [Scoring a game](#scoring-a-game), [Design process](#design-process), or [Print, board, and box representations](#print--board--and-box-representations))*  
+### Table of contents
+- [Introduction](#introduction)
+- [Basic Play](#basic-mode-play-)
+- [Extended Play](#extended-mode-play-)
+- [Scoring a game](#scoring-a-game)
+- [Design process](#design-process)
+- [Print, board, and box representations](#print--board--and-box-representations))*  
+
+## Introduction
 
 This project develops a board game along the lines of the basic long-played baseball board game, but brought up to date to include new rule changes at MLB. Differing from other board baseball games, this one aims to educate the players on the rules, the notations, and the conventions used when scoring a baseball game, using official abbreviations used by MLB.
 
@@ -150,7 +158,10 @@ Print to paper any of the playing surface using these PNG files at 200mm x 248mm
 - [SBF Single board front (dual-mode play) surface ](../shared/combo-board-baseball-crane.png)
 - [SBB Single board back surface ](../shared/back-board-baseball-crane.png)
 
-For the PDF burn files for laser cutters, see the [releases page](https://github.com/CraneSoftwrights/board-baseball/releases) for ZIP collections of all of the PDF, PNG, and SVG files created from the design files.
+For the PDF burn files for laser cutters, see the [releases page](https://github.com/CraneSoftwrights/board-baseball/releases) for ZIP collections of all of the PDF, PNG, and SVG files created from the design files:
+- DBF Double board front layer
+- DBB Double board back layer
+- L1 through L7 Multiple board layers
 
 To build new versions of the board and box representations, see the [building instructions](build.md) for how the laser burn image files in the releases ZIP collections are created from the design files.
 
