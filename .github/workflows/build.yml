@@ -79,7 +79,7 @@ jobs:
                   download/README-crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt
           echo  >>download/README-crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}
           # package up everything except README
-          zip -r         download/crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip burn/svg burn/pdf burn/png cuts/svg cuts/pdf -x 'burn/svg/*.txt' -x '*/README*'
+          zip -r         download/crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip burn/svg burn/pdf burn/png cuts/svg cuts/pdf -x 'burn/svg/*.txt'
           # add README without the directory prefix
           cd             download
           zip -r                  crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip \
