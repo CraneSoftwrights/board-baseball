@@ -62,6 +62,9 @@ jobs:
                     
       - name: Set up Git
         run: |
+          # ensure GitHub/Repository/Settings/Actions/General/ActionsPermissions is allow all actions
+          # ensure GitHub/Repository/Settings/Actions/General/WorkflowPermissions is read/write
+          # 
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
 
