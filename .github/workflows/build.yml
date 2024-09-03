@@ -36,7 +36,7 @@ jobs:
         run: |
           mkdir -p utilities/xslstyle
           mkdir -p utilities/saxon9he
-          mkdir -p utilities/designSVG2burnPDF
+          mkdir -p utilities/designSVG2burnFiles
   
       - name: Fetch xslstyle.xsl from CraneSoftwrights
         run: |
@@ -44,10 +44,10 @@ jobs:
           cp -r temp-repo/* utilities/xslstyle
           rm -rf temp-repo
   
-      - name: Fetch designSVG2burnPDF.xsl from CraneSoftwrights
+      - name: Fetch designSVG2burnFiles.xsl from CraneSoftwrights
         run: |
-          git clone --depth 1 https://github.com/CraneSoftwrights/designSVG2burnPDF.git temp-repo
-          cp -r temp-repo/* utilities/designSVG2burnPDF
+          git clone --depth 1 https://github.com/CraneSoftwrights/designSVG2burnFiles.git temp-repo
+          cp -r temp-repo/* utilities/designSVG2burnFiles
           rm -rf temp-repo
   
       - name: Fetch saxon9he.jar
