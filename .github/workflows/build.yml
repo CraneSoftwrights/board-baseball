@@ -56,8 +56,8 @@ jobs:
         
       - name: Set environment variables
         run: |
-          # Define the release version using UTC in the format CCMMYYDD-HHMMz
-          echo "RELEASE_VERSION=$(date -u +'%C%y%m%d-%H%Mz')" >> $GITHUB_ENV
+          # Define the release version using UTC in the format CCMMYYDD-HHMMZ
+          echo "RELEASE_VERSION=$(date -u +'%C%y%m%d-%H%MZ')" >> $GITHUB_ENV
           echo "BRANCH_NAME=${GITHUB_REF##*/}" >> $GITHUB_ENV
                     
       - name: Set up Git
@@ -70,7 +70,11 @@ jobs:
 
       - name: Run make-all.sh script
         run: |
+          echo > make-all.log.txt
           bash make-all.sh
+          echo >> make-all.log.txt
+          echo Branch:  $BRANCH_NAME >> make-all.log.txt
+          echo Release: $RELEASE_VERSION >> make-all.log.txt
 
       - name: Create action result ZIP
         run: |
