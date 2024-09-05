@@ -83,26 +83,26 @@ jobs:
           mkdir   download
           # compose README file
           cp      shared/outputs-readme.txt \
-                  download/README-crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt
-          echo  >>download/README-crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}
+                  download/README-crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}.txt
+          echo  >>download/README-crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}.txt crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}
           # package up everything except README
-          zip -r         download/crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip burn/svg burn/pdf burn/png cuts/svg cuts/pdf -x 'burn/svg/*.svg.txt'
+          zip -r         download/crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}.zip burn/svg burn/pdf burn/png cuts/svg cuts/pdf -x 'burn/svg/*.svg.txt'
           # add README without the directory prefix
           cd             download
-          zip -r                  crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip \
-                           README-crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt
+          zip -r                  crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}.zip \
+                           README-crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}.txt
           # remove the README file in order to test the ZIP
-          rm               README-crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.txt
+          rm               README-crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}.txt
           # test the ZIP by unzipping it
-          unzip                   crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip
+          unzip                   crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}.zip
                   
       - name: Upload artefacts for action 
         uses: actions/upload-artifact@v4
         with:
-          name: crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}
+          name: crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}
           path: |
             download/*
-            !download/crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip
+            !download/crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}.zip
 
       - name: Commit changes
         if: success()
@@ -152,11 +152,11 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # Create the release
-          gh release create "${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}" --title "Release ${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}" --notes "Automated release created by GitHub Actions."
+          gh release create "${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}" --title "Release ${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}" --notes "Automated release created by GitHub Actions."
 
       - name: Attach artefacts to the release
         if: ${{ success() && (github.ref == 'refs/heads/develop' || github.ref == 'refs/heads/qa' || github.ref == 'refs/heads/main') }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release upload "${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}" download/crane-baseball-pdf-png-svg--${{ env.BRANCH_NAME }}-${{ env.RELEASE_VERSION }}.zip
+          gh release upload "${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}" download/crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}.zip
