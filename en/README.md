@@ -139,7 +139,7 @@ Use the play surface with this marking between the columns: <img alt="" src="../
 
 ## Scoring a game
 
-Print [Crane's scorecard](../shared/scorecard-board-baseball-crane.pdf) to use to track the plays of a game.
+Print [Crane's scorecard](../shared/scorecard-board-baseball-crane.png) to use to track the plays of a game.
 
 See [the abbreviations summary](abbreviations.md) for a list of abbreviations used in scoring and in the plays described above.
 
