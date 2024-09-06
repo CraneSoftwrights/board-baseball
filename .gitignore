@@ -1,6 +1,8 @@
 # Ignore Mac system files
 **/.DS_Store
 
+make-all.log.txt
+
 # Intermediate files
 burn/svg2svgpdfpng.*
 burn/svg/*

@@ -81,6 +81,7 @@ jobs:
           echo RELEASE_VERSION=${{ env.RELEASE_VERSION }}
           echo BRANCH_NAME=${{ env.BRANCH_NAME }}
           mkdir   download
+          cp make-all.log.txt download
           # compose README file
           cp      shared/outputs-readme.txt \
                   download/README-crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}.txt
@@ -103,6 +104,13 @@ jobs:
           path: |
             download/*
             !download/crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}.zip
+
+      - name: Upload artefacts for action - log file
+        uses: actions/upload-artifact@v4
+        with:
+          name: make-all.log.txt
+          path: |
+            make-all.log.txt
 
       - name: Commit changes
         if: success()
@@ -159,4 +167,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          gh release upload "${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}" download/crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}.zip
+          gh release upload "${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}" download/crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}.zip make-all.log.txt
