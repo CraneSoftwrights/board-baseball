@@ -1,1 +1,0 @@
-- for pre-cut materials centred on 9"x12", no outside cut, no alignment
