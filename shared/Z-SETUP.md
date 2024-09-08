@@ -1,4 +1,4 @@
-Copyright © Crane Softwrights Ltd.
+Copyright © Crane Softwrights Ltd. ([copyright details](../COPYRIGHT.md)])
 [https://GitHub.com/CraneSoftwrights/board-baseball](https://GitHub.com/CraneSoftwrights/board-baseball)  
 [https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/shared/Z-SETUP.md](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/shared/Z-SETUP.md)  
 [https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/shared/Z-SETUP.html](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/shared/Z-SETUP.html)  
