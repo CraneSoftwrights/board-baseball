@@ -1,1 +1,0 @@
-- manual outside cut of 9"x12" with alignment holes
