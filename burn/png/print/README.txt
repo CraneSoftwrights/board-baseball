@@ -1,1 +1,0 @@
-- renditions for paper use
