@@ -1,4 +1,4 @@
-Copyright © Crane Softwrights Ltd. ([copyright details](../COPYRIGHT.md))  
+Copyright © Crane Softwrights Ltd. ([copyright details](../LICENSE))  
 [https://GitHub.com/CraneSoftwrights/board-baseball](https://GitHub.com/CraneSoftwrights/board-baseball)  
 [https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/shared/X-PLAYS.md](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/shared/X-SETUP.md)  
 [https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/shared/X-PLAYS.html](https://GitHub.com/CraneSoftwrights/board-baseball/blob/main/shared/X-SETUP.html)  

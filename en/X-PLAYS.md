@@ -1,6 +1,6 @@
 # Extended play summary <img alt="" src="../shared/x-pitching.png" style="height:35px"/>
 
-Copyright © Crane Softwrights Ltd. ([copyright details](../COPYRIGHT.md))  
+Copyright © Crane Softwrights Ltd. ([copyright details](../LICENSE))  
 Development: [`https://github.com/CraneSoftwrights/board-baseball`](https://github.com/CraneSoftwrights/board-baseball)  
 Tip jar: [`https://paypal.me/CraneSoftwrights`](https://paypal.me/CraneSoftwrights)  
 Browser pages: [`https://cranesoftwrights.github.io/board-baseball/en/X-PLAYS.md.html`](https://cranesoftwrights.github.io/board-baseball/en/X-PLAYS.md.html)  

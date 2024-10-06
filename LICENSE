@@ -1,6 +1,6 @@
 BSD 3-Clause License
 
-Copyright (c) 2023, Crane Softwrights Ltd.
+Copyright (c) 2023-2024, Crane Softwrights Ltd.
 
 Redistribution and use in source and binary forms, with or without
 modification, are permitted provided that the following conditions are met:
@@ -26,3 +26,19 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+Copyright is claimed on the board layout and the extended play rules only, but 
+not on the basic play rules dice combinations.
+
+The basic play rules dice combinations are compatible with many other baseball 
+dice games. A quick search on Amazon found these four examples of games for 
+sale by different companies that all use the same dice combinations:
+
+<img alt="" src="shared/other-game-1.png" style="height:300px"/>
+<img alt="" src="shared/other-game-2.png" style="height:300px"/>
+<img alt="" src="shared/other-game-3.png" style="height:300px"/>
+<img alt="" src="shared/other-game-4.png" style="height:300px"/>  
+
+The extended play dice combinations replace those combinations in basic play 
+that specify pitching-based play results.
+
