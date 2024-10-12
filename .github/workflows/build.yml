@@ -47,13 +47,11 @@ jobs:
         run: |
           curl -L -o utilities/saxon9he/saxon9he.jar https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/9.9.1-8/Saxon-HE-9.9.1-8.jar
         
-      - name: Set environment variables
+      - name: Run make-all.sh script
         run: |
-          # Define the release version using UTC in the format CCMMYYDD-HHMMZ
-          echo "RELEASE_VERSION=$(date -u +'%C%y%m%d-%H%MZ')" >> $GITHUB_ENV
-          echo "BRANCH_NAME=${GITHUB_REF##*/}" >> $GITHUB_ENV
-          echo "COMMIT_HASH_SHORT=$(echo ${{ github.sha }} | cut -c1-8)" >> $GITHUB_ENV
-                    
+          echo > make-all.log.txt
+          bash make-all.sh
+
       - name: Set up Git
         run: |
           # ensure GitHub/Repository/Settings/Actions/General/ActionsPermissions is allow all actions
@@ -61,50 +59,6 @@ jobs:
           # 
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
-
-      - name: Run make-all.sh script
-        run: |
-          echo > make-all.log.txt
-          bash make-all.sh
-          echo >> make-all.log.txt
-          echo Branch:  $BRANCH_NAME >> make-all.log.txt
-          echo Release: $RELEASE_VERSION >> make-all.log.txt
-
-      - name: Create action result ZIP
-        run: |
-          echo RELEASE_VERSION=${{ env.RELEASE_VERSION }}
-          echo BRANCH_NAME=${{ env.BRANCH_NAME }}
-          mkdir   download
-          cp make-all.log.txt download
-          # compose README file
-          cp      shared/outputs-readme.txt \
-                  download/README-crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.txt
-          echo  >>download/README-crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.txt crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}
-          # package up everything except README
-          zip -r         download/crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.zip burn/svg burn/pdf burn/png cuts/svg cuts/pdf -x 'burn/svg/*.svg.txt'
-          # add README without the directory prefix
-          cd             download
-          zip -r                  crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.zip \
-                           README-crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.txt
-          # remove the README file in order to test the ZIP
-          rm               README-crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.txt
-          # test the ZIP by unzipping it
-          unzip                   crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.zip
-                  
-      - name: Upload artefacts for action 
-        uses: actions/upload-artifact@v4
-        with:
-          name: crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}
-          path: |
-            download/*
-            !download/crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.zip
-
-      - name: Upload artefacts for action - log file
-        uses: actions/upload-artifact@v4
-        with:
-          name: make-all.log.txt
-          path: |
-            make-all.log.txt
 
       - name: Commit changes
         if: success()
@@ -144,6 +98,58 @@ jobs:
             echo "No new commit was created. Skipping wait for push."
           fi
           
+      - name: Set environment variables
+        run: |
+          # Define the release version using UTC in the format CCMMYYDD-HHMMZ
+          echo "RELEASE_VERSION=$(date -u +'%C%y%m%d-%H%MZ')" >> $GITHUB_ENV
+          echo "BRANCH_NAME=${GITHUB_REF##*/}" >> $GITHUB_ENV
+          LATEST_COMMIT_HASH_SHORT=$(git rev-parse --short=8 HEAD)
+          echo "COMMIT_HASH_SHORT=$LATEST_COMMIT_HASH_SHORT" >> $GITHUB_ENV
+                    
+      - name: Annotate message log
+        run: |
+          echo >> make-all.log.txt
+          echo Branch:  $BRANCH_NAME >> make-all.log.txt
+          echo Commit:  $COMMIT_HASH_SHORT >> make-all.log.txt
+          echo Release: $RELEASE_VERSION >> make-all.log.txt
+
+      - name: Create action result ZIP
+        run: |
+          echo RELEASE_VERSION=${{ env.RELEASE_VERSION }}
+          echo BRANCH_NAME=${{ env.BRANCH_NAME }}
+          echo COMMIT_HASH_SHORT=${{ env.COMMIT_HASH_SHORT }}
+          mkdir   download
+          cp make-all.log.txt download
+          # compose README file
+          cp      shared/outputs-readme.txt \
+                  download/README-crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.txt
+          echo  >>download/README-crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.txt crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}
+          # package up everything except README
+          zip -r         download/crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.zip burn/svg burn/pdf burn/png cuts/svg cuts/pdf -x 'burn/svg/*.svg.txt'
+          # add README without the directory prefix
+          cd             download
+          zip -r                  crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.zip \
+                           README-crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.txt
+          # remove the README file in order to test the ZIP
+          rm               README-crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.txt
+          # test the ZIP by unzipping it
+          unzip                   crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.zip
+                  
+      - name: Upload artefacts for action 
+        uses: actions/upload-artifact@v4
+        with:
+          name: crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}
+          path: |
+            download/*
+            !download/crane-baseball-pdf-png-svg--${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}.zip
+
+      - name: Upload artefacts for action - log file
+        uses: actions/upload-artifact@v4
+        with:
+          name: make-all.log.txt
+          path: |
+            make-all.log.txt
+
       - name: Install GitHub CLI
         if: ${{ success() && (github.ref == 'refs/heads/develop' || github.ref == 'refs/heads/qa' || github.ref == 'refs/heads/main') }}
         run: sudo apt-get install -y gh
