@@ -1,4 +1,6 @@
-# A board baseball game to teach the sport to spectators
+# Board Baseball
+
+A board baseball game to teach the sport to spectators. One of the [games created by Crane Softwrights Ltd.](https://github.com/CraneSoftwrights/games) for free download from GitHub.
 
 Copyright © Crane Softwrights Ltd. ([copyright details](LICENSE))  
 Development: [`https://github.com/CraneSoftwrights/board-baseball`](https://github.com/CraneSoftwrights/board-baseball)  
