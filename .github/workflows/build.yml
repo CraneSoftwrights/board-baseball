@@ -60,6 +60,14 @@ jobs:
           git config --global user.name 'github-actions'
           git config --global user.email 'github-actions@github.com'
 
+      - name: Set prior environment variables
+        run: |
+          echo "ACTOR=${{ github.actor }}" >> $GITHUB_ENV
+          commit_message=$(git log -1 --pretty=format:"%s")
+          echo "PRIOR_COMMIT_MESSAGE=$commit_message" >> $GITHUB_ENV
+          PRIOR_COMMIT_HASH_SHORT=$(git rev-parse --short=8 HEAD)
+          echo "PRIOR_COMMIT_HASH_SHORT=$PRIOR_COMMIT_HASH_SHORT" >> $GITHUB_ENV
+
       - name: Commit changes
         if: success()
         run: |
@@ -160,7 +168,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # Create the release
-          gh release create "${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}" --title "Release ${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}" --notes "Automated release created by GitHub Actions."
+          gh release create "${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}" \
+            --title "Release ${{ env.RELEASE_VERSION }}-${{ env.BRANCH_NAME }}-${{ env.COMMIT_HASH_SHORT }}" \
+            --notes "Automated release created by GitHub Actions. Triggered by: ${{ env.ACTOR }}. Prior commit message: '${{ env.PRIOR_COMMIT_MESSAGE }}'. Prior commit short hash: '${{ env.PRIOR_COMMIT_HASH_SHORT }}'. For more details, see the commit history."
 
       - name: Attach artefacts to the release
         if: ${{ success() && (github.ref == 'refs/heads/develop' || github.ref == 'refs/heads/qa' || github.ref == 'refs/heads/main') }}
