@@ -25,7 +25,7 @@ Print images *(click the image then use the download icon at top right beside th
 <td width="50%" valign="top">PBF Print board combo front surface image:<br/><img alt="Single board front" src="shared/combo-board-baseball-crane.png" style="max-width:250"/></td>  
 <td width="50%" valign="top">PBB Print board back surface image:<br/><img alt="Single board back" src="shared/back-board-baseball-crane.png" style="max-width:250"/></td>  
 </tr>
-<td colspan="2">Scorecard print image:<br/><img alt="Scorecard" src="shared/scorecard-board-baseball-crane.png" style="max-width:600"/></td>
+<td colspan="2">Crane's Baseball Scorecard print image:<br/><img alt="Scorecard" src="shared/scorecard-board-baseball-crane.png" style="max-width:600"/></td>
 </tr>
 </table>
 
